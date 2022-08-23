@@ -1,0 +1,2313 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 139768705425280
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7f1e7009a2f0
+108
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+139768705429504
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f1e7009c000
+139768705433600
+OPENFILE
+0x7f1e6fec1a2c
+SYSCALL
+analyzed_bin
+open
+108
+0x7f1e6fec1a2c, O_RDONLY
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffca3b38114, 4
+4
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f1e7009d000
+139768705437696
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f1e6fa29000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f1e6fa29000, 81920, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f1e700af000
+139768705511424
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0x7f1e6fffb260, 519
+18
+OPENFILE
+"/root/config.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/config.json", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.xmrig.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/.xmrig.json", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.config/xmrig.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/.config/xmrig.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f1e700b0000
+139768705515520
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f1e700c1000
+139768705585152
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f1e700c3000
+139768705593344
+SYSCALL
+analyzed_bin
+sched_getaffinity
+108
+0, 128, 0x7ffca3b37bf0
+8
+SYSCALL
+analyzed_bin
+faccessat
+108
+-1, "/sys/bus/cpu/devices", R_OK|X_OK
+0
+SYSCALL
+analyzed_bin
+faccessat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/package_cpus", R_OK
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+faccessat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/core_cpus", R_OK
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+faccessat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/core_siblings", R_OK
+0
+SYSCALL
+analyzed_bin
+faccessat
+108
+-1, "/sys/bus/node/devices", R_OK|X_OK
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+faccessat
+108
+-1, "/sys/devices/system/node", R_OK|X_OK
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+uname
+108
+0x7f1e700c1590
+0
+SYSCALL
+analyzed_bin
+sched_getaffinity
+108
+0, 128, 0x7ffca3b37a40
+8
+OPENFILE
+"/proc/cpuinfo"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/proc/cpuinfo", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c1dd0, 1024
+720
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c1dd0, 1024
+0
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/proc/mounts"
+SYSCALL
+analyzed_bin
+open
+108
+"/proc/mounts", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f1e700c8000
+139768705613824
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c2590, 1024
+459
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c2590, 1024
+0
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/system/cpu/online", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c24a0, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices", O_RDONLY|O_DIRECTORY
+4
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7ffca3b37700
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+4, F_GETFL, 0x7ffca3b377b0
+98304
+SYSCALL
+analyzed_bin
+fcntl
+108
+4, F_SETFD, 0x1
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+4, 0x7f1e700c24b8, 2048
+72
+SYSCALL
+analyzed_bin
+faccessat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology", X_OK
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+4, 0x7f1e700c24b8, 2048
+0
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/topology/thread_siblings"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/thread_siblings", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c24a0, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/topology/core_id"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/core_id", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/topology/die_cpus"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/die_cpus", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/topology/core_siblings"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/core_siblings", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c24a0, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/topology/physical_package_id"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/topology/physical_package_id", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cpufreq/cpuinfo_max_freq"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cpufreq/cpuinfo_max_freq", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cpufreq/base_frequency"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cpufreq/base_frequency", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index0/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index0/shared_cpu_map", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c2880, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index0/level"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index0/level", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index0/type"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index0/type", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 19
+5
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index0/size"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index0/size", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+4
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index0/coherency_line_size"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index0/coherency_line_size", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+3
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index0/number_of_sets"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index0/number_of_sets", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+4
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index0/physical_line_partition"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index0/physical_line_partition", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index1/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index1/shared_cpu_map", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c2a80, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index1/level"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index1/level", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index1/type"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index1/type", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 19
+12
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index2/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index2/shared_cpu_map", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c2a80, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index2/level"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index2/level", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index2/type"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index2/type", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 19
+8
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index2/size"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index2/size", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+5
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index2/coherency_line_size"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index2/coherency_line_size", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+3
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index2/number_of_sets"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index2/number_of_sets", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+4
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index2/physical_line_partition"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index2/physical_line_partition", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index3/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index3/shared_cpu_map", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c2c80, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index3/level"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index3/level", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index3/type"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index3/type", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37960, 19
+8
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index3/size"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index3/size", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+7
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index3/coherency_line_size"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index3/coherency_line_size", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+3
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index3/number_of_sets"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index3/number_of_sets", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+6
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index3/physical_line_partition"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index3/physical_line_partition", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37955, 10
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index4/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index4/shared_cpu_map", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index5/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index5/shared_cpu_map", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index6/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index6/shared_cpu_map", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index7/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index7/shared_cpu_map", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index8/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index8/shared_cpu_map", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/bus/cpu/devices/cpu0/cache/index9/shared_cpu_map"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/bus/cpu/devices/cpu0/cache/index9/shared_cpu_map", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/devices/system/cpu/types"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/system/cpu/types", O_RDONLY|O_DIRECTORY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/sys/kernel/mm/hugepages", 0x7ffca3b37b20
+-2 (ENOENT)
+OPENFILE
+"/proc/meminfo"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/proc/meminfo", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b36b90, 4095
+1011
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id", O_RDONLY|O_DIRECTORY
+4
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7ffca3b37a70
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+4, F_GETFL, 0x7ffca3b37b20
+98304
+SYSCALL
+analyzed_bin
+fcntl
+108
+4, F_SETFD, 0x1
+0
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/product_name"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/product_name", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+34
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/product_version"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/product_version", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+14
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/product_serial"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/product_serial", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+1
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/product_uuid"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/product_uuid", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/devices/virtual/dmi/id/board_vendor"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/board_vendor", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/devices/virtual/dmi/id/board_name"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/board_name", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/devices/virtual/dmi/id/board_version"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/board_version", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/devices/virtual/dmi/id/board_serial"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/board_serial", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/devices/virtual/dmi/id/board_asset_tag"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/board_asset_tag", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/sys/devices/virtual/dmi/id/chassis_vendor"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/chassis_vendor", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+5
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/chassis_type"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/chassis_type", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/chassis_version"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/chassis_version", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+14
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/chassis_serial"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/chassis_serial", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+1
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/chassis_asset_tag"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/chassis_asset_tag", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+1
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/bios_vendor"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/bios_vendor", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+8
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/bios_version"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/bios_version", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+9
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/bios_date"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/bios_date", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+11
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/sys/devices/virtual/dmi/id/sys_vendor"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/virtual/dmi/id/sys_vendor", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffca3b37b50, 63
+5
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+SYSCALL
+analyzed_bin
+sched_getaffinity
+108
+0, 128, 0x7ffca3b37bd0
+8
+OPENFILE
+"/sys/devices/system/cpu/possible"
+SYSCALL
+analyzed_bin
+openat
+108
+-1, "/sys/devices/system/cpu/possible", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7f1e700c3640, 4097
+2
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+SYSCALL
+analyzed_bin
+sched_getaffinity
+108
+0, 8, 0x7f1e700c35a0
+8
+SYSCALL
+analyzed_bin
+sched_getaffinity
+108
+0, 8, 0x7f1e700c35a0
+8
+SYSCALL
+analyzed_bin
+sched_setaffinity
+108
+0, 8, 0x7f1e700c3640
+0
+SYSCALL
+analyzed_bin
+sched_setaffinity
+108
+0, 8, 0x7f1e700c3720
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGPIPE, {SIG_IGN}, 0x7ffca3b37ec0, 8
+0
+SYSCALL
+analyzed_bin
+clock_getres
+108
+CLOCK_MONOTONIC_COARSE, 0x7ffca3b37fd0
+0
+SYSCALL
+analyzed_bin
+epoll_create1
+108
+EPOLL_CLOEXEC
+4
+SYSCALL
+analyzed_bin
+pipe2
+108
+[-1, -1], O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+pipe2
+108
+[-1, -1], O_NONBLOCK|O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+eventfd2
+108
+0, EFD_NONBLOCK|EFD_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f90, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37ea7, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGHUP, {0x7f1e6fdbd0c0, SA_RESTART|SA_RESTORER, 0x7f1e6fe75321, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f90, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37ea7, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGINT, {0x7f1e6fdbd0c0, SA_RESTART|SA_RESTORER, 0x7f1e6fe75321, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f90, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37ea7, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGTERM, {0x7f1e6fdbd0c0, SA_RESTART|SA_RESTORER, 0x7f1e6fe75321, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f90, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37ea7, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGUSR1, {0x7f1e6fdbd0c0, SA_RESTART|SA_RESTORER, 0x7f1e6fe75321, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37fc0, 8
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+fork
+108
+
+110
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f20, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37e47, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGHUP, {SIG_DFL}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f20, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37e47, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGINT, {SIG_DFL}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f20, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37e47, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGTERM, {SIG_DFL}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37f20, 8
+0
+SYSCALL
+analyzed_bin
+gettid
+110
+
+110
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+close
+110
+5
+0
+SYSCALL
+analyzed_bin
+close
+110
+6
+0
+SYSCALL
+analyzed_bin
+pipe2
+110
+[-1, -1], O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+write
+110
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+setsid
+110
+
+110
+SYSCALL
+analyzed_bin
+chdir
+110
+0x7f1e6fe8db6f
+0
+SYSCALL
+analyzed_bin
+read
+108
+5, 0x7ffca3b37e47, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGUSR1, {SIG_DFL}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+socket
+110
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+10
+SYSCALL
+analyzed_bin
+sendto
+110
+10, "\024\0\0\0\022\0\001\003\001\0\0\0\0\0\0\0\0\0\0", 20, 0x0, NULL, 0
+20
+SYSCALL
+analyzed_bin
+recvfrom
+110
+10, 0x7ffca3b35be0, 8192, MSG_DONTWAIT, 0x0, 0x0
+2584
+SYSCALL
+analyzed_bin
+recvfrom
+110
+10, 0x7ffca3b35be0, 8192, MSG_DONTWAIT, 0x0, 0x0
+1412
+SYSCALL
+analyzed_bin
+recvfrom
+110
+10, 0x7ffca3b35be0, 8192, MSG_DONTWAIT, 0x0, 0x0
+20
+SYSCALL
+analyzed_bin
+sendto
+110
+10, "\024\0\0\0\026\0\001\003\002\0\0\0\0\0\0\0\0\0\0", 20, 0x0, NULL, 0
+20
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+close
+108
+5
+0
+SYSCALL
+analyzed_bin
+close
+108
+6
+0
+SYSCALL
+analyzed_bin
+exit_group
+108
+0
+
+SYSCALL
+analyzed_bin
+recvfrom
+110
+10, 0x7ffca3b35be0, 8192, MSG_DONTWAIT, 0x0, 0x0
+164
+SYSCALL
+analyzed_bin
+recvfrom
+110
+10, 0x7ffca3b35be0, 8192, MSG_DONTWAIT, 0x0, 0x0
+72
+SYSCALL
+analyzed_bin
+recvfrom
+110
+10, 0x7ffca3b35be0, 8192, MSG_DONTWAIT, 0x0, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+110
+10
+0
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700c9000
+139768705617920
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ca000
+139768705622016
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700cc000
+139768705630208
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700cd000
+139768705634304
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ce000
+139768705638400
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700cf000
+139768705642496
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d0000
+139768705646592
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d1000
+139768705650688
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d2000
+139768705654784
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d3000
+139768705658880
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d6000
+139768705671168
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d7000
+139768705675264
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d8000
+139768705679360
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700d9000
+139768705683456
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700da000
+139768705687552
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700db000
+139768705691648
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700dc000
+139768705695744
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700dd000
+139768705699840
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700de000
+139768705703936
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700df000
+139768705708032
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700e0000
+139768705712128
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700e1000
+139768705716224
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700e2000
+139768705720320
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700e3000
+139768705724416
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700e4000
+139768705728512
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700e9000
+139768705748992
+SYSCALL
+analyzed_bin
+getuid
+110
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+110
+
+0
+SYSCALL
+analyzed_bin
+getgid
+110
+
+0
+SYSCALL
+analyzed_bin
+getegid
+110
+
+0
+OPENFILE
+"/usr/local/ssl/openssl.cnf"
+SYSCALL
+analyzed_bin
+open
+110
+"/usr/local/ssl/openssl.cnf", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ea000
+139768705753088
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700eb000
+139768705757184
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ec000
+139768705761280
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ed000
+139768705765376
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ee000
+139768705769472
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ef000
+139768705773568
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f0000
+139768705777664
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f1000
+139768705781760
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f2000
+139768705785856
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f3000
+139768705789952
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f4000
+139768705794048
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f5000
+139768705798144
+SYSCALL
+analyzed_bin
+eventfd2
+110
+0, EFD_NONBLOCK|EFD_CLOEXEC
+10
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+4, EPOLL_CTL_ADD, 10, 0x7ffca3b37f5c
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+4, EPOLL_CTL_DEL, 10, 0x7ffca3b37f5c
+0
+SYSCALL
+analyzed_bin
+ioctl
+110
+10, 21537, 0x7ffca3b37f7c
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+4, EPOLL_CTL_DEL, 10, 0x7ffca3b37f8c
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f6000
+139768705802240
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f7000
+139768705806336
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f8000
+139768705810432
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700f9000
+139768705814528
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700fa000
+139768705818624
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700fb000
+139768705822720
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700fc000
+139768705826816
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700fd000
+139768705830912
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700fe000
+139768705835008
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e700ff000
+139768705839104
+OPENFILE
+"/proc/meminfo"
+SYSCALL
+analyzed_bin
+open
+110
+"/proc/meminfo", O_RDONLY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fcntl
+110
+11, F_SETFD, 0x1
+0
+SYSCALL
+analyzed_bin
+read
+110
+11, 0x7ffca3b36e60, 4095
+1011
+SYSCALL
+analyzed_bin
+close
+110
+11
+0
+OPENFILE
+"/proc/meminfo"
+SYSCALL
+analyzed_bin
+open
+110
+"/proc/meminfo", O_RDONLY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fcntl
+110
+11, F_SETFD, 0x1
+0
+SYSCALL
+analyzed_bin
+read
+110
+11, 0x7ffca3b36e60, 4095
+1011
+SYSCALL
+analyzed_bin
+close
+110
+11
+0
+SYSCALL
+analyzed_bin
+uname
+110
+0x7ffca3b37d0a
+0
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e70100000
+139768705843200
+SYSCALL
+analyzed_bin
+eventfd2
+110
+0, EFD_NONBLOCK|EFD_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+4, EPOLL_CTL_ADD, 11, 0x7ffca3b37eec
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+4, EPOLL_CTL_DEL, 11, 0x7ffca3b37eec
+0
+SYSCALL
+analyzed_bin
+ioctl
+110
+11, 21537, 0x7ffca3b37f0c
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+4, EPOLL_CTL_DEL, 11, 0x7ffca3b37f1c
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 143360, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f1e6fa06000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7f1e6fa08000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca3b37eb0, 8
+0
+PROCESS
+111:110
+SYSCALL
+analyzed_bin
+clone
+110
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f1e6fa28ab8, 0x7f1e6fa28b58, 0x7f1e7009a2f0
+111
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e70101000
+139768705847296
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+brk
+110
+0x7f1e70103000
+139768705855488
+SYSCALL
+analyzed_bin
+getpid
+110
+
+110
+SYSCALL
+analyzed_bin
+getrandom
+110
+"", 32, 0x0
+-512
+SYSCALL
+analyzed_bin
+read
+110
+5, 0x7ffca3b378c7, 1
+1
+SYSCALL
+analyzed_bin
+write
+110
+8, "\340O\fp\036\177\0\0\017\0\0\0\0\0\0\0", 16
+16
+SYSCALL
+analyzed_bin
+write
+110
+6, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigreturn
+110
+
+318

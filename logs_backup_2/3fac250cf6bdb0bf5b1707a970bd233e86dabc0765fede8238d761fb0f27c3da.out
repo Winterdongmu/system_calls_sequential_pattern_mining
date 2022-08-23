@@ -1,0 +1,573 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+13721600
+SYSCALL
+analyzed_bin
+access
+108
+0x7fd6a2d31ad0, R_OK
+-2 (ENOENT)
+OPENFILE
+"/etc/ld.so.cache"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64/x86_64", 0x7ffd2f0da100
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffd2f0da100
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffd2f0da100
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls", 0x7ffd2f0da100
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64/x86_64", 0x7ffd2f0da100
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffd2f0da100
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffd2f0da100
+-2 (ENOENT)
+OPENFILE
+"/lib64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd2f0da268, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd2f0da100
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fd6a2f33000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7fd6a2af0000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a2b0a000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fd6a2d09000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400
+0x7fd6a2d09000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fd6a2d0b000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7fd6a2d0b000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/librt.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd2f0da238, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd2f0da0d0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7fd6a28e8000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a28ef000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fd6a2aee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576
+0x7fd6a2aee000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libdl.so.2"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd2f0da208, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd2f0da0a0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7fd6a26e4000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a26e7000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fd6a28e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 8192
+0x7fd6a28e6000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libm.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd2f0da1d8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd2f0da070
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7fd6a2367000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a24e3000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fd6a26e2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384
+0x7fd6a26e2000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libc.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd2f0da1a8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd2f0da040
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7fd6a1fb2000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a215e000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fd6a235d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992
+0x7fd6a235d000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fd6a2363000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7fd6a2363000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fd6a2f31000
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 140559833571712
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a235d000, 16384, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a26e2000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a28e6000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a2d09000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a2aee000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0xc14000, 212992, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a2f35000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7fd6a2f32450
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7fd6a2f32460, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x7fd6a2af62e0, SA_SIGINFO|SA_RESTORER, 0x7fd6a2b01fe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x7fd6a2af6380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fd6a2b01fe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_STACK, NULL, 0x7ffd2f0dae20
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+13721600
+SYSCALL
+analyzed_bin
+brk
+108
+0xd37000
+13856768
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 65536, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fd6a2f21000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fd6a2f21000, 65536, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0xd123ac, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0xd123b8, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0xd29bf0, 519
+18
+OPENFILE
+"/root/config.json"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/config.json", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd2f0da9c0
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd2f0da800
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0xd2a050, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+108
+3, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+108
+3, 0xd2a050, 1024
+71
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+1, 0x7ffd2f0da990
+0
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 09:10:55.336] unable to open \"/r"..., 62
+62
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 09:10:55.346] no valid configurat"..., 56
+56
+SYSCALL
+analyzed_bin
+exit_group
+108
+2
+

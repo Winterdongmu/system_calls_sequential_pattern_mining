@@ -1,0 +1,6 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 140291800457032",0
+1,analyzed_bin,set_tid_address,108,0x7f983aee62cc,108
+2,analyzed_bin,brk,108,0x0,140291800461312
+3,analyzed_bin,brk,108,0x7f983aee9000,140291800469504
+4,analyzed_bin,mmap2,108,"0x0, 65536, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f983ac4b000

@@ -1,0 +1,6249 @@
+LISA
+PROCESS
+101:98
+SYSCALL
+analyzed_bin
+execve
+101
+
+0
+SYSCALL
+analyzed_bin
+brk
+101
+0x0
+366575054848
+SYSCALL
+analyzed_bin
+faccessat
+101
+AT_FDCWD, "/etc/ld.so.preload", R_OK
+-2 (ENOENT)
+OPENFILE
+"/etc/ld.so.cache"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/aarch64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/lib64/tls/aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/lib64/tls/aarch64", 0x7fde78abf0, 0x0
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/lib64/tls", 0x7fde78abf0, 0x0
+-2 (ENOENT)
+OPENFILE
+"/lib64/aarch64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/lib64/aarch64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/lib64/aarch64", 0x7fde78abf0, 0x0
+-2 (ENOENT)
+OPENFILE
+"/lib64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x7fde78ad50, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78abf0
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f93afa000
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 181248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f93aa4000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f93abc000, 61440, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x7f93acb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 94208
+0x7f93acb000
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x7f93acd000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7f93acd000
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+OPENFILE
+"/lib64/libm.so.6"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x7fde78ad20, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78abc0
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 745584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f939ed000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f93a93000, 61440, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x7f93aa2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 675840
+0x7f93aa2000
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+OPENFILE
+"/lib64/libgcc_s.so.1"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x7fde78acf0, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78ab90
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 148544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f939c8000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f939db000, 65536, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x7f939eb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 77824
+0x7f939eb000
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+OPENFILE
+"/lib64/libc.so.6"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x7fde78acc0, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78ab60
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 1409112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f9386f000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f939af000, 61440, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x7f939be000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1306624
+0x7f939be000
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x7f939c4000, 12376, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7f939c4000
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f93af8000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f939be000, 16384, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f939eb000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f93aa2000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f93acb000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x555989a000, 208896, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f93afe000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+101
+0x7f93af80e0
+101
+SYSCALL
+analyzed_bin
+set_robust_list
+101
+0x7f93af80f0, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+101
+0x20, {0x7f93aa9e00, SA_SIGINFO, 0x0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+101
+0x21, {0x7f93aa9ed0, SA_RESTART|SA_SIGINFO, 0x0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+101
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+101
+0, RLIMIT_STACK, NULL, 0x7fde78be48
+0
+SYSCALL
+analyzed_bin
+brk
+101
+0x0
+366575054848
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559958000
+366575190016
+SYSCALL
+analyzed_bin
+futex
+101
+0x55599338c8, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+101
+0x55599338cc, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x7fde789c80, 8192
+2
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+OPENFILE
+"/dev/urandom"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/dev/urandom", O_RDONLY|O_NOCTTY|O_NONBLOCK
+3
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78ba28
+0
+SYSCALL
+analyzed_bin
+ppoll
+101
+0x7fde78ba20, 1, [0.010000000], 0x0, 0
+1
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x7fde78bba8, 32
+32
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+SYSCALL
+analyzed_bin
+getuid
+101
+
+0
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78bae0
+0
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78b8d0
+0
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x555994bfb0, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+101
+3, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+101
+3, 0x555994bfb0, 1024
+71
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559979000
+366575325184
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant", 0x7fde78b9e8, 0x0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root", 0x7fde78b9e8, 0x0
+0
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant", 0777
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant", 0x7fde78bb88, 0x0
+0
+OPENFILE
+"/root/.giant/giant.conf"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/giant.conf", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/giant.conf"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/giant.conf", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+101
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant", 0x7fde78b228, 0x0
+0
+OPENFILE
+"/root/.giant/masternode.conf"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/masternode.conf", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/masternode.conf"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/masternode.conf", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+101
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+fstat
+101
+3, 0x7fde78b3a0
+0
+SYSCALL
+analyzed_bin
+write
+101
+3, "# Masternode config file\n# Format: alias IP:"..., 264
+264
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+SYSCALL
+analyzed_bin
+umask
+101
+077
+022
+SYSCALL
+analyzed_bin
+rt_sigaction
+101
+SIGTERM, {0x5558df1cb0, 0x0, 0x30ffc04a6110ad2e, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+101
+SIGINT, {0x5558df1cb0, 0x0, 0x30ffc04a6110ad2e, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+101
+SIGHUP, {0x5558df1cf8, 0x0, 0x30ffc04a6110ad2e, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+101
+SIGPIPE, {SIG_IGN}, 0x7fde78a328, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+101
+0, RLIMIT_NOFILE, NULL, 0x7fde78a4e8
+0
+SYSCALL
+analyzed_bin
+mlock
+101
+0x555996a000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+munlock
+101
+0x555996a000, 4096
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f9376e000
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 2101248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f9356d000
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 1445888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f9340c000
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 659456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f9336b000
+SYSCALL
+analyzed_bin
+munmap
+101
+0x7f9340c000, 1445888
+0
+SYSCALL
+analyzed_bin
+munmap
+101
+0x7f9356d000, 2101248
+0
+SYSCALL
+analyzed_bin
+munmap
+101
+0x7f9336b000, 659456
+0
+SYSCALL
+analyzed_bin
+mlock
+101
+0x555996a000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+munlock
+101
+0x555996a000, 4096
+0
+SYSCALL
+analyzed_bin
+futex
+101
+0x7f939ec214, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/root/.giant/.lock"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/.lock", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+101
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+close
+101
+3
+0
+OPENFILE
+"/root/.giant/.lock"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/.lock", O_RDWR
+3
+SYSCALL
+analyzed_bin
+fcntl
+101
+3, F_SETLK, 0x7fde78a490
+0
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+OPENFILE
+"/root/.giant/giantd.pid"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/giantd.pid", O_WRONLY|O_CREAT|O_TRUNC, 0666
+4
+SYSCALL
+analyzed_bin
+fstat
+101
+4, 0x7fde789cb0
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "101\n", 4
+4
+SYSCALL
+analyzed_bin
+close
+101
+4
+0
+OPENFILE
+"/root/.giant/debug.log"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/debug.log", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/debug.log"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/debug.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+4
+SYSCALL
+analyzed_bin
+lseek
+101
+4, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "GIANT version v1.4.2.0-08d7573 (2020-12-30 01"..., 59
+59
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015", 48
+48
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Using BerkeleyDB version Berkeley DB 4.8.30: "..., 62
+62
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Default data directory /root/.giant\n", 36
+36
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Using data directory /root/.giant\n", 34
+34
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Using config file /root/.giant/giant.conf\n", 42
+42
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Using at most 125 connections (1024 file desc"..., 64
+64
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Using 0 threads for script verification\n", 40
+40
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f92f6d000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f92f6e000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+103:101
+SYSCALL
+analyzed_bin
+clone
+101
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f9376cac0, 0x7f9376d290, 0x7f9376d290
+103
+SYSCALL
+analyzed_bin
+set_robust_list
+101
+0x7f9376d2a0, 24
+0
+SYSCALL
+giant-scheduler
+prctl
+101
+PR_SET_NAME, 0x7f9376c8e8
+0
+SYSCALL
+giant-scheduler
+mmap2
+101
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f8af6d000
+SYSCALL
+giant-scheduler
+munmap
+101
+0x7f8af6d000, 17379328
+0
+SYSCALL
+giant-scheduler
+munmap
+101
+0x7f90000000, 49729536
+0
+SYSCALL
+giant-scheduler
+mprotect
+101
+0x7f8c000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+giant-scheduler
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+giant-scheduler
+write
+101
+4, "scheduler thread start\n", 23
+23
+SYSCALL
+analyzed_bin
+getuid
+101
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+101
+
+0
+SYSCALL
+analyzed_bin
+getgid
+101
+
+0
+SYSCALL
+analyzed_bin
+getegid
+101
+
+0
+SYSCALL
+analyzed_bin
+getuid
+101
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+101
+
+0
+SYSCALL
+analyzed_bin
+getgid
+101
+
+0
+SYSCALL
+analyzed_bin
+getegid
+101
+
+0
+SYSCALL
+analyzed_bin
+epoll_create1
+101
+EPOLL_CLOEXEC
+5
+SYSCALL
+analyzed_bin
+getuid
+101
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+101
+
+0
+SYSCALL
+analyzed_bin
+getgid
+101
+
+0
+SYSCALL
+analyzed_bin
+getegid
+101
+
+0
+SYSCALL
+analyzed_bin
+pipe2
+101
+[-1, -1], O_NONBLOCK|O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+getuid
+101
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+101
+
+0
+SYSCALL
+analyzed_bin
+getgid
+101
+
+0
+SYSCALL
+analyzed_bin
+getegid
+101
+
+0
+SYSCALL
+analyzed_bin
+eventfd2
+101
+0, EFD_NONBLOCK|EFD_CLOEXEC
+8
+SYSCALL
+analyzed_bin
+epoll_ctl
+101
+5, EPOLL_CTL_ADD, 8, 0x7fde78a0d8
+0
+SYSCALL
+analyzed_bin
+socket
+101
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+9
+SYSCALL
+analyzed_bin
+bind
+101
+9, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+101
+9, 0x7fde789bf0, 0x7fde789bec
+0
+SYSCALL
+analyzed_bin
+sendto
+101
+9, "\024\0\0\0\026\0\001\003\004\0\0\0\0\0\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+101
+9, 0x7fde789c38, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+101
+9, 0x7fde789c38, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+101
+9, 0x7fde789c38, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+101
+9
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "libevent: getaddrinfo: address family for nod"..., 65
+65
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Binding RPC on address ::1 port 41444 failed.\n", 46
+46
+SYSCALL
+analyzed_bin
+socket
+101
+PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0
+9
+SYSCALL
+analyzed_bin
+connect
+101
+9, {AF_UNIX, "/var/run/nscd/socket"}, 110
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+close
+101
+9
+0
+SYSCALL
+analyzed_bin
+socket
+101
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+9
+SYSCALL
+analyzed_bin
+bind
+101
+9, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+101
+9, 0x7fde789bf0, 0x7fde789bec
+0
+SYSCALL
+analyzed_bin
+sendto
+101
+9, "\024\0\0\0\026\0\001\003\004\0\0\0\0\0\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+101
+9, 0x7fde789c38, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+101
+9, 0x7fde789c38, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+101
+9, 0x7fde789c38, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+101
+9
+0
+SYSCALL
+analyzed_bin
+socket
+101
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+9
+SYSCALL
+analyzed_bin
+setsockopt
+101
+9, SOL_SOCKET, SO_KEEPALIVE, 0x7fde78a234, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+101
+9, SOL_SOCKET, SO_REUSEADDR, 0x7fde78a1f4, 4
+0
+SYSCALL
+analyzed_bin
+bind
+101
+9, {AF_INET, 127.0.0.1, 41444}, 16
+0
+SYSCALL
+analyzed_bin
+listen
+101
+9, 128
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+101
+5, EPOLL_CTL_ADD, 9, 0x7fde78a118
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "HTTP: creating work queue of depth 16\n", 38
+38
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "No rpcpassword set - using random cookie auth"..., 56
+56
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+OPENFILE
+"/root/.giant/.cookie"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/.cookie", O_WRONLY|O_CREAT|O_TRUNC, 0666
+10
+SYSCALL
+analyzed_bin
+write
+101
+10, "__cookie__:RuuMXKo50z25zGoFn2/Vjey4pRlyyLHZpA"..., 55
+55
+SYSCALL
+analyzed_bin
+close
+101
+10
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Generated RPC authentication cookie /root/.gi"..., 57
+57
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "HTTP: starting 4 worker threads\n", 32
+32
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f9276c000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f9276d000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+104:101
+SYSCALL
+analyzed_bin
+clone
+101
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f92f6bac0, 0x7f92f6c290, 0x7f92f6c290
+104
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f91f6b000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f91f6c000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+105:101
+SYSCALL
+analyzed_bin
+clone
+101
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f9276aac0, 0x7f9276b290, 0x7f9276b290
+105
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f9176a000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f9176b000, 8388608, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+101
+0x7f92f6c2a0, 24
+0
+SYSCALL
+bitcoin-http
+prctl
+101
+PR_SET_NAME, 0x55595bc540
+0
+PROCESS
+106:101
+SYSCALL
+analyzed_bin
+clone
+101
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f91f69ac0, 0x7f91f6a290, 0x7f91f6a290
+106
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f90f69000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f90f6a000, 8388608, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+101
+0x7f9276b2a0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+101
+PR_SET_NAME, 0x55595bc4f8
+0
+PROCESS
+107:101
+SYSCALL
+analyzed_bin
+clone
+101
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f91768ac0, 0x7f91769290, 0x7f91769290
+107
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f90768000
+SYSCALL
+analyzed_bin
+mprotect
+101
+0x7f90769000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+108:101
+SYSCALL
+analyzed_bin
+clone
+101
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f90f67ac0, 0x7f90f68290, 0x7f90f68290
+108
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/backups", 0x7fde78a478, 0x0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/backups", 0x7fde78a3c8, 0x0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant", 0x7fde78a3c8, 0x0
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+101
+0x7f91f6a2a0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+101
+PR_SET_NAME, 0x55595bc4f8
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+101
+0x7f90f682a0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+101
+PR_SET_NAME, 0x55595bc4f8
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+101
+0x7f917692a0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+101
+PR_SET_NAME, 0x55595bc4f8
+0
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/backups", 0777
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/backups", 0x7fde78a478, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/wallet.dat", 0x7fde78a478, 0x0
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/backups"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/backups", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+10
+SYSCALL
+analyzed_bin
+fstat
+101
+10, 0x7fde78a330
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+10, 0x555996d460, 32768
+48
+SYSCALL
+analyzed_bin
+getdents
+101
+10, 0x555996d460, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+10
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Using wallet wallet.dat\n", 24
+24
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "init message: Verifying wallet...\n", 34
+34
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/database", 0777
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "CDBEnv::Open: LogDir=/root/.giant/database Er"..., 73
+73
+OPENFILE
+"/root/.giant/db.log"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/db.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+10
+SYSCALL
+analyzed_bin
+lseek
+101
+10, 0, SEEK_END
+0
+OPENFILE
+"/root/.giant/DB_CONFIG"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/var/tmp", 0x7fde789858, 0x0
+0
+OPENFILE
+"/root/.giant/__db.001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.giant"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+101
+11, 0x7fde789ad0
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+11, 0x555996d730, 32768
+344
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/masternode.conf", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/.", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/.lock", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/.cookie", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/debug.log", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/backups", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/..", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/db.log", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/database", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/giant.conf", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/giantd.pid", 0x7fde789bf8, 0x0
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+11, 0x555996d730, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+11
+0
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 5881856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f901cc000
+SYSCALL
+analyzed_bin
+brk
+101
+0x55599a7000
+366575513600
+OPENFILE
+"/root/.giant/database"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/database", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+101
+11, 0x7fde7899d0
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+11, 0x5559986570, 32768
+48
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/database/.", 0x7fde789af8, 0x0
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/database/..", 0x7fde789af8, 0x0
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+11, 0x5559986570, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+11
+0
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559aa7000
+366576562176
+SYSCALL
+analyzed_bin
+mmap2
+101
+0x0, 5771264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f8ba7f000
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559ac8000
+366576697344
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559ae9000
+366576832512
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559b0a000
+366576967680
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559b2b000
+366577102848
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559b4c000
+366577238016
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559b6d000
+366577373184
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559b8e000
+366577508352
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559baf000
+366577643520
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559bd0000
+366577778688
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559bf1000
+366577913856
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559c12000
+366578049024
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559c33000
+366578184192
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559c54000
+366578319360
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559c75000
+366578454528
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559c96000
+366578589696
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559cb7000
+366578724864
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559cd8000
+366578860032
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559cf9000
+366578995200
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559d1a000
+366579130368
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559d3b000
+366579265536
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559d5c000
+366579400704
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559d7d000
+366579535872
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559d9e000
+366579671040
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559dbf000
+366579806208
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559de0000
+366579941376
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559e01000
+366580076544
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559e22000
+366580211712
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559e43000
+366580346880
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559e64000
+366580482048
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559e85000
+366580617216
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559ea6000
+366580752384
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559ec7000
+366580887552
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559ee8000
+366581022720
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559f09000
+366581157888
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559f2a000
+366581293056
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559f4b000
+366581428224
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559f6c000
+366581563392
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559f8d000
+366581698560
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559fae000
+366581833728
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559fcf000
+366581968896
+SYSCALL
+analyzed_bin
+brk
+101
+0x5559ff0000
+366582104064
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a011000
+366582239232
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a032000
+366582374400
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a053000
+366582509568
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a074000
+366582644736
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a095000
+366582779904
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a0b6000
+366582915072
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a0d7000
+366583050240
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a0f8000
+366583185408
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a119000
+366583320576
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a13a000
+366583455744
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a15b000
+366583590912
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a17c000
+366583726080
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a19d000
+366583861248
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a1be000
+366583996416
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a1df000
+366584131584
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a200000
+366584266752
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a221000
+366584401920
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a242000
+366584537088
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a263000
+366584672256
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a284000
+366584807424
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a2a5000
+366584942592
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a2c6000
+366585077760
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a2e7000
+366585212928
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a308000
+366585348096
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a329000
+366585483264
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a34a000
+366585618432
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a36b000
+366585753600
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a38c000
+366585888768
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a3ad000
+366586023936
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a3ce000
+366586159104
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a3ef000
+366586294272
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/wallet.dat", 0x7fde78a478, 0x0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+socket
+101
+PF_INET6, SOCK_STREAM, IPPROTO_TCP
+11
+SYSCALL
+analyzed_bin
+setsockopt
+101
+11, SOL_SOCKET, SO_REUSEADDR, 0x7fde78a1dc, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+101
+11, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+101
+11, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+setsockopt
+101
+11, SOL_IPV6, SO_ATTACH_FILTER, 0x7fde78a1dc, 4
+0
+SYSCALL
+analyzed_bin
+bind
+101
+11, {AF_INET6, 0000:0000:0000:0000:0000:0000:0000:0000, 40444}, 28
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Bound to [::]:40444\n", 20
+20
+SYSCALL
+analyzed_bin
+listen
+101
+11, 128
+0
+SYSCALL
+analyzed_bin
+socket
+101
+PF_INET, SOCK_STREAM, IPPROTO_TCP
+12
+SYSCALL
+analyzed_bin
+setsockopt
+101
+12, SOL_SOCKET, SO_REUSEADDR, 0x7fde78a1dc, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+101
+12, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+101
+12, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+bind
+101
+12, {AF_INET, 0.0.0.0, 40444}, 16
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Bound to 0.0.0.0:40444\n", 23
+23
+SYSCALL
+analyzed_bin
+listen
+101
+12, 128
+0
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a413000
+366586441728
+SYSCALL
+analyzed_bin
+brk
+101
+0x555a434000
+366586576896
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/blocks", 0x7fde78a478, 0x0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/blocks", 0x7fde78a3c8, 0x0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant", 0x7fde78a3c8, 0x0
+0
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/blocks", 0777
+0
+SYSCALL
+analyzed_bin
+fstatat
+101
+AT_FDCWD, "/root/.giant/blk0001.dat", 0x7fde78a478, 0x0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "init message: Loading block index...\n", 37
+37
+SYSCALL
+analyzed_bin
+futex
+101
+0x555992f748, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+prlimit64
+101
+0, RLIMIT_NOFILE, NULL, 0x7fde78a288
+0
+SYSCALL
+analyzed_bin
+futex
+101
+0x555992f768, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/zerocoin", 0777
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opening LevelDB in /root/.giant/zerocoin\n", 41
+41
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/zerocoin", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/zerocoin/LOG", AT_FDCWD, "/root/.giant/zerocoin/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/zerocoin/LOG"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+13
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/zerocoin", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.giant/zerocoin/LOCK"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/LOCK", O_RDWR|O_CREAT, 0644
+14
+SYSCALL
+analyzed_bin
+fcntl
+101
+14, F_SETLK, 0x7fde78a028
+0
+SYSCALL
+analyzed_bin
+faccessat
+101
+AT_FDCWD, "/root/.giant/zerocoin/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/zerocoin/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+SYSCALL
+analyzed_bin
+fstat
+101
+15, 0x7fde789c40
+0
+SYSCALL
+analyzed_bin
+write
+101
+15, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+101
+15
+0
+OPENFILE
+"/root/.giant/zerocoin/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+SYSCALL
+analyzed_bin
+fstat
+101
+15, 0x7fde789b80
+0
+SYSCALL
+analyzed_bin
+write
+101
+15, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+15
+0
+SYSCALL
+analyzed_bin
+close
+101
+15
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/zerocoin/000001.dbtmp", AT_FDCWD, "/root/.giant/zerocoin/CURRENT"
+0
+OPENFILE
+"/root/.giant/zerocoin/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/CURRENT", O_RDONLY
+15
+SYSCALL
+analyzed_bin
+fstat
+101
+15, 0x7fde7899b0
+0
+SYSCALL
+analyzed_bin
+read
+101
+15, 0x555a4065c0, 8192
+16
+SYSCALL
+analyzed_bin
+read
+101
+15, 0x555a4065d0, 7168
+0
+SYSCALL
+analyzed_bin
+read
+101
+15, 0x555a4065c0, 8192
+0
+SYSCALL
+analyzed_bin
+close
+101
+15
+0
+OPENFILE
+"/root/.giant/zerocoin/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/MANIFEST-000001", O_RDONLY
+15
+SYSCALL
+analyzed_bin
+fstat
+101
+15, 0x7fde789920
+0
+SYSCALL
+analyzed_bin
+read
+101
+15, 0x555a3def50, 32768
+41
+SYSCALL
+analyzed_bin
+read
+101
+15, 0x555a3def79, 31744
+0
+SYSCALL
+analyzed_bin
+close
+101
+15
+0
+OPENFILE
+"/root/.giant/zerocoin"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+15
+SYSCALL
+analyzed_bin
+fstat
+101
+15, 0x7fde789f70
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+15, 0x555a3def80, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+101
+15, 0x555a3def80, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+15
+0
+OPENFILE
+"/root/.giant/zerocoin/000003.log"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+OPENFILE
+"/root/.giant/zerocoin/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+16
+SYSCALL
+analyzed_bin
+fstat
+101
+16, 0x7fde789a40
+0
+SYSCALL
+analyzed_bin
+write
+101
+16, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+101
+16, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.giant/zerocoin"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin", O_RDONLY
+17
+SYSCALL
+analyzed_bin
+fsync
+101
+17
+0
+SYSCALL
+analyzed_bin
+close
+101
+17
+0
+SYSCALL
+analyzed_bin
+fdatasync
+101
+16
+0
+OPENFILE
+"/root/.giant/zerocoin/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+17
+SYSCALL
+analyzed_bin
+fstat
+101
+17, 0x7fde789bd0
+0
+SYSCALL
+analyzed_bin
+write
+101
+17, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+17
+0
+SYSCALL
+analyzed_bin
+close
+101
+17
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/zerocoin/000002.dbtmp", AT_FDCWD, "/root/.giant/zerocoin/CURRENT"
+0
+OPENFILE
+"/root/.giant/zerocoin"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/zerocoin", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+17
+SYSCALL
+analyzed_bin
+fstat
+101
+17, 0x7fde789fc0
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+17, 0x555a3def80, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+101
+17, 0x555a3def80, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+17
+0
+SYSCALL
+analyzed_bin
+fstat
+101
+13, 0x7fde789ad0
+0
+SYSCALL
+analyzed_bin
+write
+101
+13, "1970/01/01-00:00:04.870912 7f93af8010 Delete "..., 55
+55
+SYSCALL
+analyzed_bin
+unlinkat
+101
+AT_FDCWD, "/root/.giant/zerocoin/MANIFEST-000001", 0x0
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/sporks", 0777
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opening LevelDB in /root/.giant/sporks\n", 39
+39
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/sporks", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/sporks/LOG", AT_FDCWD, "/root/.giant/sporks/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/sporks/LOG"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+17
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/sporks", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.giant/sporks/LOCK"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/LOCK", O_RDWR|O_CREAT, 0644
+18
+SYSCALL
+analyzed_bin
+fcntl
+101
+18, F_SETLK, 0x7fde78a028
+0
+SYSCALL
+analyzed_bin
+faccessat
+101
+AT_FDCWD, "/root/.giant/sporks/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/sporks/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+SYSCALL
+analyzed_bin
+fstat
+101
+19, 0x7fde789c40
+0
+SYSCALL
+analyzed_bin
+write
+101
+19, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+101
+19
+0
+OPENFILE
+"/root/.giant/sporks/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+SYSCALL
+analyzed_bin
+fstat
+101
+19, 0x7fde789b80
+0
+SYSCALL
+analyzed_bin
+write
+101
+19, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+19
+0
+SYSCALL
+analyzed_bin
+close
+101
+19
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/sporks/000001.dbtmp", AT_FDCWD, "/root/.giant/sporks/CURRENT"
+0
+OPENFILE
+"/root/.giant/sporks/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/CURRENT", O_RDONLY
+19
+SYSCALL
+analyzed_bin
+fstat
+101
+19, 0x7fde7899b0
+0
+SYSCALL
+analyzed_bin
+read
+101
+19, 0x555a407410, 8192
+16
+SYSCALL
+analyzed_bin
+read
+101
+19, 0x555a407420, 7168
+0
+SYSCALL
+analyzed_bin
+read
+101
+19, 0x555a407410, 8192
+0
+SYSCALL
+analyzed_bin
+close
+101
+19
+0
+OPENFILE
+"/root/.giant/sporks/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/MANIFEST-000001", O_RDONLY
+19
+SYSCALL
+analyzed_bin
+fstat
+101
+19, 0x7fde789920
+0
+SYSCALL
+analyzed_bin
+read
+101
+19, 0x555a3def50, 32768
+41
+SYSCALL
+analyzed_bin
+read
+101
+19, 0x555a3def79, 31744
+0
+SYSCALL
+analyzed_bin
+close
+101
+19
+0
+OPENFILE
+"/root/.giant/sporks"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+19
+SYSCALL
+analyzed_bin
+fstat
+101
+19, 0x7fde789f70
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+19, 0x555a3def80, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+101
+19, 0x555a3def80, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+19
+0
+OPENFILE
+"/root/.giant/sporks/000003.log"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+OPENFILE
+"/root/.giant/sporks/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+20
+SYSCALL
+analyzed_bin
+fstat
+101
+20, 0x7fde789a40
+0
+SYSCALL
+analyzed_bin
+write
+101
+20, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+101
+20, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.giant/sporks"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks", O_RDONLY
+21
+SYSCALL
+analyzed_bin
+fsync
+101
+21
+0
+SYSCALL
+analyzed_bin
+close
+101
+21
+0
+SYSCALL
+analyzed_bin
+fdatasync
+101
+20
+0
+OPENFILE
+"/root/.giant/sporks/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+21
+SYSCALL
+analyzed_bin
+fstat
+101
+21, 0x7fde789bd0
+0
+SYSCALL
+analyzed_bin
+write
+101
+21, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+21
+0
+SYSCALL
+analyzed_bin
+close
+101
+21
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/sporks/000002.dbtmp", AT_FDCWD, "/root/.giant/sporks/CURRENT"
+0
+OPENFILE
+"/root/.giant/sporks"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/sporks", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+21
+SYSCALL
+analyzed_bin
+fstat
+101
+21, 0x7fde789fc0
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+21, 0x555a3def80, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+101
+21, 0x555a3def80, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+21
+0
+SYSCALL
+analyzed_bin
+fstat
+101
+17, 0x7fde789ad0
+0
+SYSCALL
+analyzed_bin
+write
+101
+17, "1970/01/01-00:00:04.912947 7f93af8010 Delete "..., 55
+55
+SYSCALL
+analyzed_bin
+unlinkat
+101
+AT_FDCWD, "/root/.giant/sporks/MANIFEST-000001", 0x0
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/blocks/index", 0777
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opening LevelDB in /root/.giant/blocks/index\n", 45
+45
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/blocks/index", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/blocks/index/LOG", AT_FDCWD, "/root/.giant/blocks/index/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/blocks/index/LOG"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+21
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/blocks/index", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.giant/blocks/index/LOCK"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/LOCK", O_RDWR|O_CREAT, 0644
+22
+SYSCALL
+analyzed_bin
+fcntl
+101
+22, F_SETLK, 0x7fde789fd8
+0
+SYSCALL
+analyzed_bin
+faccessat
+101
+AT_FDCWD, "/root/.giant/blocks/index/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+23
+SYSCALL
+analyzed_bin
+fstat
+101
+23, 0x7fde789bf0
+0
+SYSCALL
+analyzed_bin
+write
+101
+23, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+101
+23
+0
+OPENFILE
+"/root/.giant/blocks/index/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+23
+SYSCALL
+analyzed_bin
+fstat
+101
+23, 0x7fde789b30
+0
+SYSCALL
+analyzed_bin
+write
+101
+23, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+23
+0
+SYSCALL
+analyzed_bin
+close
+101
+23
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/blocks/index/000001.dbtmp", AT_FDCWD, "/root/.giant/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.giant/blocks/index/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/CURRENT", O_RDONLY
+23
+SYSCALL
+analyzed_bin
+fstat
+101
+23, 0x7fde789960
+0
+SYSCALL
+analyzed_bin
+read
+101
+23, 0x555a3def50, 8192
+16
+SYSCALL
+analyzed_bin
+read
+101
+23, 0x555a3def60, 7168
+0
+SYSCALL
+analyzed_bin
+read
+101
+23, 0x555a3def50, 8192
+0
+SYSCALL
+analyzed_bin
+close
+101
+23
+0
+OPENFILE
+"/root/.giant/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/MANIFEST-000001", O_RDONLY
+23
+SYSCALL
+analyzed_bin
+fstat
+101
+23, 0x7fde7898d0
+0
+SYSCALL
+analyzed_bin
+read
+101
+23, 0x555a3def50, 32768
+41
+SYSCALL
+analyzed_bin
+read
+101
+23, 0x555a3def79, 31744
+0
+SYSCALL
+analyzed_bin
+close
+101
+23
+0
+OPENFILE
+"/root/.giant/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+23
+SYSCALL
+analyzed_bin
+fstat
+101
+23, 0x7fde789f20
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+23, 0x555a3def80, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+101
+23, 0x555a3def80, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+23
+0
+OPENFILE
+"/root/.giant/blocks/index/000003.log"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+23
+OPENFILE
+"/root/.giant/blocks/index/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+24
+SYSCALL
+analyzed_bin
+fstat
+101
+24, 0x7fde7899f0
+0
+SYSCALL
+analyzed_bin
+write
+101
+24, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+101
+24, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.giant/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index", O_RDONLY
+25
+SYSCALL
+analyzed_bin
+fsync
+101
+25
+0
+SYSCALL
+analyzed_bin
+close
+101
+25
+0
+SYSCALL
+analyzed_bin
+fdatasync
+101
+24
+0
+OPENFILE
+"/root/.giant/blocks/index/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+25
+SYSCALL
+analyzed_bin
+fstat
+101
+25, 0x7fde789b80
+0
+SYSCALL
+analyzed_bin
+write
+101
+25, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+25
+0
+SYSCALL
+analyzed_bin
+close
+101
+25
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/blocks/index/000002.dbtmp", AT_FDCWD, "/root/.giant/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.giant/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+25
+SYSCALL
+analyzed_bin
+fstat
+101
+25, 0x7fde789f70
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+25, 0x555a3dff90, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+101
+25, 0x555a3dff90, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+25
+0
+SYSCALL
+analyzed_bin
+fstat
+101
+21, 0x7fde789a80
+0
+SYSCALL
+analyzed_bin
+write
+101
+21, "1970/01/01-00:00:04.951037 7f93af8010 Delete "..., 55
+55
+SYSCALL
+analyzed_bin
+unlinkat
+101
+AT_FDCWD, "/root/.giant/blocks/index/MANIFEST-000001", 0x0
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/chainstate", 0777
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:04 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opening LevelDB in /root/.giant/chainstate\n", 43
+43
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/chainstate", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/chainstate/LOG", AT_FDCWD, "/root/.giant/chainstate/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/chainstate/LOG"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+25
+SYSCALL
+analyzed_bin
+mkdirat
+101
+AT_FDCWD, "/root/.giant/chainstate", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.giant/chainstate/LOCK"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/LOCK", O_RDWR|O_CREAT, 0644
+26
+SYSCALL
+analyzed_bin
+fcntl
+101
+26, F_SETLK, 0x7fde78a028
+0
+SYSCALL
+analyzed_bin
+faccessat
+101
+AT_FDCWD, "/root/.giant/chainstate/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+27
+SYSCALL
+analyzed_bin
+fstat
+101
+27, 0x7fde789c40
+0
+SYSCALL
+analyzed_bin
+write
+101
+27, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+101
+27
+0
+OPENFILE
+"/root/.giant/chainstate/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+27
+SYSCALL
+analyzed_bin
+fstat
+101
+27, 0x7fde789b80
+0
+SYSCALL
+analyzed_bin
+write
+101
+27, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+27
+0
+SYSCALL
+analyzed_bin
+close
+101
+27
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/chainstate/000001.dbtmp", AT_FDCWD, "/root/.giant/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.giant/chainstate/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/CURRENT", O_RDONLY
+27
+SYSCALL
+analyzed_bin
+fstat
+101
+27, 0x7fde7899b0
+0
+SYSCALL
+analyzed_bin
+read
+101
+27, 0x555a3e2c20, 8192
+16
+SYSCALL
+analyzed_bin
+read
+101
+27, 0x555a3e2c30, 7168
+0
+SYSCALL
+analyzed_bin
+read
+101
+27, 0x555a3e2c20, 8192
+0
+SYSCALL
+analyzed_bin
+close
+101
+27
+0
+OPENFILE
+"/root/.giant/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/MANIFEST-000001", O_RDONLY
+27
+SYSCALL
+analyzed_bin
+fstat
+101
+27, 0x7fde789920
+0
+SYSCALL
+analyzed_bin
+read
+101
+27, 0x555a3e2d60, 32768
+41
+SYSCALL
+analyzed_bin
+read
+101
+27, 0x555a3e2d89, 31744
+0
+SYSCALL
+analyzed_bin
+close
+101
+27
+0
+OPENFILE
+"/root/.giant/chainstate"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+27
+SYSCALL
+analyzed_bin
+fstat
+101
+27, 0x7fde789f70
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+27, 0x555a3e2e80, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+101
+27, 0x555a3e2e80, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+27
+0
+OPENFILE
+"/root/.giant/chainstate/000003.log"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+27
+OPENFILE
+"/root/.giant/chainstate/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+28
+SYSCALL
+analyzed_bin
+fstat
+101
+28, 0x7fde789a40
+0
+SYSCALL
+analyzed_bin
+write
+101
+28, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+101
+28, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.giant/chainstate"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate", O_RDONLY
+29
+SYSCALL
+analyzed_bin
+fsync
+101
+29
+0
+SYSCALL
+analyzed_bin
+close
+101
+29
+0
+SYSCALL
+analyzed_bin
+fdatasync
+101
+28
+0
+OPENFILE
+"/root/.giant/chainstate/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+29
+SYSCALL
+analyzed_bin
+fstat
+101
+29, 0x7fde789bd0
+0
+SYSCALL
+analyzed_bin
+write
+101
+29, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+101
+29
+0
+SYSCALL
+analyzed_bin
+close
+101
+29
+0
+SYSCALL
+analyzed_bin
+renameat
+101
+AT_FDCWD, "/root/.giant/chainstate/000002.dbtmp", AT_FDCWD, "/root/.giant/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.giant/chainstate"
+SYSCALL
+analyzed_bin
+openat
+101
+AT_FDCWD, "/root/.giant/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+29
+SYSCALL
+analyzed_bin
+fstat
+101
+29, 0x7fde789fc0
+0
+SYSCALL
+analyzed_bin
+getdents
+101
+29, 0x555a3e4830, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+101
+29, 0x555a3e4830, 32768
+0
+SYSCALL
+analyzed_bin
+close
+101
+29
+0
+SYSCALL
+analyzed_bin
+fstat
+101
+25, 0x7fde789ad0
+0
+SYSCALL
+analyzed_bin
+write
+101
+25, "1970/01/01-00:00:05.002731 7f93af8010 Delete "..., 55
+55
+SYSCALL
+analyzed_bin
+unlinkat
+101
+AT_FDCWD, "/root/.giant/chainstate/MANIFEST-000001", 0x0
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+getpid
+101
+
+101
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "init message: Loading sporks...\n", 32
+32
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 75
+75
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 91
+91
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 77
+77
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 87
+87
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 98
+98
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 97
+97
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 97
+97
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 87
+87
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 93
+93
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 95
+95
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadSporksFromDB : no previous value for SPOR"..., 94
+94
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "init message: Loading block index...\n", 37
+37
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadBlockIndexDB: last block file = 0\n", 38
+38
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadBlockIndexDB: last block file info: CBloc"..., 118
+118
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Checking all blk files are present...\n", 38
+38
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadBlockIndexDB: Last shutdown was prepared:"..., 51
+51
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "LoadBlockIndexDB(): transaction index enabled\n", 46
+46
+SYSCALL
+analyzed_bin
+fstat
+101
+23, 0x7fde7897c0
+0
+SYSCALL
+analyzed_bin
+write
+101
+23, "JAFz\032\0\001\001\0\0\0\0\0\0\0\001\0\0\0"..., 33
+33
+SYSCALL
+analyzed_bin
+write
+101
+23, "\330\b\311\366\031\0\001\002\0\0\0\0\0\0\0\001\0", 32
+32
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Initializing databases...\n", 26
+26
+SYSCALL
+analyzed_bin
+statfs
+101
+"/root/.giant", 0x7fde78a128
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "*** Disk space is low!\n", 23
+23
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+analyzed_bin
+write
+101
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "ERROR: LoadBlockIndex() : FindBlockPos failed\n", 46
+46
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, ": Error initializing block database.\n\nDo yo"..., 85
+85
+SYSCALL
+analyzed_bin
+write
+101
+2, ": Error initializing block database.\n\nDo yo"..., 85
+85
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "Aborted block database rebuild. Exiting.\n", 41
+41
+SYSCALL
+analyzed_bin
+epoll_ctl
+101
+5, EPOLL_CTL_DEL, 9, 0x7fde78ba48
+0
+SYSCALL
+analyzed_bin
+write
+101
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+bitcoin-http
+epoll_pwait
+101
+5, 0x555996c9f0, 32, -1, 0x0, 8
+1
+SYSCALL
+analyzed_bin
+futex
+101
+0x555996cc00, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-http
+futex
+101
+0x555996cc00, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-http
+futex
+101
+0x555996cc00, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+bitcoin-http
+read
+101
+8, 0x7f92f6b5f0, 8
+8
+SYSCALL
+bitcoin-http
+futex
+101
+0x555996ce18, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+bitcoin-http
+mmap2
+101
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f83a7f000
+SYSCALL
+bitcoin-http
+munmap
+101
+0x7f83a7f000, 5771264
+0
+SYSCALL
+bitcoin-http
+munmap
+101
+0x7f88000000, 61337600
+0
+SYSCALL
+bitcoin-http
+mprotect
+101
+0x7f84000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+close
+101
+9
+0
+SYSCALL
+analyzed_bin
+futex
+101
+0x555996aad8, FUTEX_WAKE_PRIVATE, 2147483647
+4
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aad8, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aad8, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aad8, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aad8, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+analyzed_bin
+futex
+101
+0x555996aa80, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+mmap2
+101
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f7c000000
+SYSCALL
+bitcoin-httpwor
+munmap
+101
+0x7f80000000, 67108864
+0
+SYSCALL
+bitcoin-httpwor
+mprotect
+101
+0x7f7c000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+bitcoin-httpwor
+madvise
+101
+0x7f91f6b000, 8253440, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+madvise
+101
+0x7f9176a000, 8253440, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+exit
+101
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x7f91f6a290, FUTEX_WAKE, 1
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+madvise
+101
+0x7f90768000, 8253440, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+exit
+101
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x7f90f68290, FUTEX_WAKE, 1
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x555996aa80, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+bitcoin-httpwor
+madvise
+101
+0x7f90f69000, 8253440, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+exit
+101
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x7f91769290, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+101
+4, "PrepareShutdown: In progress...\n", 32
+32
+SYSCALL
+giant-shutoff
+prctl
+101
+PR_SET_NAME, 0x5559516390
+0
+SYSCALL
+bitcoin-http
+madvise
+101
+0x7f9276c000, 8253440, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-http
+exit
+101
+0
+
+SYSCALL
+bitcoin-http
+futex
+101
+0x7f92f6c290, FUTEX_WAKE, 1
+0
+SYSCALL
+bitcoin-httpwor
+exit
+101
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+101
+0x7f9276b290, FUTEX_WAKE, 1
+0
+SYSCALL
+giant-shutoff
+nanosleep
+101
+[0.500000000], 0x0
+0
+SYSCALL
+giant-shutoff
+munmap
+101
+0x7f9176a000, 8392704
+0
+SYSCALL
+giant-shutoff
+epoll_ctl
+101
+5, EPOLL_CTL_DEL, 8, 0x7fde78b598
+0
+SYSCALL
+giant-shutoff
+close
+101
+8
+0
+SYSCALL
+giant-shutoff
+close
+101
+6
+0
+SYSCALL
+giant-shutoff
+close
+101
+7
+0
+SYSCALL
+giant-shutoff
+close
+101
+5
+0
+SYSCALL
+giant-shutoff
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-shutoff
+write
+101
+4, "StopNode()\n", 11
+11
+OPENFILE
+"/root/.giant/mncache.dat"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/mncache.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+giant-shutoff
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-shutoff
+write
+101
+4, "ERROR: Read : Failed to open file /root/.gian"..., 59
+59
+OPENFILE
+"/root/.giant/mncache.dat"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/mncache.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+5
+SYSCALL
+giant-shutoff
+fstat
+101
+5, 0x7fde78abb0
+0
+SYSCALL
+giant-shutoff
+write
+101
+5, "\017MasternodeCache\272\253\207\031\0\0\0\0\0\0", 66
+66
+SYSCALL
+giant-shutoff
+close
+101
+5
+0
+OPENFILE
+"/root/.giant/budget.dat"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/budget.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+giant-shutoff
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-shutoff
+write
+101
+4, "ERROR: Read : Failed to open file /root/.gian"..., 58
+58
+OPENFILE
+"/root/.giant/budget.dat"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/budget.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+5
+SYSCALL
+giant-shutoff
+fstat
+101
+5, 0x7fde78ae00
+0
+SYSCALL
+giant-shutoff
+write
+101
+5, "\020MasternodeBudget\272\253\207\031\0\0\0\0\0\0", 61
+61
+SYSCALL
+giant-shutoff
+close
+101
+5
+0
+OPENFILE
+"/root/.giant/mnpayments.dat"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/mnpayments.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+giant-shutoff
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-shutoff
+write
+101
+4, "ERROR: Read : Failed to open file /root/.gian"..., 62
+62
+OPENFILE
+"/root/.giant/mnpayments.dat"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/mnpayments.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+5
+SYSCALL
+giant-shutoff
+fstat
+101
+5, 0x7fde78af70
+0
+SYSCALL
+giant-shutoff
+write
+101
+5, "\022MasternodePayments\272\253\207\031\0\0"..., 57
+57
+SYSCALL
+giant-shutoff
+close
+101
+5
+0
+SYSCALL
+giant-shutoff
+futex
+101
+0x55598d71c8, FUTEX_WAKE_PRIVATE, 2147483647
+1
+SYSCALL
+giant-scheduler
+futex
+101
+0x55598d71c8, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+giant-shutoff
+futex
+101
+0x55598d7170, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+giant-scheduler
+futex
+101
+0x55598d7170, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+giant-scheduler
+futex
+101
+0x55598d7170, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+giant-shutoff
+futex
+101
+0x555994dc00, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+giant-scheduler
+futex
+101
+0x555994dc00, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+giant-scheduler
+futex
+101
+0x555994dc00, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+giant-scheduler
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-scheduler
+write
+101
+4, "scheduler thread interrupt\n", 27
+27
+SYSCALL
+giant-scheduler
+futex
+101
+0x555994dc88, FUTEX_WAKE_PRIVATE, 2147483647
+1
+SYSCALL
+giant-scheduler
+madvise
+101
+0x7f92f6d000, 8253440, MADV_DONTNEED
+0
+SYSCALL
+giant-scheduler
+exit
+101
+0
+
+SYSCALL
+giant-scheduler
+futex
+101
+0x7f9376d290, FUTEX_WAKE, 1
+0
+SYSCALL
+giant-shutoff
+futex
+101
+0x555994dc88, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+giant-shutoff
+futex
+101
+0x555994dc30, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+giant-shutoff
+munmap
+101
+0x7f90768000, 8392704
+0
+SYSCALL
+giant-shutoff
+statfs
+101
+"/root/.giant", 0x7fde78b228
+0
+SYSCALL
+giant-shutoff
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-shutoff
+write
+101
+4, "*** Disk space is low!\n", 23
+23
+SYSCALL
+giant-shutoff
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-shutoff
+write
+101
+4, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+giant-shutoff
+write
+101
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+giant-shutoff
+write
+101
+23, "\367\356zd\032\0\001\003\0\0\0\0\0\0\0\001\0"..., 33
+33
+SYSCALL
+giant-shutoff
+fcntl
+101
+26, F_SETLK, 0x7fde78b618
+0
+SYSCALL
+giant-shutoff
+close
+101
+26
+0
+SYSCALL
+giant-shutoff
+close
+101
+28
+0
+SYSCALL
+giant-shutoff
+close
+101
+27
+0
+SYSCALL
+giant-shutoff
+close
+101
+25
+0
+SYSCALL
+giant-shutoff
+fcntl
+101
+22, F_SETLK, 0x7fde78b648
+0
+SYSCALL
+giant-shutoff
+close
+101
+22
+0
+SYSCALL
+giant-shutoff
+close
+101
+24
+0
+SYSCALL
+giant-shutoff
+close
+101
+23
+0
+SYSCALL
+giant-shutoff
+close
+101
+21
+0
+SYSCALL
+giant-shutoff
+fcntl
+101
+14, F_SETLK, 0x7fde78b648
+0
+SYSCALL
+giant-shutoff
+close
+101
+14
+0
+SYSCALL
+giant-shutoff
+close
+101
+16
+0
+SYSCALL
+giant-shutoff
+close
+101
+15
+0
+SYSCALL
+giant-shutoff
+close
+101
+13
+0
+SYSCALL
+giant-shutoff
+fcntl
+101
+18, F_SETLK, 0x7fde78b648
+0
+SYSCALL
+giant-shutoff
+close
+101
+18
+0
+SYSCALL
+giant-shutoff
+close
+101
+20
+0
+SYSCALL
+giant-shutoff
+close
+101
+19
+0
+SYSCALL
+giant-shutoff
+close
+101
+17
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/giantd.pid", 0x7fde78b6a8, AT_SYMLINK_NOFOLLOW
+0
+SYSCALL
+giant-shutoff
+unlinkat
+101
+AT_FDCWD, "/root/.giant/giantd.pid", 0x0
+0
+SYSCALL
+giant-shutoff
+munmap
+101
+0x7f9376e000, 1052672
+0
+SYSCALL
+giant-shutoff
+write
+101
+4, "1970-01-01 00:00:05 ", 20
+20
+SYSCALL
+giant-shutoff
+write
+101
+4, "Shutdown: done\n", 15
+15
+SYSCALL
+giant-shutoff
+close
+101
+3
+0
+OPENFILE
+"/root/.giant/database/log.0000000001"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/database/log.0000000001", O_RDWR|O_CREAT, 0600
+3
+SYSCALL
+giant-shutoff
+fcntl
+101
+3, F_GETFD, 0x0
+0
+SYSCALL
+giant-shutoff
+fcntl
+101
+3, F_SETFD, 0x1
+0
+SYSCALL
+giant-shutoff
+read
+101
+3, 0x555a3e2490, 28
+0
+SYSCALL
+giant-shutoff
+lseek
+101
+3, 1040384, SEEK_SET
+1040384
+SYSCALL
+giant-shutoff
+write
+101
+3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 8192
+8192
+SYSCALL
+giant-shutoff
+pwrite
+101
+3, "\0\0\0\0\034\0\0\0\351AH[\210\t\004\0\020\0\0\0", 28, 0
+28
+SYSCALL
+giant-shutoff
+fdatasync
+101
+3
+0
+SYSCALL
+giant-shutoff
+close
+101
+3
+0
+SYSCALL
+giant-shutoff
+munmap
+101
+0x7f8ba7f000, 5771264
+0
+SYSCALL
+giant-shutoff
+munmap
+101
+0x7f901cc000, 5881856
+0
+SYSCALL
+giant-shutoff
+getpid
+101
+
+101
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+giant-shutoff
+read
+101
+3, 0x7fde789ae0, 8192
+2
+SYSCALL
+giant-shutoff
+close
+101
+3
+0
+OPENFILE
+"/root/.giant/DB_CONFIG"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/var/tmp", 0x7fde78b318, 0x0
+0
+OPENFILE
+"/root/.giant/__db.001"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.giant/__db.001"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.giant"
+SYSCALL
+giant-shutoff
+openat
+101
+AT_FDCWD, "/root/.giant", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+3
+SYSCALL
+giant-shutoff
+fstat
+101
+3, 0x7fde78b590
+0
+SYSCALL
+giant-shutoff
+getdents
+101
+3, 0x555a3e5410, 32768
+544
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/chainstate", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/mnpayments.dat", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/masternode.conf", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/blocks", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/zerocoin", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/.", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/.lock", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/budget.dat", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/.cookie", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/debug.log", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/backups", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/..", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/db.log", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/sporks", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/mncache.dat", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/database", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+fstatat
+101
+AT_FDCWD, "/root/.giant/giant.conf", 0x7fde78b6b8, 0x0
+0
+SYSCALL
+giant-shutoff
+getdents
+101
+3, 0x555a3e5410, 32768
+0
+SYSCALL
+giant-shutoff
+close
+101
+3
+0
+SYSCALL
+giant-shutoff
+close
+101
+11
+0
+SYSCALL
+giant-shutoff
+close
+101
+12
+0
+SYSCALL
+giant-shutoff
+exit_group
+101
+1
+

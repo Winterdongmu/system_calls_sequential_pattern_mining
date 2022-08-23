@@ -1,0 +1,261 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 7072168",0
+1,analyzed_bin,set_tid_address,108,0x6be9e0,108
+2,analyzed_bin,brk,108,0x0,7073792
+3,analyzed_bin,brk,108,0x6d1000,7147520
+4,analyzed_bin,sched_getaffinity,108,"0, 128, 0x7ffca093a880",8
+5,analyzed_bin,brk,108,0x6d2000,7151616
+6,analyzed_bin,brk,108,0x6d3000,7155712
+7,analyzed_bin,pipe2,108,"[0, 0], O_CLOEXEC",0
+8,analyzed_bin,write,108,"4, ""*"", 1",1
+9,analyzed_bin,clock_getres,108,"CLOCK_MONOTONIC_COARSE, 0x7ffca093b7d0",0
+10,analyzed_bin,epoll_create1,108,EPOLL_CLOEXEC,5
+11,analyzed_bin,pipe2,108,"[-1, -1], O_NONBLOCK|O_CLOEXEC",0
+12,analyzed_bin,eventfd2,108,"0, EFD_NONBLOCK|EFD_CLOEXEC",8
+13,analyzed_bin,ioctl,108,"0, 21523, 0x7ffca093b790",-25 (ENOTTY)
+14,analyzed_bin,fstat,108,"0, 0x7ffca093b7c0",0
+15,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca093b830, 8",0
+16,analyzed_bin,read,108,"3, 0x7ffca093b75b, 1",1
+17,analyzed_bin,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+18,analyzed_bin,rt_sigaction,108,"SIGHUP, {0x467bc3, SA_RESTORER, 0x4914f2, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+19,analyzed_bin,write,108,"4, ""*"", 1",1
+20,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+21,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca093b830, 8",0
+22,analyzed_bin,read,108,"3, 0x7ffca093b75b, 1",1
+23,analyzed_bin,rt_sigaction,108,"SIGINT, {0x467bc3, SA_RESTORER, 0x4914f2, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+24,analyzed_bin,write,108,"4, ""*"", 1",1
+25,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+26,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca093b830, 8",0
+27,analyzed_bin,read,108,"3, 0x7ffca093b75b, 1",1
+28,analyzed_bin,rt_sigaction,108,"SIGTERM, {0x467bc3, SA_RESTORER, 0x4914f2, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+29,analyzed_bin,write,108,"4, ""*"", 1",1
+30,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+31,analyzed_bin,rt_sigaction,108,"SIGPIPE, {SIG_IGN}, 0x7ffca093b740, 8",0
+32,analyzed_bin,brk,108,0x6dc000,7192576
+33,analyzed_bin,brk,108,0x6e5000,7229440
+34,analyzed_bin,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+35,analyzed_bin,mmap2,108,"0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f1673793000
+36,analyzed_bin,mprotect,108,"0x7f1673794000, 86016, PROT_READ|PROT_WRITE",0
+37,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f16737a8ab8, 0x7f16737a8b20, 0x7f16737a8b20",110
+38,analyzed_bin,mmap2,108,"0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f167377d000
+39,analyzed_bin,mprotect,108,"0x7f167377e000, 86016, PROT_READ|PROT_WRITE",0
+40,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f1673792ab8, 0x7f1673792b20, 0x7f1673792b20",111
+41,analyzed_bin,mmap2,108,"0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f1673767000
+42,analyzed_bin,mprotect,108,"0x7f1673768000, 86016, PROT_READ|PROT_WRITE",0
+43,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f167377cab8, 0x7f167377cb20, 0x7f167377cb20",112
+44,analyzed_bin,mmap2,108,"0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f1673751000
+45,analyzed_bin,mprotect,108,"0x7f1673752000, 86016, PROT_READ|PROT_WRITE",0
+46,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f1673766ab8, 0x7f1673766b20, 0x7f1673766b20",113
+47,analyzed_bin,mmap2,108,"0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f167373b000
+48,analyzed_bin,mprotect,108,"0x7f167373c000, 86016, PROT_READ|PROT_WRITE",0
+49,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f1673750ab8, 0x7f1673750b20, 0x7f1673750b20",114
+50,analyzed_bin,setpriority,108,"PRIO_PROCESS, 0, 19",0
+51,analyzed_bin,open,108,"""/etc/hosts"", O_RDONLY|O_CLOEXEC",9
+52,analyzed_bin,fcntl,108,"9, F_SETFD, 0x1",0
+53,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_ADD, 6, 0x7ffca0938824",0
+54,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_ADD, 8, 0x7ffca0938824",0
+55,analyzed_bin,readv,108,"9, 0x7f1673791970, 2",42
+56,analyzed_bin,readv,108,"9, 0x7f1673791970, 2",0
+57,analyzed_bin,close,108,9,0
+58,analyzed_bin,open,108,"""/etc/resolv.conf"", O_RDONLY|O_CLOEXEC",9
+59,analyzed_bin,fcntl,108,"9, F_SETFD, 0x1",0
+60,analyzed_bin,readv,108,"9, 0x7f1673791d90, 2",27
+61,analyzed_bin,readv,108,"9, 0x7f1673791d90, 2",0
+62,analyzed_bin,close,108,9,0
+63,analyzed_bin,socket,108,"PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",9
+64,analyzed_bin,bind,108,"9, {AF_INET, 0.0.0.0, 0}, 16",0
+65,analyzed_bin,sendto,108,"9, ""\276<\001\0\0\001\0\0\0\0\0\0\004pool\aminexm""..., 34, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",34
+66,analyzed_bin,sendto,108,"9, ""T\343\001\0\0\001\0\0\0\0\0\0\004pool\aminexm""..., 34, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",34
+67,analyzed_bin,mmap2,108,"0x0, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_POPULATE|MAP_HUGETLB, 0, 0",-22 (EINVAL)
+68,analyzed_bin,mmap2,108,"0x0, 2105344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f1673539000
+69,analyzed_bin,poll,108,"0x7f16737919d0, 1, 2500",1
+70,analyzed_bin,recvfrom,108,"9, 0x7f1673791d30, 512, 0x0, 0x7f16737919f0, 0x7f16737919cc",94
+71,analyzed_bin,recvfrom,108,"9, 0x7f1673791d30, 512, 0x0, 0x7f16737919f0, 0x7f16737919cc",-11 (EAGAIN)
+72,analyzed_bin,poll,108,"0x7f16737919d0, 1, 2479",1
+73,analyzed_bin,recvfrom,108,"9, 0x7f1673791d30, 512, 0x0, 0x7f16737919f0, 0x7f16737919cc",162
+74,analyzed_bin,close,108,9,0
+75,analyzed_bin,write,108,"8, ""\001\0\0\0\0\0\0\0"", 8",8
+76,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 478",1
+77,analyzed_bin,read,108,"8, 0x7ffca0938360, 1024",8
+78,analyzed_bin,futex,108,"0x6bcaac, FUTEX_WAKE_PRIVATE, 1",1
+79,analyzed_bin,futex,108,"0x6bcaac, FUTEX_WAIT_PRIVATE, -2147483537",0
+80,analyzed_bin,open,108,"""/dev/null"", O_RDONLY|O_CLOEXEC",9
+81,analyzed_bin,fcntl,108,"9, F_SETFD, 0x1",0
+82,analyzed_bin,socket,108,"PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",10
+83,analyzed_bin,setsockopt,108,"10, SOL_TCP, SO_DEBUG, 0x7ffca09380d8, 4",0
+84,analyzed_bin,setsockopt,108,"10, SOL_SOCKET, SO_KEEPALIVE, 0x7ffca09380d8, 4",0
+85,analyzed_bin,setsockopt,108,"10, SOL_TCP, SO_ERROR, 0x7ffca09380d4, 4",0
+86,analyzed_bin,connect,108,"10, {AF_INET, 51.68.21.186, 443}, 16",-115 (EINPROGRESS)
+87,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_ADD, 10, 0x7ffca0938824",0
+88,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 421",1
+89,analyzed_bin,getsockopt,108,"10, SOL_SOCKET, SO_ERROR, 0x7ffca0938724, 0x7ffca0938720",0
+90,analyzed_bin,brk,108,0x6f6000,7299072
+91,analyzed_bin,write,108,"10, ""{\""id\"":1,\""jsonrpc\"":\""2.0\"",\""method\"":\""lo""..., 306",306
+92,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_ADD, 10, 0x7ffca0938824",-17 (EEXIST)
+93,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_MOD, 10, 0x7ffca0938824",0
+94,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 321",1
+95,analyzed_bin,read,108,"10, 0x6d12b3, 2048",0
+96,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_DEL, 10, 0x7ffca093838c",0
+97,analyzed_bin,close,108,10,0
+98,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 224",0
+99,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 498",0
+100,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+101,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 497",0
+102,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+103,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+104,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+105,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+106,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+107,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+108,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 497",0
+109,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 2",0
+110,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+111,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+112,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+113,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+114,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+115,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+116,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 494",0
+117,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 1",0
+118,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+119,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+120,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+121,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+122,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+123,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+124,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 493",0
+125,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 7",0
+126,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+127,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+128,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+129,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+130,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+131,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 489",0
+132,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 9",0
+133,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+134,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+135,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+136,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+137,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+138,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+139,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 483",0
+140,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 13",0
+141,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+142,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+143,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+144,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+145,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+146,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+147,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 481",0
+148,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 15",0
+149,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+150,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+151,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+152,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+153,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+154,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+155,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 481",0
+156,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 18",0
+157,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+158,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+159,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+160,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+161,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+162,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+163,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 477",0
+164,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 23",0
+165,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+166,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+167,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+168,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+169,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+170,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+171,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 473",0
+172,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 25",0
+173,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+174,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+175,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+176,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+177,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+178,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+179,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 470",0
+180,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 26",0
+181,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+182,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+183,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+184,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+185,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+186,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+187,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 469",0
+188,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 29",0
+189,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+190,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+191,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+192,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+193,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+194,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+195,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 467",0
+196,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 29",0
+197,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+198,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+199,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+200,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+201,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+202,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+203,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 465",0
+204,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 35",0
+205,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+206,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+207,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+208,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+209,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+210,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 461",0
+211,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+212,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 37",0
+213,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+214,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+215,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+216,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+217,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+218,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 459",0
+219,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+220,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 37",0
+221,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+222,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+223,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+224,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+225,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+226,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 458",0
+227,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 38",0
+228,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+229,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+230,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+231,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+232,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+233,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+234,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 457",0
+235,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 42",0
+236,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+237,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+238,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+239,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+240,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+241,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+242,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 453",0
+243,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 46",0
+244,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+245,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+246,analyzed_bin,nanosleep,108,"[0.200000000], 0x7f16737a89b0",0
+247,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 500",0
+248,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 450",-4 (EINTR)
+249,analyzed_bin,read,108,"3, 0x7ffca093822b, 1",1
+250,analyzed_bin,write,108,"7, ""8\272\223\240\374\177\0\0\017\0\0\0\0\0\0\0"", 16",16
+251,analyzed_bin,write,108,"4, ""*"", 1",1
+252,analyzed_bin,rt_sigreturn,108,,-4 (EINTR)
+253,analyzed_bin,epoll_wait,108,"5, 0x7ffca0938830, 1024, 417",1
+254,analyzed_bin,read,108,"6, 0x7ffca0938550, 512",16
+255,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca0938460, 8",0
+256,analyzed_bin,read,108,"3, 0x7ffca093839b, 1",1
+257,analyzed_bin,rt_sigaction,108,"SIGTERM, {SIG_DFL}, 0x0, 8",0
+258,analyzed_bin,write,108,"4, ""*"", 1",1
+259,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0

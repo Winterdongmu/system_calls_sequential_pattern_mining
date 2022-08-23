@@ -1,0 +1,4565 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+94544075825152
+SYSCALL
+analyzed_bin
+access
+108
+"/etc/ld.so.preload", R_OK
+-2 (ENOENT)
+OPENFILE
+"/etc/ld.so.cache"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64/x86_64", 0x7ffd20a39170
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffd20a39170
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffd20a39170
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls", 0x7ffd20a39170
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64/x86_64", 0x7ffd20a39170
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffd20a39170
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffd20a39170
+-2 (ENOENT)
+OPENFILE
+"/lib64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/librt.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a392d8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a39170
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f61254fd000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f61250d1000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f61250d8000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f61252d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576
+0x7f61252d7000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a392a8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a39140
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f6124eb2000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124ecc000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f61250cb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400
+0x7f61250cb000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f61250cd000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7f61250cd000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libanl.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libanl.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a39278, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a39110
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2109928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f6124cae000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124cb1000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f6124eb0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 8192
+0x7f6124eb0000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libm.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a39248, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a390e0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f6124931000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124aad000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f6124cac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384
+0x7f6124cac000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libgcc_s.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a39218, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a390b0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2188296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f612471a000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124730000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f612492f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 86016
+0x7f612492f000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libc.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a391e8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a39080
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f6124365000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124511000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f6124710000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992
+0x7f6124710000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f6124716000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7f6124716000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f61254fb000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f61254f8000
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 140055214524224
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124710000, 16384, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f612492f000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124cac000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f61250cb000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6124eb0000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f61252d7000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x55fcc2095000, 217088, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f61254ff000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7f61254f8a10
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f61254f8a20, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x7f6124eb82e0, SA_SIGINFO|SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x7f6124eb8380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_STACK, NULL, 0x7ffd20a39e90
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc20df1e4, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc20df1f0, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+94544075825152
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2103000
+94544075960320
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a37dc0, 8192
+2
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a39bc0
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a39a00
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fcc20e4eb0, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+108
+3, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fcc20e4eb0, 1024
+71
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mlock
+108
+0x55fcc20d8000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2132000
+94544076152832
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore", 0x7ffd20a39310
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root", 0x7ffd20a39310
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/combode.conf", 0x7ffd20a39520
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore/combode.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/combode.conf", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+108
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a39500
+0
+SYSCALL
+analyzed_bin
+write
+108
+3, "\n", 1
+1
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/root/.combodecore/combode.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/combode.conf", O_RDONLY
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fcc2112000, 8191
+1
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fcc2112000, 8191
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore", 0x7ffd20a398e0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore", 0x7ffd20a39a50
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore", 0x7ffd20a39050
+0
+OPENFILE
+"/root/.combodecore/masternode.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/masternode.conf", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore/masternode.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/masternode.conf", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+108
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a391c0
+0
+SYSCALL
+analyzed_bin
+write
+108
+3, "# Masternode config file\n# Format: alias IP:"..., 264
+264
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+umask
+108
+077
+022
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGTERM, {0x55fcc14521c0, SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGINT, {0x55fcc14521c0, SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGHUP, {0x55fcc1452200, SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGPIPE, {SIG_IGN}, 0x7ffd20a38050, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_NOFILE, NULL, 0x7ffd20a38210
+0
+OPENFILE
+"/proc/cpuinfo"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/proc/cpuinfo", O_RDONLY
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fcc21140b0, 8191
+720
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fcc21140b0, 8191
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/dev/urandom"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/dev/urandom", O_RDONLY|O_NOCTTY|O_NONBLOCK
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffd20a37ee0
+0
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffd20a37ed8, 1, 10
+1
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffd20a38090, 32
+32
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+mlock
+108
+0x7ffd20a38000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+munlock
+108
+0x7ffd20a38000, 4096
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f61253f7000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2101248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f6124164000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 1445888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f6124003000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 659456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f6125356000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f6124003000, 1445888
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f6124164000, 2101248
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f6125356000, 659456
+0
+SYSCALL
+analyzed_bin
+mlock
+108
+0x7ffd20a38000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+munlock
+108
+0x7ffd20a38000, 4096
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7f61249301a0, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/root/.combodecore/.lock"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/.lock", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+108
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/root/.combodecore/.lock"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/.lock", O_RDWR
+3
+SYSCALL
+analyzed_bin
+fcntl
+108
+3, F_SETLK, 0x7ffd20a380e0
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/root/.combodecore/comboded.pid"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/comboded.pid", O_WRONLY|O_CREAT|O_TRUNC, 0666
+4
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7ffd20a37a90
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "108\n", 4
+4
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/root/.combodecore/debug.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/debug.log", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore/debug.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/debug.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+4
+SYSCALL
+analyzed_bin
+lseek
+108
+4, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 \n\n\n\n\n\n\n\n\n\n\n\n"..., 40
+40
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Combode Core version v1.0"..., 98
+98
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 InitParameterInteraction:"..., 121
+121
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Validating signatures for"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Using BerkeleyDB version "..., 82
+82
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Default data directory /r"..., 62
+62
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Using data directory /roo"..., 60
+60
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Using config file /root/."..., 70
+70
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Using at most 125 connect"..., 84
+84
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Using 0 threads for scrip"..., 60
+60
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f6123b64000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6123b65000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6124363fb0, 0x7f61243649d0, 0x7f61243649d0
+110
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f61243649e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f611bb64000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f611bb64000, 4833280
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f6120000000, 62275584
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f611c000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+combode-schedul
+prctl
+108
+PR_SET_NAME, 0x7f611c000d30
+0
+SYSCALL
+combode-schedul
+write
+108
+4, "2022-07-14 08:50:21 scheduler thread start\n", 43
+43
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+epoll_create1
+108
+EPOLL_CLOEXEC
+5
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+pipe2
+108
+[-1, -1], O_NONBLOCK|O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+eventfd2
+108
+0, EFD_NONBLOCK|EFD_CLOEXEC
+8
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 8, 0x7ffd20a37e2c
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+9
+SYSCALL
+analyzed_bin
+bind
+108
+9, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+108
+9, 0x7ffd20a378f8, 0x7ffd20a378f4
+0
+SYSCALL
+analyzed_bin
+sendto
+108
+9, "\024\0\0\0\026\0\001\003\315\330\317b\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffd20a37940, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffd20a37940, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffd20a37940, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 libevent: getaddrinfo: ad"..., 85
+85
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Binding RPC on address ::"..., 66
+66
+SYSCALL
+analyzed_bin
+socket
+108
+PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0
+9
+SYSCALL
+analyzed_bin
+connect
+108
+9, {AF_UNIX, "/var/run/nscd/socket"}, 110
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+9
+SYSCALL
+analyzed_bin
+bind
+108
+9, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+108
+9, 0x7ffd20a378f8, 0x7ffd20a378f4
+0
+SYSCALL
+analyzed_bin
+sendto
+108
+9, "\024\0\0\0\026\0\001\003\315\330\317b\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffd20a37940, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffd20a37940, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffd20a37940, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+9
+SYSCALL
+analyzed_bin
+setsockopt
+108
+9, SOL_SOCKET, SO_KEEPALIVE, 0x7ffd20a37f54, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+9, SOL_SOCKET, SO_REUSEADDR, 0x7ffd20a37f34, 4
+0
+SYSCALL
+analyzed_bin
+bind
+108
+9, {AF_INET, 127.0.0.1, 19191}, 16
+0
+SYSCALL
+analyzed_bin
+listen
+108
+9, 128
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 9, 0x7ffd20a37e6c
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 HTTP: creating work queue"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 No rpcpassword set - usin"..., 76
+76
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/root/.combodecore/.cookie"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/.cookie", O_WRONLY|O_CREAT|O_TRUNC, 0666
+10
+SYSCALL
+analyzed_bin
+write
+108
+10, "__cookie__:975fe07eae95750ffc6f543a11bd9ff784"..., 75
+75
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Generated RPC authenticat"..., 83
+83
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 HTTP: starting 4 worker t"..., 52
+52
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f6123363000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6123364000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+111:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6123b62fb0, 0x7f6123b639d0, 0x7f6123b639d0
+111
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f6122b62000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6122b63000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+112:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6123361fb0, 0x7f61233629d0, 0x7f61233629d0
+112
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f6122361000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6122362000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+113:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6122b60fb0, 0x7f6122b619d0, 0x7f6122b619d0
+113
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f6123b639e0, 24
+0
+SYSCALL
+combode-http
+prctl
+108
+PR_SET_NAME, 0x55fcc1c71c7f
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f6121b60000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6121b61000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+114:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f612235ffb0, 0x7f61223609d0, 0x7f61223609d0
+114
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f612135f000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f6121360000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+115:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6121b5efb0, 0x7f6121b5f9d0, 0x7f6121b5f9d0
+115
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f61233629e0, 24
+0
+SYSCALL
+combode-httpwor
+prctl
+108
+PR_SET_NAME, 0x55fcc1c71d28
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f6122b619e0, 24
+0
+SYSCALL
+combode-httpwor
+prctl
+108
+PR_SET_NAME, 0x55fcc1c71d28
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f61223609e0, 24
+0
+SYSCALL
+combode-httpwor
+prctl
+108
+PR_SET_NAME, 0x55fcc1c71d28
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f6121b5f9e0, 24
+0
+SYSCALL
+combode-httpwor
+prctl
+108
+PR_SET_NAME, 0x55fcc1c71d28
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/backups", 0x7ffd20a37d30
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Creating backup folder /r"..., 70
+70
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/backups", 0x7ffd20a37c90
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore", 0x7ffd20a37c90
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore/backups", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/backups/wallet.dat.2022-07-14-08-50", 0x7ffd20a37d30
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/wallet.dat", 0x7ffd20a37d30
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore/backups"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/backups", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+10
+SYSCALL
+analyzed_bin
+fstat
+108
+10, 0x7ffd20a37c40
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+10, 0x55fcc2115c40, 32768
+48
+SYSCALL
+analyzed_bin
+getdents
+108
+10, 0x55fcc2115c40, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 Using wallet wallet.dat\n", 44
+44
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 init message: Verifying w"..., 54
+54
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore/database", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:21 CDBEnv::Open: LogDir=/roo"..., 105
+105
+OPENFILE
+"/root/.combodecore/db.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/db.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+10
+SYSCALL
+analyzed_bin
+lseek
+108
+10, 0, SEEK_END
+0
+OPENFILE
+"/root/.combodecore/DB_CONFIG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/var/tmp", 0x7ffd20a374b0
+0
+OPENFILE
+"/root/.combodecore/__db.001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffd20a37750
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x55fcc2115fb0, 32768
+344
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/.cookie", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/.lock", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/masternode.conf", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/debug.log", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/..", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/combode.conf", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/db.log", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/database", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/backups", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/.", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/comboded.pid", 0x7ffd20a37850
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x55fcc2115fb0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+11
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 6209536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f6120d73000
+OPENFILE
+"/root/.combodecore/database"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/database", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffd20a37680
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2157000
+94544076304384
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x55fcc212e3b0, 32768
+48
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/database/..", 0x7ffd20a37780
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/database/.", 0x7ffd20a37780
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x55fcc212e3b0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+11
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc224f000
+94544077320192
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 5771264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f61207f2000
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2270000
+94544077455360
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2291000
+94544077590528
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc22b2000
+94544077725696
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc22d3000
+94544077860864
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc22f4000
+94544077996032
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2315000
+94544078131200
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2336000
+94544078266368
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2357000
+94544078401536
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2378000
+94544078536704
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2399000
+94544078671872
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc23ba000
+94544078807040
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc23db000
+94544078942208
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc23fc000
+94544079077376
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc241d000
+94544079212544
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc243e000
+94544079347712
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc245f000
+94544079482880
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2480000
+94544079618048
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc24a1000
+94544079753216
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc24c2000
+94544079888384
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc24e3000
+94544080023552
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2504000
+94544080158720
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2525000
+94544080293888
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2546000
+94544080429056
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2567000
+94544080564224
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2588000
+94544080699392
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc25a9000
+94544080834560
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc25ca000
+94544080969728
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc25eb000
+94544081104896
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc260c000
+94544081240064
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc262d000
+94544081375232
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc264e000
+94544081510400
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc266f000
+94544081645568
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2690000
+94544081780736
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc26b1000
+94544081915904
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc26d2000
+94544082051072
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc26f3000
+94544082186240
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2714000
+94544082321408
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2735000
+94544082456576
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2756000
+94544082591744
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2777000
+94544082726912
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2798000
+94544082862080
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc27b9000
+94544082997248
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc27da000
+94544083132416
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc27fb000
+94544083267584
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc281c000
+94544083402752
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc283d000
+94544083537920
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc285e000
+94544083673088
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc287f000
+94544083808256
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc28a0000
+94544083943424
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc28c1000
+94544084078592
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc28e2000
+94544084213760
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2903000
+94544084348928
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2924000
+94544084484096
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2945000
+94544084619264
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2966000
+94544084754432
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2987000
+94544084889600
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc29a8000
+94544085024768
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc29c9000
+94544085159936
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc29ea000
+94544085295104
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2a0b000
+94544085430272
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2a2c000
+94544085565440
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2a4d000
+94544085700608
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2a6e000
+94544085835776
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2a8f000
+94544085970944
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2ab0000
+94544086106112
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2ad1000
+94544086241280
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2af2000
+94544086376448
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2b13000
+94544086511616
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2b34000
+94544086646784
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2b55000
+94544086781952
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2b76000
+94544086917120
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2b97000
+94544087052288
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/wallet.dat", 0x7ffd20a38090
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2bf1000
+94544087420928
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2cc3000
+94544088281088
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fcc2d96000
+94544089145344
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET6, SOCK_STREAM, IPPROTO_TCP
+11
+SYSCALL
+analyzed_bin
+setsockopt
+108
+11, SOL_SOCKET, SO_REUSEADDR, 0x7ffd20a37f0c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+11, SOL_TCP, SO_DEBUG, 0x7ffd20a37f0c, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+11, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+108
+11, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+11, SOL_IPV6, SO_ATTACH_FILTER, 0x7ffd20a37f0c, 4
+0
+SYSCALL
+analyzed_bin
+bind
+108
+11, {AF_INET6, 0000:0000:0000:0000:0000:0000:0000:0000, 19190}, 28
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Bound to [::]:19190\n", 40
+40
+SYSCALL
+analyzed_bin
+listen
+108
+11, 128
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM, IPPROTO_TCP
+12
+SYSCALL
+analyzed_bin
+setsockopt
+108
+12, SOL_SOCKET, SO_REUSEADDR, 0x7ffd20a37f0c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+12, SOL_TCP, SO_DEBUG, 0x7ffd20a37f0c, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+12, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+108
+12, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+bind
+108
+12, {AF_INET, 0.0.0.0, 19190}, 16
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Bound to 0.0.0.0:19190\n", 43
+43
+SYSCALL
+analyzed_bin
+listen
+108
+12, 128
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/blocks", 0x7ffd20a38180
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/blocks", 0x7ffd20a380e0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore", 0x7ffd20a380e0
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore/blocks", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.combodecore/blk0001.dat", 0x7ffd20a38180
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Cache configuration:\n", 41
+41
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 * Using 37.5MiB for block"..., 61
+61
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 * Using 8.0MiB for chain "..., 60
+60
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 * Using 254.5MiB for in-m"..., 106
+106
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 init message: Loading blo"..., 57
+57
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc20daa30, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc20daa40, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore/blocks/index", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Opening LevelDB in /root/"..., 71
+71
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore/blocks/index", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.combodecore/blocks/index/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/LOCK", O_RDWR|O_CREAT, 0644
+13
+SYSCALL
+analyzed_bin
+fcntl
+108
+13, F_SETLK, 0x7ffd20a37b20
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.combodecore/blocks/index/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffd20a377b0
+0
+SYSCALL
+analyzed_bin
+write
+108
+14, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.combodecore/blocks/index/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffd20a37710
+0
+SYSCALL
+analyzed_bin
+write
+108
+14, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+14
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.combodecore/blocks/index/000001.dbtmp", "/root/.combodecore/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.combodecore/blocks/index/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/CURRENT", O_RDONLY
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffd20a37540
+0
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fcc2d7b7e0, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fcc2d7b7f0, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fcc2d7b7e0, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.combodecore/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/MANIFEST-000001", O_RDONLY
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffd20a374c0
+0
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fcc2d7b9a0, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fcc2d7b9c9, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.combodecore/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffd20a37a90
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+14, 0x55fcc2d7bac0, 32768
+144
+SYSCALL
+analyzed_bin
+getdents
+108
+14, 0x55fcc2d7bac0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.combodecore/blocks/index/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+14
+OPENFILE
+"/root/.combodecore/blocks/index/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffd20a375c0
+0
+SYSCALL
+analyzed_bin
+write
+108
+15, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+15, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.combodecore/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index", O_RDONLY
+16
+SYSCALL
+analyzed_bin
+fsync
+108
+16
+0
+SYSCALL
+analyzed_bin
+close
+108
+16
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+15
+0
+OPENFILE
+"/root/.combodecore/blocks/index/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+16
+SYSCALL
+analyzed_bin
+fstat
+108
+16, 0x7ffd20a37760
+0
+SYSCALL
+analyzed_bin
+write
+108
+16, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+16
+0
+SYSCALL
+analyzed_bin
+close
+108
+16
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.combodecore/blocks/index/000002.dbtmp", "/root/.combodecore/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.combodecore/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+16
+SYSCALL
+analyzed_bin
+fstat
+108
+16, 0x7ffd20a37af0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+16, 0x55fcc2d83c10, 32768
+216
+SYSCALL
+analyzed_bin
+getdents
+108
+16, 0x55fcc2d83c10, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+16
+0
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.combodecore/blocks/index/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Opened LevelDB successfully", 48
+48
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Using obfuscation key for"..., 96
+96
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore/chainstate", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Opening LevelDB in /root/"..., 69
+69
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.combodecore/chainstate", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.combodecore/chainstate/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/LOCK", O_RDWR|O_CREAT, 0644
+16
+SYSCALL
+analyzed_bin
+fcntl
+108
+16, F_SETLK, 0x7ffd20a37b70
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.combodecore/chainstate/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+17
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffd20a37800
+0
+SYSCALL
+analyzed_bin
+write
+108
+17, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+OPENFILE
+"/root/.combodecore/chainstate/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+17
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffd20a37760
+0
+SYSCALL
+analyzed_bin
+write
+108
+17, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+17
+0
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.combodecore/chainstate/000001.dbtmp", "/root/.combodecore/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.combodecore/chainstate/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/CURRENT", O_RDONLY
+17
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffd20a37590
+0
+SYSCALL
+analyzed_bin
+read
+108
+17, 0x55fcc2d7f6a0, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+17, 0x55fcc2d7f6b0, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+17, 0x55fcc2d7f6a0, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+OPENFILE
+"/root/.combodecore/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/MANIFEST-000001", O_RDONLY
+17
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffd20a37510
+0
+SYSCALL
+analyzed_bin
+read
+108
+17, 0x55fcc2d83be0, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+17, 0x55fcc2d83c09, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+OPENFILE
+"/root/.combodecore/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+17
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffd20a37ae0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+17, 0x55fcc2d83c10, 32768
+144
+SYSCALL
+analyzed_bin
+getdents
+108
+17, 0x55fcc2d83c10, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+OPENFILE
+"/root/.combodecore/chainstate/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+17
+OPENFILE
+"/root/.combodecore/chainstate/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+18
+SYSCALL
+analyzed_bin
+fstat
+108
+18, 0x7ffd20a37610
+0
+SYSCALL
+analyzed_bin
+write
+108
+18, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+18, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.combodecore/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate", O_RDONLY
+19
+SYSCALL
+analyzed_bin
+fsync
+108
+19
+0
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+18
+0
+OPENFILE
+"/root/.combodecore/chainstate/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffd20a377b0
+0
+SYSCALL
+analyzed_bin
+write
+108
+19, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+19
+0
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.combodecore/chainstate/000002.dbtmp", "/root/.combodecore/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.combodecore/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.combodecore/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffd20a37b40
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+19, 0x55fcc2d83c10, 32768
+216
+SYSCALL
+analyzed_bin
+getdents
+108
+19, 0x55fcc2d83c10, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.combodecore/chainstate/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Opened LevelDB successfully", 48
+48
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffd20a37b40
+0
+SYSCALL
+analyzed_bin
+write
+108
+17, "\256\341+\314'\0\001\001\0\0\0\0\0\0\0\001\0"..., 46
+46
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Wrote new obfuscate key f"..., 96
+96
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Using obfuscation key for"..., 94
+94
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 LoadBlockIndexDB: last bl"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 LoadBlockIndexDB: last bl"..., 138
+138
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Checking all blk files ar"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 LoadBlockIndexDB: transac"..., 64
+64
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 LoadBlockIndexDB: address"..., 61
+61
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 LoadBlockIndexDB: timesta"..., 63
+63
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 LoadBlockIndexDB: spent i"..., 59
+59
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffd20a37ce0
+0
+SYSCALL
+analyzed_bin
+write
+108
+14, "\222\u52CF\031\0\001\001\0\0\0\0\0\0\0\001\0"..., 32
+32
+SYSCALL
+analyzed_bin
+write
+108
+14, "Q\204\222\323\036\0\001\002\0\0\0\0\0\0\0\001\0", 37
+37
+SYSCALL
+analyzed_bin
+write
+108
+14, "Q\247rk \0\001\003\0\0\0\0\0\0\0\001\0\0\0"..., 39
+39
+SYSCALL
+analyzed_bin
+write
+108
+14, "\266\336$*\034\0\001\004\0\0\0\0\0\0\0\001\0"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Initializing databases...\n", 46
+46
+SYSCALL
+analyzed_bin
+statfs
+108
+"/root/.combodecore", 0x7ffd20a37eb0
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 *** Disk space is low!\n", 43
+43
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Error: Error: Disk space "..., 53
+53
+SYSCALL
+analyzed_bin
+write
+108
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 ERROR: InitBlockIndex: Fi"..., 63
+63
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 Shutdown requested. Exiti"..., 49
+49
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 9, 0x7ffd20a3983c
+0
+SYSCALL
+analyzed_bin
+write
+108
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+combode-http
+epoll_wait
+108
+5, 0x55fcc2114ac0, 32, -1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc2114c50, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-http
+futex
+108
+0x55fcc2114c50, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-http
+futex
+108
+0x55fcc2114c50, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+combode-http
+read
+108
+8, 0x7f6123b62d40, 8
+8
+SYSCALL
+combode-http
+madvise
+108
+0x7f6123363000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc2114308, FUTEX_WAKE_PRIVATE, 2147483647
+4
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+combode-http
+exit
+108
+0
+
+SYSCALL
+combode-http
+futex
+108
+0x7f6123b639d0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+mmap2
+108
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f6114000000
+SYSCALL
+combode-httpwor
+munmap
+108
+0x7f6118000000, 67108864
+0
+SYSCALL
+combode-httpwor
+mprotect
+108
+0x7f6114000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+combode-httpwor
+madvise
+108
+0x7f6122b62000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+combode-httpwor
+exit
+108
+0
+
+SYSCALL
+combode-httpwor
+futex
+108
+0x7f61233629d0, FUTEX_WAKE, 1
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+madvise
+108
+0x7f6122361000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+combode-httpwor
+exit
+108
+0
+
+SYSCALL
+combode-httpwor
+futex
+108
+0x7f6122b619d0, FUTEX_WAKE, 1
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-httpwor
+madvise
+108
+0x7f6121b60000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+combode-httpwor
+exit
+108
+0
+
+SYSCALL
+combode-httpwor
+futex
+108
+0x7f61223609d0, FUTEX_WAKE, 1
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-httpwor
+futex
+108
+0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+combode-httpwor
+madvise
+108
+0x7f612135f000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+combode-httpwor
+exit
+108
+0
+
+SYSCALL
+combode-httpwor
+futex
+108
+0x7f6121b5f9d0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffd20a39d00, FUTEX_WAKE_PRIVATE, 2147483647
+1
+SYSCALL
+combode-schedul
+futex
+108
+0x7ffd20a39d00, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffd20a39cb0, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-schedul
+futex
+108
+0x7ffd20a39cb0, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-schedul
+futex
+108
+0x7ffd20a39cb0, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fcc20fd670, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+combode-schedul
+futex
+108
+0x55fcc20fd670, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+combode-schedul
+futex
+108
+0x55fcc20fd670, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+combode-schedul
+write
+108
+4, "2022-07-14 08:50:22 scheduler thread interrupt\n", 47
+47
+SYSCALL
+combode-schedul
+madvise
+108
+0x7f6123b64000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+combode-schedul
+exit
+108
+0
+
+SYSCALL
+combode-schedul
+futex
+108
+0x7f61243649d0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 08:50:22 PrepareShutdown: In progr"..., 52
+52
+SYSCALL
+combode-shutoff
+prctl
+108
+PR_SET_NAME, 0x55fcc1b898bc
+0
+SYSCALL
+combode-shutoff
+munmap
+108
+0x7f6122b62000, 8392704
+0
+SYSCALL
+combode-shutoff
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 8, 0x7ffd20a38d8c
+0
+SYSCALL
+combode-shutoff
+close
+108
+8
+0
+SYSCALL
+combode-shutoff
+close
+108
+6
+0
+SYSCALL
+combode-shutoff
+close
+108
+7
+0
+SYSCALL
+combode-shutoff
+close
+108
+5
+0
+SYSCALL
+combode-shutoff
+close
+108
+11
+0
+SYSCALL
+combode-shutoff
+close
+108
+12
+0
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Verifying mncache.dat for"..., 52
+52
+OPENFILE
+"/root/.combodecore/mncache.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/mncache.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 ERROR: Read: Failed to op"..., 84
+84
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Missing file mncache.dat,"..., 67
+67
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Writing info to mncache.d"..., 51
+51
+OPENFILE
+"/root/.combodecore/mncache.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/mncache.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+5
+SYSCALL
+combode-shutoff
+fstat
+108
+5, 0x7ffd20a38cf0
+0
+SYSCALL
+combode-shutoff
+write
+108
+5, "\024magicMasternodeCache\032+<M\030CMasternod"..., 106
+106
+SYSCALL
+combode-shutoff
+close
+108
+5
+0
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Written info to mncache.d"..., 53
+53
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22      Masternodes: 0, peer"..., 180
+180
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 mncache.dat dump finished"..., 51
+51
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Verifying mnpayments.dat "..., 55
+55
+OPENFILE
+"/root/.combodecore/mnpayments.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/mnpayments.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 ERROR: Read: Failed to op"..., 87
+87
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Missing file mnpayments.d"..., 70
+70
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Writing info to mnpayment"..., 54
+54
+OPENFILE
+"/root/.combodecore/mnpayments.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/mnpayments.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+5
+SYSCALL
+combode-shutoff
+fstat
+108
+5, 0x7ffd20a38b50
+0
+SYSCALL
+combode-shutoff
+write
+108
+5, "\034magicMasternodePaymentsCache\032+<M\0\0d"..., 67
+67
+SYSCALL
+combode-shutoff
+close
+108
+5
+0
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Written info to mnpayment"..., 56
+56
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22      Votes: 0, Blocks: 0\n", 45
+45
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 mnpayments.dat dump finis"..., 54
+54
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Verifying governance.dat "..., 55
+55
+OPENFILE
+"/root/.combodecore/governance.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/governance.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 ERROR: Read: Failed to op"..., 87
+87
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Missing file governance.d"..., 70
+70
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Writing info to governanc"..., 54
+54
+OPENFILE
+"/root/.combodecore/governance.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/governance.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+5
+SYSCALL
+combode-shutoff
+fstat
+108
+5, 0x7ffd20a38cf0
+0
+SYSCALL
+combode-shutoff
+write
+108
+5, "\024magicGovernanceCache\032+<M\035CGovernanc"..., 149
+149
+SYSCALL
+combode-shutoff
+close
+108
+5
+0
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Written info to governanc"..., 56
+56
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22      Governance Objects: "..., 122
+122
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 governance.dat dump finis"..., 54
+54
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Verifying netfulfilled.da"..., 57
+57
+OPENFILE
+"/root/.combodecore/netfulfilled.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/netfulfilled.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 ERROR: Read: Failed to op"..., 89
+89
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Missing file netfulfilled"..., 72
+72
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Writing info to netfulfil"..., 56
+56
+OPENFILE
+"/root/.combodecore/netfulfilled.dat"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/netfulfilled.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+5
+SYSCALL
+combode-shutoff
+fstat
+108
+5, 0x7ffd20a38c00
+0
+SYSCALL
+combode-shutoff
+write
+108
+5, "\023magicFulfilledCache\032+<M\0\311Y(\356"..., 57
+57
+SYSCALL
+combode-shutoff
+close
+108
+5
+0
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Written info to netfulfil"..., 58
+58
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22      Nodes with fulfilled"..., 58
+58
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 netfulfilled.dat dump fin"..., 56
+56
+SYSCALL
+combode-shutoff
+statfs
+108
+"/root/.combodecore", 0x7ffd20a38b70
+0
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 *** Disk space is low!\n", 43
+43
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Error: Error: Disk space "..., 53
+53
+SYSCALL
+combode-shutoff
+write
+108
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+combode-shutoff
+fcntl
+108
+16, F_SETLK, 0x7ffd20a38e60
+0
+SYSCALL
+combode-shutoff
+close
+108
+16
+0
+SYSCALL
+combode-shutoff
+close
+108
+18
+0
+SYSCALL
+combode-shutoff
+close
+108
+17
+0
+SYSCALL
+combode-shutoff
+fcntl
+108
+13, F_SETLK, 0x7ffd20a38e80
+0
+SYSCALL
+combode-shutoff
+close
+108
+13
+0
+SYSCALL
+combode-shutoff
+close
+108
+15
+0
+SYSCALL
+combode-shutoff
+close
+108
+14
+0
+SYSCALL
+combode-shutoff
+lstat
+108
+"/root/.combodecore/comboded.pid", 0x7ffd20a38eb0
+0
+SYSCALL
+combode-shutoff
+unlink
+108
+"/root/.combodecore/comboded.pid"
+0
+SYSCALL
+combode-shutoff
+munmap
+108
+0x7f61253f7000, 1052672
+0
+SYSCALL
+combode-shutoff
+write
+108
+4, "2022-07-14 08:50:22 Shutdown: done\n", 35
+35
+SYSCALL
+combode-shutoff
+munmap
+108
+0x7f6122361000, 8392704
+0
+SYSCALL
+combode-shutoff
+close
+108
+3
+0
+OPENFILE
+"/root/.combodecore/database/log.0000000001"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/database/log.0000000001", O_RDWR|O_CREAT, 0600
+3
+SYSCALL
+combode-shutoff
+fcntl
+108
+3, F_GETFD, 0x42
+0
+SYSCALL
+combode-shutoff
+fcntl
+108
+3, F_SETFD, 0x1
+0
+SYSCALL
+combode-shutoff
+read
+108
+3, 0x55fcc2d7f540, 28
+0
+SYSCALL
+combode-shutoff
+lseek
+108
+3, 1040384, SEEK_SET
+1040384
+SYSCALL
+combode-shutoff
+write
+108
+3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 8192
+8192
+SYSCALL
+combode-shutoff
+pwrite
+108
+3, "\0\0\0\0\034\0\0\0\351AH[\210\t\004\0\020\0\0\0", 28, 0
+28
+SYSCALL
+combode-shutoff
+fdatasync
+108
+3
+0
+SYSCALL
+combode-shutoff
+close
+108
+3
+0
+SYSCALL
+combode-shutoff
+munmap
+108
+0x7f61207f2000, 5771264
+0
+SYSCALL
+combode-shutoff
+munmap
+108
+0x7f6120d73000, 6209536
+0
+SYSCALL
+combode-shutoff
+getpid
+108
+
+108
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+combode-shutoff
+read
+108
+3, 0x7ffd20a37c00, 8192
+2
+SYSCALL
+combode-shutoff
+close
+108
+3
+0
+OPENFILE
+"/root/.combodecore/DB_CONFIG"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+combode-shutoff
+stat
+108
+"/var/tmp", 0x7ffd20a393c0
+0
+OPENFILE
+"/root/.combodecore/__db.001"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore/__db.001"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.combodecore"
+SYSCALL
+combode-shutoff
+openat
+108
+AT_FDCWD, "/root/.combodecore", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+3
+SYSCALL
+combode-shutoff
+fstat
+108
+3, 0x7ffd20a39660
+0
+SYSCALL
+combode-shutoff
+getdents
+108
+3, 0x55fcc2b548f0, 32768
+528
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/blocks", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/.cookie", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/.lock", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/netfulfilled.dat", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/masternode.conf", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/debug.log", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/..", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/combode.conf", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/db.log", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/mncache.dat", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/database", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/chainstate", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/governance.dat", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/backups", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/.", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+stat
+108
+"/root/.combodecore/mnpayments.dat", 0x7ffd20a39760
+0
+SYSCALL
+combode-shutoff
+getdents
+108
+3, 0x55fcc2b548f0, 32768
+0
+SYSCALL
+combode-shutoff
+close
+108
+3
+0
+SYSCALL
+combode-shutoff
+munlock
+108
+0x55fcc20d8000, 4096
+0
+SYSCALL
+combode-shutoff
+exit_group
+108
+1
+

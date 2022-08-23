@@ -1,0 +1,71 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 6645016
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x656650
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/analyzed_bin"
+0
+SYSCALL
+postgres: logic
+prctl
+108
+PR_SET_NAME, 0x7ffdf5ae1369
+0
+SYSCALL
+postgres: logic
+close
+108
+0
+0
+SYSCALL
+postgres: logic
+close
+108
+1
+0
+SYSCALL
+postgres: logic
+close
+108
+2
+0
+OPENFILE
+"/tmp/.X11-unix/22"
+SYSCALL
+postgres: logic
+open
+108
+"/tmp/.X11-unix/22", O_RDWR|O_CREAT|O_LARGEFILE, 0600
+-2 (ENOENT)
+SYSCALL
+postgres: logic
+exit_group
+108
+1
+

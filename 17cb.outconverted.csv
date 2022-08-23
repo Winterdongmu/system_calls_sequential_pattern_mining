@@ -1,0 +1,328 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 7369360",0
+1,analyzed_bin,set_tid_address,108,0x707510,108
+2,analyzed_bin,brk,108,0x0,7372800
+3,analyzed_bin,brk,108,0x709000,7376896
+4,analyzed_bin,open,108,"""/etc/localtime"", O_RDONLY|O_NONBLOCK|O_CLOEXEC",3
+5,analyzed_bin,fstat,108,"3, 0x7ffc2ee87de0",0
+6,analyzed_bin,mmap2,108,"0x0, 127, PROT_READ, MAP_SHARED, 3, 0",0x7f1930452000
+7,analyzed_bin,close,108,3,0
+8,analyzed_bin,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+9,analyzed_bin,rt_sigaction,108,"SIGSEGV, {0x41b8b0, SA_RESTART|SA_RESTORER, 0x5f4336, [EMPTY]}, 0x7ffc2ee87e70, 8",0
+10,analyzed_bin,rt_sigprocmask,108,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc2ee87e40, 8",0
+11,analyzed_bin,rt_sigaction,108,"SIGABRT, {0x41b8b0, SA_RESTART|SA_RESTORER, 0x5f4336, [EMPTY]}, 0x7ffc2ee87e70, 8",0
+12,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+13,analyzed_bin,getcwd,108,"0x7ffc2ee88170, 4096",6
+14,analyzed_bin,brk,108,0x70a000,7380992
+15,analyzed_bin,brk,108,0x70b000,7385088
+16,analyzed_bin,brk,108,0x70c000,7389184
+17,analyzed_bin,brk,108,0x70d000,7393280
+18,analyzed_bin,access,108,"""/bin/sh"", X_OK",0
+19,analyzed_bin,brk,108,0x70e000,7397376
+20,analyzed_bin,brk,108,0x70f000,7401472
+21,analyzed_bin,getuid,108,,0
+22,analyzed_bin,mkdir,108,"""/tmp//tmate-0"", 0700",0
+23,analyzed_bin,lstat,108,"""/tmp//tmate-0"", 0x7ffc2ee880e0",0
+24,analyzed_bin,open,108,"""/tmp//tmate-0"", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_PATH",3
+25,analyzed_bin,readlink,108,"""/proc/self/fd/3"", 0x7ffc2ee86fd0, 4095",12
+26,analyzed_bin,fstat,108,"3, 0x7ffc2ee86eb0",0
+27,analyzed_bin,stat,108,"""/tmp/tmate-0"", 0x7ffc2ee86f40",0
+28,analyzed_bin,close,108,3,0
+29,analyzed_bin,stat,108,"""/tmp/tmate-0/adKBMH"", 0x7ffc2ee87f40",-2 (ENOENT)
+30,analyzed_bin,brk,108,0x710000,7405568
+31,analyzed_bin,epoll_create1,108,EPOLL_CLOEXEC,3
+32,analyzed_bin,pipe2,108,"[-1, -1], O_NONBLOCK|O_CLOEXEC",0
+33,analyzed_bin,rt_sigaction,108,"SIGCHLD, {SIG_IGN}, 0x7ffc2ee87e70, 8",0
+34,analyzed_bin,uname,108,0x7ffc2ee87e40,0
+35,analyzed_bin,getpid,108,,108
+36,analyzed_bin,rt_sigaction,108,"SIGPIPE, {SIG_IGN}, 0x0, 8",0
+37,analyzed_bin,rt_sigaction,108,"SIGUSR2, {SIG_IGN}, 0x0, 8",0
+38,analyzed_bin,rt_sigaction,108,"SIGINT, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+39,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 4, 0x7ffc2ee87b5c",0
+40,analyzed_bin,rt_sigaction,108,"SIGHUP, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+41,analyzed_bin,rt_sigaction,108,"SIGCHLD, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+42,analyzed_bin,rt_sigaction,108,"SIGCONT, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+43,analyzed_bin,rt_sigaction,108,"SIGTERM, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+44,analyzed_bin,rt_sigaction,108,"SIGUSR1, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+45,analyzed_bin,rt_sigaction,108,"SIGWINCH, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+46,analyzed_bin,socket,108,"PF_LOCAL, SOCK_STREAM, 0",6
+47,analyzed_bin,connect,108,"6, {AF_UNIX, ""/tmp/tmate-0/adKBMH""}, 110",-2 (ENOENT)
+48,analyzed_bin,close,108,6,0
+49,analyzed_bin,open,108,"""/tmp/tmate-0/adKBMH.lock"", O_WRONLY|O_CREAT, 0600",6
+50,analyzed_bin,flock,108,"6, LOCK_EX|LOCK_NB",0
+51,analyzed_bin,socket,108,"PF_LOCAL, SOCK_STREAM, 0",7
+52,analyzed_bin,connect,108,"7, {AF_UNIX, ""/tmp/tmate-0/adKBMH""}, 110",-2 (ENOENT)
+53,analyzed_bin,close,108,7,0
+54,analyzed_bin,unlink,108,"""/tmp/tmate-0/adKBMH""",-2 (ENOENT)
+55,analyzed_bin,socketpair,108,"PF_LOCAL, SOCK_STREAM, 0, 0x7ffc2ee88058",0
+56,analyzed_bin,rt_sigprocmask,108,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc2ee87cf0, 8",0
+57,analyzed_bin,fork,108,,110
+58,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+59,analyzed_bin,close,108,8,0
+60,analyzed_bin,close,108,6,0
+61,analyzed_bin,fcntl,108,"7, F_GETFL, 0x0",2
+62,analyzed_bin,fcntl,108,"7, F_SETFL, 0x802",0
+63,analyzed_bin,brk,108,0x721000,7475200
+64,analyzed_bin,getpid,108,,108
+65,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e6c",0
+66,analyzed_bin,getcwd,108,"0x7ffc2ee89170, 4096",6
+67,analyzed_bin,ioctl,108,"0, 21523, 0x7ffc2ee87e68",-25 (ENOTTY)
+68,analyzed_bin,gettid,110,,110
+69,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+70,analyzed_bin,open,110,"0x67bbc0, O_RDWR",9
+71,analyzed_bin,dup2,110,"9, 0",0
+72,analyzed_bin,dup2,110,"9, 1",1
+73,analyzed_bin,dup2,110,"9, 2",2
+74,analyzed_bin,close,110,9,0
+75,analyzed_bin,fcntl,108,"0, F_GETFL, 0x4000000000000",32768
+76,analyzed_bin,fcntl,108,"0, F_SETFL, 0x8800",0
+77,analyzed_bin,rt_sigprocmask,110,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc2ee87cd0, 8",0
+78,analyzed_bin,fork,110,,111
+79,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+80,analyzed_bin,gettid,111,,111
+81,analyzed_bin,rt_sigprocmask,111,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+82,analyzed_bin,setsid,111,,111
+83,analyzed_bin,rt_sigprocmask,111,"SIG_BLOCK, 0x67ca30, 0x7ffc2ee87cd0, 8",0
+84,analyzed_bin,fork,111,,112
+85,analyzed_bin,rt_sigprocmask,111,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+86,analyzed_bin,exit_group,111,0,
+87,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+88,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+89,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+90,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+91,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+92,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+93,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+94,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+95,analyzed_bin,dup,108,0,6
+96,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+97,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+98,analyzed_bin,write,110,"5, ""\021"", 1",1
+99,analyzed_bin,rt_sigreturn,110,,0
+100,analyzed_bin,exit_group,110,0,
+101,analyzed_bin,gettid,112,,112
+102,analyzed_bin,rt_sigprocmask,112,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+103,analyzed_bin,rt_sigaction,112,"SIGPIPE, {SIG_DFL}, 0x0, 8",0
+104,analyzed_bin,rt_sigaction,112,"SIGUSR2, {SIG_DFL}, 0x0, 8",0
+105,analyzed_bin,rt_sigaction,112,"SIGINT, {SIG_IGN}, 0x0, 8",0
+106,analyzed_bin,rt_sigaction,112,"SIGHUP, {SIG_DFL}, 0x0, 8",0
+107,analyzed_bin,rt_sigaction,112,"SIGCHLD, {SIG_IGN}, 0x0, 8",0
+108,analyzed_bin,rt_sigaction,112,"SIGCONT, {SIG_DFL}, 0x0, 8",0
+109,analyzed_bin,rt_sigaction,112,"SIGTERM, {SIG_DFL}, 0x0, 8",0
+110,analyzed_bin,rt_sigaction,112,"SIGUSR1, {SIG_DFL}, 0x0, 8",0
+111,analyzed_bin,rt_sigaction,112,"SIGWINCH, {SIG_DFL}, 0x0, 8",0
+112,analyzed_bin,close,112,4,0
+113,analyzed_bin,close,112,5,0
+114,analyzed_bin,write,108,"5, ""\021"", 1",1
+115,analyzed_bin,rt_sigreturn,108,,0
+116,analyzed_bin,getpid,108,,108
+117,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+118,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+119,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+120,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+121,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+122,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+123,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+124,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+125,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+126,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+127,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+128,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+129,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+130,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+131,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+132,analyzed_bin,close,112,4,-9 (EBADF)
+133,analyzed_bin,close,112,5,-9 (EBADF)
+134,analyzed_bin,close,112,3,0
+135,analyzed_bin,epoll_create1,112,EPOLL_CLOEXEC,3
+136,analyzed_bin,pipe2,112,"[-1, -1], O_NONBLOCK|O_CLOEXEC",0
+137,analyzed_bin,uname,112,0x7ffc2ee87e40,0
+138,analyzed_bin,getpid,112,,112
+139,analyzed_bin,rt_sigaction,112,"SIGPIPE, {SIG_IGN}, 0x0, 8",0
+140,analyzed_bin,rt_sigaction,112,"SIGUSR2, {SIG_IGN}, 0x0, 8",0
+141,analyzed_bin,rt_sigaction,112,"SIGINT, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+142,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 4, 0x7ffc2ee87b5c",0
+143,analyzed_bin,rt_sigaction,112,"SIGHUP, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+144,analyzed_bin,rt_sigaction,112,"SIGCHLD, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+145,analyzed_bin,rt_sigaction,112,"SIGCONT, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+146,analyzed_bin,rt_sigaction,112,"SIGTERM, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+147,analyzed_bin,rt_sigaction,112,"SIGUSR1, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+148,analyzed_bin,rt_sigaction,112,"SIGWINCH, {0x4ad3fb, SA_RESTART|SA_RESTORER, 0x5f4336, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x7ffc2ee87b80, 8",0
+149,analyzed_bin,close,112,7,0
+150,analyzed_bin,brk,112,0x711000,7409664
+151,analyzed_bin,brk,112,0x712000,7413760
+152,analyzed_bin,brk,112,0x713000,7417856
+153,analyzed_bin,brk,112,0x714000,7421952
+154,analyzed_bin,brk,112,0x715000,7426048
+155,analyzed_bin,brk,112,0x716000,7430144
+156,analyzed_bin,brk,112,0x717000,7434240
+157,analyzed_bin,brk,112,0x718000,7438336
+158,analyzed_bin,brk,112,0x71a000,7446528
+159,analyzed_bin,brk,112,0x71b000,7450624
+160,analyzed_bin,brk,112,0x71c000,7454720
+161,analyzed_bin,brk,112,0x71d000,7458816
+162,analyzed_bin,brk,112,0x71e000,7462912
+163,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+164,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+165,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+166,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+167,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+168,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+169,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+170,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+171,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+172,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+173,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+174,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+175,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+176,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+177,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+178,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87e5c",0
+179,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e2c",0
+180,analyzed_bin,epoll_pwait,108,"3, 0x70f1e0, 32, -1, 0x0, 8",2
+181,analyzed_bin,read,108,"4, 0x700e20, 1024",2
+182,analyzed_bin,read,108,"4, 0x700e20, 1024",-11 (EAGAIN)
+183,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87dfc",0
+184,analyzed_bin,sendmsg,108,"7, 0x7ffc2ee83918, 0x0",97
+185,analyzed_bin,close,108,6,0
+186,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87cbc",0
+187,analyzed_bin,wait4,108,"-1, 0x7ffc2ee87e3c, WNOHANG, 0x0",110
+188,analyzed_bin,wait4,108,"-1, 0x7ffc2ee87e3c, WNOHANG, 0x0",-10 (ECHILD)
+189,analyzed_bin,epoll_pwait,108,"3, 0x70f1e0, 32, -1, 0x0, 8",1
+190,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87dfc",0
+191,analyzed_bin,sendmsg,108,"7, 0x7ffc2ee83918, 0x0",456
+192,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87cbc",0
+193,analyzed_bin,brk,112,0x71f000,7467008
+194,analyzed_bin,brk,112,0x720000,7471104
+195,analyzed_bin,brk,112,0x721000,7475200
+196,analyzed_bin,brk,112,0x722000,7479296
+197,analyzed_bin,brk,112,0x723000,7483392
+198,analyzed_bin,brk,112,0x724000,7487488
+199,analyzed_bin,brk,112,0x725000,7491584
+200,analyzed_bin,brk,112,0x727000,7499776
+201,analyzed_bin,unlink,112,"""/tmp/tmate-0/adKBMH""",-2 (ENOENT)
+202,analyzed_bin,socket,112,"PF_LOCAL, SOCK_STREAM, 0",7
+203,analyzed_bin,umask,112,0117,022
+204,analyzed_bin,bind,112,"7, {AF_UNIX, ""/tmp/tmate-0/adKBMH""}, 110",0
+205,analyzed_bin,umask,112,022,0117
+206,analyzed_bin,listen,112,"7, 16",0
+207,analyzed_bin,fcntl,112,"7, F_GETFL, 0x4f",2
+208,analyzed_bin,fcntl,112,"7, F_SETFL, 0x802",0
+209,analyzed_bin,stat,112,"""/tmp/tmate-0/adKBMH"", 0x7ffc2ee87f50",0
+210,analyzed_bin,chmod,112,"""/tmp/tmate-0/adKBMH"", 0140660",0
+211,analyzed_bin,fcntl,112,"8, F_GETFL, 0x0",2
+212,analyzed_bin,fcntl,112,"8, F_SETFL, 0x802",0
+213,analyzed_bin,brk,112,0x738000,7569408
+214,analyzed_bin,getpid,112,,112
+215,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 8, 0x7ffc2ee87e4c",0
+216,analyzed_bin,unlink,112,"""/tmp/tmate-0/adKBMH.lock""",0
+217,analyzed_bin,close,112,6,0
+218,analyzed_bin,access,112,"""/etc/tmux.conf"", R_OK",-2 (ENOENT)
+219,analyzed_bin,access,112,"""/root/.tmate.conf"", R_OK",-2 (ENOENT)
+220,analyzed_bin,uname,112,0x7ffc2ee87d20,0
+221,analyzed_bin,open,112,"""/dev/srandom"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+222,analyzed_bin,open,112,"""/dev/srandom"", O_RDONLY",-2 (ENOENT)
+223,analyzed_bin,open,112,"""/dev/urandom"", O_RDONLY|O_CLOEXEC",6
+224,analyzed_bin,fcntl,112,"6, F_SETFD, 0x1",0
+225,analyzed_bin,read,112,"6, 0x7ffc2ee87cd8, 32",32
+226,analyzed_bin,close,112,6,0
+227,analyzed_bin,open,112,"""/proc/sys/kernel/random/uuid"", O_RDONLY|O_CLOEXEC",6
+228,analyzed_bin,fcntl,112,"6, F_SETFD, 0x1",0
+229,analyzed_bin,read,112,"6, 0x7ffc2ee87d78, 128",37
+230,analyzed_bin,close,112,6,0
+231,analyzed_bin,open,112,"""/proc/sys/kernel/random/uuid"", O_RDONLY|O_CLOEXEC",6
+232,analyzed_bin,fcntl,112,"6, F_SETFD, 0x1",0
+233,analyzed_bin,read,112,"6, 0x7ffc2ee87d78, 128",37
+234,analyzed_bin,close,112,6,0
+235,analyzed_bin,open,112,"""/etc/hosts"", O_RDONLY|O_CLOEXEC",6
+236,analyzed_bin,fcntl,112,"6, F_SETFD, 0x1",0
+237,analyzed_bin,fstat,112,"6, 0x7ffc2ee87c98",0
+238,analyzed_bin,read,112,"6, 0x736480, 42",42
+239,analyzed_bin,close,112,6,0
+240,analyzed_bin,open,112,"""/etc/resolv.conf"", O_RDONLY|O_CLOEXEC",6
+241,analyzed_bin,fcntl,112,"6, F_SETFD, 0x1",0
+242,analyzed_bin,fstat,112,"6, 0x7ffc2ee87d18",0
+243,analyzed_bin,read,112,"6, 0x736480, 27",27
+244,analyzed_bin,close,112,6,0
+245,analyzed_bin,socket,112,"PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",6
+246,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 6, 0x7ffc2ee87acc",0
+247,analyzed_bin,uname,112,0x7ffc2ee87b1a,0
+248,analyzed_bin,socket,112,"PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0",9
+249,analyzed_bin,sendto,112,"9, ""\024\0\0\0\022\0\001\003\001\0\0\0\0\0\0\0\0\0\0"", 20, 0x0, NULL, 0",20
+250,analyzed_bin,recvfrom,112,"9, 0x7ffc2ee85a60, 8192, MSG_DONTWAIT, 0x0, 0x0",2584
+251,analyzed_bin,recvfrom,112,"9, 0x7ffc2ee85a60, 8192, MSG_DONTWAIT, 0x0, 0x0",1412
+252,analyzed_bin,recvfrom,112,"9, 0x7ffc2ee85a60, 8192, MSG_DONTWAIT, 0x0, 0x0",20
+253,analyzed_bin,sendto,112,"9, ""\024\0\0\0\026\0\001\003\002\0\0\0\0\0\0\0\0\0\0"", 20, 0x0, NULL, 0",20
+254,analyzed_bin,recvfrom,112,"9, 0x7ffc2ee85a60, 8192, MSG_DONTWAIT, 0x0, 0x0",164
+255,analyzed_bin,recvfrom,112,"9, 0x7ffc2ee85a60, 8192, MSG_DONTWAIT, 0x0, 0x0",72
+256,analyzed_bin,recvfrom,112,"9, 0x7ffc2ee85a60, 8192, MSG_DONTWAIT, 0x0, 0x0",20
+257,analyzed_bin,close,112,9,0
+258,analyzed_bin,getpid,112,,112
+259,analyzed_bin,open,112,"""/dev/srandom"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+260,analyzed_bin,open,112,"""/dev/srandom"", O_RDONLY",-2 (ENOENT)
+261,analyzed_bin,open,112,"""/dev/urandom"", O_RDONLY|O_CLOEXEC",9
+262,analyzed_bin,fcntl,112,"9, F_SETFD, 0x1",0
+263,analyzed_bin,read,112,"9, 0x7ffc2ee879b8, 32",32
+264,analyzed_bin,close,112,9,0
+265,analyzed_bin,open,112,"""/proc/sys/kernel/random/uuid"", O_RDONLY|O_CLOEXEC",9
+266,analyzed_bin,fcntl,112,"9, F_SETFD, 0x1",0
+267,analyzed_bin,read,112,"9, 0x7ffc2ee87a58, 128",37
+268,analyzed_bin,close,112,9,0
+269,analyzed_bin,open,112,"""/proc/sys/kernel/random/uuid"", O_RDONLY|O_CLOEXEC",9
+270,analyzed_bin,fcntl,112,"9, F_SETFD, 0x1",0
+271,analyzed_bin,read,112,"9, 0x7ffc2ee87a58, 128",37
+272,analyzed_bin,close,112,9,0
+273,analyzed_bin,getpid,112,,112
+274,analyzed_bin,sendto,112,"6, ""\357\251\001\0\0\001\0\0\0\0\0\0\003ssh\005Tm""..., 30, 0x0, {AF_INET, 10.0.2.3, 53}, 16",30
+275,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87e6c",0
+276,analyzed_bin,epoll_pwait,112,"3, 0x70f1a0, 32, 0, 0x0, 8",1
+277,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_DEL, 8, 0x7ffc2ee87dfc",0
+278,analyzed_bin,socket,112,"PF_INET, SOCK_DGRAM, IPPROTO_IP",9
+279,analyzed_bin,socket,112,"PF_INET, SOCK_DGRAM, IPPROTO_IP",10
+280,analyzed_bin,close,112,9,0
+281,analyzed_bin,close,112,10,0
+282,analyzed_bin,recvmsg,112,"8, 0x7ffc2ee87dd8, 0x0",97
+283,analyzed_bin,access,112,"""/root"", X_OK",0
+284,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 8, 0x7ffc2ee87cbc",0
+285,analyzed_bin,epoll_pwait,112,"3, 0x70f1a0, 32, 5000, 0x0, 8",1
+286,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_DEL, 8, 0x7ffc2ee87dfc",0
+287,analyzed_bin,socket,112,"PF_INET, SOCK_DGRAM, IPPROTO_IP",10
+288,analyzed_bin,socket,112,"PF_INET, SOCK_DGRAM, IPPROTO_IP",11
+289,analyzed_bin,close,112,10,0
+290,analyzed_bin,close,112,11,0
+291,analyzed_bin,recvmsg,112,"8, 0x7ffc2ee87dd8, 0x0",456
+292,analyzed_bin,ioctl,112,"9, 21523, 0x7ffc2ee87988",-25 (ENOTTY)
+293,analyzed_bin,close,112,9,0
+294,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 8, 0x7ffc2ee86fbc",0
+295,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_DEL, 8, 0x7ffc2ee87cec",0
+296,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 8, 0x7ffc2ee87cbc",0
+297,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_DEL, 8, 0x7ffc2ee87d3c",0
+298,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 8, 0x7ffc2ee87d0c",0
+299,analyzed_bin,epoll_pwait,112,"3, 0x70f1a0, 32, 4976, 0x0, 8",1
+300,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_DEL, 8, 0x7ffc2ee87dfc",0
+301,analyzed_bin,sendmsg,112,"8, 0x7ffc2ee83918, 0x0",1068
+302,analyzed_bin,epoll_pwait,108,"3, 0x70f1e0, 32, -1, 0x0, 8",1
+303,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee87dfc",0
+304,analyzed_bin,socket,108,"PF_INET, SOCK_DGRAM, IPPROTO_IP",6
+305,analyzed_bin,socket,108,"PF_INET, SOCK_DGRAM, IPPROTO_IP",8
+306,analyzed_bin,close,108,6,0
+307,analyzed_bin,close,108,8,0
+308,analyzed_bin,recvmsg,108,"7, 0x7ffc2ee87dd8, 0x0",1068
+309,analyzed_bin,write,108,"2, ""open terminal failed: not a terminal\n"", 37",37
+310,analyzed_bin,epoll_ctl,108,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee87cbc",0
+311,analyzed_bin,fcntl,108,"0, F_GETFL, 0x70f3e0",34816
+312,analyzed_bin,fcntl,108,"0, F_SETFL, 0x8000",0
+313,analyzed_bin,exit_group,108,1,
+314,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 8, 0x7ffc2ee87cbc",0
+315,analyzed_bin,epoll_pwait,112,"3, 0x70f1a0, 32, 4968, 0x0, 8",1
+316,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_DEL, 8, 0x7ffc2ee87dfc",0
+317,analyzed_bin,socket,112,"PF_INET, SOCK_DGRAM, IPPROTO_IP",9
+318,analyzed_bin,socket,112,"PF_INET, SOCK_DGRAM, IPPROTO_IP",10
+319,analyzed_bin,close,112,9,0
+320,analyzed_bin,close,112,10,0
+321,analyzed_bin,recvmsg,112,"8, 0x7ffc2ee87dd8, 0x0",0
+322,analyzed_bin,close,112,8,0
+323,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_DEL, 7, 0x7ffc2ee8782c",0
+324,analyzed_bin,epoll_ctl,112,"3, EPOLL_CTL_ADD, 7, 0x7ffc2ee877dc",0
+325,analyzed_bin,unlink,112,"""/tmp/tmate-0/adKBMH""",0
+326,analyzed_bin,exit_group,112,0,

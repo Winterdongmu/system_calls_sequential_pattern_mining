@@ -1,0 +1,589 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0xa00000, 5230300, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, 0, 0
+0xa00000
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0x7ffe407bd634, 4096
+18
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x400000, 5222400, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x400000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x400000, 3023468, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x400000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x400000, 3023468, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x8e2000, 47536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 3022848
+0x8e2000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x8e2000, 47536, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x8ee000, 50992, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x8ee000
+SYSCALL
+analyzed_bin
+munmap
+108
+0xa01000, 5226204
+0
+SYSCALL
+analyzed_bin
+uname
+108
+0x7ffe407bd1e0
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+9416704
+SYSCALL
+analyzed_bin
+brk
+108
+0x8fc2c0
+9421504
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 9419136
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x8fbc50
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x8fbc60, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x4a10f0, SA_SIGINFO|SA_RESTORER, 0x4a06a0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x4a1180, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x4a06a0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+getrlimit
+108
+RLIMIT_STACK, 0x7ffe407bd2d0
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0x7ffe407bc310, 4096
+18
+SYSCALL
+analyzed_bin
+brk
+108
+0x91d2c0
+9556672
+SYSCALL
+analyzed_bin
+brk
+108
+0x91e000
+9560064
+SYSCALL
+analyzed_bin
+futex
+108
+0x8f4dac, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8f4db8, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/etc/resolv.conf"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/resolv.conf", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe407ba740
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f832ba6e000
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 4096
+27
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 4096
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f832ba6e000, 4096
+0
+SYSCALL
+analyzed_bin
+uname
+108
+0x7ffe407ba6f0
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0
+3
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_UNIX, "/var/run/nscd/socket"}, 110
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0
+3
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_UNIX, "/var/run/nscd/socket"}, 110
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/etc/nsswitch.conf"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe407bc7e0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f832ba6e000
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 1024
+230
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 1024
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f832ba6e000, 4096
+0
+OPENFILE
+"/etc/host.conf"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/host.conf", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+futex
+108
+0x8f84ac, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/etc/hosts"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/hosts", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe407bc6b0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f832ba6e000
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 1024
+42
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 1024
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f832ba6e000, 4096
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP
+3
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_INET, 10.0.2.3, 53}, 16
+0
+SYSCALL
+analyzed_bin
+gettimeofday
+108
+0x7ffe407bb300, 0x0
+0
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffe407bb410, 1, 0
+1
+SYSCALL
+analyzed_bin
+sendto
+108
+3, "\u01BA\001\0\0\001\0\0\0\0\0\0\005sugar\fcpum"..., 40, MSG_NOSIGNAL, NULL, 0
+40
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffe407bb410, 1, 5000
+1
+SYSCALL
+analyzed_bin
+ioctl
+108
+3, 21531, 0x7ffe407bb40c
+0
+SYSCALL
+analyzed_bin
+recvfrom
+108
+3, 0x7ffe407bc100, 1024, 0x0, 0x7ffe407bb4d0, 0x7ffe407bb450
+56
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM, IPPROTO_IP
+3
+SYSCALL
+analyzed_bin
+setsockopt
+108
+3, SOL_SOCKET, SO_SNDTIMEO, 0x7ffe407bd130, 16
+0
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_INET, 107.174.85.135, 3333}, 16
+-115 (EINPROGRESS)
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_BLOCK, [SIGCHLD], 0x7ffe407bcfe0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGCHLD, {NULL}, 0x7ffe407bcea0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[2.000000000], 0x7ffe407bcf50
+0
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_INET, 107.174.85.135, 3333}, 16
+-114 (EALREADY)
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_BLOCK, [SIGCHLD], 0x7ffe407bcfe0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGCHLD, {NULL}, 0x7ffe407bcea0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[2.000000000], 0x7ffe407bcf50
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/etc/hosts"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/hosts", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe407bc6b0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f832ba6e000
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 1024
+42
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7f832ba6e000, 1024
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f832ba6e000, 4096
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_DGRAM|SOCK_NONBLOCK, IPPROTO_IP
+3
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_INET, 10.0.2.3, 53}, 16
+0
+SYSCALL
+analyzed_bin
+gettimeofday
+108
+0x7ffe407bb300, 0x0
+0
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffe407bb410, 1, 0
+1
+SYSCALL
+analyzed_bin
+sendto
+108
+3, "\200\243\001\0\0\001\0\0\0\0\0\0\005sugar\fcp"..., 40, MSG_NOSIGNAL, NULL, 0
+40
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffe407bb410, 1, 5000
+1
+SYSCALL
+analyzed_bin
+ioctl
+108
+3, 21531, 0x7ffe407bb40c
+0
+SYSCALL
+analyzed_bin
+recvfrom
+108
+3, 0x7ffe407bc100, 1024, 0x0, 0x7ffe407bb4d0, 0x7ffe407bb450
+56
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM, IPPROTO_IP
+3
+SYSCALL
+analyzed_bin
+setsockopt
+108
+3, SOL_SOCKET, SO_SNDTIMEO, 0x7ffe407bd130, 16
+0
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_INET, 107.174.85.135, 4444}, 16
+-4 (EINTR)

@@ -1,0 +1,2457 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+9216000
+SYSCALL
+analyzed_bin
+access
+108
+"/etc/ld.so.preload", R_OK
+-2 (ENOENT)
+OPENFILE
+"/etc/ld.so.cache"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64/x86_64", 0x7ffe0a451030
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffe0a451030
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffe0a451030
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls", 0x7ffe0a451030
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64/x86_64", 0x7ffe0a451030
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffe0a451030
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffe0a451030
+-2 (ENOENT)
+OPENFILE
+"/lib64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a451198, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe0a451030
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7ff054590000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7ff05414d000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff054167000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7ff054366000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400
+0x7ff054366000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7ff054368000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7ff054368000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/librt.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a451168, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe0a451000
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7ff053f45000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff053f4c000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7ff05414b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576
+0x7ff05414b000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libm.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a451138, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe0a450fd0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7ff053bc8000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff053d44000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7ff053f43000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384
+0x7ff053f43000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libc.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a451108, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe0a450fa0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7ff053813000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff0539bf000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7ff053bbe000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992
+0x7ff053bbe000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7ff053bc4000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7ff053bc4000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7ff05458e000
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 140670183992192
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff053bbe000, 16384, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff053f43000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff054366000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff05414b000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x8b8000, 28672, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7ff054592000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7ff05458ee50
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7ff05458ee60, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x7ff0541532e0, SA_SIGINFO|SA_RESTORER, 0x7ff05415efe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x7ff054153380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7ff05415efe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_STACK, NULL, 0x7ffe0a451d50
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+9216000
+SYSCALL
+analyzed_bin
+brk
+108
+0x8eb000
+9351168
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a44ed70, 8192
+2
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0x8dd1f0, 519
+18
+SYSCALL
+analyzed_bin
+futex
+108
+0x8c922c, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8c9238, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/root/config.json"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/config.json", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe0a451900
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe0a451740
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x8dd650, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+108
+3, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x8dd650, 1024
+71
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+1, 0x7ffe0a4518d0
+0
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:23:36.965] unable to open \"/r"..., 62
+62
+SYSCALL
+analyzed_bin
+brk
+108
+0x90f000
+9498624
+SYSCALL
+analyzed_bin
+socket
+108
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+3
+SYSCALL
+analyzed_bin
+bind
+108
+3, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+108
+3, 0x7ffe0a4519b4, 0x7ffe0a4519b0
+0
+SYSCALL
+analyzed_bin
+sendto
+108
+3, "\024\0\0\0\022\0\001\003\210\322\317b\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+108
+3, 0x7ffe0a451960, 0x0
+2584
+SYSCALL
+analyzed_bin
+recvmsg
+108
+3, 0x7ffe0a451960, 0x0
+1412
+SYSCALL
+analyzed_bin
+recvmsg
+108
+3, 0x7ffe0a451960, 0x0
+20
+SYSCALL
+analyzed_bin
+sendto
+108
+3, "\024\0\0\0\026\0\001\003\211\322\317b\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+108
+3, 0x7ffe0a451960, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+108
+3, 0x7ffe0a451960, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+108
+3, 0x7ffe0a451960, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+pipe2
+108
+[0, 0], O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8c77d0, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+clock_getres
+108
+CLOCK_MONOTONIC_COARSE, 0x7ffe0a451c40
+0
+SYSCALL
+analyzed_bin
+epoll_create1
+108
+EPOLL_CLOEXEC
+5
+SYSCALL
+analyzed_bin
+pipe2
+108
+[-1, -1], O_NONBLOCK|O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+eventfd2
+108
+0, EFD_NONBLOCK|EFD_CLOEXEC
+8
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe0a451bd0, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a451b07, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGHUP, {0x5abb10, SA_RESTORER, 0x7ff05415efe0, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe0a451bd0, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a451b07, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGINT, {0x5abb10, SA_RESTORER, 0x7ff05415efe0, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe0a451bd0, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe0a451b07, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGTERM, {0x5abb10, SA_RESTORER, 0x7ff05415efe0, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGPIPE, {SIG_IGN}, 0x7ffe0a451b30, 8
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, 0x0, 0x0, 0x7ff05458ee50
+110
+SYSCALL
+analyzed_bin
+exit_group
+108
+0
+
+SYSCALL
+analyzed_bin
+set_robust_list
+110
+0x7ff05458ee60, 24
+0
+SYSCALL
+analyzed_bin
+setsid
+110
+
+110
+SYSCALL
+analyzed_bin
+chdir
+110
+0x65f14a
+0
+SYSCALL
+analyzed_bin
+write
+110
+1, " * ABOUT        Java/2.15.4-beta gcc/7.1.0\n", 43
+43
+SYSCALL
+analyzed_bin
+write
+110
+1, " * LIBS         libuv/1.8.0 \n", 29
+29
+SYSCALL
+analyzed_bin
+write
+110
+1, " * CPU          QEMU Virtual CPU version 2.5+"..., 65
+65
+SYSCALL
+analyzed_bin
+write
+110
+1, " * CPU L2/L3    0.5 MB/16.0 MB\n", 31
+31
+SYSCALL
+analyzed_bin
+write
+110
+1, " * THREADS      1, cn, av=0, donate=0%\n", 39
+39
+SYSCALL
+analyzed_bin
+write
+110
+1, " * ASSEMBLY     auto:none\n", 26
+26
+SYSCALL
+analyzed_bin
+write
+110
+1, " * POOL #1      pool.minexmr.com:80 variant a"..., 49
+49
+SYSCALL
+analyzed_bin
+write
+110
+1, " * COMMANDS     hashrate, pause, resume\n", 40
+40
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 65536, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7ff05457e000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff05457e000, 65536, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7ff053012000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff053013000, 8388608, PROT_READ|PROT_WRITE|PROT_EXEC
+0
+PROCESS
+111:110
+SYSCALL
+analyzed_bin
+clone
+110
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7ff053811fb0, 0x7ff0538129d0, 0x7ff0538129d0
+111
+SYSCALL
+analyzed_bin
+uname
+110
+0x7ffe0a451b30
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7ff052811000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff052812000, 8388608, PROT_READ|PROT_WRITE|PROT_EXEC
+0
+PROCESS
+112:110
+SYSCALL
+analyzed_bin
+clone
+110
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7ff053010fb0, 0x7ff0530119d0, 0x7ff0530119d0
+112
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7ff052010000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff052011000, 8388608, PROT_READ|PROT_WRITE|PROT_EXEC
+0
+PROCESS
+113:110
+SYSCALL
+analyzed_bin
+clone
+110
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7ff05280ffb0, 0x7ff0528109d0, 0x7ff0528109d0
+113
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7ff05180f000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff051810000, 8388608, PROT_READ|PROT_WRITE|PROT_EXEC
+0
+PROCESS
+114:110
+SYSCALL
+analyzed_bin
+clone
+110
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7ff05200efb0, 0x7ff05200f9d0, 0x7ff05200f9d0
+114
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7ff05100e000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff05100f000, 8388608, PROT_READ|PROT_WRITE|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+110
+0x7ff0538129e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7ff04900e000
+SYSCALL
+analyzed_bin
+munmap
+110
+0x7ff04900e000, 50274304
+0
+SYSCALL
+analyzed_bin
+munmap
+110
+0x7ff050000000, 16834560
+0
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff04c000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_POPULATE|MAP_HUGETLB, 0, 0
+-22 (EINVAL)
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 2105344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7ff050e0c000
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 16384, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7ff05457a000
+SYSCALL
+analyzed_bin
+set_robust_list
+110
+0x7ff0530119e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7ff044000000
+SYSCALL
+analyzed_bin
+munmap
+110
+0x7ff048000000, 67108864
+0
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff044000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+110
+0x7ff05200f9e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x7ff048000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7ff048000000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff048000000, 135168, PROT_READ|PROT_WRITE
+0
+PROCESS
+115:110
+SYSCALL
+analyzed_bin
+clone
+110
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7ff05180dfb0, 0x7ff05180e9d0, 0x7ff05180e9d0
+115
+SYSCALL
+analyzed_bin
+futex
+110
+0x8c7a10, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+110
+0x8c7a08, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+set_robust_list
+110
+0x7ff0528109e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7ff03c000000
+SYSCALL
+analyzed_bin
+munmap
+110
+0x7ff040000000, 67108864
+0
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff03c000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+socket
+110
+PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0
+9
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_UNIX, "/var/run/nscd/socket"}, 110
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+SYSCALL
+analyzed_bin
+socket
+110
+PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0
+9
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_UNIX, "/var/run/nscd/socket"}, 110
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+futex
+110
+0x8c7a08, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+analyzed_bin
+futex
+110
+0x8c79a0, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+5, EPOLL_CTL_ADD, 6, 0x7ffe0a44ebf0
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+5, EPOLL_CTL_ADD, 8, 0x7ffe0a44ebf0
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+110
+0x7ff05180e9e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x7ff040000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7ff040000000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff040000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+OPENFILE
+"/etc/nsswitch.conf"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+fstat
+110
+9, 0x7ff05280f550
+0
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff03c000dd0, 1024
+230
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff03c000dd0, 1024
+0
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+SYSCALL
+analyzed_bin
+stat
+110
+"/etc/resolv.conf", 0x7ff05280f630
+0
+OPENFILE
+"/etc/host.conf"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/etc/host.conf", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+futex
+110
+0x7ff053bc68e4, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/etc/resolv.conf"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/etc/resolv.conf", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+fstat
+110
+9, 0x7ff05280f260
+0
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff03c001680, 4096
+27
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff03c001680, 4096
+0
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+SYSCALL
+analyzed_bin
+uname
+110
+0x7ff05280f200
+0
+OPENFILE
+"/lib64/libnss_files.so.2"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/lib64/libnss_files.so.2", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff05280eec8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+110
+9, 0x7ff05280ed60
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 2168632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9, 0
+0x7ff050bfa000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff050c05000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x7ff050e04000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 40960
+0x7ff050e04000
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x7ff050e06000, 22328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7ff050e06000
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff050e04000, 4096, PROT_READ
+0
+OPENFILE
+"/etc/hosts"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+lseek
+110
+9, 0, SEEK_CUR
+0
+SYSCALL
+analyzed_bin
+fstat
+110
+9, 0x7ff05280f4a0
+0
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff03c000dd0, 1024
+42
+SYSCALL
+analyzed_bin
+lseek
+110
+9, 0, SEEK_CUR
+42
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff03c000dd0, 1024
+0
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+OPENFILE
+"/lib64/libnss_dns.so.2"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/lib64/libnss_dns.so.2", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff05280eed8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+110
+9, 0x7ff05280ed70
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 2117856, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9, 0
+0x7ff0509f4000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff0509f9000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x7ff050bf8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 16384
+0x7ff050bf8000
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+OPENFILE
+"/lib64/libresolv.so.2"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+read
+110
+9, 0x7ff05280e858, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+110
+9, 0x7ff05280e6f0
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x0, 2185824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 9, 0
+0x7ff0507de000
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff0507f1000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x7ff0509f0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 9, 73728
+0x7ff0509f0000
+SYSCALL
+analyzed_bin
+mmap2
+110
+0x7ff0509f2000, 6752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7ff0509f2000
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff0509f0000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+110
+0x7ff050bf8000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+socket
+110
+PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+9
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 10.0.2.3, 53}, 16
+0
+SYSCALL
+analyzed_bin
+poll
+110
+0x7ff05280e108, 1, 0
+1
+SYSCALL
+analyzed_bin
+sendmmsg
+110
+9, 0x7ff05280e160, 2, MSG_NOSIGNAL
+2
+SYSCALL
+analyzed_bin
+poll
+110
+0x7ff05280e108, 1, 5000
+1
+SYSCALL
+analyzed_bin
+ioctl
+110
+9, 21531, 0x7ff05280e104
+0
+SYSCALL
+analyzed_bin
+recvfrom
+110
+9, 0x7ff05280ee80, 2048, 0x0, 0x7ff05280e140, 0x7ff05280e160
+94
+SYSCALL
+analyzed_bin
+poll
+110
+0x7ff05280e108, 1, 4976
+1
+SYSCALL
+analyzed_bin
+ioctl
+110
+9, 21531, 0x7ff05280f6bc
+0
+SYSCALL
+analyzed_bin
+recvfrom
+110
+9, 0x7ff03c002b60, 65536, 0x0, 0x7ff05280e140, 0x7ff05280e160
+162
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+OPENFILE
+"/etc/gai.conf"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/etc/gai.conf", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+futex
+110
+0x7ff053bc5044, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+socket
+110
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+9
+SYSCALL
+analyzed_bin
+bind
+110
+9, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f6f8, 0x7ff05280f6f4
+0
+SYSCALL
+analyzed_bin
+sendto
+110
+9, "\024\0\0\0\026\0\001\003\211\322\317b\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+110
+9, 0x7ff05280f740, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+110
+9, 0x7ff05280f740, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+110
+9, 0x7ff05280f740, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+SYSCALL
+analyzed_bin
+socket
+110
+PF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP
+9
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 51.68.21.186, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f7c8, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {unknown sockaddr with sa=0, salen=16}, 16
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 136.243.49.177, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f7f8, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {unknown sockaddr with sa=0, salen=16}, 16
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 94.130.165.85, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f828, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {unknown sockaddr with sa=0, salen=16}, 16
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 94.130.165.87, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f858, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {unknown sockaddr with sa=0, salen=16}, 16
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 51.68.21.188, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f888, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {unknown sockaddr with sa=0, salen=16}, 16
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 51.254.84.37, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f8b8, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {unknown sockaddr with sa=0, salen=16}, 16
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 178.32.120.127, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f8e8, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {unknown sockaddr with sa=0, salen=16}, 16
+0
+SYSCALL
+analyzed_bin
+connect
+110
+9, {AF_INET, 94.130.164.163, 0}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+110
+9, 0x7ff05280f918, 0x7ff05280fa40
+0
+SYSCALL
+analyzed_bin
+close
+110
+9
+0
+SYSCALL
+analyzed_bin
+write
+110
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 458
+1
+SYSCALL
+analyzed_bin
+read
+110
+8, 0x7ffe0a44e7a0, 1024
+8
+SYSCALL
+analyzed_bin
+futex
+110
+0x8c74c8, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+110
+0x8c74c8, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+futex
+110
+0x8c74c8, FUTEX_WAKE_PRIVATE, 1
+0
+OPENFILE
+"/dev/null"
+SYSCALL
+analyzed_bin
+openat
+110
+AT_FDCWD, "/dev/null", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+socket
+110
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+10
+SYSCALL
+analyzed_bin
+setsockopt
+110
+10, SOL_TCP, SO_DEBUG, 0x7ffe0a44e5dc, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+110
+10, SOL_SOCKET, SO_KEEPALIVE, 0x7ffe0a44e5cc, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+110
+10, SOL_TCP, SO_ERROR, 0x7ffe0a44e5c8, 4
+0
+SYSCALL
+analyzed_bin
+connect
+110
+10, {AF_INET, 94.130.164.163, 80}, 16
+-115 (EINPROGRESS)
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+5, EPOLL_CTL_ADD, 10, 0x7ffe0a44ebf0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 299
+1
+SYSCALL
+analyzed_bin
+getsockopt
+110
+10, SOL_SOCKET, SO_ERROR, 0x7ffe0a44eb8c, 0x7ffe0a44eb90
+0
+SYSCALL
+analyzed_bin
+write
+110
+10, "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"lo"..., 374
+374
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+5, EPOLL_CTL_ADD, 10, 0x7ffe0a44ebf0
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+5, EPOLL_CTL_MOD, 10, 0x7ffe0a44ebf0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 180
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 498
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 497
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 1
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 485
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 4
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 466
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 24
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 454
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 43
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 451
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 34
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 454
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 45
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 447
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 52
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 426
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 70
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 423
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 57
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 424
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 73
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 420
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 64
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 414
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 77
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 400
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 97
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 396
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 87
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+1
+SYSCALL
+analyzed_bin
+read
+110
+10, 0x8dfe30, 2048
+90
+SYSCALL
+analyzed_bin
+write
+110
+1, "[2022-07-14 08:23:52.436] [pool.minexmr.com:8"..., 100
+100
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 282
+1
+SYSCALL
+analyzed_bin
+read
+110
+10, 0x8dfe30, 2048
+0
+SYSCALL
+analyzed_bin
+write
+110
+1, "[2022-07-14 08:23:52.438] [pool.minexmr.com:8"..., 74
+74
+SYSCALL
+analyzed_bin
+epoll_ctl
+110
+5, EPOLL_CTL_DEL, 10, 0x7ffe0a44e900
+0
+SYSCALL
+analyzed_bin
+close
+110
+10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 279
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 382
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 100
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 391
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 108
+0
+SYSCALL
+analyzed_bin
+write
+110
+1, "[2022-07-14 08:23:54.259] READY (CPU) threads"..., 84
+84
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 381
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 103
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 392
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 107
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 362
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 134
+0
+SYSCALL
+analyzed_bin
+nanosleep
+110
+[0.200000000], 0x7ff053811e50
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 500
+-4 (EINTR)
+SYSCALL
+analyzed_bin
+read
+110
+3, 0x7ffe0a44e6d7, 1
+1
+SYSCALL
+analyzed_bin
+write
+110
+7, " \353\215\0\0\0\0\0\017\0\0\0\0\0\0\0", 16
+16
+SYSCALL
+analyzed_bin
+write
+110
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigreturn
+110
+
+-4 (EINTR)
+SYSCALL
+analyzed_bin
+epoll_wait
+110
+5, 0x7ffe0a44ec80, 1024, 313
+1
+SYSCALL
+analyzed_bin
+read
+110
+6, 0x7ffe0a44e980, 512
+16
+SYSCALL
+analyzed_bin
+write
+110
+1, "[2022-07-14 08:23:57.475] SIGTERM received, e"..., 52
+52
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe0a44e800, 8
+0
+SYSCALL
+analyzed_bin
+read
+110
+3, 0x7ffe0a44e747, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+110
+SIGHUP, {SIG_DFL}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+110
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe0a44e800, 8
+0
+SYSCALL
+analyzed_bin
+read
+110
+3, 0x7ffe0a44e747, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+110
+SIGINT, {SIG_DFL}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+110
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffe0a44e800, 8
+0
+SYSCALL
+analyzed_bin
+read
+110
+3, 0x7ffe0a44e747, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+110
+SIGTERM, {SIG_DFL}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+110
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+110
+SIG_SETMASK, [EMPTY], 0x0, 8
+0

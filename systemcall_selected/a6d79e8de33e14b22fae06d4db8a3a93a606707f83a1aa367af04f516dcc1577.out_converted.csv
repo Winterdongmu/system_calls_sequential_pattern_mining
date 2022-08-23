@@ -1,0 +1,271 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 9482912",0
+1,analyzed_bin,set_tid_address,108,0x90b3b0,108
+2,analyzed_bin,brk,108,0x0,9486336
+3,analyzed_bin,brk,108,0x90e000,9494528
+4,analyzed_bin,mmap2,108,"0x90c000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x90c000
+5,analyzed_bin,mmap2,108,"0x0, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c557000
+6,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c556000
+7,analyzed_bin,open,108,"""/dev/urandom"", O_RDONLY|O_LARGEFILE",3
+8,analyzed_bin,read,108,"3, 0x7fff07f3d92c, 4",4
+9,analyzed_bin,mmap2,108,"0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c542000
+10,analyzed_bin,mprotect,108,"0x7f798c542000, 81920, PROT_READ|PROT_EXEC",0
+11,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c541000
+12,analyzed_bin,mmap2,108,"0x0, 73728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c52f000
+13,analyzed_bin,unlink,108,"""/root/analyzed_bin""",0
+14,zQW82DFF,prctl,108,"PR_SET_NAME, 0x7fff07f3d8e8",0
+15,zQW82DFF,readlink,108,"""/proc/self/exe"", 0x87cde0, 519",28
+16,zQW82DFF,open,108,"""/root/config.json"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+17,zQW82DFF,open,108,"""/etc/localtime"", O_RDONLY|O_NONBLOCK|O_LARGEFILE|O_CLOEXEC",4
+18,zQW82DFF,fstat,108,"4, 0x7fff07f3d2b0",0
+19,zQW82DFF,mmap2,108,"0x0, 127, PROT_READ, MAP_SHARED, 4, 0",0x7f798c52e000
+20,zQW82DFF,close,108,4,0
+21,zQW82DFF,ioctl,108,"1, 21523, 0x7fff07f3d4a8",-25 (ENOTTY)
+22,zQW82DFF,writev,108,"1, 0x7fff07f3d440, 2",62
+23,zQW82DFF,open,108,"""/root/.xmrig.json"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+24,zQW82DFF,writev,108,"1, 0x7fff07f3d4e0, 2",62
+25,zQW82DFF,open,108,"""/root/.config/xmrig.json"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+26,zQW82DFF,writev,108,"1, 0x7fff07f3d4e0, 2",69
+27,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c52d000
+28,zQW82DFF,mmap2,108,"0x0, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c51c000
+29,zQW82DFF,munmap,108,"0x7f798c52d000, 4096",0
+30,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c52d000
+31,zQW82DFF,sched_getaffinity,108,"0, 128, 0x7fff07f3d400",8
+32,zQW82DFF,faccessat,108,"-1, ""/sys/bus/cpu/devices"", R_OK|X_OK",0
+33,zQW82DFF,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/package_cpus"", R_OK",-2 (ENOENT)
+34,zQW82DFF,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_cpus"", R_OK",-2 (ENOENT)
+35,zQW82DFF,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_siblings"", R_OK",0
+36,zQW82DFF,faccessat,108,"-1, ""/sys/bus/node/devices"", R_OK|X_OK",-2 (ENOENT)
+37,zQW82DFF,faccessat,108,"-1, ""/sys/devices/system/node"", R_OK|X_OK",-2 (ENOENT)
+38,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c51b000
+39,zQW82DFF,uname,108,0x7f798c52d454,0
+40,zQW82DFF,sched_getaffinity,108,"0, 128, 0x7fff07f3d0d0",8
+41,zQW82DFF,openat,108,"-1, ""/proc/cpuinfo"", O_RDONLY|O_LARGEFILE",4
+42,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c51a000
+43,zQW82DFF,read,108,"4, 0x7f798c51a110, 1024",720
+44,zQW82DFF,read,108,"4, 0x7f798c51a110, 1024",0
+45,zQW82DFF,close,108,4,0
+46,zQW82DFF,munmap,108,"0x7f798c51a000, 4096",0
+47,zQW82DFF,open,108,"""/proc/mounts"", O_RDONLY|O_LARGEFILE",4
+48,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c51a000
+49,zQW82DFF,mmap2,108,"0x0, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c515000
+50,zQW82DFF,read,108,"4, 0x7f798c51a120, 1024",459
+51,zQW82DFF,read,108,"4, 0x7f798c51a120, 1024",0
+52,zQW82DFF,close,108,4,0
+53,zQW82DFF,munmap,108,"0x7f798c51a000, 4096",0
+54,zQW82DFF,munmap,108,"0x7f798c515000, 20480",0
+55,zQW82DFF,openat,108,"-1, ""/sys/devices/system/cpu/online"", O_RDONLY|O_LARGEFILE",4
+56,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c517000
+57,zQW82DFF,read,108,"4, 0x7f798c5170d0, 4097",2
+58,zQW82DFF,munmap,108,"0x7f798c517000, 16384",0
+59,zQW82DFF,close,108,4,0
+60,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices"", O_RDONLY|O_LARGEFILE|O_DIRECTORY",4
+61,zQW82DFF,fstat,108,"4, 0x7fff07f3d100",0
+62,zQW82DFF,fcntl,108,"4, F_GETFL, 0x7fff07f3d100",98304
+63,zQW82DFF,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c519000
+64,zQW82DFF,fcntl,108,"4, F_SETFD, 0x1",0
+65,zQW82DFF,getdents,108,"4, 0x7f798c5190f8, 2048",72
+66,zQW82DFF,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology"", X_OK",0
+67,zQW82DFF,getdents,108,"4, 0x7f798c5190f8, 2048",0
+68,zQW82DFF,close,108,4,0
+69,zQW82DFF,munmap,108,"0x7f798c519000, 8192",0
+70,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/thread_siblings"", O_RDONLY|O_LARGEFILE",4
+71,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c517000
+72,zQW82DFF,read,108,"4, 0x7f798c5170f0, 4097",2
+73,zQW82DFF,munmap,108,"0x7f798c517000, 16384",0
+74,zQW82DFF,close,108,4,0
+75,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_id"", O_RDONLY|O_LARGEFILE",4
+76,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+77,zQW82DFF,close,108,4,0
+78,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/die_cpus"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+79,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_siblings"", O_RDONLY|O_LARGEFILE",4
+80,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c517000
+81,zQW82DFF,read,108,"4, 0x7f798c517100, 4097",2
+82,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c516000
+83,zQW82DFF,munmap,108,"0x7f798c517000, 16384",0
+84,zQW82DFF,munmap,108,"0x7f798c516000, 4096",0
+85,zQW82DFF,close,108,4,0
+86,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/physical_package_id"", O_RDONLY|O_LARGEFILE",4
+87,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+88,zQW82DFF,close,108,4,0
+89,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c51a000
+90,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/shared_cpu_map"", O_RDONLY|O_LARGEFILE",4
+91,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c516000
+92,zQW82DFF,read,108,"4, 0x7f798c516130, 4097",2
+93,zQW82DFF,munmap,108,"0x7f798c516000, 16384",0
+94,zQW82DFF,close,108,4,0
+95,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/level"", O_RDONLY|O_LARGEFILE",4
+96,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+97,zQW82DFF,close,108,4,0
+98,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/type"", O_RDONLY|O_LARGEFILE",4
+99,zQW82DFF,read,108,"4, 0x7fff07f3d358, 19",5
+100,zQW82DFF,close,108,4,0
+101,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/size"", O_RDONLY|O_LARGEFILE",4
+102,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",4
+103,zQW82DFF,close,108,4,0
+104,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/coherency_line_size"", O_RDONLY|O_LARGEFILE",4
+105,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",3
+106,zQW82DFF,close,108,4,0
+107,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/number_of_sets"", O_RDONLY|O_LARGEFILE",4
+108,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",4
+109,zQW82DFF,close,108,4,0
+110,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/physical_line_partition"", O_RDONLY|O_LARGEFILE",4
+111,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+112,zQW82DFF,close,108,4,0
+113,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index1/shared_cpu_map"", O_RDONLY|O_LARGEFILE",4
+114,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c516000
+115,zQW82DFF,read,108,"4, 0x7f798c516140, 4097",2
+116,zQW82DFF,munmap,108,"0x7f798c516000, 16384",0
+117,zQW82DFF,close,108,4,0
+118,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index1/level"", O_RDONLY|O_LARGEFILE",4
+119,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+120,zQW82DFF,close,108,4,0
+121,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index1/type"", O_RDONLY|O_LARGEFILE",4
+122,zQW82DFF,read,108,"4, 0x7fff07f3d358, 19",12
+123,zQW82DFF,close,108,4,0
+124,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/shared_cpu_map"", O_RDONLY|O_LARGEFILE",4
+125,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c516000
+126,zQW82DFF,read,108,"4, 0x7f798c516150, 4097",2
+127,zQW82DFF,munmap,108,"0x7f798c516000, 16384",0
+128,zQW82DFF,close,108,4,0
+129,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/level"", O_RDONLY|O_LARGEFILE",4
+130,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+131,zQW82DFF,close,108,4,0
+132,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/type"", O_RDONLY|O_LARGEFILE",4
+133,zQW82DFF,read,108,"4, 0x7fff07f3d358, 19",8
+134,zQW82DFF,close,108,4,0
+135,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/size"", O_RDONLY|O_LARGEFILE",4
+136,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",5
+137,zQW82DFF,close,108,4,0
+138,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/coherency_line_size"", O_RDONLY|O_LARGEFILE",4
+139,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",3
+140,zQW82DFF,close,108,4,0
+141,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/number_of_sets"", O_RDONLY|O_LARGEFILE",4
+142,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",4
+143,zQW82DFF,close,108,4,0
+144,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/physical_line_partition"", O_RDONLY|O_LARGEFILE",4
+145,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+146,zQW82DFF,close,108,4,0
+147,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/shared_cpu_map"", O_RDONLY|O_LARGEFILE",4
+148,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c516000
+149,zQW82DFF,read,108,"4, 0x7f798c516160, 4097",2
+150,zQW82DFF,munmap,108,"0x7f798c516000, 16384",0
+151,zQW82DFF,close,108,4,0
+152,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/level"", O_RDONLY|O_LARGEFILE",4
+153,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+154,zQW82DFF,close,108,4,0
+155,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/type"", O_RDONLY|O_LARGEFILE",4
+156,zQW82DFF,read,108,"4, 0x7fff07f3d358, 19",8
+157,zQW82DFF,close,108,4,0
+158,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/size"", O_RDONLY|O_LARGEFILE",4
+159,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",7
+160,zQW82DFF,close,108,4,0
+161,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/coherency_line_size"", O_RDONLY|O_LARGEFILE",4
+162,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",3
+163,zQW82DFF,close,108,4,0
+164,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/number_of_sets"", O_RDONLY|O_LARGEFILE",4
+165,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",6
+166,zQW82DFF,close,108,4,0
+167,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/physical_line_partition"", O_RDONLY|O_LARGEFILE",4
+168,zQW82DFF,read,108,"4, 0x7fff07f3d235, 10",2
+169,zQW82DFF,close,108,4,0
+170,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index4/shared_cpu_map"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+171,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index5/shared_cpu_map"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+172,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index6/shared_cpu_map"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+173,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index7/shared_cpu_map"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+174,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index8/shared_cpu_map"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+175,zQW82DFF,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index9/shared_cpu_map"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+176,zQW82DFF,stat,108,"""/sys/kernel/mm/hugepages"", 0x7fff07f3d1b0",-2 (ENOENT)
+177,zQW82DFF,openat,108,"-1, ""/proc/meminfo"", O_RDONLY|O_LARGEFILE",4
+178,zQW82DFF,read,108,"4, 0x7fff07f3c240, 4095",1011
+179,zQW82DFF,close,108,4,0
+180,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id"", O_RDONLY|O_LARGEFILE|O_DIRECTORY",4
+181,zQW82DFF,fstat,108,"4, 0x7fff07f3d100",0
+182,zQW82DFF,fcntl,108,"4, F_GETFL, 0x7fff07f3d100",98304
+183,zQW82DFF,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c518000
+184,zQW82DFF,fcntl,108,"4, F_SETFD, 0x1",0
+185,zQW82DFF,close,108,4,0
+186,zQW82DFF,munmap,108,"0x7f798c518000, 8192",0
+187,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_name"", O_RDONLY|O_LARGEFILE",4
+188,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",34
+189,zQW82DFF,close,108,4,0
+190,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_version"", O_RDONLY|O_LARGEFILE",4
+191,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",14
+192,zQW82DFF,close,108,4,0
+193,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_serial"", O_RDONLY|O_LARGEFILE",4
+194,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",1
+195,zQW82DFF,close,108,4,0
+196,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_uuid"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+197,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_vendor"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+198,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_name"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+199,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_version"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+200,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_serial"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+201,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_asset_tag"", O_RDONLY|O_LARGEFILE",-2 (ENOENT)
+202,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_vendor"", O_RDONLY|O_LARGEFILE",4
+203,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",5
+204,zQW82DFF,close,108,4,0
+205,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_type"", O_RDONLY|O_LARGEFILE",4
+206,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",2
+207,zQW82DFF,close,108,4,0
+208,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_version"", O_RDONLY|O_LARGEFILE",4
+209,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",14
+210,zQW82DFF,close,108,4,0
+211,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_serial"", O_RDONLY|O_LARGEFILE",4
+212,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",1
+213,zQW82DFF,close,108,4,0
+214,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_asset_tag"", O_RDONLY|O_LARGEFILE",4
+215,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",1
+216,zQW82DFF,close,108,4,0
+217,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/bios_vendor"", O_RDONLY|O_LARGEFILE",4
+218,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",8
+219,zQW82DFF,close,108,4,0
+220,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/bios_version"", O_RDONLY|O_LARGEFILE",4
+221,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",9
+222,zQW82DFF,close,108,4,0
+223,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/bios_date"", O_RDONLY|O_LARGEFILE",4
+224,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",11
+225,zQW82DFF,close,108,4,0
+226,zQW82DFF,openat,108,"-1, ""/sys/devices/virtual/dmi/id/sys_vendor"", O_RDONLY|O_LARGEFILE",4
+227,zQW82DFF,read,108,"4, 0x7fff07f3d1f0, 63",5
+228,zQW82DFF,close,108,4,0
+229,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c519000
+230,zQW82DFF,sched_getaffinity,108,"0, 128, 0x7fff07f3d3f0",8
+231,zQW82DFF,open,108,"""/sys/devices/system/cpu/possible"", O_RDONLY|O_LARGEFILE",4
+232,zQW82DFF,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c515000
+233,zQW82DFF,read,108,"4, 0x7f798c515190, 4097",2
+234,zQW82DFF,munmap,108,"0x7f798c515000, 16384",0
+235,zQW82DFF,close,108,4,0
+236,zQW82DFF,sched_getaffinity,108,"0, 8, 0x7f798c51b600",8
+237,zQW82DFF,sched_getaffinity,108,"0, 8, 0x7f798c51b600",8
+238,zQW82DFF,sched_setaffinity,108,"0, 8, 0x7f798c51b600",0
+239,zQW82DFF,sched_setaffinity,108,"0, 8, 0x7f798c51b600",0
+240,zQW82DFF,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f798c518000
+241,zQW82DFF,munmap,108,"0x7f798c51c000, 69632",0
+242,zQW82DFF,clock_getres,108,"CLOCK_MONOTONIC_COARSE, 0x7fff07f3d810",0
+243,zQW82DFF,epoll_create1,108,EPOLL_CLOEXEC,4
+244,zQW82DFF,pipe2,108,"[-1, -1], O_CLOEXEC",0
+245,zQW82DFF,write,108,"6, ""*"", 1",1
+246,zQW82DFF,pipe2,108,"[-1, -1], O_NONBLOCK|O_CLOEXEC",0
+247,zQW82DFF,eventfd2,108,"0, EFD_NONBLOCK|EFD_CLOEXEC",9
+248,zQW82DFF,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff07f3d7d0, 8",0
+249,zQW82DFF,read,108,"5, 0x7fff07f3d70f, 1",1
+250,zQW82DFF,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+251,zQW82DFF,rt_sigaction,108,"SIGHUP, {0x50d871, SA_RESTART|SA_RESTORER, 0x5ee52a, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+252,zQW82DFF,write,108,"6, ""*"", 1",1
+253,zQW82DFF,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+254,zQW82DFF,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff07f3d7d0, 8",0
+255,zQW82DFF,read,108,"5, 0x7fff07f3d70f, 1",1
+256,zQW82DFF,rt_sigaction,108,"SIGINT, {0x50d871, SA_RESTART|SA_RESTORER, 0x5ee52a, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+257,zQW82DFF,write,108,"6, ""*"", 1",1
+258,zQW82DFF,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+259,zQW82DFF,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fff07f3d7d0, 8",0
+260,zQW82DFF,read,108,"5, 0x7fff07f3d70f, 1",1
+261,zQW82DFF,rt_sigaction,108,"SIGTERM, {0x50d871, SA_RESTART|SA_RESTORER, 0x5ee52a, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+262,zQW82DFF,write,108,"6, ""*"", 1",1
+263,zQW82DFF,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+264,zQW82DFF,rt_sigaction,108,"SIGPIPE, {SIG_IGN}, 0x7fff07f3d6d0, 8",0
+265,zQW82DFF,open,108,"""/tmp/.X11-unix/11"", O_WRONLY|O_CREAT|O_LARGEFILE, 0600",-2 (ENOENT)
+266,zQW82DFF,close,108,3,0
+267,zQW82DFF,close,108,5,0
+268,zQW82DFF,close,108,6,0
+269,zQW82DFF,exit_group,108,0,

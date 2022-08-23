@@ -1,0 +1,1 @@
+{"output":"00:24:26.298475095: Error Sensitive files that contain attributes of pod's CPU opened.","priority":"Error","rule":"Test open file","source":"syscall","tags":["container","users"],"time":"2022-07-27T07:24:26.298475095Z", "output_fields": {"evt.time":1658906666298475095}}

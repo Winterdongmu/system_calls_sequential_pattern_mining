@@ -1,0 +1,1707 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+ioctl
+108
+0, 21505, 0x7ffdbd912a30
+-25 (ENOTTY)
+SYSCALL
+analyzed_bin
+ioctl
+108
+1, 21505, 0x7ffdbd912a30
+-25 (ENOTTY)
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1656919959
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1656919959
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_DGRAM, IPPROTO_IP
+3
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_INET, 8.8.8.8, 53}, 16
+0
+SYSCALL
+analyzed_bin
+getsockname
+108
+3, 0x7ffdbd9119a0, 0x7ffdbd91199c
+0
+OPENFILE
+"/proc/net/route"
+SYSCALL
+analyzed_bin
+open
+108
+"/proc/net/route", O_RDONLY
+4
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910990, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910991, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910992, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910993, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910994, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910995, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910996, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910997, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910998, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910999, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099a, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099b, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099c, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099d, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099e, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099f, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109aa, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ab, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ac, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ad, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ae, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109af, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ba, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109be, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bf, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ca, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ce, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cf, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109da, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109db, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109dc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109dd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109de, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109df, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ea, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109eb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ec, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ed, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ee, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ef, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fa, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fe, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ff, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a00, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a01, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a02, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a03, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a04, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a05, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a06, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a07, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a08, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a09, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0a, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0b, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0c, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0d, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0e, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0f, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910990, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910991, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910992, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910993, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910994, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910995, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910996, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910997, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910998, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910999, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099a, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099b, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099c, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099d, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099e, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd91099f, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109a9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109aa, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ab, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ac, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ad, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ae, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109af, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109b9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ba, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109be, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109bf, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109c9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ca, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ce, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109cf, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109d9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109da, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109db, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109dc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109dd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109de, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109df, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109e9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ea, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109eb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ec, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ed, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ee, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ef, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f0, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f1, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f2, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f3, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f4, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f5, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f6, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f7, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f8, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109f9, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fa, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fb, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fc, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fd, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109fe, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd9109ff, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a00, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a01, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a02, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a03, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a04, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a05, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a06, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a07, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a08, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a09, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0a, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0b, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0c, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0d, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0e, 1
+1
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7ffdbd910a0f, 1
+1
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+SYSCALL
+analyzed_bin
+ioctl
+108
+3, 35111, 0x7ffdbd910960
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+fork
+108
+
+110
+PROCESS
+111:110
+SYSCALL
+analyzed_bin
+fork
+110
+
+111
+SYSCALL
+analyzed_bin
+exit
+110
+0
+
+SYSCALL
+analyzed_bin
+wait4
+108
+110, 0x7ffdbd912a84, 0x0, 0x0
+110
+SYSCALL
+analyzed_bin
+exit
+108
+0
+
+SYSCALL
+analyzed_bin
+setsid
+111
+
+111
+SYSCALL
+analyzed_bin
+chdir
+111
+"/"
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+111
+SIGPIPE, {SIG_IGN}, 0x7ffdbd911720, 8
+0
+SYSCALL
+analyzed_bin
+socket
+111
+PF_INET, SOCK_STREAM, IPPROTO_IP
+3
+SYSCALL
+analyzed_bin
+fcntl
+111
+3, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+111
+3, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+connect
+111
+3, {AF_INET, 85.204.116.240, 6149}, 16
+-115 (EINPROGRESS)
+SYSCALL
+analyzed_bin
+select
+111
+4, 0x0, 0x7ffdbd911700, 0x0, [30.000000]
+-514

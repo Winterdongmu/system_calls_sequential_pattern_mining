@@ -1,0 +1,2013 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 6665320
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x65b4a0
+108
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+6668288
+SYSCALL
+analyzed_bin
+brk
+108
+0x66e000
+6742016
+SYSCALL
+analyzed_bin
+brk
+108
+0x670000
+6750208
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_POPULATE|MAP_HUGETLB, 0, 0
+-22 (EINVAL)
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/localtime", O_RDONLY|O_NONBLOCK|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffef745b6c0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 127, PROT_READ, MAP_SHARED, 3, 0
+0x7f33a6b9e000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+ioctl
+108
+1, 21523, 0x7ffef745b8a8
+-25 (ENOTTY)
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffef745b840, 2
+57
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4198400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f33a679d000
+SYSCALL
+analyzed_bin
+brk
+108
+0x672000
+6758400
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_POPULATE|MAP_HUGETLB, 0, 0
+-22 (EINVAL)
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4198400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f33a639c000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f33a679d000, 4198400
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f33a639c000, 4198400
+0
+SYSCALL
+analyzed_bin
+sched_getaffinity
+108
+0, 128, 0x7ffef745ba50
+8
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f33a6b88000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f33a6b89000, 86016, PROT_READ|PROT_WRITE
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f33a6b9dab8, 0x7f33a6b9db20, 0x7f33a6b9db20
+110
+SYSCALL
+analyzed_bin
+brk
+108
+0x67b000
+6795264
+SYSCALL
+analyzed_bin
+brk
+108
+0x684000
+6832128
+SYSCALL
+analyzed_bin
+brk
+108
+0x686000
+6840320
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f33a6b72000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f33a6b73000, 86016, PROT_READ|PROT_WRITE
+0
+PROCESS
+111:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f33a6b87ab8, 0x7f33a6b87b20, 0x7f33a6b87b20
+111
+OPENFILE
+"/etc/hosts"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/hosts", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fcntl
+108
+3, F_SETFD, 0x1
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x688000
+6848512
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_POPULATE|MAP_HUGETLB, 0, 0
+-22 (EINVAL)
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4198400, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f33a6771000
+SYSCALL
+analyzed_bin
+readv
+108
+3, 0x7ffef745a9b0, 2
+42
+SYSCALL
+analyzed_bin
+readv
+108
+3, 0x7ffef745a9b0, 2
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/etc/resolv.conf"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/resolv.conf", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fcntl
+108
+3, F_SETFD, 0x1
+0
+SYSCALL
+analyzed_bin
+readv
+108
+3, 0x7ffef745add0, 2
+27
+SYSCALL
+analyzed_bin
+readv
+108
+3, 0x7ffef745add0, 2
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+3
+SYSCALL
+analyzed_bin
+bind
+108
+3, {AF_INET, 0.0.0.0, 0}, 16
+0
+SYSCALL
+analyzed_bin
+sendto
+108
+3, "*\003\001\0\0\001\0\0\0\0\0\0\004pool\aminexm"..., 34, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16
+34
+SYSCALL
+analyzed_bin
+sendto
+108
+3, "\357|\001\0\0\001\0\0\0\0\0\0\004pool\aminexm"..., 34, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16
+34
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffef745aa10, 1, 2500
+1
+SYSCALL
+analyzed_bin
+recvfrom
+108
+3, 0x7ffef745ad70, 512, 0x0, 0x7ffef745aa30, 0x7ffef745aa0c
+162
+SYSCALL
+analyzed_bin
+recvfrom
+108
+3, 0x7ffef745af70, 512, 0x0, 0x7ffef745aa30, 0x7ffef745aa0c
+94
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM, IPPROTO_TCP
+3
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 90112, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f33a675b000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f33a675c000, 86016, PROT_READ|PROT_WRITE
+0
+PROCESS
+112:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f33a6770ab8, 0x7f33a6770b20, 0x7f33a6770b20
+112
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffef745bc04, FUTEX_WAIT_PRIVATE, 2
+-512
+SYSCALL
+analyzed_bin
+futex
+108
+0x65b4a0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.100000000], 0x7f33a6b9d970
+-516
+SYSCALL
+analyzed_bin
+futex
+108
+0x7f33a6b9db20, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.500000000], 0x7f33a6b87970
+-516
+SYSCALL
+analyzed_bin
+futex
+108
+0x7f33a6b87b20, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+connect
+108
+3, {AF_INET, 94.130.164.163, 4444}, 16
+-512

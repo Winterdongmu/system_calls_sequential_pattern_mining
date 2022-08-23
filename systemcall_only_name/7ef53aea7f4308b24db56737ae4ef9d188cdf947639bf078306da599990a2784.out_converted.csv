@@ -1,0 +1,4 @@
+,name
+0,arch_prctl
+1,set_tid_address
+2,exit_group

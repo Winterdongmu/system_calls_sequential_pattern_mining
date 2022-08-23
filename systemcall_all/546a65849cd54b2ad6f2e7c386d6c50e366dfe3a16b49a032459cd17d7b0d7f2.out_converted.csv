@@ -1,0 +1,401 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,open,108,"""/proc/self/exe"", O_RDONLY",3
+1,analyzed_bin,mmap2,108,"0x0, 880379, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f407e72d000
+2,analyzed_bin,mmap2,108,"0x7f407e72d000, 879995, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0",0x7f407e72d000
+3,analyzed_bin,mprotect,108,"0x7f407e803000, 3835, PROT_READ|PROT_EXEC",0
+4,analyzed_bin,readlink,108,"""/proc/self/exe"", 0x7ffc5a135f50, 4095",18
+5,analyzed_bin,mmap2,108,"0x7f407e804000, 3444736, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7f407e804000
+6,analyzed_bin,mmap2,108,"0x7f407e804000, 109664, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7f407e804000
+7,analyzed_bin,mprotect,108,"0x7f407e804000, 109664, PROT_READ",0
+8,analyzed_bin,mmap2,108,"0x7f407e81f000, 2165992, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 110592",0x7f407e81f000
+9,analyzed_bin,mprotect,108,"0x7f407e81f000, 2165992, PROT_READ|PROT_EXEC",0
+10,analyzed_bin,mmap2,108,"0x7f407ea30000, 523044, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 2277376",0x7f407ea30000
+11,analyzed_bin,mprotect,108,"0x7f407ea30000, 523044, PROT_READ",0
+12,analyzed_bin,mmap2,108,"0x7f407eab0000, 55504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 2797568",0x7f407eab0000
+13,analyzed_bin,mprotect,108,"0x7f407eab0000, 55504, PROT_READ|PROT_WRITE",0
+14,analyzed_bin,mmap2,108,"0x7f407eabe000, 582224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7f407eabe000
+15,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ, MAP_PRIVATE, 3, 0",0x7f407e72c000
+16,analyzed_bin,close,108,3,0
+17,analyzed_bin,munmap,108,"0x7f407e72d000, 880379",0
+18,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 139914980409056",0
+19,analyzed_bin,set_tid_address,108,0x7f407eb4c24c,108
+20,analyzed_bin,brk,108,0x0,139914980413440
+21,analyzed_bin,brk,108,0x7f407eb52000,139914980433920
+22,analyzed_bin,open,108,"""/dev/urandom"", O_RDONLY",3
+23,analyzed_bin,read,108,"3, 0x7ffc5a136c94, 4",4
+24,analyzed_bin,brk,108,0x7f407eb53000,139914980438016
+25,analyzed_bin,mmap2,108,"0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f407e7f0000
+26,analyzed_bin,mprotect,108,"0x7f407e7f0000, 81920, PROT_READ|PROT_EXEC",0
+27,analyzed_bin,brk,108,0x7f407eb65000,139914980511744
+28,analyzed_bin,clock_gettime,108,"CLOCK_REALTIME, 0x7ffc5a136c08",0
+29,analyzed_bin,readlink,108,"""/proc/self/exe"", 0x7f407eabdc60, 519",18
+30,analyzed_bin,open,108,"""/root/config.json"", O_RDONLY",-2 (ENOENT)
+31,analyzed_bin,open,108,"""/root/.xmrig.json"", O_RDONLY",-2 (ENOENT)
+32,analyzed_bin,open,108,"""/root/.config/xmrig.json"", O_RDONLY",-2 (ENOENT)
+33,analyzed_bin,brk,108,0x7f407eb66000,139914980515840
+34,analyzed_bin,brk,108,0x7f407eb77000,139914980585472
+35,analyzed_bin,sched_getaffinity,108,"0, 128, 0x7ffc5a135f40",8
+36,analyzed_bin,sched_getaffinity,108,"0, 128, 0x7ffc5a1359b0",8
+37,analyzed_bin,clock_getres,108,"CLOCK_MONOTONIC_COARSE, 0x7ffc5a136bd8",0
+38,analyzed_bin,epoll_create1,108,EPOLL_CLOEXEC,4
+39,analyzed_bin,pipe2,108,"[-1, -1], O_CLOEXEC",0
+40,analyzed_bin,write,108,"6, ""*"", 1",1
+41,analyzed_bin,pipe2,108,"[-1, -1], O_NONBLOCK|O_CLOEXEC",0
+42,analyzed_bin,eventfd2,108,"0, EFD_NONBLOCK|EFD_CLOEXEC",9
+43,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136b88, 8",0
+44,analyzed_bin,read,108,"5, 0x7ffc5a136aa7, 1",1
+45,analyzed_bin,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+46,analyzed_bin,rt_sigaction,108,"SIGHUP, {0x7f407e9a35c9, SA_RESTART|SA_RESTORER, 0x7f407ea2194a, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+47,analyzed_bin,write,108,"6, ""*"", 1",1
+48,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+49,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136b88, 8",0
+50,analyzed_bin,read,108,"5, 0x7ffc5a136aa7, 1",1
+51,analyzed_bin,rt_sigaction,108,"SIGINT, {0x7f407e9a35c9, SA_RESTART|SA_RESTORER, 0x7f407ea2194a, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+52,analyzed_bin,write,108,"6, ""*"", 1",1
+53,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+54,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136b88, 8",0
+55,analyzed_bin,read,108,"5, 0x7ffc5a136aa7, 1",1
+56,analyzed_bin,rt_sigaction,108,"SIGTERM, {0x7f407e9a35c9, SA_RESTART|SA_RESTORER, 0x7f407ea2194a, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+57,analyzed_bin,write,108,"6, ""*"", 1",1
+58,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+59,analyzed_bin,rt_sigaction,108,"SIGPIPE, {SIG_IGN}, 0x7ffc5a136ac0, 8",0
+60,analyzed_bin,rt_sigprocmask,108,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136bb0, 8",0
+61,analyzed_bin,fork,108,,110
+62,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+63,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136af0, 8",0
+64,analyzed_bin,read,108,"5, 0x7ffc5a136a27, 1",1
+65,analyzed_bin,rt_sigaction,108,"SIGHUP, {SIG_DFL}, 0x0, 8",0
+66,analyzed_bin,write,108,"6, ""*"", 1",1
+67,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+68,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136af0, 8",0
+69,analyzed_bin,read,108,"5, 0x7ffc5a136a27, 1",1
+70,analyzed_bin,rt_sigaction,108,"SIGINT, {SIG_DFL}, 0x0, 8",0
+71,analyzed_bin,write,108,"6, ""*"", 1",1
+72,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+73,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136af0, 8",0
+74,analyzed_bin,read,108,"5, 0x7ffc5a136a27, 1",1
+75,analyzed_bin,rt_sigaction,108,"SIGTERM, {SIG_DFL}, 0x0, 8",0
+76,analyzed_bin,write,108,"6, ""*"", 1",1
+77,analyzed_bin,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+78,analyzed_bin,close,108,3,0
+79,analyzed_bin,close,108,5,0
+80,analyzed_bin,close,108,6,0
+81,analyzed_bin,gettid,110,,110
+82,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+83,analyzed_bin,close,110,5,0
+84,analyzed_bin,close,110,6,0
+85,analyzed_bin,pipe2,110,"[-1, -1], O_CLOEXEC",0
+86,analyzed_bin,write,110,"6, ""*"", 1",1
+87,analyzed_bin,setsid,110,,110
+88,analyzed_bin,chdir,110,"""/""",0
+89,analyzed_bin,access,110,"""/tmp/.qucfu.pid"", F_OK",-2 (ENOENT)
+90,analyzed_bin,open,110,"""/tmp/.qucfu.pid"", O_WRONLY|O_CREAT|O_TRUNC, 0666",10
+91,analyzed_bin,exit_group,108,0,
+92,analyzed_bin,ioctl,110,"10, 21523, 0x7ffc5a136aa8",-25 (ENOTTY)
+93,analyzed_bin,getpid,110,,110
+94,analyzed_bin,writev,110,"10, 0x7ffc5a136a60, 2",3
+95,analyzed_bin,close,110,10,0
+96,analyzed_bin,getpid,110,,110
+97,analyzed_bin,ioctl,110,"1, 21523, 0x7ffc5a136768",-25 (ENOTTY)
+98,analyzed_bin,writev,110,"1, 0x7ffc5a136700, 2",46
+99,analyzed_bin,eventfd2,110,"0, EFD_NONBLOCK|EFD_CLOEXEC",10
+100,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 10, 0x7ffc5a136b3c",0
+101,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 10, 0x7ffc5a136b3c",0
+102,analyzed_bin,ioctl,110,"10, 21537, 0x7ffc5a136b5c",0
+103,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 10, 0x7ffc5a136b6c",-2 (ENOENT)
+104,analyzed_bin,open,110,"""/proc/meminfo"", O_RDONLY|O_CLOEXEC",11
+105,analyzed_bin,fcntl,110,"11, F_SETFD, 0x1",0
+106,analyzed_bin,read,110,"11, 0x7ffc5a135a78, 4095",1011
+107,analyzed_bin,close,110,11,0
+108,analyzed_bin,open,110,"""/proc/meminfo"", O_RDONLY|O_CLOEXEC",11
+109,analyzed_bin,fcntl,110,"11, F_SETFD, 0x1",0
+110,analyzed_bin,read,110,"11, 0x7ffc5a135a78, 4095",1011
+111,analyzed_bin,close,110,11,0
+112,analyzed_bin,eventfd2,110,"0, EFD_NONBLOCK|EFD_CLOEXEC",11
+113,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 11, 0x7ffc5a136acc",0
+114,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 11, 0x7ffc5a136acc",0
+115,analyzed_bin,ioctl,110,"11, 21537, 0x7ffc5a136aec",0
+116,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 11, 0x7ffc5a136afc",-2 (ENOENT)
+117,analyzed_bin,rt_sigprocmask,110,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+118,analyzed_bin,mmap2,110,"0x0, 143360, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f407e7cd000
+119,analyzed_bin,mprotect,110,"0x7f407e7cf000, 135168, PROT_READ|PROT_WRITE",0
+120,analyzed_bin,rt_sigprocmask,110,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136a90, 8",0
+121,analyzed_bin,clone,110,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f407e7efaa8, 0x7f407e7efb58, 0x7f407eb4c24c",111
+122,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+123,analyzed_bin,prlimit64,110,"0, RLIMIT_STACK, NULL, 0x7ffc5a136910",0
+124,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+125,analyzed_bin,mmap2,110,"0x0, 8400896, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f407df29000
+126,analyzed_bin,mprotect,110,"0x7f407df2b000, 8392704, PROT_READ|PROT_WRITE",0
+127,analyzed_bin,rt_sigprocmask,110,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136850, 8",0
+128,analyzed_bin,clone,110,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f407e72baa8, 0x7f407e72bb58, 0x7f407eb4c24c",112
+129,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+130,analyzed_bin,prlimit64,110,"0, RLIMIT_STACK, NULL, 0x7ffc5a136910",0
+131,analyzed_bin,mmap2,110,"0x0, 8400896, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f407d726000
+132,analyzed_bin,mprotect,110,"0x7f407d728000, 8392704, PROT_READ|PROT_WRITE",0
+133,analyzed_bin,rt_sigprocmask,110,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136850, 8",0
+134,analyzed_bin,clone,110,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f407df28aa8, 0x7f407df28b58, 0x7f407eb4c24c",113
+135,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+136,analyzed_bin,prlimit64,110,"0, RLIMIT_STACK, NULL, 0x7ffc5a136910",0
+137,analyzed_bin,mmap2,110,"0x0, 8400896, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f407cf23000
+138,analyzed_bin,mprotect,110,"0x7f407cf25000, 8392704, PROT_READ|PROT_WRITE",0
+139,analyzed_bin,rt_sigprocmask,110,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136850, 8",0
+140,analyzed_bin,clone,110,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f407d725aa8, 0x7f407d725b58, 0x7f407eb4c24c",114
+141,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+142,analyzed_bin,prlimit64,110,"0, RLIMIT_STACK, NULL, 0x7ffc5a136910",0
+143,analyzed_bin,mmap2,110,"0x0, 8400896, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f407c720000
+144,analyzed_bin,mprotect,110,"0x7f407c722000, 8392704, PROT_READ|PROT_WRITE",0
+145,analyzed_bin,rt_sigprocmask,110,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a136850, 8",0
+146,analyzed_bin,clone,110,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID|CLONE_DETACHED, 0x7f407cf22aa8, 0x7f407cf22b58, 0x7f407eb4c24c",115
+147,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+148,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+149,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+150,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+151,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+152,analyzed_bin,futex,110,"0x7f407e72ba24, FUTEX_WAKE_PRIVATE, 1",1
+153,analyzed_bin,futex,110,"0x7f407e72ba24, FUTEX_WAIT_PRIVATE, 2",0
+154,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAKE_PRIVATE, 1",1
+155,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 7, 0x7ffc5a133b3c",0
+156,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 9, 0x7ffc5a133b3c",0
+157,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 10, 0x7ffc5a133b3c",0
+158,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 11, 0x7ffc5a133b3c",0
+159,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAIT_PRIVATE, -2147483538",0
+160,analyzed_bin,open,110,"""/etc/hosts"", O_RDONLY|O_CLOEXEC",12
+161,analyzed_bin,fcntl,110,"12, F_SETFD, 0x1",0
+162,analyzed_bin,read,110,"12, 0x7f407e72ad50, 1024",42
+163,analyzed_bin,read,110,"12, 0x7f407e72ad50, 1024",0
+164,analyzed_bin,close,110,12,0
+165,analyzed_bin,open,110,"""/etc/resolv.conf"", O_RDONLY|O_CLOEXEC",12
+166,analyzed_bin,fcntl,110,"12, F_SETFD, 0x1",0
+167,analyzed_bin,read,110,"12, 0x7f407e72b058, 248",27
+168,analyzed_bin,read,110,"12, 0x7f407e72b058, 248",0
+169,analyzed_bin,close,110,12,0
+170,analyzed_bin,socket,110,"PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",12
+171,analyzed_bin,bind,110,"12, {AF_INET, 0.0.0.0, 0}, 16",0
+172,analyzed_bin,sendto,110,"12, ""\314c\001\0\0\001\0\0\0\0\0\0\005sftp1\004dns""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+173,analyzed_bin,sendto,110,"12, ""\255-\001\0\0\001\0\0\0\0\0\0\005sftp1\004dns""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+174,analyzed_bin,poll,110,"0x7f407e72a9f0, 1, 2500",1
+175,analyzed_bin,recvfrom,110,"12, 0x7f407e72ad50, 512, 0x0, 0x7f407e72aa10, 0x7f407e72a9ec",101
+176,analyzed_bin,recvfrom,110,"12, 0x7f407e72ad50, 512, 0x0, 0x7f407e72aa10, 0x7f407e72a9ec",-11 (EAGAIN)
+177,analyzed_bin,poll,110,"0x7f407e72a9f0, 1, 2235",1
+178,analyzed_bin,recvfrom,110,"12, 0x7f407e72ad50, 512, 0x0, 0x7f407e72aa10, 0x7f407e72a9ec",48
+179,analyzed_bin,close,110,12,0
+180,analyzed_bin,write,110,"9, ""\001\0\0\0\0\0\0\0"", 8",8
+181,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 939, 0x0, 8",1
+182,analyzed_bin,read,110,"9, 0x7ffc5a1336c8, 1024",8
+183,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a1335c8",0
+184,analyzed_bin,open,110,"""/dev/null"", O_RDONLY|O_CLOEXEC",12
+185,analyzed_bin,fcntl,110,"12, F_SETFD, 0x1",0
+186,analyzed_bin,socket,110,"PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",13
+187,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_DEBUG, 0x7ffc5a13354c, 4",0
+188,analyzed_bin,setsockopt,110,"13, SOL_SOCKET, SO_KEEPALIVE, 0x7ffc5a13353c, 4",0
+189,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_ERROR, 0x7ffc5a133538, 4",0
+190,analyzed_bin,connect,110,"13, {AF_INET, 141.164.39.23, 80}, 16",-115 (EINPROGRESS)
+191,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",0
+192,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 575, 0x0, 8",1
+193,analyzed_bin,getsockopt,110,"13, SOL_SOCKET, SO_ERROR, 0x7ffc5a133ab4, 0x7ffc5a133ab8",0
+194,analyzed_bin,brk,110,0x7f407eb88000,139914980655104
+195,analyzed_bin,write,110,"13, ""{\""id\"":1,\""jsonrpc\"":\""2.0\"",\""method\"":\""lo""..., 521",521
+196,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a133818",0
+197,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",-17 (EEXIST)
+198,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_MOD, 13, 0x7ffc5a133b3c",0
+199,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 333, 0x0, 8",1
+200,analyzed_bin,brk,110,0x7f407eb99000,139914980724736
+201,analyzed_bin,read,110,"13, 0x7f407eb77028, 16384",0
+202,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 13, 0x7ffc5a13385c",0
+203,analyzed_bin,close,110,13,0
+204,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136bc8",0
+205,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 105, 0x0, 8",0
+206,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+207,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+208,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+209,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+210,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+211,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+212,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+213,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+214,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+215,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+216,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+217,analyzed_bin,futex,110,"0x7f407df28a24, FUTEX_WAKE_PRIVATE, 1",1
+218,analyzed_bin,futex,110,"0x7f407df28a24, FUTEX_WAIT_PRIVATE, 2",0
+219,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAKE_PRIVATE, 1",1
+220,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAIT_PRIVATE, -2147483538",0
+221,analyzed_bin,open,110,"""/etc/hosts"", O_RDONLY|O_CLOEXEC",13
+222,analyzed_bin,fcntl,110,"13, F_SETFD, 0x1",0
+223,analyzed_bin,read,110,"13, 0x7f407df27d50, 1024",42
+224,analyzed_bin,read,110,"13, 0x7f407df27d50, 1024",0
+225,analyzed_bin,close,110,13,0
+226,analyzed_bin,open,110,"""/etc/resolv.conf"", O_RDONLY|O_CLOEXEC",13
+227,analyzed_bin,fcntl,110,"13, F_SETFD, 0x1",0
+228,analyzed_bin,read,110,"13, 0x7f407df28058, 248",27
+229,analyzed_bin,read,110,"13, 0x7f407df28058, 248",0
+230,analyzed_bin,close,110,13,0
+231,analyzed_bin,socket,110,"PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",13
+232,analyzed_bin,bind,110,"13, {AF_INET, 0.0.0.0, 0}, 16",0
+233,analyzed_bin,sendto,110,"13, ""D\231\001\0\0\001\0\0\0\0\0\0\005sftp1\004dns""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+234,analyzed_bin,sendto,110,"13, ""M\305\001\0\0\001\0\0\0\0\0\0\005sftp1\004dns""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+235,analyzed_bin,poll,110,"0x7f407df279f0, 1, 2500",1
+236,analyzed_bin,recvfrom,110,"13, 0x7f407df27d50, 512, 0x0, 0x7f407df27a10, 0x7f407df279ec",101
+237,analyzed_bin,recvfrom,110,"13, 0x7f407df27d50, 512, 0x0, 0x7f407df27a10, 0x7f407df279ec",-11 (EAGAIN)
+238,analyzed_bin,poll,110,"0x7f407df279f0, 1, 2148",1
+239,analyzed_bin,recvfrom,110,"13, 0x7f407df27d50, 512, 0x0, 0x7f407df27a10, 0x7f407df279ec",48
+240,analyzed_bin,close,110,13,0
+241,analyzed_bin,write,110,"9, ""\001\0\0\0\0\0\0\0"", 8",8
+242,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",1
+243,analyzed_bin,read,110,"9, 0x7ffc5a1336c8, 1024",8
+244,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a1335c8",0
+245,analyzed_bin,socket,110,"PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",13
+246,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_DEBUG, 0x7ffc5a13354c, 4",0
+247,analyzed_bin,setsockopt,110,"13, SOL_SOCKET, SO_KEEPALIVE, 0x7ffc5a13353c, 4",0
+248,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_ERROR, 0x7ffc5a133538, 4",0
+249,analyzed_bin,connect,110,"13, {AF_INET, 141.164.39.23, 80}, 16",-115 (EINPROGRESS)
+250,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",0
+251,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 615, 0x0, 8",1
+252,analyzed_bin,getsockopt,110,"13, SOL_SOCKET, SO_ERROR, 0x7ffc5a133ab4, 0x7ffc5a133ab8",0
+253,analyzed_bin,brk,110,0x7f407ebaa000,139914980794368
+254,analyzed_bin,write,110,"13, ""{\""id\"":1,\""jsonrpc\"":\""2.0\"",\""method\"":\""lo""..., 521",521
+255,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a133818",0
+256,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",-17 (EEXIST)
+257,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_MOD, 13, 0x7ffc5a133b3c",0
+258,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 378, 0x0, 8",1
+259,analyzed_bin,read,110,"13, 0x7f407eb77028, 16384",0
+260,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 13, 0x7ffc5a13385c",0
+261,analyzed_bin,close,110,13,0
+262,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136bc8",0
+263,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 143, 0x0, 8",0
+264,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+265,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+266,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+267,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+268,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+269,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+270,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+271,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+272,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+273,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+274,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+275,analyzed_bin,futex,110,"0x7f407cf22a24, FUTEX_WAKE_PRIVATE, 1",1
+276,analyzed_bin,futex,110,"0x7f407cf22a24, FUTEX_WAIT_PRIVATE, 2",0
+277,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAKE_PRIVATE, 1",1
+278,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAIT_PRIVATE, -2147483538",0
+279,analyzed_bin,open,110,"""/etc/hosts"", O_RDONLY|O_CLOEXEC",13
+280,analyzed_bin,fcntl,110,"13, F_SETFD, 0x1",0
+281,analyzed_bin,read,110,"13, 0x7f407cf21d50, 1024",42
+282,analyzed_bin,read,110,"13, 0x7f407cf21d50, 1024",0
+283,analyzed_bin,close,110,13,0
+284,analyzed_bin,open,110,"""/etc/resolv.conf"", O_RDONLY|O_CLOEXEC",13
+285,analyzed_bin,fcntl,110,"13, F_SETFD, 0x1",0
+286,analyzed_bin,read,110,"13, 0x7f407cf22058, 248",27
+287,analyzed_bin,read,110,"13, 0x7f407cf22058, 248",0
+288,analyzed_bin,close,110,13,0
+289,analyzed_bin,socket,110,"PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",13
+290,analyzed_bin,bind,110,"13, {AF_INET, 0.0.0.0, 0}, 16",0
+291,analyzed_bin,sendto,110,"13, ""x\257\001\0\0\001\0\0\0\0\0\0\005sftp1\004dns""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+292,analyzed_bin,sendto,110,"13, ""\201\342\001\0\0\001\0\0\0\0\0\0\005sftp1\004""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+293,analyzed_bin,poll,110,"0x7f407cf219f0, 1, 2500",1
+294,analyzed_bin,recvfrom,110,"13, 0x7f407cf21d50, 512, 0x0, 0x7f407cf21a10, 0x7f407cf219ec",48
+295,analyzed_bin,recvfrom,110,"13, 0x7f407cf21f50, 512, 0x0, 0x7f407cf21a10, 0x7f407cf219ec",-11 (EAGAIN)
+296,analyzed_bin,poll,110,"0x7f407cf219f0, 1, 2488",1
+297,analyzed_bin,recvfrom,110,"13, 0x7f407cf21f50, 512, 0x0, 0x7f407cf21a10, 0x7f407cf219ec",101
+298,analyzed_bin,close,110,13,0
+299,analyzed_bin,write,110,"9, ""\001\0\0\0\0\0\0\0"", 8",8
+300,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",1
+301,analyzed_bin,read,110,"9, 0x7ffc5a1336c8, 1024",8
+302,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a1335c8",0
+303,analyzed_bin,socket,110,"PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",13
+304,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_DEBUG, 0x7ffc5a13354c, 4",0
+305,analyzed_bin,setsockopt,110,"13, SOL_SOCKET, SO_KEEPALIVE, 0x7ffc5a13353c, 4",0
+306,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_ERROR, 0x7ffc5a133538, 4",0
+307,analyzed_bin,connect,110,"13, {AF_INET, 141.164.39.23, 80}, 16",-115 (EINPROGRESS)
+308,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",0
+309,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 723, 0x0, 8",1
+310,analyzed_bin,getsockopt,110,"13, SOL_SOCKET, SO_ERROR, 0x7ffc5a133ab4, 0x7ffc5a133ab8",0
+311,analyzed_bin,write,110,"13, ""{\""id\"":1,\""jsonrpc\"":\""2.0\"",\""method\"":\""lo""..., 521",521
+312,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a133818",0
+313,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",-17 (EEXIST)
+314,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_MOD, 13, 0x7ffc5a133b3c",0
+315,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 480, 0x0, 8",1
+316,analyzed_bin,read,110,"13, 0x7f407eb77028, 16384",-104 (ECONNRESET)
+317,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 13, 0x7ffc5a13387c",0
+318,analyzed_bin,close,110,13,0
+319,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136bc8",0
+320,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 225, 0x0, 8",0
+321,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+322,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+323,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+324,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+325,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+326,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+327,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+328,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+329,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+330,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",0
+331,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+332,analyzed_bin,futex,110,"0x7f407d725a24, FUTEX_WAKE_PRIVATE, 1",1
+333,analyzed_bin,futex,110,"0x7f407d725a24, FUTEX_WAIT_PRIVATE, 2",0
+334,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAKE_PRIVATE, 1",1
+335,analyzed_bin,futex,110,"0x7f407eac72e4, FUTEX_WAIT_PRIVATE, -2147483538",0
+336,analyzed_bin,open,110,"""/etc/hosts"", O_RDONLY|O_CLOEXEC",13
+337,analyzed_bin,fcntl,110,"13, F_SETFD, 0x1",0
+338,analyzed_bin,read,110,"13, 0x7f407d724d50, 1024",42
+339,analyzed_bin,read,110,"13, 0x7f407d724d50, 1024",0
+340,analyzed_bin,close,110,13,0
+341,analyzed_bin,open,110,"""/etc/resolv.conf"", O_RDONLY|O_CLOEXEC",13
+342,analyzed_bin,fcntl,110,"13, F_SETFD, 0x1",0
+343,analyzed_bin,read,110,"13, 0x7f407d725058, 248",27
+344,analyzed_bin,read,110,"13, 0x7f407d725058, 248",0
+345,analyzed_bin,close,110,13,0
+346,analyzed_bin,socket,110,"PF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",13
+347,analyzed_bin,bind,110,"13, {AF_INET, 0.0.0.0, 0}, 16",0
+348,analyzed_bin,sendto,110,"13, ""\207\364\001\0\0\001\0\0\0\0\0\0\005sftp1\004""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+349,analyzed_bin,sendto,110,"13, ""\226)\001\0\0\001\0\0\0\0\0\0\005sftp1\004dns""..., 32, MSG_NOSIGNAL, {AF_INET, 10.0.2.3, 53}, 16",32
+350,analyzed_bin,poll,110,"0x7f407d7249f0, 1, 2500",1
+351,analyzed_bin,recvfrom,110,"13, 0x7f407d724d50, 512, 0x0, 0x7f407d724a10, 0x7f407d7249ec",101
+352,analyzed_bin,recvfrom,110,"13, 0x7f407d724d50, 512, 0x0, 0x7f407d724a10, 0x7f407d7249ec",-11 (EAGAIN)
+353,analyzed_bin,poll,110,"0x7f407d7249f0, 1, 2487",1
+354,analyzed_bin,recvfrom,110,"13, 0x7f407d724d50, 512, 0x0, 0x7f407d724a10, 0x7f407d7249ec",48
+355,analyzed_bin,close,110,13,0
+356,analyzed_bin,write,110,"9, ""\001\0\0\0\0\0\0\0"", 8",8
+357,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",1
+358,analyzed_bin,read,110,"9, 0x7ffc5a1336c8, 1024",8
+359,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a1335c8",0
+360,analyzed_bin,socket,110,"PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",13
+361,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_DEBUG, 0x7ffc5a13354c, 4",0
+362,analyzed_bin,setsockopt,110,"13, SOL_SOCKET, SO_KEEPALIVE, 0x7ffc5a13353c, 4",0
+363,analyzed_bin,setsockopt,110,"13, SOL_TCP, SO_ERROR, 0x7ffc5a133538, 4",0
+364,analyzed_bin,connect,110,"13, {AF_INET, 141.164.39.23, 80}, 16",-115 (EINPROGRESS)
+365,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",0
+366,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 640, 0x0, 8",1
+367,analyzed_bin,getsockopt,110,"13, SOL_SOCKET, SO_ERROR, 0x7ffc5a133ab4, 0x7ffc5a133ab8",0
+368,analyzed_bin,write,110,"13, ""{\""id\"":1,\""jsonrpc\"":\""2.0\"",\""method\"":\""lo""..., 521",521
+369,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a133818",0
+370,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_ADD, 13, 0x7ffc5a133b3c",-17 (EEXIST)
+371,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_MOD, 13, 0x7ffc5a133b3c",0
+372,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 407, 0x0, 8",0
+373,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+374,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",1
+375,analyzed_bin,read,110,"13, 0x7f407eb77028, 16384",-104 (ECONNRESET)
+376,analyzed_bin,epoll_ctl,110,"4, EPOLL_CTL_DEL, 13, 0x7ffc5a13387c",0
+377,analyzed_bin,close,110,13,0
+378,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136bc8",0
+379,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 638, 0x0, 8",0
+380,analyzed_bin,clock_gettime,110,"CLOCK_MONOTONIC, 0x7ffc5a136ba8",0
+381,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 1000, 0x0, 8",-4 (EINTR)
+382,analyzed_bin,read,110,"5, 0x7ffc5a133617, 1",1
+383,analyzed_bin,write,110,"8, ""\340^\267~@\177\0\0\017\0\0\0\0\0\0\0"", 16",16
+384,analyzed_bin,write,110,"6, ""*"", 1",1
+385,analyzed_bin,rt_sigreturn,110,,-4 (EINTR)
+386,analyzed_bin,epoll_pwait,110,"4, 0x7ffc5a133bc8, 1024, 646, 0x0, 8",1
+387,analyzed_bin,read,110,"7, 0x7ffc5a1338b8, 512",16
+388,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a133710, 8",0
+389,analyzed_bin,read,110,"5, 0x7ffc5a133647, 1",1
+390,analyzed_bin,rt_sigaction,110,"SIGHUP, {SIG_DFL}, 0x0, 8",0
+391,analyzed_bin,write,110,"6, ""*"", 1",1
+392,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+393,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a133710, 8",0
+394,analyzed_bin,read,110,"5, 0x7ffc5a133647, 1",1
+395,analyzed_bin,rt_sigaction,110,"SIGINT, {SIG_DFL}, 0x0, 8",0
+396,analyzed_bin,write,110,"6, ""*"", 1",1
+397,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+398,analyzed_bin,rt_sigprocmask,110,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc5a133710, 8",0
+399,analyzed_bin,read,110,"5, 0x7ffc5a133647, 1",1

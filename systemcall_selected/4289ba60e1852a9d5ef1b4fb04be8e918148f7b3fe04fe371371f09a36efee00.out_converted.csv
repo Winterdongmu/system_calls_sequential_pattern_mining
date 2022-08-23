@@ -1,0 +1,42 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,open,108,"""/proc/self/exe"", O_RDONLY",3
+1,analyzed_bin,mmap2,108,"0x0, 2268726, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc293ff9000
+2,analyzed_bin,mmap2,108,"0x7fc293ff9000, 2268328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0",0x7fc293ff9000
+3,analyzed_bin,mprotect,108,"0x7fc294222000, 3638, PROT_READ|PROT_EXEC",0
+4,analyzed_bin,readlink,108,"""/proc/self/exe"", 0x7ffe42430590, 4095",18
+5,analyzed_bin,mmap2,108,"0x7fc294223000, 6664192, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7fc294223000
+6,analyzed_bin,mmap2,108,"0x7fc294223000, 384128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7fc294223000
+7,analyzed_bin,mprotect,108,"0x7fc294223000, 384128, PROT_READ",0
+8,analyzed_bin,mmap2,108,"0x7fc294281000, 4099960, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 385024",0x7fc294281000
+9,analyzed_bin,mprotect,108,"0x7fc294281000, 4099960, PROT_READ|PROT_EXEC",0
+10,analyzed_bin,mmap2,108,"0x7fc29466a000, 1252917, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 4485120",0x7fc29466a000
+11,analyzed_bin,mprotect,108,"0x7fc29466a000, 1252917, PROT_READ",0
+12,analyzed_bin,mmap2,108,"0x7fc29479d000, 265968, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 5738496",0x7fc29479d000
+13,analyzed_bin,mprotect,108,"0x7fc29479d000, 265968, PROT_READ|PROT_WRITE",0
+14,analyzed_bin,mmap2,108,"0x7fc2947de000, 652024, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7fc2947de000
+15,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ, MAP_PRIVATE, 3, 0",0x7fc293ff8000
+16,analyzed_bin,close,108,3,0
+17,analyzed_bin,munmap,108,"0x7fc293ff9000, 2268726",0
+18,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 140473692311424",0
+19,analyzed_bin,set_tid_address,108,0x7fc29487d2f0,108
+20,analyzed_bin,brk,108,0x0,140473692315648
+21,analyzed_bin,brk,108,0x7fc29487f000,140473692319744
+22,analyzed_bin,open,108,"""/dev/urandom"", O_RDONLY",3
+23,analyzed_bin,read,108,"3, 0x7ffe42431324, 4",4
+24,analyzed_bin,brk,108,0x7fc294880000,140473692323840
+25,analyzed_bin,mmap2,108,"0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc29420f000
+26,analyzed_bin,mprotect,108,"0x7fc29420f000, 81920, PROT_READ|PROT_EXEC",0
+27,analyzed_bin,brk,108,0x7fc294892000,140473692397568
+28,analyzed_bin,readlink,108,"""/proc/self/exe"", 0x7fc2947de260, 519",18
+29,analyzed_bin,open,108,"""/root/config.json"", O_RDONLY",-2 (ENOENT)
+30,analyzed_bin,open,108,"""/root/.xmrig.json"", O_RDONLY",-2 (ENOENT)
+31,analyzed_bin,open,108,"""/root/.config/xmrig.json"", O_RDONLY",-2 (ENOENT)
+32,analyzed_bin,brk,108,0x7fc294897000,140473692418048
+33,analyzed_bin,open,108,"""/etc/localtime"", O_RDONLY|O_NONBLOCK|O_CLOEXEC",4
+34,analyzed_bin,fstat,108,"4, 0x7ffe42430e20",0
+35,analyzed_bin,mmap2,108,"0x0, 127, PROT_READ, MAP_SHARED, 4, 0",0x7fc29420e000
+36,analyzed_bin,close,108,4,0
+37,analyzed_bin,ioctl,108,"1, 21523, 0x7ffe42431008",-25 (ENOTTY)
+38,analyzed_bin,writev,108,"1, 0x7ffe42430fa0, 2",85
+39,analyzed_bin,close,108,3,0
+40,analyzed_bin,exit_group,108,2,

@@ -1,0 +1,25 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,open,108,"""/proc/self/exe"", O_RDONLY",3
+1,analyzed_bin,mmap2,108,"0x0, 132046, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f72e5eaa000
+2,analyzed_bin,mmap2,108,"0x7f72e5eaa000, 131592, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0",0x7f72e5eaa000
+3,analyzed_bin,mprotect,108,"0x7f72e5ec9000, 5070, PROT_READ|PROT_EXEC",0
+4,analyzed_bin,readlink,108,"""/proc/self/exe"", 0x7ffef8101f30, 4095",18
+5,analyzed_bin,mmap2,108,"0x400000, 2453504, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x400000
+6,analyzed_bin,mmap2,108,"0x400000, 318360, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x400000
+7,analyzed_bin,mprotect,108,"0x400000, 318360, PROT_READ|PROT_EXEC",0
+8,analyzed_bin,mmap2,108,"0x64d000, 33912, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 315392",0x64d000
+9,analyzed_bin,mprotect,108,"0x64d000, 33912, PROT_READ|PROT_WRITE",0
+10,analyzed_bin,mmap2,108,"0x656000, 1672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x656000
+11,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ, MAP_PRIVATE, 3, 0",0x7f72e5ea9000
+12,analyzed_bin,close,108,3,0
+13,analyzed_bin,munmap,108,"0x7f72e5eaa000, 132046",0
+14,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 6645016",0
+15,analyzed_bin,set_tid_address,108,0x656650,108
+16,analyzed_bin,getpid,108,,108
+17,analyzed_bin,unlink,108,"""/root/analyzed_bin""",0
+18,postgres: logic,prctl,108,"PR_SET_NAME, 0x7ffef8102ca9",0
+19,postgres: logic,close,108,0,0
+20,postgres: logic,close,108,1,0
+21,postgres: logic,close,108,2,0
+22,postgres: logic,open,108,"""/tmp/.X11-unix/22"", O_RDWR|O_CREAT|O_LARGEFILE, 0600",-2 (ENOENT)
+23,postgres: logic,exit_group,108,1,

@@ -1,0 +1,735 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,brk,108,0x0,94544075825152
+1,analyzed_bin,access,108,"""/etc/ld.so.preload"", R_OK",-2 (ENOENT)
+2,analyzed_bin,openat,108,"AT_FDCWD, ""/etc/ld.so.cache"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+3,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+4,analyzed_bin,stat,108,"""/lib64/tls/x86_64/x86_64"", 0x7ffd20a39170",-2 (ENOENT)
+5,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+6,analyzed_bin,stat,108,"""/lib64/tls/x86_64"", 0x7ffd20a39170",-2 (ENOENT)
+7,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+8,analyzed_bin,stat,108,"""/lib64/tls/x86_64"", 0x7ffd20a39170",-2 (ENOENT)
+9,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+10,analyzed_bin,stat,108,"""/lib64/tls"", 0x7ffd20a39170",-2 (ENOENT)
+11,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+12,analyzed_bin,stat,108,"""/lib64/x86_64/x86_64"", 0x7ffd20a39170",-2 (ENOENT)
+13,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+14,analyzed_bin,stat,108,"""/lib64/x86_64"", 0x7ffd20a39170",-2 (ENOENT)
+15,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+16,analyzed_bin,stat,108,"""/lib64/x86_64"", 0x7ffd20a39170",-2 (ENOENT)
+17,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/librt.so.1"", O_RDONLY|O_CLOEXEC",3
+18,analyzed_bin,read,108,"3, 0x7ffd20a392d8, 832",832
+19,analyzed_bin,fstat,108,"3, 0x7ffd20a39170",0
+20,analyzed_bin,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f61254fd000
+21,analyzed_bin,mmap2,108,"0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f61250d1000
+22,analyzed_bin,mprotect,108,"0x7f61250d8000, 2093056, PROT_NONE",0
+23,analyzed_bin,mmap2,108,"0x7f61252d7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576",0x7f61252d7000
+24,analyzed_bin,close,108,3,0
+25,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",3
+26,analyzed_bin,read,108,"3, 0x7ffd20a392a8, 832",832
+27,analyzed_bin,fstat,108,"3, 0x7ffd20a39140",0
+28,analyzed_bin,mmap2,108,"0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f6124eb2000
+29,analyzed_bin,mprotect,108,"0x7f6124ecc000, 2093056, PROT_NONE",0
+30,analyzed_bin,mmap2,108,"0x7f61250cb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400",0x7f61250cb000
+31,analyzed_bin,mmap2,108,"0x7f61250cd000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7f61250cd000
+32,analyzed_bin,close,108,3,0
+33,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libanl.so.1"", O_RDONLY|O_CLOEXEC",3
+34,analyzed_bin,read,108,"3, 0x7ffd20a39278, 832",832
+35,analyzed_bin,fstat,108,"3, 0x7ffd20a39110",0
+36,analyzed_bin,mmap2,108,"0x0, 2109928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f6124cae000
+37,analyzed_bin,mprotect,108,"0x7f6124cb1000, 2093056, PROT_NONE",0
+38,analyzed_bin,mmap2,108,"0x7f6124eb0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 8192",0x7f6124eb0000
+39,analyzed_bin,close,108,3,0
+40,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libm.so.6"", O_RDONLY|O_CLOEXEC",3
+41,analyzed_bin,read,108,"3, 0x7ffd20a39248, 832",832
+42,analyzed_bin,fstat,108,"3, 0x7ffd20a390e0",0
+43,analyzed_bin,mmap2,108,"0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f6124931000
+44,analyzed_bin,mprotect,108,"0x7f6124aad000, 2093056, PROT_NONE",0
+45,analyzed_bin,mmap2,108,"0x7f6124cac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384",0x7f6124cac000
+46,analyzed_bin,close,108,3,0
+47,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libgcc_s.so.1"", O_RDONLY|O_CLOEXEC",3
+48,analyzed_bin,read,108,"3, 0x7ffd20a39218, 832",832
+49,analyzed_bin,fstat,108,"3, 0x7ffd20a390b0",0
+50,analyzed_bin,mmap2,108,"0x0, 2188296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f612471a000
+51,analyzed_bin,mprotect,108,"0x7f6124730000, 2093056, PROT_NONE",0
+52,analyzed_bin,mmap2,108,"0x7f612492f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 86016",0x7f612492f000
+53,analyzed_bin,close,108,3,0
+54,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libc.so.6"", O_RDONLY|O_CLOEXEC",3
+55,analyzed_bin,read,108,"3, 0x7ffd20a391e8, 832",832
+56,analyzed_bin,fstat,108,"3, 0x7ffd20a39080",0
+57,analyzed_bin,mmap2,108,"0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f6124365000
+58,analyzed_bin,mprotect,108,"0x7f6124511000, 2093056, PROT_NONE",0
+59,analyzed_bin,mmap2,108,"0x7f6124710000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992",0x7f6124710000
+60,analyzed_bin,mmap2,108,"0x7f6124716000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7f6124716000
+61,analyzed_bin,close,108,3,0
+62,analyzed_bin,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f61254fb000
+63,analyzed_bin,mmap2,108,"0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f61254f8000
+64,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 140055214524224",0
+65,analyzed_bin,mprotect,108,"0x7f6124710000, 16384, PROT_READ",0
+66,analyzed_bin,mprotect,108,"0x7f612492f000, 4096, PROT_READ",0
+67,analyzed_bin,mprotect,108,"0x7f6124cac000, 4096, PROT_READ",0
+68,analyzed_bin,mprotect,108,"0x7f61250cb000, 4096, PROT_READ",0
+69,analyzed_bin,mprotect,108,"0x7f6124eb0000, 4096, PROT_READ",0
+70,analyzed_bin,mprotect,108,"0x7f61252d7000, 4096, PROT_READ",0
+71,analyzed_bin,mprotect,108,"0x55fcc2095000, 217088, PROT_READ",0
+72,analyzed_bin,mprotect,108,"0x7f61254ff000, 4096, PROT_READ",0
+73,analyzed_bin,set_tid_address,108,0x7f61254f8a10,108
+74,analyzed_bin,set_robust_list,108,"0x7f61254f8a20, 24",0
+75,analyzed_bin,rt_sigaction,108,"0x20, {0x7f6124eb82e0, SA_SIGINFO|SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8",0
+76,analyzed_bin,rt_sigaction,108,"0x21, {0x7f6124eb8380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8",0
+77,analyzed_bin,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+78,analyzed_bin,prlimit64,108,"0, RLIMIT_STACK, NULL, 0x7ffd20a39e90",0
+79,analyzed_bin,futex,108,"0x55fcc20df1e4, FUTEX_WAKE_PRIVATE, 2147483647",0
+80,analyzed_bin,futex,108,"0x55fcc20df1f0, FUTEX_WAKE_PRIVATE, 2147483647",0
+81,analyzed_bin,brk,108,0x0,94544075825152
+82,analyzed_bin,brk,108,0x55fcc2103000,94544075960320
+83,analyzed_bin,openat,108,"AT_FDCWD, ""/sys/devices/system/cpu/online"", O_RDONLY|O_CLOEXEC",3
+84,analyzed_bin,read,108,"3, 0x7ffd20a37dc0, 8192",2
+85,analyzed_bin,close,108,3,0
+86,analyzed_bin,openat,108,"AT_FDCWD, ""/etc/localtime"", O_RDONLY|O_CLOEXEC",3
+87,analyzed_bin,fstat,108,"3, 0x7ffd20a39bc0",0
+88,analyzed_bin,fstat,108,"3, 0x7ffd20a39a00",0
+89,analyzed_bin,read,108,"3, 0x55fcc20e4eb0, 1024",127
+90,analyzed_bin,lseek,108,"3, -71, SEEK_CUR",56
+91,analyzed_bin,read,108,"3, 0x55fcc20e4eb0, 1024",71
+92,analyzed_bin,close,108,3,0
+93,analyzed_bin,mlock,108,"0x55fcc20d8000, 4096",0
+94,analyzed_bin,getpid,108,,108
+95,analyzed_bin,brk,108,0x55fcc2132000,94544076152832
+96,analyzed_bin,stat,108,"""/root/.combodecore"", 0x7ffd20a39310",-2 (ENOENT)
+97,analyzed_bin,stat,108,"""/root"", 0x7ffd20a39310",0
+98,analyzed_bin,mkdir,108,"""/root/.combodecore"", 0777",0
+99,analyzed_bin,stat,108,"""/root/.combodecore/combode.conf"", 0x7ffd20a39520",-2 (ENOENT)
+100,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/combode.conf"", O_WRONLY|O_CREAT|O_APPEND, 0666",3
+101,analyzed_bin,lseek,108,"3, 0, SEEK_END",0
+102,analyzed_bin,fstat,108,"3, 0x7ffd20a39500",0
+103,analyzed_bin,write,108,"3, ""\n"", 1",1
+104,analyzed_bin,close,108,3,0
+105,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/combode.conf"", O_RDONLY",3
+106,analyzed_bin,read,108,"3, 0x55fcc2112000, 8191",1
+107,analyzed_bin,read,108,"3, 0x55fcc2112000, 8191",0
+108,analyzed_bin,close,108,3,0
+109,analyzed_bin,stat,108,"""/root/.combodecore"", 0x7ffd20a398e0",0
+110,analyzed_bin,stat,108,"""/root/.combodecore"", 0x7ffd20a39a50",0
+111,analyzed_bin,stat,108,"""/root/.combodecore"", 0x7ffd20a39050",0
+112,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/masternode.conf"", O_RDONLY",-2 (ENOENT)
+113,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/masternode.conf"", O_WRONLY|O_CREAT|O_APPEND, 0666",3
+114,analyzed_bin,lseek,108,"3, 0, SEEK_END",0
+115,analyzed_bin,fstat,108,"3, 0x7ffd20a391c0",0
+116,analyzed_bin,write,108,"3, ""# Masternode config file\n# Format: alias IP:""..., 264",264
+117,analyzed_bin,close,108,3,0
+118,analyzed_bin,umask,108,077,022
+119,analyzed_bin,rt_sigaction,108,"SIGTERM, {0x55fcc14521c0, SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8",0
+120,analyzed_bin,rt_sigaction,108,"SIGINT, {0x55fcc14521c0, SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8",0
+121,analyzed_bin,rt_sigaction,108,"SIGHUP, {0x55fcc1452200, SA_RESTORER, 0x7f6124ec3fe0, [EMPTY]}, 0x0, 8",0
+122,analyzed_bin,rt_sigaction,108,"SIGPIPE, {SIG_IGN}, 0x7ffd20a38050, 8",0
+123,analyzed_bin,prlimit64,108,"0, RLIMIT_NOFILE, NULL, 0x7ffd20a38210",0
+124,analyzed_bin,openat,108,"AT_FDCWD, ""/proc/cpuinfo"", O_RDONLY",3
+125,analyzed_bin,read,108,"3, 0x55fcc21140b0, 8191",720
+126,analyzed_bin,read,108,"3, 0x55fcc21140b0, 8191",0
+127,analyzed_bin,close,108,3,0
+128,analyzed_bin,getpid,108,,108
+129,analyzed_bin,getpid,108,,108
+130,analyzed_bin,openat,108,"AT_FDCWD, ""/dev/urandom"", O_RDONLY|O_NOCTTY|O_NONBLOCK",3
+131,analyzed_bin,fstat,108,"3, 0x7ffd20a37ee0",0
+132,analyzed_bin,poll,108,"0x7ffd20a37ed8, 1, 10",1
+133,analyzed_bin,read,108,"3, 0x7ffd20a38090, 32",32
+134,analyzed_bin,close,108,3,0
+135,analyzed_bin,getuid,108,,0
+136,analyzed_bin,getpid,108,,108
+137,analyzed_bin,mlock,108,"0x7ffd20a38000, 4096",0
+138,analyzed_bin,getpid,108,,108
+139,analyzed_bin,munlock,108,"0x7ffd20a38000, 4096",0
+140,analyzed_bin,mmap2,108,"0x0, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f61253f7000
+141,analyzed_bin,mmap2,108,"0x0, 2101248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f6124164000
+142,analyzed_bin,mmap2,108,"0x0, 1445888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f6124003000
+143,analyzed_bin,mmap2,108,"0x0, 659456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f6125356000
+144,analyzed_bin,munmap,108,"0x7f6124003000, 1445888",0
+145,analyzed_bin,munmap,108,"0x7f6124164000, 2101248",0
+146,analyzed_bin,munmap,108,"0x7f6125356000, 659456",0
+147,analyzed_bin,mlock,108,"0x7ffd20a38000, 4096",0
+148,analyzed_bin,getpid,108,,108
+149,analyzed_bin,getpid,108,,108
+150,analyzed_bin,munlock,108,"0x7ffd20a38000, 4096",0
+151,analyzed_bin,futex,108,"0x7f61249301a0, FUTEX_WAKE_PRIVATE, 2147483647",0
+152,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/.lock"", O_WRONLY|O_CREAT|O_APPEND, 0666",3
+153,analyzed_bin,lseek,108,"3, 0, SEEK_END",0
+154,analyzed_bin,close,108,3,0
+155,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/.lock"", O_RDWR",3
+156,analyzed_bin,fcntl,108,"3, F_SETLK, 0x7ffd20a380e0",0
+157,analyzed_bin,getpid,108,,108
+158,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/comboded.pid"", O_WRONLY|O_CREAT|O_TRUNC, 0666",4
+159,analyzed_bin,fstat,108,"4, 0x7ffd20a37a90",0
+160,analyzed_bin,write,108,"4, ""108\n"", 4",4
+161,analyzed_bin,close,108,4,0
+162,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/debug.log"", O_RDONLY",-2 (ENOENT)
+163,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/debug.log"", O_WRONLY|O_CREAT|O_APPEND, 0666",4
+164,analyzed_bin,lseek,108,"4, 0, SEEK_END",0
+165,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 \n\n\n\n\n\n\n\n\n\n\n\n""..., 40",40
+166,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Combode Core version v1.0""..., 98",98
+167,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 InitParameterInteraction:""..., 121",121
+168,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Validating signatures for""..., 58",58
+169,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Using BerkeleyDB version ""..., 82",82
+170,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Default data directory /r""..., 62",62
+171,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Using data directory /roo""..., 60",60
+172,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Using config file /root/.""..., 70",70
+173,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Using at most 125 connect""..., 84",84
+174,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Using 0 threads for scrip""..., 60",60
+175,analyzed_bin,mmap2,108,"0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0",0x7f6123b64000
+176,analyzed_bin,mprotect,108,"0x7f6123b65000, 8388608, PROT_READ|PROT_WRITE",0
+177,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6124363fb0, 0x7f61243649d0, 0x7f61243649d0",110
+178,analyzed_bin,set_robust_list,108,"0x7f61243649e0, 24",0
+179,analyzed_bin,mmap2,108,"0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0",0x7f611bb64000
+180,analyzed_bin,munmap,108,"0x7f611bb64000, 4833280",0
+181,analyzed_bin,munmap,108,"0x7f6120000000, 62275584",0
+182,analyzed_bin,mprotect,108,"0x7f611c000000, 135168, PROT_READ|PROT_WRITE",0
+183,combode-schedul,prctl,108,"PR_SET_NAME, 0x7f611c000d30",0
+184,combode-schedul,write,108,"4, ""2022-07-14 08:50:21 scheduler thread start\n"", 43",43
+185,analyzed_bin,getuid,108,,0
+186,analyzed_bin,geteuid,108,,0
+187,analyzed_bin,getgid,108,,0
+188,analyzed_bin,getegid,108,,0
+189,analyzed_bin,getuid,108,,0
+190,analyzed_bin,geteuid,108,,0
+191,analyzed_bin,getgid,108,,0
+192,analyzed_bin,getegid,108,,0
+193,analyzed_bin,epoll_create1,108,EPOLL_CLOEXEC,5
+194,analyzed_bin,getuid,108,,0
+195,analyzed_bin,geteuid,108,,0
+196,analyzed_bin,getgid,108,,0
+197,analyzed_bin,getegid,108,,0
+198,analyzed_bin,pipe2,108,"[-1, -1], O_NONBLOCK|O_CLOEXEC",0
+199,analyzed_bin,getuid,108,,0
+200,analyzed_bin,geteuid,108,,0
+201,analyzed_bin,getgid,108,,0
+202,analyzed_bin,getegid,108,,0
+203,analyzed_bin,eventfd2,108,"0, EFD_NONBLOCK|EFD_CLOEXEC",8
+204,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_ADD, 8, 0x7ffd20a37e2c",0
+205,analyzed_bin,socket,108,"PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0",9
+206,analyzed_bin,bind,108,"9, {AF_NETLINK, pid=0, groups=00000000}, 12",0
+207,analyzed_bin,getsockname,108,"9, 0x7ffd20a378f8, 0x7ffd20a378f4",0
+208,analyzed_bin,sendto,108,"9, ""\024\0\0\0\026\0\001\003\315\330\317b\0\0\0\0\0"", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12",20
+209,analyzed_bin,recvmsg,108,"9, 0x7ffd20a37940, 0x0",164
+210,analyzed_bin,recvmsg,108,"9, 0x7ffd20a37940, 0x0",72
+211,analyzed_bin,recvmsg,108,"9, 0x7ffd20a37940, 0x0",20
+212,analyzed_bin,close,108,9,0
+213,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 libevent: getaddrinfo: ad""..., 85",85
+214,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Binding RPC on address ::""..., 66",66
+215,analyzed_bin,socket,108,"PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0",9
+216,analyzed_bin,connect,108,"9, {AF_UNIX, ""/var/run/nscd/socket""}, 110",-2 (ENOENT)
+217,analyzed_bin,close,108,9,0
+218,analyzed_bin,socket,108,"PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0",9
+219,analyzed_bin,bind,108,"9, {AF_NETLINK, pid=0, groups=00000000}, 12",0
+220,analyzed_bin,getsockname,108,"9, 0x7ffd20a378f8, 0x7ffd20a378f4",0
+221,analyzed_bin,sendto,108,"9, ""\024\0\0\0\026\0\001\003\315\330\317b\0\0\0\0\0"", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12",20
+222,analyzed_bin,recvmsg,108,"9, 0x7ffd20a37940, 0x0",164
+223,analyzed_bin,recvmsg,108,"9, 0x7ffd20a37940, 0x0",72
+224,analyzed_bin,recvmsg,108,"9, 0x7ffd20a37940, 0x0",20
+225,analyzed_bin,close,108,9,0
+226,analyzed_bin,socket,108,"PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP",9
+227,analyzed_bin,setsockopt,108,"9, SOL_SOCKET, SO_KEEPALIVE, 0x7ffd20a37f54, 4",0
+228,analyzed_bin,setsockopt,108,"9, SOL_SOCKET, SO_REUSEADDR, 0x7ffd20a37f34, 4",0
+229,analyzed_bin,bind,108,"9, {AF_INET, 127.0.0.1, 19191}, 16",0
+230,analyzed_bin,listen,108,"9, 128",0
+231,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_ADD, 9, 0x7ffd20a37e6c",0
+232,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 HTTP: creating work queue""..., 58",58
+233,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 No rpcpassword set - usin""..., 76",76
+234,analyzed_bin,getpid,108,,108
+235,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/.cookie"", O_WRONLY|O_CREAT|O_TRUNC, 0666",10
+236,analyzed_bin,write,108,"10, ""__cookie__:975fe07eae95750ffc6f543a11bd9ff784""..., 75",75
+237,analyzed_bin,close,108,10,0
+238,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Generated RPC authenticat""..., 83",83
+239,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 HTTP: starting 4 worker t""..., 52",52
+240,analyzed_bin,mmap2,108,"0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0",0x7f6123363000
+241,analyzed_bin,mprotect,108,"0x7f6123364000, 8388608, PROT_READ|PROT_WRITE",0
+242,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6123b62fb0, 0x7f6123b639d0, 0x7f6123b639d0",111
+243,analyzed_bin,mmap2,108,"0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0",0x7f6122b62000
+244,analyzed_bin,mprotect,108,"0x7f6122b63000, 8388608, PROT_READ|PROT_WRITE",0
+245,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6123361fb0, 0x7f61233629d0, 0x7f61233629d0",112
+246,analyzed_bin,mmap2,108,"0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0",0x7f6122361000
+247,analyzed_bin,mprotect,108,"0x7f6122362000, 8388608, PROT_READ|PROT_WRITE",0
+248,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6122b60fb0, 0x7f6122b619d0, 0x7f6122b619d0",113
+249,analyzed_bin,set_robust_list,108,"0x7f6123b639e0, 24",0
+250,combode-http,prctl,108,"PR_SET_NAME, 0x55fcc1c71c7f",0
+251,analyzed_bin,mmap2,108,"0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0",0x7f6121b60000
+252,analyzed_bin,mprotect,108,"0x7f6121b61000, 8388608, PROT_READ|PROT_WRITE",0
+253,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f612235ffb0, 0x7f61223609d0, 0x7f61223609d0",114
+254,analyzed_bin,mmap2,108,"0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0",0x7f612135f000
+255,analyzed_bin,mprotect,108,"0x7f6121360000, 8388608, PROT_READ|PROT_WRITE",0
+256,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f6121b5efb0, 0x7f6121b5f9d0, 0x7f6121b5f9d0",115
+257,analyzed_bin,set_robust_list,108,"0x7f61233629e0, 24",0
+258,combode-httpwor,prctl,108,"PR_SET_NAME, 0x55fcc1c71d28",0
+259,analyzed_bin,set_robust_list,108,"0x7f6122b619e0, 24",0
+260,combode-httpwor,prctl,108,"PR_SET_NAME, 0x55fcc1c71d28",0
+261,analyzed_bin,set_robust_list,108,"0x7f61223609e0, 24",0
+262,combode-httpwor,prctl,108,"PR_SET_NAME, 0x55fcc1c71d28",0
+263,analyzed_bin,set_robust_list,108,"0x7f6121b5f9e0, 24",0
+264,combode-httpwor,prctl,108,"PR_SET_NAME, 0x55fcc1c71d28",0
+265,analyzed_bin,stat,108,"""/root/.combodecore/backups"", 0x7ffd20a37d30",-2 (ENOENT)
+266,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Creating backup folder /r""..., 70",70
+267,analyzed_bin,stat,108,"""/root/.combodecore/backups"", 0x7ffd20a37c90",-2 (ENOENT)
+268,analyzed_bin,stat,108,"""/root/.combodecore"", 0x7ffd20a37c90",0
+269,analyzed_bin,mkdir,108,"""/root/.combodecore/backups"", 0777",0
+270,analyzed_bin,stat,108,"""/root/.combodecore/backups/wallet.dat.2022-07-14-08-50"", 0x7ffd20a37d30",-2 (ENOENT)
+271,analyzed_bin,stat,108,"""/root/.combodecore/wallet.dat"", 0x7ffd20a37d30",-2 (ENOENT)
+272,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/backups"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",10
+273,analyzed_bin,fstat,108,"10, 0x7ffd20a37c40",0
+274,analyzed_bin,getdents,108,"10, 0x55fcc2115c40, 32768",48
+275,analyzed_bin,getdents,108,"10, 0x55fcc2115c40, 32768",0
+276,analyzed_bin,close,108,10,0
+277,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 Using wallet wallet.dat\n"", 44",44
+278,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 init message: Verifying w""..., 54",54
+279,analyzed_bin,mkdir,108,"""/root/.combodecore/database"", 0777",0
+280,analyzed_bin,write,108,"4, ""2022-07-14 08:50:21 CDBEnv::Open: LogDir=/roo""..., 105",105
+281,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/db.log"", O_WRONLY|O_CREAT|O_APPEND, 0666",10
+282,analyzed_bin,lseek,108,"10, 0, SEEK_END",0
+283,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/DB_CONFIG"", O_RDONLY",-2 (ENOENT)
+284,analyzed_bin,stat,108,"""/var/tmp"", 0x7ffd20a374b0",0
+285,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/__db.001"", O_RDWR",-2 (ENOENT)
+286,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",11
+287,analyzed_bin,fstat,108,"11, 0x7ffd20a37750",0
+288,analyzed_bin,getdents,108,"11, 0x55fcc2115fb0, 32768",344
+289,analyzed_bin,stat,108,"""/root/.combodecore/.cookie"", 0x7ffd20a37850",0
+290,analyzed_bin,stat,108,"""/root/.combodecore/.lock"", 0x7ffd20a37850",0
+291,analyzed_bin,stat,108,"""/root/.combodecore/masternode.conf"", 0x7ffd20a37850",0
+292,analyzed_bin,stat,108,"""/root/.combodecore/debug.log"", 0x7ffd20a37850",0
+293,analyzed_bin,stat,108,"""/root/.combodecore/.."", 0x7ffd20a37850",0
+294,analyzed_bin,stat,108,"""/root/.combodecore/combode.conf"", 0x7ffd20a37850",0
+295,analyzed_bin,stat,108,"""/root/.combodecore/db.log"", 0x7ffd20a37850",0
+296,analyzed_bin,stat,108,"""/root/.combodecore/database"", 0x7ffd20a37850",0
+297,analyzed_bin,stat,108,"""/root/.combodecore/backups"", 0x7ffd20a37850",0
+298,analyzed_bin,stat,108,"""/root/.combodecore/."", 0x7ffd20a37850",0
+299,analyzed_bin,stat,108,"""/root/.combodecore/comboded.pid"", 0x7ffd20a37850",0
+300,analyzed_bin,getdents,108,"11, 0x55fcc2115fb0, 32768",0
+301,analyzed_bin,close,108,11,0
+302,analyzed_bin,mmap2,108,"0x0, 6209536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f6120d73000
+303,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/database"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",11
+304,analyzed_bin,fstat,108,"11, 0x7ffd20a37680",0
+305,analyzed_bin,brk,108,0x55fcc2157000,94544076304384
+306,analyzed_bin,getdents,108,"11, 0x55fcc212e3b0, 32768",48
+307,analyzed_bin,stat,108,"""/root/.combodecore/database/.."", 0x7ffd20a37780",0
+308,analyzed_bin,stat,108,"""/root/.combodecore/database/."", 0x7ffd20a37780",0
+309,analyzed_bin,getdents,108,"11, 0x55fcc212e3b0, 32768",0
+310,analyzed_bin,close,108,11,0
+311,analyzed_bin,brk,108,0x55fcc224f000,94544077320192
+312,analyzed_bin,mmap2,108,"0x0, 5771264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f61207f2000
+313,analyzed_bin,brk,108,0x55fcc2270000,94544077455360
+314,analyzed_bin,brk,108,0x55fcc2291000,94544077590528
+315,analyzed_bin,brk,108,0x55fcc22b2000,94544077725696
+316,analyzed_bin,brk,108,0x55fcc22d3000,94544077860864
+317,analyzed_bin,brk,108,0x55fcc22f4000,94544077996032
+318,analyzed_bin,brk,108,0x55fcc2315000,94544078131200
+319,analyzed_bin,brk,108,0x55fcc2336000,94544078266368
+320,analyzed_bin,brk,108,0x55fcc2357000,94544078401536
+321,analyzed_bin,brk,108,0x55fcc2378000,94544078536704
+322,analyzed_bin,brk,108,0x55fcc2399000,94544078671872
+323,analyzed_bin,brk,108,0x55fcc23ba000,94544078807040
+324,analyzed_bin,brk,108,0x55fcc23db000,94544078942208
+325,analyzed_bin,brk,108,0x55fcc23fc000,94544079077376
+326,analyzed_bin,brk,108,0x55fcc241d000,94544079212544
+327,analyzed_bin,brk,108,0x55fcc243e000,94544079347712
+328,analyzed_bin,brk,108,0x55fcc245f000,94544079482880
+329,analyzed_bin,brk,108,0x55fcc2480000,94544079618048
+330,analyzed_bin,brk,108,0x55fcc24a1000,94544079753216
+331,analyzed_bin,brk,108,0x55fcc24c2000,94544079888384
+332,analyzed_bin,brk,108,0x55fcc24e3000,94544080023552
+333,analyzed_bin,brk,108,0x55fcc2504000,94544080158720
+334,analyzed_bin,brk,108,0x55fcc2525000,94544080293888
+335,analyzed_bin,brk,108,0x55fcc2546000,94544080429056
+336,analyzed_bin,brk,108,0x55fcc2567000,94544080564224
+337,analyzed_bin,brk,108,0x55fcc2588000,94544080699392
+338,analyzed_bin,brk,108,0x55fcc25a9000,94544080834560
+339,analyzed_bin,brk,108,0x55fcc25ca000,94544080969728
+340,analyzed_bin,brk,108,0x55fcc25eb000,94544081104896
+341,analyzed_bin,brk,108,0x55fcc260c000,94544081240064
+342,analyzed_bin,brk,108,0x55fcc262d000,94544081375232
+343,analyzed_bin,brk,108,0x55fcc264e000,94544081510400
+344,analyzed_bin,brk,108,0x55fcc266f000,94544081645568
+345,analyzed_bin,brk,108,0x55fcc2690000,94544081780736
+346,analyzed_bin,brk,108,0x55fcc26b1000,94544081915904
+347,analyzed_bin,brk,108,0x55fcc26d2000,94544082051072
+348,analyzed_bin,brk,108,0x55fcc26f3000,94544082186240
+349,analyzed_bin,brk,108,0x55fcc2714000,94544082321408
+350,analyzed_bin,brk,108,0x55fcc2735000,94544082456576
+351,analyzed_bin,brk,108,0x55fcc2756000,94544082591744
+352,analyzed_bin,brk,108,0x55fcc2777000,94544082726912
+353,analyzed_bin,brk,108,0x55fcc2798000,94544082862080
+354,analyzed_bin,brk,108,0x55fcc27b9000,94544082997248
+355,analyzed_bin,brk,108,0x55fcc27da000,94544083132416
+356,analyzed_bin,brk,108,0x55fcc27fb000,94544083267584
+357,analyzed_bin,brk,108,0x55fcc281c000,94544083402752
+358,analyzed_bin,brk,108,0x55fcc283d000,94544083537920
+359,analyzed_bin,brk,108,0x55fcc285e000,94544083673088
+360,analyzed_bin,brk,108,0x55fcc287f000,94544083808256
+361,analyzed_bin,brk,108,0x55fcc28a0000,94544083943424
+362,analyzed_bin,brk,108,0x55fcc28c1000,94544084078592
+363,analyzed_bin,brk,108,0x55fcc28e2000,94544084213760
+364,analyzed_bin,brk,108,0x55fcc2903000,94544084348928
+365,analyzed_bin,brk,108,0x55fcc2924000,94544084484096
+366,analyzed_bin,brk,108,0x55fcc2945000,94544084619264
+367,analyzed_bin,brk,108,0x55fcc2966000,94544084754432
+368,analyzed_bin,brk,108,0x55fcc2987000,94544084889600
+369,analyzed_bin,brk,108,0x55fcc29a8000,94544085024768
+370,analyzed_bin,brk,108,0x55fcc29c9000,94544085159936
+371,analyzed_bin,brk,108,0x55fcc29ea000,94544085295104
+372,analyzed_bin,brk,108,0x55fcc2a0b000,94544085430272
+373,analyzed_bin,brk,108,0x55fcc2a2c000,94544085565440
+374,analyzed_bin,brk,108,0x55fcc2a4d000,94544085700608
+375,analyzed_bin,brk,108,0x55fcc2a6e000,94544085835776
+376,analyzed_bin,brk,108,0x55fcc2a8f000,94544085970944
+377,analyzed_bin,brk,108,0x55fcc2ab0000,94544086106112
+378,analyzed_bin,brk,108,0x55fcc2ad1000,94544086241280
+379,analyzed_bin,brk,108,0x55fcc2af2000,94544086376448
+380,analyzed_bin,brk,108,0x55fcc2b13000,94544086511616
+381,analyzed_bin,brk,108,0x55fcc2b34000,94544086646784
+382,analyzed_bin,brk,108,0x55fcc2b55000,94544086781952
+383,analyzed_bin,brk,108,0x55fcc2b76000,94544086917120
+384,analyzed_bin,brk,108,0x55fcc2b97000,94544087052288
+385,analyzed_bin,stat,108,"""/root/.combodecore/wallet.dat"", 0x7ffd20a38090",-2 (ENOENT)
+386,analyzed_bin,brk,108,0x55fcc2bf1000,94544087420928
+387,analyzed_bin,getpid,108,,108
+388,analyzed_bin,brk,108,0x55fcc2cc3000,94544088281088
+389,analyzed_bin,brk,108,0x55fcc2d96000,94544089145344
+390,analyzed_bin,getpid,108,,108
+391,analyzed_bin,socket,108,"PF_INET6, SOCK_STREAM, IPPROTO_TCP",11
+392,analyzed_bin,setsockopt,108,"11, SOL_SOCKET, SO_REUSEADDR, 0x7ffd20a37f0c, 4",0
+393,analyzed_bin,setsockopt,108,"11, SOL_TCP, SO_DEBUG, 0x7ffd20a37f0c, 4",0
+394,analyzed_bin,fcntl,108,"11, F_GETFL, 0x0",2
+395,analyzed_bin,fcntl,108,"11, F_SETFL, 0x802",0
+396,analyzed_bin,setsockopt,108,"11, SOL_IPV6, SO_ATTACH_FILTER, 0x7ffd20a37f0c, 4",0
+397,analyzed_bin,bind,108,"11, {AF_INET6, 0000:0000:0000:0000:0000:0000:0000:0000, 19190}, 28",0
+398,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Bound to [::]:19190\n"", 40",40
+399,analyzed_bin,listen,108,"11, 128",0
+400,analyzed_bin,socket,108,"PF_INET, SOCK_STREAM, IPPROTO_TCP",12
+401,analyzed_bin,setsockopt,108,"12, SOL_SOCKET, SO_REUSEADDR, 0x7ffd20a37f0c, 4",0
+402,analyzed_bin,setsockopt,108,"12, SOL_TCP, SO_DEBUG, 0x7ffd20a37f0c, 4",0
+403,analyzed_bin,fcntl,108,"12, F_GETFL, 0x0",2
+404,analyzed_bin,fcntl,108,"12, F_SETFL, 0x802",0
+405,analyzed_bin,bind,108,"12, {AF_INET, 0.0.0.0, 19190}, 16",0
+406,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Bound to 0.0.0.0:19190\n"", 43",43
+407,analyzed_bin,listen,108,"12, 128",0
+408,analyzed_bin,stat,108,"""/root/.combodecore/blocks"", 0x7ffd20a38180",-2 (ENOENT)
+409,analyzed_bin,stat,108,"""/root/.combodecore/blocks"", 0x7ffd20a380e0",-2 (ENOENT)
+410,analyzed_bin,stat,108,"""/root/.combodecore"", 0x7ffd20a380e0",0
+411,analyzed_bin,mkdir,108,"""/root/.combodecore/blocks"", 0777",0
+412,analyzed_bin,stat,108,"""/root/.combodecore/blk0001.dat"", 0x7ffd20a38180",-2 (ENOENT)
+413,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Cache configuration:\n"", 41",41
+414,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 * Using 37.5MiB for block""..., 61",61
+415,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 * Using 8.0MiB for chain ""..., 60",60
+416,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 * Using 254.5MiB for in-m""..., 106",106
+417,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 init message: Loading blo""..., 57",57
+418,analyzed_bin,futex,108,"0x55fcc20daa30, FUTEX_WAKE_PRIVATE, 2147483647",0
+419,analyzed_bin,futex,108,"0x55fcc20daa40, FUTEX_WAKE_PRIVATE, 2147483647",0
+420,analyzed_bin,mkdir,108,"""/root/.combodecore/blocks/index"", 0777",0
+421,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Opening LevelDB in /root/""..., 71",71
+422,analyzed_bin,mkdir,108,"""/root/.combodecore/blocks/index"", 0755",-17 (EEXIST)
+423,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/LOCK"", O_RDWR|O_CREAT, 0644",13
+424,analyzed_bin,fcntl,108,"13, F_SETLK, 0x7ffd20a37b20",0
+425,analyzed_bin,access,108,"""/root/.combodecore/blocks/index/CURRENT"", F_OK",-2 (ENOENT)
+426,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/MANIFEST-000001"", O_WRONLY|O_CREAT|O_TRUNC, 0666",14
+427,analyzed_bin,fstat,108,"14, 0x7ffd20a377b0",0
+428,analyzed_bin,write,108,"14, ""\225|\271\305\""\0\001\001\032leveldb.Bytewise""..., 41",41
+429,analyzed_bin,close,108,14,0
+430,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/000001.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",14
+431,analyzed_bin,fstat,108,"14, 0x7ffd20a37710",0
+432,analyzed_bin,write,108,"14, ""MANIFEST-000001\n"", 16",16
+433,analyzed_bin,fdatasync,108,14,0
+434,analyzed_bin,close,108,14,0
+435,analyzed_bin,rename,108,"""/root/.combodecore/blocks/index/000001.dbtmp"", ""/root/.combodecore/blocks/index/CURRENT""",0
+436,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/CURRENT"", O_RDONLY",14
+437,analyzed_bin,fstat,108,"14, 0x7ffd20a37540",0
+438,analyzed_bin,read,108,"14, 0x55fcc2d7b7e0, 8192",16
+439,analyzed_bin,read,108,"14, 0x55fcc2d7b7f0, 7168",0
+440,analyzed_bin,read,108,"14, 0x55fcc2d7b7e0, 8192",0
+441,analyzed_bin,close,108,14,0
+442,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/MANIFEST-000001"", O_RDONLY",14
+443,analyzed_bin,fstat,108,"14, 0x7ffd20a374c0",0
+444,analyzed_bin,read,108,"14, 0x55fcc2d7b9a0, 32768",41
+445,analyzed_bin,read,108,"14, 0x55fcc2d7b9c9, 31744",0
+446,analyzed_bin,close,108,14,0
+447,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",14
+448,analyzed_bin,fstat,108,"14, 0x7ffd20a37a90",0
+449,analyzed_bin,getdents,108,"14, 0x55fcc2d7bac0, 32768",144
+450,analyzed_bin,getdents,108,"14, 0x55fcc2d7bac0, 32768",0
+451,analyzed_bin,close,108,14,0
+452,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/000003.log"", O_WRONLY|O_CREAT|O_TRUNC, 0666",14
+453,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/MANIFEST-000002"", O_WRONLY|O_CREAT|O_TRUNC, 0666",15
+454,analyzed_bin,fstat,108,"15, 0x7ffd20a375c0",0
+455,analyzed_bin,write,108,"15, ""V\371\270\370\034\0\001\001\032leveldb.Bytewi""..., 35",35
+456,analyzed_bin,write,108,"15, ""\244\234\213\276\b\0\001\002\003\t\0\003\004\004"", 15",15
+457,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index"", O_RDONLY",16
+458,analyzed_bin,fsync,108,16,0
+459,analyzed_bin,close,108,16,0
+460,analyzed_bin,fdatasync,108,15,0
+461,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index/000002.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",16
+462,analyzed_bin,fstat,108,"16, 0x7ffd20a37760",0
+463,analyzed_bin,write,108,"16, ""MANIFEST-000002\n"", 16",16
+464,analyzed_bin,fdatasync,108,16,0
+465,analyzed_bin,close,108,16,0
+466,analyzed_bin,rename,108,"""/root/.combodecore/blocks/index/000002.dbtmp"", ""/root/.combodecore/blocks/index/CURRENT""",0
+467,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/blocks/index"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",16
+468,analyzed_bin,fstat,108,"16, 0x7ffd20a37af0",0
+469,analyzed_bin,getdents,108,"16, 0x55fcc2d83c10, 32768",216
+470,analyzed_bin,getdents,108,"16, 0x55fcc2d83c10, 32768",0
+471,analyzed_bin,close,108,16,0
+472,analyzed_bin,unlink,108,"""/root/.combodecore/blocks/index/MANIFEST-000001""",0
+473,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Opened LevelDB successfully"", 48",48
+474,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Using obfuscation key for""..., 96",96
+475,analyzed_bin,mkdir,108,"""/root/.combodecore/chainstate"", 0777",0
+476,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Opening LevelDB in /root/""..., 69",69
+477,analyzed_bin,mkdir,108,"""/root/.combodecore/chainstate"", 0755",-17 (EEXIST)
+478,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/LOCK"", O_RDWR|O_CREAT, 0644",16
+479,analyzed_bin,fcntl,108,"16, F_SETLK, 0x7ffd20a37b70",0
+480,analyzed_bin,access,108,"""/root/.combodecore/chainstate/CURRENT"", F_OK",-2 (ENOENT)
+481,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/MANIFEST-000001"", O_WRONLY|O_CREAT|O_TRUNC, 0666",17
+482,analyzed_bin,fstat,108,"17, 0x7ffd20a37800",0
+483,analyzed_bin,write,108,"17, ""\225|\271\305\""\0\001\001\032leveldb.Bytewise""..., 41",41
+484,analyzed_bin,close,108,17,0
+485,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/000001.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",17
+486,analyzed_bin,fstat,108,"17, 0x7ffd20a37760",0
+487,analyzed_bin,write,108,"17, ""MANIFEST-000001\n"", 16",16
+488,analyzed_bin,fdatasync,108,17,0
+489,analyzed_bin,close,108,17,0
+490,analyzed_bin,rename,108,"""/root/.combodecore/chainstate/000001.dbtmp"", ""/root/.combodecore/chainstate/CURRENT""",0
+491,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/CURRENT"", O_RDONLY",17
+492,analyzed_bin,fstat,108,"17, 0x7ffd20a37590",0
+493,analyzed_bin,read,108,"17, 0x55fcc2d7f6a0, 8192",16
+494,analyzed_bin,read,108,"17, 0x55fcc2d7f6b0, 7168",0
+495,analyzed_bin,read,108,"17, 0x55fcc2d7f6a0, 8192",0
+496,analyzed_bin,close,108,17,0
+497,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/MANIFEST-000001"", O_RDONLY",17
+498,analyzed_bin,fstat,108,"17, 0x7ffd20a37510",0
+499,analyzed_bin,read,108,"17, 0x55fcc2d83be0, 32768",41
+500,analyzed_bin,read,108,"17, 0x55fcc2d83c09, 31744",0
+501,analyzed_bin,close,108,17,0
+502,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",17
+503,analyzed_bin,fstat,108,"17, 0x7ffd20a37ae0",0
+504,analyzed_bin,getdents,108,"17, 0x55fcc2d83c10, 32768",144
+505,analyzed_bin,getdents,108,"17, 0x55fcc2d83c10, 32768",0
+506,analyzed_bin,close,108,17,0
+507,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/000003.log"", O_WRONLY|O_CREAT|O_TRUNC, 0666",17
+508,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/MANIFEST-000002"", O_WRONLY|O_CREAT|O_TRUNC, 0666",18
+509,analyzed_bin,fstat,108,"18, 0x7ffd20a37610",0
+510,analyzed_bin,write,108,"18, ""V\371\270\370\034\0\001\001\032leveldb.Bytewi""..., 35",35
+511,analyzed_bin,write,108,"18, ""\244\234\213\276\b\0\001\002\003\t\0\003\004\004"", 15",15
+512,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate"", O_RDONLY",19
+513,analyzed_bin,fsync,108,19,0
+514,analyzed_bin,close,108,19,0
+515,analyzed_bin,fdatasync,108,18,0
+516,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate/000002.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",19
+517,analyzed_bin,fstat,108,"19, 0x7ffd20a377b0",0
+518,analyzed_bin,write,108,"19, ""MANIFEST-000002\n"", 16",16
+519,analyzed_bin,fdatasync,108,19,0
+520,analyzed_bin,close,108,19,0
+521,analyzed_bin,rename,108,"""/root/.combodecore/chainstate/000002.dbtmp"", ""/root/.combodecore/chainstate/CURRENT""",0
+522,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.combodecore/chainstate"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",19
+523,analyzed_bin,fstat,108,"19, 0x7ffd20a37b40",0
+524,analyzed_bin,getdents,108,"19, 0x55fcc2d83c10, 32768",216
+525,analyzed_bin,getdents,108,"19, 0x55fcc2d83c10, 32768",0
+526,analyzed_bin,close,108,19,0
+527,analyzed_bin,unlink,108,"""/root/.combodecore/chainstate/MANIFEST-000001""",0
+528,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Opened LevelDB successfully"", 48",48
+529,analyzed_bin,getpid,108,,108
+530,analyzed_bin,fstat,108,"17, 0x7ffd20a37b40",0
+531,analyzed_bin,write,108,"17, ""\256\341+\314'\0\001\001\0\0\0\0\0\0\0\001\0""..., 46",46
+532,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Wrote new obfuscate key f""..., 96",96
+533,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Using obfuscation key for""..., 94",94
+534,analyzed_bin,getpid,108,,108
+535,analyzed_bin,getpid,108,,108
+536,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 LoadBlockIndexDB: last bl""..., 58",58
+537,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 LoadBlockIndexDB: last bl""..., 138",138
+538,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Checking all blk files ar""..., 58",58
+539,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 LoadBlockIndexDB: transac""..., 64",64
+540,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 LoadBlockIndexDB: address""..., 61",61
+541,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 LoadBlockIndexDB: timesta""..., 63",63
+542,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 LoadBlockIndexDB: spent i""..., 59",59
+543,analyzed_bin,fstat,108,"14, 0x7ffd20a37ce0",0
+544,analyzed_bin,write,108,"14, ""\222\u52CF\031\0\001\001\0\0\0\0\0\0\0\001\0""..., 32",32
+545,analyzed_bin,write,108,"14, ""Q\204\222\323\036\0\001\002\0\0\0\0\0\0\0\001\0"", 37",37
+546,analyzed_bin,write,108,"14, ""Q\247rk \0\001\003\0\0\0\0\0\0\0\001\0\0\0""..., 39",39
+547,analyzed_bin,write,108,"14, ""\266\336$*\034\0\001\004\0\0\0\0\0\0\0\001\0""..., 35",35
+548,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Initializing databases...\n"", 46",46
+549,analyzed_bin,statfs,108,"""/root/.combodecore"", 0x7ffd20a37eb0",0
+550,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 *** Disk space is low!\n"", 43",43
+551,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Error: Error: Disk space ""..., 53",53
+552,analyzed_bin,write,108,"2, ""Error: Error: Disk space is low!\n"", 33",33
+553,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 ERROR: InitBlockIndex: Fi""..., 63",63
+554,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 Shutdown requested. Exiti""..., 49",49
+555,analyzed_bin,epoll_ctl,108,"5, EPOLL_CTL_DEL, 9, 0x7ffd20a3983c",0
+556,analyzed_bin,write,108,"8, ""\001\0\0\0\0\0\0\0"", 8",8
+557,combode-http,epoll_wait,108,"5, 0x55fcc2114ac0, 32, -1",1
+558,analyzed_bin,futex,108,"0x55fcc2114c50, FUTEX_WAKE_PRIVATE, 1",1
+559,combode-http,futex,108,"0x55fcc2114c50, FUTEX_WAIT_PRIVATE, 2",0
+560,combode-http,futex,108,"0x55fcc2114c50, FUTEX_WAKE_PRIVATE, 1",0
+561,combode-http,read,108,"8, 0x7f6123b62d40, 8",8
+562,combode-http,madvise,108,"0x7f6123363000, 8368128, MADV_DONTNEED",0
+563,analyzed_bin,close,108,9,0
+564,analyzed_bin,futex,108,"0x55fcc2114308, FUTEX_WAKE_PRIVATE, 2147483647",4
+565,combode-httpwor,futex,108,"0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0",0
+566,combode-httpwor,futex,108,"0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0",0
+567,combode-httpwor,futex,108,"0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0",0
+568,combode-httpwor,futex,108,"0x55fcc2114308, FUTEX_WAIT_PRIVATE, 0",0
+569,combode-http,exit,108,0,
+570,combode-http,futex,108,"0x7f6123b639d0, FUTEX_WAKE, 1",0
+571,analyzed_bin,futex,108,"0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1",1
+572,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2",0
+573,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1",1
+574,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2",0
+575,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1",1
+576,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2",0
+577,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1",1
+578,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAIT_PRIVATE, 2",0
+579,combode-httpwor,futex,108,"0x55fcc21142b8, FUTEX_WAKE_PRIVATE, 1",0
+580,analyzed_bin,futex,108,"0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1",1
+581,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2",0
+582,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1",1
+583,combode-httpwor,mmap2,108,"0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0",0x7f6114000000
+584,combode-httpwor,munmap,108,"0x7f6118000000, 67108864",0
+585,combode-httpwor,mprotect,108,"0x7f6114000000, 135168, PROT_READ|PROT_WRITE",0
+586,combode-httpwor,madvise,108,"0x7f6122b62000, 8368128, MADV_DONTNEED",0
+587,combode-httpwor,exit,108,0,
+588,combode-httpwor,futex,108,"0x7f61233629d0, FUTEX_WAKE, 1",0
+589,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2",0
+590,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1",1
+591,combode-httpwor,madvise,108,"0x7f6122361000, 8368128, MADV_DONTNEED",0
+592,combode-httpwor,exit,108,0,
+593,combode-httpwor,futex,108,"0x7f6122b619d0, FUTEX_WAKE, 1",0
+594,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2",0
+595,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1",1
+596,combode-httpwor,madvise,108,"0x7f6121b60000, 8368128, MADV_DONTNEED",0
+597,combode-httpwor,exit,108,0,
+598,combode-httpwor,futex,108,"0x7f61223609d0, FUTEX_WAKE, 1",0
+599,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAIT_PRIVATE, 2",0
+600,combode-httpwor,futex,108,"0x55fcc2114290, FUTEX_WAKE_PRIVATE, 1",0
+601,combode-httpwor,madvise,108,"0x7f612135f000, 8368128, MADV_DONTNEED",0
+602,combode-httpwor,exit,108,0,
+603,combode-httpwor,futex,108,"0x7f6121b5f9d0, FUTEX_WAKE, 1",0
+604,analyzed_bin,futex,108,"0x7ffd20a39d00, FUTEX_WAKE_PRIVATE, 2147483647",1
+605,combode-schedul,futex,108,"0x7ffd20a39d00, FUTEX_WAIT_PRIVATE, 0",0
+606,analyzed_bin,futex,108,"0x7ffd20a39cb0, FUTEX_WAKE_PRIVATE, 1",1
+607,combode-schedul,futex,108,"0x7ffd20a39cb0, FUTEX_WAIT_PRIVATE, 2",0
+608,combode-schedul,futex,108,"0x7ffd20a39cb0, FUTEX_WAKE_PRIVATE, 1",0
+609,analyzed_bin,futex,108,"0x55fcc20fd670, FUTEX_WAKE_PRIVATE, 1",1
+610,combode-schedul,futex,108,"0x55fcc20fd670, FUTEX_WAIT_PRIVATE, 2",0
+611,combode-schedul,futex,108,"0x55fcc20fd670, FUTEX_WAKE_PRIVATE, 1",0
+612,combode-schedul,write,108,"4, ""2022-07-14 08:50:22 scheduler thread interrupt\n"", 47",47
+613,combode-schedul,madvise,108,"0x7f6123b64000, 8368128, MADV_DONTNEED",0
+614,combode-schedul,exit,108,0,
+615,combode-schedul,futex,108,"0x7f61243649d0, FUTEX_WAKE, 1",0
+616,analyzed_bin,write,108,"4, ""2022-07-14 08:50:22 PrepareShutdown: In progr""..., 52",52
+617,combode-shutoff,prctl,108,"PR_SET_NAME, 0x55fcc1b898bc",0
+618,combode-shutoff,munmap,108,"0x7f6122b62000, 8392704",0
+619,combode-shutoff,epoll_ctl,108,"5, EPOLL_CTL_DEL, 8, 0x7ffd20a38d8c",0
+620,combode-shutoff,close,108,8,0
+621,combode-shutoff,close,108,6,0
+622,combode-shutoff,close,108,7,0
+623,combode-shutoff,close,108,5,0
+624,combode-shutoff,close,108,11,0
+625,combode-shutoff,close,108,12,0
+626,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Verifying mncache.dat for""..., 52",52
+627,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/mncache.dat"", O_RDONLY",-2 (ENOENT)
+628,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 ERROR: Read: Failed to op""..., 84",84
+629,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Missing file mncache.dat,""..., 67",67
+630,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Writing info to mncache.d""..., 51",51
+631,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/mncache.dat"", O_WRONLY|O_CREAT|O_TRUNC, 0666",5
+632,combode-shutoff,fstat,108,"5, 0x7ffd20a38cf0",0
+633,combode-shutoff,write,108,"5, ""\024magicMasternodeCache\032+<M\030CMasternod""..., 106",106
+634,combode-shutoff,close,108,5,0
+635,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Written info to mncache.d""..., 53",53
+636,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22      Masternodes: 0, peer""..., 180",180
+637,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 mncache.dat dump finished""..., 51",51
+638,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Verifying mnpayments.dat ""..., 55",55
+639,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/mnpayments.dat"", O_RDONLY",-2 (ENOENT)
+640,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 ERROR: Read: Failed to op""..., 87",87
+641,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Missing file mnpayments.d""..., 70",70
+642,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Writing info to mnpayment""..., 54",54
+643,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/mnpayments.dat"", O_WRONLY|O_CREAT|O_TRUNC, 0666",5
+644,combode-shutoff,fstat,108,"5, 0x7ffd20a38b50",0
+645,combode-shutoff,write,108,"5, ""\034magicMasternodePaymentsCache\032+<M\0\0d""..., 67",67
+646,combode-shutoff,close,108,5,0
+647,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Written info to mnpayment""..., 56",56
+648,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22      Votes: 0, Blocks: 0\n"", 45",45
+649,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 mnpayments.dat dump finis""..., 54",54
+650,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Verifying governance.dat ""..., 55",55
+651,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/governance.dat"", O_RDONLY",-2 (ENOENT)
+652,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 ERROR: Read: Failed to op""..., 87",87
+653,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Missing file governance.d""..., 70",70
+654,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Writing info to governanc""..., 54",54
+655,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/governance.dat"", O_WRONLY|O_CREAT|O_TRUNC, 0666",5
+656,combode-shutoff,fstat,108,"5, 0x7ffd20a38cf0",0
+657,combode-shutoff,write,108,"5, ""\024magicGovernanceCache\032+<M\035CGovernanc""..., 149",149
+658,combode-shutoff,close,108,5,0
+659,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Written info to governanc""..., 56",56
+660,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22      Governance Objects: ""..., 122",122
+661,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 governance.dat dump finis""..., 54",54
+662,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Verifying netfulfilled.da""..., 57",57
+663,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/netfulfilled.dat"", O_RDONLY",-2 (ENOENT)
+664,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 ERROR: Read: Failed to op""..., 89",89
+665,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Missing file netfulfilled""..., 72",72
+666,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Writing info to netfulfil""..., 56",56
+667,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/netfulfilled.dat"", O_WRONLY|O_CREAT|O_TRUNC, 0666",5
+668,combode-shutoff,fstat,108,"5, 0x7ffd20a38c00",0
+669,combode-shutoff,write,108,"5, ""\023magicFulfilledCache\032+<M\0\311Y(\356""..., 57",57
+670,combode-shutoff,close,108,5,0
+671,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Written info to netfulfil""..., 58",58
+672,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22      Nodes with fulfilled""..., 58",58
+673,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 netfulfilled.dat dump fin""..., 56",56
+674,combode-shutoff,statfs,108,"""/root/.combodecore"", 0x7ffd20a38b70",0
+675,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 *** Disk space is low!\n"", 43",43
+676,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Error: Error: Disk space ""..., 53",53
+677,combode-shutoff,write,108,"2, ""Error: Error: Disk space is low!\n"", 33",33
+678,combode-shutoff,fcntl,108,"16, F_SETLK, 0x7ffd20a38e60",0
+679,combode-shutoff,close,108,16,0
+680,combode-shutoff,close,108,18,0
+681,combode-shutoff,close,108,17,0
+682,combode-shutoff,fcntl,108,"13, F_SETLK, 0x7ffd20a38e80",0
+683,combode-shutoff,close,108,13,0
+684,combode-shutoff,close,108,15,0
+685,combode-shutoff,close,108,14,0
+686,combode-shutoff,lstat,108,"""/root/.combodecore/comboded.pid"", 0x7ffd20a38eb0",0
+687,combode-shutoff,unlink,108,"""/root/.combodecore/comboded.pid""",0
+688,combode-shutoff,munmap,108,"0x7f61253f7000, 1052672",0
+689,combode-shutoff,write,108,"4, ""2022-07-14 08:50:22 Shutdown: done\n"", 35",35
+690,combode-shutoff,munmap,108,"0x7f6122361000, 8392704",0
+691,combode-shutoff,close,108,3,0
+692,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/database/log.0000000001"", O_RDWR|O_CREAT, 0600",3
+693,combode-shutoff,fcntl,108,"3, F_GETFD, 0x42",0
+694,combode-shutoff,fcntl,108,"3, F_SETFD, 0x1",0
+695,combode-shutoff,read,108,"3, 0x55fcc2d7f540, 28",0
+696,combode-shutoff,lseek,108,"3, 1040384, SEEK_SET",1040384
+697,combode-shutoff,write,108,"3, ""\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"", 8192",8192
+698,combode-shutoff,pwrite,108,"3, ""\0\0\0\0\034\0\0\0\351AH[\210\t\004\0\020\0\0\0"", 28, 0",28
+699,combode-shutoff,fdatasync,108,3,0
+700,combode-shutoff,close,108,3,0
+701,combode-shutoff,munmap,108,"0x7f61207f2000, 5771264",0
+702,combode-shutoff,munmap,108,"0x7f6120d73000, 6209536",0
+703,combode-shutoff,getpid,108,,108
+704,combode-shutoff,openat,108,"AT_FDCWD, ""/sys/devices/system/cpu/online"", O_RDONLY|O_CLOEXEC",3
+705,combode-shutoff,read,108,"3, 0x7ffd20a37c00, 8192",2
+706,combode-shutoff,close,108,3,0
+707,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/DB_CONFIG"", O_RDONLY",-2 (ENOENT)
+708,combode-shutoff,stat,108,"""/var/tmp"", 0x7ffd20a393c0",0
+709,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/__db.001"", O_RDWR",-2 (ENOENT)
+710,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore/__db.001"", O_RDWR",-2 (ENOENT)
+711,combode-shutoff,openat,108,"AT_FDCWD, ""/root/.combodecore"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",3
+712,combode-shutoff,fstat,108,"3, 0x7ffd20a39660",0
+713,combode-shutoff,getdents,108,"3, 0x55fcc2b548f0, 32768",528
+714,combode-shutoff,stat,108,"""/root/.combodecore/blocks"", 0x7ffd20a39760",0
+715,combode-shutoff,stat,108,"""/root/.combodecore/.cookie"", 0x7ffd20a39760",0
+716,combode-shutoff,stat,108,"""/root/.combodecore/.lock"", 0x7ffd20a39760",0
+717,combode-shutoff,stat,108,"""/root/.combodecore/netfulfilled.dat"", 0x7ffd20a39760",0
+718,combode-shutoff,stat,108,"""/root/.combodecore/masternode.conf"", 0x7ffd20a39760",0
+719,combode-shutoff,stat,108,"""/root/.combodecore/debug.log"", 0x7ffd20a39760",0
+720,combode-shutoff,stat,108,"""/root/.combodecore/.."", 0x7ffd20a39760",0
+721,combode-shutoff,stat,108,"""/root/.combodecore/combode.conf"", 0x7ffd20a39760",0
+722,combode-shutoff,stat,108,"""/root/.combodecore/db.log"", 0x7ffd20a39760",0
+723,combode-shutoff,stat,108,"""/root/.combodecore/mncache.dat"", 0x7ffd20a39760",0
+724,combode-shutoff,stat,108,"""/root/.combodecore/database"", 0x7ffd20a39760",0
+725,combode-shutoff,stat,108,"""/root/.combodecore/chainstate"", 0x7ffd20a39760",0
+726,combode-shutoff,stat,108,"""/root/.combodecore/governance.dat"", 0x7ffd20a39760",0
+727,combode-shutoff,stat,108,"""/root/.combodecore/backups"", 0x7ffd20a39760",0
+728,combode-shutoff,stat,108,"""/root/.combodecore/."", 0x7ffd20a39760",0
+729,combode-shutoff,stat,108,"""/root/.combodecore/mnpayments.dat"", 0x7ffd20a39760",0
+730,combode-shutoff,getdents,108,"3, 0x55fcc2b548f0, 32768",0
+731,combode-shutoff,close,108,3,0
+732,combode-shutoff,munlock,108,"0x55fcc20d8000, 4096",0
+733,combode-shutoff,exit_group,108,1,

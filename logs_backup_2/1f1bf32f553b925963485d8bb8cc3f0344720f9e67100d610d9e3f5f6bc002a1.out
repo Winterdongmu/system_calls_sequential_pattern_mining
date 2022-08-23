@@ -1,0 +1,6239 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 140403520311672
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7fb23df411b0
+108
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+140403520315392
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df43000
+140403520319488
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df55000
+140403520393216
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df56000
+140403520397312
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df57000
+140403520401408
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df58000
+140403520405504
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df59000
+140403520409600
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df5a000
+140403520413696
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df5b000
+140403520417792
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df5c000
+140403520421888
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df5d000
+140403520425984
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df5e000
+140403520430080
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df5f000
+140403520434176
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df60000
+140403520438272
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df61000
+140403520442368
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df62000
+140403520446464
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df63000
+140403520450560
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df64000
+140403520454656
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df65000
+140403520458752
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df67000
+140403520466944
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df68000
+140403520471040
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df69000
+140403520475136
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df6a000
+140403520479232
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df6b000
+140403520483328
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df6c000
+140403520487424
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df6d000
+140403520491520
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df6e000
+140403520495616
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df71000
+140403520507904
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df72000
+140403520512000
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df73000
+140403520516096
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df74000
+140403520520192
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df75000
+140403520524288
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df76000
+140403520528384
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df77000
+140403520532480
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df78000
+140403520536576
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df79000
+140403520540672
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df7a000
+140403520544768
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df7b000
+140403520548864
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df7c000
+140403520552960
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df7d000
+140403520557056
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df7e000
+140403520561152
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df7f000
+140403520565248
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df84000
+140403520585728
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df85000
+140403520589824
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df86000
+140403520593920
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+OPENFILE
+"/usr/local/ssl/openssl.cnf"
+SYSCALL
+analyzed_bin
+open
+108
+"/usr/local/ssl/openssl.cnf", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df87000
+140403520598016
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df88000
+140403520602112
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df89000
+140403520606208
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df8a000
+140403520610304
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df8b000
+140403520614400
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df8c000
+140403520618496
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df8d000
+140403520622592
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df8e000
+140403520626688
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df8f000
+140403520630784
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df90000
+140403520634880
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df91000
+140403520638976
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df92000
+140403520643072
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df93000
+140403520647168
+OPENFILE
+"config.txt"
+SYSCALL
+analyzed_bin
+open
+108
+"config.txt", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"pools.txt"
+SYSCALL
+analyzed_bin
+open
+108
+"pools.txt", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df95000
+140403520655360
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df97000
+140403520663552
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1148090, 2
+32
+SYSCALL
+analyzed_bin
+readv
+108
+0, 0x7ffff1148070, 2
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df99000
+140403520671744
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23df9d000
+140403520688128
+SYSCALL
+analyzed_bin
+brk
+108
+0x7fb23dfa1000
+140403520704512
+OPENFILE
+"config.txt"
+SYSCALL
+analyzed_bin
+open
+108
+"config.txt", O_WRONLY|O_CREAT|O_TRUNC, 0666
+3
+SYSCALL
+analyzed_bin
+ioctl
+108
+3, 21523, 0x7ffff1147ee8
+-25 (ENOTTY)
+SYSCALL
+analyzed_bin
+writev
+108
+3, 0x7ffff1147e50, 2
+6726
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1148180, 2
+42
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e10, 2
+14
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+98
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffff1147e20, 2
+52

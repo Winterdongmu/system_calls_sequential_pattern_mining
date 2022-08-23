@@ -1,0 +1,3549 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+94766343688192
+SYSCALL
+analyzed_bin
+access
+108
+"/etc/ld.so.preload", R_OK
+-2 (ENOENT)
+OPENFILE
+"/etc/ld.so.cache"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64/x86_64", 0x7ffe3b1a68a0
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffe3b1a68a0
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffe3b1a68a0
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls", 0x7ffe3b1a68a0
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64/x86_64", 0x7ffe3b1a68a0
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffe3b1a68a0
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffe3b1a68a0
+-2 (ENOENT)
+OPENFILE
+"/lib64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a6a08, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a68a0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7faeb9550000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7faeb910d000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb9127000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7faeb9326000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400
+0x7faeb9326000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7faeb9328000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7faeb9328000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/librt.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a69d8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a6870
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7faeb8f05000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb8f0c000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7faeb910b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576
+0x7faeb910b000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libm.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a69a8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a6840
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7faeb8b88000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb8d04000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7faeb8f03000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384
+0x7faeb8f03000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libgcc_s.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a6978, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a6810
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2188296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7faeb8971000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb8987000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7faeb8b86000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 86016
+0x7faeb8b86000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libc.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a6948, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a67e0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7faeb85bc000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb8768000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7faeb8967000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992
+0x7faeb8967000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7faeb896d000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7faeb896d000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7faeb954e000
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 140388410388992
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb8967000, 16384, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb8b86000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb8f03000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb9326000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb910b000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x56308236e000, 245760, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb9552000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7faeb954f4d0
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7faeb954f4e0, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x7faeb91132e0, SA_SIGINFO|SA_RESTORER, 0x7faeb911efe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x7faeb9113380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7faeb911efe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_STACK, NULL, 0x7ffe3b1a75c0
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+94766343688192
+SYSCALL
+analyzed_bin
+brk
+108
+0x56308242a000
+94766343823360
+SYSCALL
+analyzed_bin
+futex
+108
+0x563082406204, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x563082406210, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a54a0, 8192
+2
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+0x563081f6944a
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, 0x563081f6944a, O_RDONLY|O_NOCTTY|O_NONBLOCK
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a7130
+0
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffe3b1a7128, 1, 10
+1
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a72e0, 32
+32
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+brk
+108
+0x563082454000
+94766343995392
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore", 0x7ffe3b1a6fa0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root", 0x7ffe3b1a6fa0
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore", 0x7ffe3b1a7140
+0
+OPENFILE
+"/root/.blackmore/blackmore.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blackmore.conf", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a6cb0
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffe3b1a6af0
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x563082409dd0, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+108
+3, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x563082409dd0, 1024
+71
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+umask
+108
+077
+022
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGTERM, {0x563081822e20, SA_RESTORER, 0x7faeb911efe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGINT, {0x563081822e20, SA_RESTORER, 0x7faeb911efe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGHUP, {0x563081822e60, SA_RESTORER, 0x7faeb911efe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGPIPE, {SIG_IGN}, 0x7ffe3b1a5460, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_NOFILE, NULL, 0x7ffe3b1a5620
+0
+OPENFILE
+"/proc/cpuinfo"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/proc/cpuinfo", O_RDONLY
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x563082434b90, 8191
+720
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x563082434b90, 8191
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mlock
+108
+0x7ffe3b1a5000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+munlock
+108
+0x7ffe3b1a5000, 4096
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7faeb944d000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2101248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7faeb83bb000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 1445888, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7faeb825a000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 659456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7faeb93ac000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7faeb825a000, 1445888
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7faeb83bb000, 2101248
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7faeb93ac000, 659456
+0
+SYSCALL
+analyzed_bin
+mlock
+108
+0x7ffe3b1a5000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/dev/urandom"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/dev/urandom", O_RDONLY
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffe3b1a54b0, 32
+32
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+munlock
+108
+0x7ffe3b1a5000, 4096
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7faeb8b871a0, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore", 0x7ffe3b1a53f0
+0
+OPENFILE
+"/root/.blackmore/.lock"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/.lock", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+108
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/root/.blackmore/.lock"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/.lock", O_RDWR
+3
+SYSCALL
+analyzed_bin
+fcntl
+108
+3, F_SETLK, 0x7ffe3b1a5610
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/root/.blackmore/blackmored.pid"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blackmored.pid", O_WRONLY|O_CREAT|O_TRUNC, 0666
+4
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7ffe3b1a4ea0
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "108\n", 4
+4
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/root/.blackmore/debug.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/debug.log", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore/debug.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/debug.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+4
+SYSCALL
+analyzed_bin
+lseek
+108
+4, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 \n\n\n\n\n\n\n\n\n\n\n\n"..., 40
+40
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Blackcoin More version v2"..., 63
+63
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 InitParameterInteraction:"..., 121
+121
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Default data directory /r"..., 60
+60
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using data directory /roo"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using config file /root/."..., 70
+70
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using at most 125 connect"..., 84
+84
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using 0 threads for scrip"..., 60
+60
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7faeb7dbb000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb7dbc000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7faeb85bafb0, 0x7faeb85bb9d0, 0x7faeb85bb9d0
+110
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7faeb85bb9e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7faeafdbb000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7faeafdbb000, 2379776
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7faeb4000000, 64729088
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb0000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+bitcoin-schedul
+prctl
+108
+PR_SET_NAME, 0x7faeb0000d30
+0
+SYSCALL
+bitcoin-schedul
+write
+108
+4, "2022-07-14 07:13:27 scheduler thread start\n", 43
+43
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+epoll_create1
+108
+EPOLL_CLOEXEC
+5
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+pipe2
+108
+[-1, -1], O_NONBLOCK|O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+geteuid
+108
+
+0
+SYSCALL
+analyzed_bin
+getgid
+108
+
+0
+SYSCALL
+analyzed_bin
+getegid
+108
+
+0
+SYSCALL
+analyzed_bin
+eventfd2
+108
+0, EFD_NONBLOCK|EFD_CLOEXEC
+8
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 8, 0x7ffe3b1a521c
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+9
+SYSCALL
+analyzed_bin
+bind
+108
+9, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+108
+9, 0x7ffe3b1a4ce8, 0x7ffe3b1a4ce4
+0
+SYSCALL
+analyzed_bin
+sendto
+108
+9, "\024\0\0\0\026\0\001\003\027\302\317b\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffe3b1a4d30, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffe3b1a4d30, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffe3b1a4d30, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 libevent: getaddrinfo: ad"..., 85
+85
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Binding RPC on address ::"..., 66
+66
+SYSCALL
+analyzed_bin
+socket
+108
+PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0
+9
+SYSCALL
+analyzed_bin
+connect
+108
+9, {AF_UNIX, "/var/run/nscd/socket"}, 110
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, 0
+9
+SYSCALL
+analyzed_bin
+bind
+108
+9, {AF_NETLINK, pid=0, groups=00000000}, 12
+0
+SYSCALL
+analyzed_bin
+getsockname
+108
+9, 0x7ffe3b1a4ce8, 0x7ffe3b1a4ce4
+0
+SYSCALL
+analyzed_bin
+sendto
+108
+9, "\024\0\0\0\026\0\001\003\027\302\317b\0\0\0\0\0", 20, 0x0, {AF_NETLINK, pid=0, groups=00000000}, 12
+20
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffe3b1a4d30, 0x0
+164
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffe3b1a4d30, 0x0
+72
+SYSCALL
+analyzed_bin
+recvmsg
+108
+9, 0x7ffe3b1a4d30, 0x0
+20
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+9
+SYSCALL
+analyzed_bin
+setsockopt
+108
+9, SOL_SOCKET, SO_KEEPALIVE, 0x7ffe3b1a5344, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+9, SOL_SOCKET, SO_REUSEADDR, 0x7ffe3b1a5324, 4
+0
+SYSCALL
+analyzed_bin
+bind
+108
+9, {AF_INET, 127.0.0.1, 15715}, 16
+0
+SYSCALL
+analyzed_bin
+listen
+108
+9, 128
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 9, 0x7ffe3b1a525c
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 HTTP: creating work queue"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 No rpcpassword set - usin"..., 76
+76
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/root/.blackmore/.cookie"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/.cookie", O_WRONLY|O_CREAT|O_TRUNC, 0666
+10
+SYSCALL
+analyzed_bin
+write
+108
+10, "__cookie__:5c357cfbca8aaaa0e60c5a59cb85bec16e"..., 75
+75
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Generated RPC authenticat"..., 81
+81
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 HTTP: starting 4 worker t"..., 52
+52
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7faeb75ba000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb75bb000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+111:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7faeb7db9fb0, 0x7faeb7dba9d0, 0x7faeb7dba9d0
+111
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7faeb6db9000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb6dba000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+112:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7faeb75b8fb0, 0x7faeb75b99d0, 0x7faeb75b99d0
+112
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7faeb65b8000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb65b9000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+113:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7faeb6db7fb0, 0x7faeb6db89d0, 0x7faeb6db89d0
+113
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7faeb5db7000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb5db8000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+114:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7faeb65b6fb0, 0x7faeb65b79d0, 0x7faeb65b79d0
+114
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7faeb55b6000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7faeb55b7000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+115:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7faeb5db5fb0, 0x7faeb5db69d0, 0x7faeb5db69d0
+115
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7faeb75b99e0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+108
+PR_SET_NAME, 0x563081f5a136
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7faeb7dba9e0, 24
+0
+SYSCALL
+bitcoin-http
+prctl
+108
+PR_SET_NAME, 0x563081f5a0f7
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7faeb6db89e0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+108
+PR_SET_NAME, 0x563081f5a136
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using BerkeleyDB version "..., 84
+84
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using wallet wallet.dat\n", 44
+44
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7faeb65b79e0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+108
+PR_SET_NAME, 0x563081f5a136
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7faeb5db69e0, 24
+0
+SYSCALL
+bitcoin-httpwor
+prctl
+108
+PR_SET_NAME, 0x563081f5a136
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 init message: Verifying w"..., 54
+54
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/database", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 CDBEnv::Open: LogDir=/roo"..., 101
+101
+OPENFILE
+"/root/.blackmore/db.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/db.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+10
+SYSCALL
+analyzed_bin
+lseek
+108
+10, 0, SEEK_END
+0
+OPENFILE
+"/root/.blackmore/DB_CONFIG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/var/tmp", 0x7ffe3b1a44f0
+0
+OPENFILE
+"/root/.blackmore/__db.001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffe3b1a4770
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x563082439690, 32768
+248
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/.cookie", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/.lock", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/debug.log", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/..", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/db.log", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/database", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/blackmored.pid", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/.", 0x7ffe3b1a4870
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x563082439690, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+11
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x563082476000
+94766344134656
+OPENFILE
+"/root/.blackmore/database"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/database", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffe3b1a46c0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x5630824655d0, 32768
+48
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/database/..", 0x7ffe3b1a47c0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/database/.", 0x7ffe3b1a47c0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x5630824655d0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+11
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x563082506000
+94766344724480
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2887680, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7faeb52f5000
+OPENFILE
+"/root/.blackmore/database"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/database", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffe3b1a4340
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x5630824ed320, 32768
+48
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/database/..", 0x7ffe3b1a4440
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/database/.", 0x7ffe3b1a4440
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+11, 0x5630824ed320, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+11
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/wallet.dat", 0x7ffe3b1a5100
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET6, SOCK_STREAM, IPPROTO_TCP
+11
+SYSCALL
+analyzed_bin
+setsockopt
+108
+11, SOL_SOCKET, SO_REUSEADDR, 0x7ffe3b1a5354, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+11, SOL_TCP, SO_DEBUG, 0x7ffe3b1a5354, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+11, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+108
+11, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+11, SOL_IPV6, SO_ATTACH_FILTER, 0x7ffe3b1a5354, 4
+0
+SYSCALL
+analyzed_bin
+bind
+108
+11, {AF_INET6, 0000:0000:0000:0000:0000:0000:0000:0000, 15714}, 28
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Bound to [::]:15714\n", 40
+40
+SYSCALL
+analyzed_bin
+listen
+108
+11, 128
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM, IPPROTO_TCP
+12
+SYSCALL
+analyzed_bin
+setsockopt
+108
+12, SOL_SOCKET, SO_REUSEADDR, 0x7ffe3b1a5354, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+12, SOL_TCP, SO_DEBUG, 0x7ffe3b1a5354, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+12, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+108
+12, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+bind
+108
+12, {AF_INET, 0.0.0.0, 15714}, 16
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Bound to 0.0.0.0:15714\n", 43
+43
+SYSCALL
+analyzed_bin
+listen
+108
+12, 128
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/blocks", 0x7ffe3b1a5590
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/blocks", 0x7ffe3b1a54e0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore", 0x7ffe3b1a54e0
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/blocks", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.blackmore/blk0001.dat", 0x7ffe3b1a5590
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Cache configuration:\n", 41
+41
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 * Using 56.2MiB for block"..., 61
+61
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 * Using 8.0MiB for chain "..., 60
+60
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 * Using 385.8MiB for in-m"..., 60
+60
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 init message: Loading blo"..., 57
+57
+SYSCALL
+analyzed_bin
+futex
+108
+0x563082402100, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x563082402110, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/blocks/index", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Opening LevelDB in /root/"..., 69
+69
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/blocks/index", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.blackmore/blocks/index/LOG", "/root/.blackmore/blocks/index/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore/blocks/index/LOG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+13
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/blocks/index", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.blackmore/blocks/index/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/LOCK", O_RDWR|O_CREAT, 0644
+14
+SYSCALL
+analyzed_bin
+fcntl
+108
+14, F_SETLK, 0x7ffe3b1a4f80
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.blackmore/blocks/index/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffe3b1a4c10
+0
+SYSCALL
+analyzed_bin
+write
+108
+15, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+15
+0
+OPENFILE
+"/root/.blackmore/blocks/index/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffe3b1a4b70
+0
+SYSCALL
+analyzed_bin
+write
+108
+15, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+15
+0
+SYSCALL
+analyzed_bin
+close
+108
+15
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.blackmore/blocks/index/000001.dbtmp", "/root/.blackmore/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.blackmore/blocks/index/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/CURRENT", O_RDONLY
+15
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffe3b1a49a0
+0
+SYSCALL
+analyzed_bin
+read
+108
+15, 0x5630824e56f0, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+15, 0x5630824e5700, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+15, 0x5630824e56f0, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+15
+0
+OPENFILE
+"/root/.blackmore/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/MANIFEST-000001", O_RDONLY
+15
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffe3b1a4920
+0
+SYSCALL
+analyzed_bin
+read
+108
+15, 0x5630824e58b0, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+15, 0x5630824e58d9, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+15
+0
+OPENFILE
+"/root/.blackmore/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+15
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffe3b1a4ef0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+15, 0x5630824e59d0, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+108
+15, 0x5630824e59d0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+15
+0
+OPENFILE
+"/root/.blackmore/blocks/index/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+OPENFILE
+"/root/.blackmore/blocks/index/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+16
+SYSCALL
+analyzed_bin
+fstat
+108
+16, 0x7ffe3b1a4a20
+0
+SYSCALL
+analyzed_bin
+write
+108
+16, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+16, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.blackmore/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index", O_RDONLY
+17
+SYSCALL
+analyzed_bin
+fsync
+108
+17
+0
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+16
+0
+OPENFILE
+"/root/.blackmore/blocks/index/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+17
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffe3b1a4bc0
+0
+SYSCALL
+analyzed_bin
+write
+108
+17, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+17
+0
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.blackmore/blocks/index/000002.dbtmp", "/root/.blackmore/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.blackmore/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+17
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffe3b1a4f50
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+17, 0x5630824edb20, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+108
+17, 0x5630824edb20, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+17
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+13, 0x7ffe3b1a4b30
+0
+SYSCALL
+analyzed_bin
+write
+108
+13, "2022/07/14-07:13:27.672131 7faeb954f200 Delet"..., 57
+57
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.blackmore/blocks/index/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Opened LevelDB successfully", 48
+48
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using obfuscation key for"..., 94
+94
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/chainstate", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Opening LevelDB in /root/"..., 67
+67
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/chainstate", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.blackmore/chainstate/LOG", "/root/.blackmore/chainstate/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore/chainstate/LOG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+17
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.blackmore/chainstate", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.blackmore/chainstate/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/LOCK", O_RDWR|O_CREAT, 0644
+18
+SYSCALL
+analyzed_bin
+fcntl
+108
+18, F_SETLK, 0x7ffe3b1a4fa0
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.blackmore/chainstate/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffe3b1a4c30
+0
+SYSCALL
+analyzed_bin
+write
+108
+19, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+OPENFILE
+"/root/.blackmore/chainstate/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffe3b1a4b90
+0
+SYSCALL
+analyzed_bin
+write
+108
+19, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+19
+0
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.blackmore/chainstate/000001.dbtmp", "/root/.blackmore/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.blackmore/chainstate/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/CURRENT", O_RDONLY
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffe3b1a49c0
+0
+SYSCALL
+analyzed_bin
+read
+108
+19, 0x5630824e9c90, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+19, 0x5630824e9ca0, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+19, 0x5630824e9c90, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+OPENFILE
+"/root/.blackmore/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/MANIFEST-000001", O_RDONLY
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffe3b1a4940
+0
+SYSCALL
+analyzed_bin
+read
+108
+19, 0x5630824edaf0, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+19, 0x5630824edb19, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+OPENFILE
+"/root/.blackmore/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffe3b1a4f10
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+19, 0x5630824edb20, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+108
+19, 0x5630824edb20, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+19
+0
+OPENFILE
+"/root/.blackmore/chainstate/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+OPENFILE
+"/root/.blackmore/chainstate/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+20
+SYSCALL
+analyzed_bin
+fstat
+108
+20, 0x7ffe3b1a4a40
+0
+SYSCALL
+analyzed_bin
+write
+108
+20, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+20, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.blackmore/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate", O_RDONLY
+21
+SYSCALL
+analyzed_bin
+fsync
+108
+21
+0
+SYSCALL
+analyzed_bin
+close
+108
+21
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+20
+0
+OPENFILE
+"/root/.blackmore/chainstate/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+21
+SYSCALL
+analyzed_bin
+fstat
+108
+21, 0x7ffe3b1a4be0
+0
+SYSCALL
+analyzed_bin
+write
+108
+21, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+21
+0
+SYSCALL
+analyzed_bin
+close
+108
+21
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.blackmore/chainstate/000002.dbtmp", "/root/.blackmore/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.blackmore/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.blackmore/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+21
+SYSCALL
+analyzed_bin
+fstat
+108
+21, 0x7ffe3b1a4f70
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+21, 0x5630824edb20, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+108
+21, 0x5630824edb20, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+21
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+17, 0x7ffe3b1a4b50
+0
+SYSCALL
+analyzed_bin
+write
+108
+17, "2022/07/14-07:13:27.702018 7faeb954f200 Delet"..., 57
+57
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.blackmore/chainstate/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Opened LevelDB successfully", 48
+48
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffe3b1a4f70
+0
+SYSCALL
+analyzed_bin
+write
+108
+19, "\257\rk\302'\0\001\001\0\0\0\0\0\0\0\001\0\0"..., 46
+46
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Wrote new obfuscate key f"..., 94
+94
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Using obfuscation key for"..., 92
+92
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 LoadBlockIndexDB: last bl"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 LoadBlockIndexDB: last bl"..., 138
+138
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Checking all blk files ar"..., 58
+58
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 LoadBlockIndexDB: transac"..., 65
+65
+SYSCALL
+analyzed_bin
+brk
+108
+0x56308264a000
+94766346051584
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffe3b1a5020
+0
+SYSCALL
+analyzed_bin
+write
+108
+15, "\222\u52CF\031\0\001\001\0\0\0\0\0\0\0\001\0"..., 32
+32
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Initializing databases...\n", 46
+46
+SYSCALL
+analyzed_bin
+statfs
+108
+"/root/.blackmore", 0x7ffe3b1a5220
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 *** Disk space is low!\n", 43
+43
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Error: Error: Disk space "..., 53
+53
+SYSCALL
+analyzed_bin
+write
+108
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 ERROR: LoadBlockIndex(): "..., 65
+65
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 : Error initializing bloc"..., 121
+121
+SYSCALL
+analyzed_bin
+write
+108
+2, ": Error initializing block database.\nPlease "..., 101
+101
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Aborted block database re"..., 61
+61
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 9, 0x7ffe3b1a701c
+0
+SYSCALL
+analyzed_bin
+write
+108
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+bitcoin-http
+epoll_wait
+108
+5, 0x563082438a50, 32, -1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x563082438be0, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-http
+futex
+108
+0x563082438be0, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-http
+futex
+108
+0x563082438be0, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+bitcoin-http
+read
+108
+8, 0x7faeb7db9bb0, 8
+8
+SYSCALL
+bitcoin-http
+futex
+108
+0x563082438de8, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+bitcoin-http
+mmap2
+108
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7faea8000000
+SYSCALL
+bitcoin-http
+munmap
+108
+0x7faeac000000, 67108864
+0
+SYSCALL
+bitcoin-http
+mprotect
+108
+0x7faea8000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+bitcoin-http
+madvise
+108
+0x7faeb75ba000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-http
+exit
+108
+0
+
+SYSCALL
+bitcoin-http
+futex
+108
+0x7faeb7dba9d0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+close
+108
+9
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x563082437a90, FUTEX_WAKE_PRIVATE, 2147483647
+4
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a90, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a90, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a90, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a90, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x563082437a40, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+madvise
+108
+0x7faeb6db9000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+exit
+108
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x7faeb75b99d0, FUTEX_WAKE, 1
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+madvise
+108
+0x7faeb65b8000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+exit
+108
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x7faeb6db89d0, FUTEX_WAKE, 1
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-httpwor
+madvise
+108
+0x7faeb5db7000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+exit
+108
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x7faeb65b79d0, FUTEX_WAKE, 1
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x563082437a40, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+bitcoin-httpwor
+madvise
+108
+0x7faeb55b6000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-httpwor
+exit
+108
+0
+
+SYSCALL
+bitcoin-httpwor
+futex
+108
+0x7faeb5db69d0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffe3b1a7430, FUTEX_WAKE_PRIVATE, 2147483647
+1
+SYSCALL
+bitcoin-schedul
+futex
+108
+0x7ffe3b1a7430, FUTEX_WAIT_PRIVATE, 0
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7ffe3b1a73e0, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-schedul
+futex
+108
+0x7ffe3b1a73e0, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-schedul
+futex
+108
+0x7ffe3b1a73e0, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x5630824383e0, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+bitcoin-schedul
+futex
+108
+0x5630824383e0, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+bitcoin-schedul
+futex
+108
+0x5630824383e0, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+bitcoin-schedul
+write
+108
+4, "2022-07-14 07:13:27 scheduler thread interrupt\n", 47
+47
+SYSCALL
+bitcoin-schedul
+madvise
+108
+0x7faeb7dbb000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+bitcoin-schedul
+exit
+108
+0
+
+SYSCALL
+bitcoin-schedul
+futex
+108
+0x7faeb85bb9d0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:13:27 Shutdown: In progress...\n", 45
+45
+SYSCALL
+bitcoin-shutoff
+prctl
+108
+PR_SET_NAME, 0x563081eaa903
+0
+SYSCALL
+bitcoin-shutoff
+munmap
+108
+0x7faeb6db9000, 8392704
+0
+SYSCALL
+bitcoin-shutoff
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 8, 0x7ffe3b1a6c3c
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+8
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+6
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+7
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+5
+0
+SYSCALL
+bitcoin-shutoff
+write
+108
+4, "2022-07-14 07:13:27 StopNode()\n", 31
+31
+SYSCALL
+bitcoin-shutoff
+statfs
+108
+"/root/.blackmore", 0x7ffe3b1a69e0
+0
+SYSCALL
+bitcoin-shutoff
+write
+108
+4, "2022-07-14 07:13:27 *** Disk space is low!\n", 43
+43
+SYSCALL
+bitcoin-shutoff
+write
+108
+4, "2022-07-14 07:13:27 Error: Error: Disk space "..., 53
+53
+SYSCALL
+bitcoin-shutoff
+write
+108
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+bitcoin-shutoff
+fcntl
+108
+18, F_SETLK, 0x7ffe3b1a6cd0
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+18
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+20
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+19
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+17
+0
+SYSCALL
+bitcoin-shutoff
+fcntl
+108
+14, F_SETLK, 0x7ffe3b1a6cf0
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+14
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+16
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+15
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+13
+0
+SYSCALL
+bitcoin-shutoff
+lstat
+108
+"/root/.blackmore/blackmored.pid", 0x7ffe3b1a6d10
+0
+SYSCALL
+bitcoin-shutoff
+unlink
+108
+"/root/.blackmore/blackmored.pid"
+0
+SYSCALL
+bitcoin-shutoff
+munmap
+108
+0x7faeb944d000, 1052672
+0
+SYSCALL
+bitcoin-shutoff
+write
+108
+4, "2022-07-14 07:13:27 Shutdown: done\n", 35
+35
+SYSCALL
+bitcoin-shutoff
+munmap
+108
+0x7faeb65b8000, 8392704
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+3
+0
+OPENFILE
+"/root/.blackmore/database/log.0000000001"
+SYSCALL
+bitcoin-shutoff
+openat
+108
+AT_FDCWD, "/root/.blackmore/database/log.0000000001", O_RDWR|O_CREAT, 0600
+3
+SYSCALL
+bitcoin-shutoff
+fcntl
+108
+3, F_GETFD, 0x42
+0
+SYSCALL
+bitcoin-shutoff
+fcntl
+108
+3, F_SETFD, 0x1
+0
+SYSCALL
+bitcoin-shutoff
+read
+108
+3, 0x5630824e9550, 28
+0
+SYSCALL
+bitcoin-shutoff
+lseek
+108
+3, 1048575, SEEK_SET
+1048575
+SYSCALL
+bitcoin-shutoff
+write
+108
+3, "\0", 1
+1
+SYSCALL
+bitcoin-shutoff
+pwrite
+108
+3, "\0\0\0\0\034\0\0\0\200\317\uFC48\t\004\0\027\0\0", 28, 0
+28
+SYSCALL
+bitcoin-shutoff
+fdatasync
+108
+3
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+3
+0
+SYSCALL
+bitcoin-shutoff
+munmap
+108
+0x7faeb52f5000, 2887680
+0
+SYSCALL
+bitcoin-shutoff
+getpid
+108
+
+108
+OPENFILE
+"/root/.blackmore/DB_CONFIG"
+SYSCALL
+bitcoin-shutoff
+openat
+108
+AT_FDCWD, "/root/.blackmore/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/var/tmp", 0x7ffe3b1a6aa0
+0
+OPENFILE
+"/root/.blackmore/__db.001"
+SYSCALL
+bitcoin-shutoff
+openat
+108
+AT_FDCWD, "/root/.blackmore/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore/__db.001"
+SYSCALL
+bitcoin-shutoff
+openat
+108
+AT_FDCWD, "/root/.blackmore/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.blackmore"
+SYSCALL
+bitcoin-shutoff
+openat
+108
+AT_FDCWD, "/root/.blackmore", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+3
+SYSCALL
+bitcoin-shutoff
+fstat
+108
+3, 0x7ffe3b1a6d20
+0
+SYSCALL
+bitcoin-shutoff
+getdents
+108
+3, 0x563082441a60, 32768
+272
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/blocks", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/.cookie", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/.lock", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/debug.log", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/..", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/db.log", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/database", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/chainstate", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+stat
+108
+"/root/.blackmore/.", 0x7ffe3b1a6e20
+0
+SYSCALL
+bitcoin-shutoff
+getdents
+108
+3, 0x563082441a60, 32768
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+3
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+11
+0
+SYSCALL
+bitcoin-shutoff
+close
+108
+12
+0
+SYSCALL
+bitcoin-shutoff
+exit_group
+108
+1
+

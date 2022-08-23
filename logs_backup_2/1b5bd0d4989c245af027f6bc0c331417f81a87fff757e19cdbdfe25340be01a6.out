@@ -1,0 +1,27 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 4340760
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x423c58
+108
+SYSCALL
+analyzed_bin
+exit_group
+108
+0
+

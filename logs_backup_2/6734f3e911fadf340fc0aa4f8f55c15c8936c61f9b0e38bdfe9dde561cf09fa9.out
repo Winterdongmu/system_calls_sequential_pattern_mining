@@ -1,0 +1,4551 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+94546041561088
+SYSCALL
+analyzed_bin
+access
+108
+"/etc/ld.so.preload", R_OK
+-2 (ENOENT)
+OPENFILE
+"/etc/ld.so.cache"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64/x86_64", 0x7ffc07ea20b0
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffc07ea20b0
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls/x86_64", 0x7ffc07ea20b0
+-2 (ENOENT)
+OPENFILE
+"/lib64/tls/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/tls/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/tls", 0x7ffc07ea20b0
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64/x86_64", 0x7ffc07ea20b0
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffc07ea20b0
+-2 (ENOENT)
+OPENFILE
+"/lib64/x86_64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/lib64/x86_64", 0x7ffc07ea20b0
+-2 (ENOENT)
+OPENFILE
+"/lib64/librt.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/librt.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea2218, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea20b0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f0ecacb4000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f0eca888000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca88f000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0ecaa8e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576
+0x7f0ecaa8e000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libpthread.so.0"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea21e8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea2080
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f0eca669000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca683000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0eca882000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400
+0x7f0eca882000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0eca884000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7f0eca884000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libanl.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libanl.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea21b8, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea2050
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2109928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f0eca465000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca468000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0eca667000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 8192
+0x7f0eca667000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libm.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libm.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea2188, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea2020
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f0eca0e8000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca264000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0eca463000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384
+0x7f0eca463000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libgcc_s.so.1"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libgcc_s.so.1", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea2158, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea1ff0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2188296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f0ec9ed1000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0ec9ee7000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0eca0e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 86016
+0x7f0eca0e6000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/lib64/libc.so.6"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea2128, 832
+832
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea1fc0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0
+0x7f0ec9b1c000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0ec9cc8000, 2093056, PROT_NONE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0ec9ec7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992
+0x7f0ec9ec7000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f0ec9ecd000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x7f0ec9ecd000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f0ecacb2000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f0ecacaf000
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 139701508568896
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0ec9ec7000, 16384, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca0e6000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca463000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca882000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0eca667000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0ecaa8e000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x55fd372ec000, 208896, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0ecacb6000, 4096, PROT_READ
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7f0ecacafa10
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f0ecacafa20, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x7f0eca66f2e0, SA_SIGINFO|SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x7f0eca66f380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_STACK, NULL, 0x7ffc07ea2dd0
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+94546041561088
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd373af000
+94546041696256
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fd3738b0c4, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fd3738b0d0, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea0d00, 8192
+2
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd373d0000
+94546041831424
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/dev/urandom"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/dev/urandom", O_RDONLY|O_NOCTTY|O_NONBLOCK
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea2a30
+0
+SYSCALL
+analyzed_bin
+poll
+108
+0x7ffc07ea2a28, 1, 10
+1
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea2be0, 32
+32
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+getuid
+108
+
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd373f5000
+94546041982976
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea2b10
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea2950
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fd37390b30, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+108
+3, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x55fd37390b30, 1024
+71
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffc07ea0b30, 8192
+2
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2", 0x7ffc07ea28a0
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root", 0x7ffc07ea28a0
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2", 0x7ffc07ea2a40
+0
+OPENFILE
+"/root/.trittium2/trittium2.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/trittium2.conf", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/trittium2.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/trittium2.conf", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+108
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2", 0x7ffc07ea2100
+0
+OPENFILE
+"/root/.trittium2/masternode.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/masternode.conf", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/masternode.conf"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/masternode.conf", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+108
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7ffc07ea22a0
+0
+SYSCALL
+analyzed_bin
+write
+108
+3, "# Masternode config file\n# Format: alias IP:"..., 264
+264
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f0ec931b000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f0ec931c000, 8388608, PROT_READ|PROT_WRITE
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f0ec9b1afb0, 0x7f0ec9b1b9d0, 0x7f0ec9b1b9d0
+110
+SYSCALL
+analyzed_bin
+umask
+108
+077
+022
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGTERM, {0x55fd3662af20, SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGINT, {0x55fd3662af20, SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGHUP, {0x55fd3662af60, SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+prlimit64
+108
+0, RLIMIT_NOFILE, NULL, 0x7ffc07ea1590
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f0ec9b1b9e0, 24
+0
+SYSCALL
+analyzed_bin
+mlock
+108
+0x7ffc07ea1000, 4096
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+munlock
+108
+0x7ffc07ea1000, 4096
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7f0eca0e71a0, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/root/.trittium2/.lock"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/.lock", O_WRONLY|O_CREAT|O_APPEND, 0666
+3
+SYSCALL
+analyzed_bin
+lseek
+108
+3, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+OPENFILE
+"/root/.trittium2/.lock"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/.lock", O_RDWR
+3
+SYSCALL
+analyzed_bin
+fcntl
+108
+3, F_SETLK, 0x7ffc07ea14e0
+0
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+OPENFILE
+"/root/.trittium2/trittiumd.pid"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/trittiumd.pid", O_WRONLY|O_CREAT|O_TRUNC, 0666
+4
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7ffc07ea0e10
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "108\n", 4
+4
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+OPENFILE
+"/root/.trittium2/debug.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/debug.log", O_RDONLY
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/debug.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/debug.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+4
+SYSCALL
+analyzed_bin
+lseek
+108
+4, 0, SEEK_END
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Trittium version v3.0.1.0-7db8f23 (2021-01-12"..., 62
+62
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015", 48
+48
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Using BerkeleyDB version Berkeley DB 4.8.30: "..., 62
+62
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Default data directory /root/.trittium2\n", 40
+40
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Using data directory /root/.trittium2\n", 38
+38
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Using config file /root/.trittium2/trittium2."..., 50
+50
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Using at most 125 connections (1024 file desc"..., 64
+64
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Using 0 threads for script verification\n", 40
+40
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+write
+108
+2, "Error: To use trittiumd, or the -server optio"..., 607
+607
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/backups", 0x7ffc07ea1500
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/backups", 0x7ffc07ea1460
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2", 0x7ffc07ea1460
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/backups", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/backups", 0x7ffc07ea1500
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/wallet.dat", 0x7ffc07ea1500
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/backups"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/backups", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+5
+SYSCALL
+analyzed_bin
+fstat
+108
+5, 0x7ffc07ea13d0
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37417000
+94546042122240
+SYSCALL
+analyzed_bin
+getdents
+108
+5, 0x55fd373ee7a0, 32768
+48
+SYSCALL
+analyzed_bin
+getdents
+108
+5, 0x55fd373ee7a0, 32768
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3740f000
+94546042089472
+SYSCALL
+analyzed_bin
+close
+108
+5
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Using wallet wallet.dat\n", 24
+24
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "init message: Verifying wallet...\n", 34
+34
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/database", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "CDBEnv::Open: LogDir=/root/.trittium2/databas"..., 81
+81
+OPENFILE
+"/root/.trittium2/db.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/db.log", O_WRONLY|O_CREAT|O_APPEND, 0666
+5
+SYSCALL
+analyzed_bin
+lseek
+108
+5, 0, SEEK_END
+0
+OPENFILE
+"/root/.trittium2/DB_CONFIG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/var/tmp", 0x7ffc07ea0740
+0
+OPENFILE
+"/root/.trittium2/__db.001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+6
+SYSCALL
+analyzed_bin
+fstat
+108
+6, 0x7ffc07ea09e0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+6, 0x55fd373ee7a0, 32768
+328
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/.lock", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/masternode.conf", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/debug.log", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/..", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/db.log", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/database", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/trittium2.conf", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/trittiumd.pid", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/backups", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/.", 0x7ffc07ea0ae0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+6, 0x55fd373ee7a0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+6
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 6209536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f0ec8d2f000
+OPENFILE
+"/root/.trittium2/database"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/database", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+6
+SYSCALL
+analyzed_bin
+fstat
+108
+6, 0x7ffc07ea0910
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+6, 0x55fd37400840, 32768
+48
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/database/..", 0x7ffc07ea0a10
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/database/.", 0x7ffc07ea0a10
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+6, 0x55fd37400840, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+6
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f0ecabae000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 5771264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f0ec87ae000
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37430000
+94546042224640
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37451000
+94546042359808
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37472000
+94546042494976
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37493000
+94546042630144
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd374b4000
+94546042765312
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd374d5000
+94546042900480
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd374f6000
+94546043035648
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37517000
+94546043170816
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37538000
+94546043305984
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37559000
+94546043441152
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3757a000
+94546043576320
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3759b000
+94546043711488
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd375bc000
+94546043846656
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd375dd000
+94546043981824
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd375fe000
+94546044116992
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3761f000
+94546044252160
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37640000
+94546044387328
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37661000
+94546044522496
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37682000
+94546044657664
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd376a3000
+94546044792832
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd376c4000
+94546044928000
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd376e5000
+94546045063168
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37706000
+94546045198336
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37727000
+94546045333504
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37748000
+94546045468672
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37769000
+94546045603840
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3778a000
+94546045739008
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd377ab000
+94546045874176
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd377cc000
+94546046009344
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd377ed000
+94546046144512
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3780e000
+94546046279680
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3782f000
+94546046414848
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37850000
+94546046550016
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37871000
+94546046685184
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37892000
+94546046820352
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd378b3000
+94546046955520
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd378d4000
+94546047090688
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd378f5000
+94546047225856
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37916000
+94546047361024
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37937000
+94546047496192
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37958000
+94546047631360
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37979000
+94546047766528
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd3799a000
+94546047901696
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd379bb000
+94546048036864
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd379dc000
+94546048172032
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd379fd000
+94546048307200
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37a1e000
+94546048442368
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37a3f000
+94546048577536
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37a60000
+94546048712704
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37a81000
+94546048847872
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37aa2000
+94546048983040
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37ac3000
+94546049118208
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37ae4000
+94546049253376
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37b05000
+94546049388544
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37b26000
+94546049523712
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37b47000
+94546049658880
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fd373eac48, 0x189, 0
+-110 (ETIMEDOUT)
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fd373eabf8, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+madvise
+108
+0x7f0ec931b000, 8368128, MADV_DONTNEED
+0
+SYSCALL
+analyzed_bin
+exit
+108
+0
+
+SYSCALL
+analyzed_bin
+futex
+108
+0x7f0ec9b1b9d0, FUTEX_WAKE, 1
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37b68000
+94546049794048
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37b89000
+94546049929216
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37baa000
+94546050064384
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37bcb000
+94546050199552
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37bec000
+94546050334720
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37c0d000
+94546050469888
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37c2e000
+94546050605056
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37c4f000
+94546050740224
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37c70000
+94546050875392
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37c91000
+94546051010560
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37cb2000
+94546051145728
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37cd3000
+94546051280896
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37cf4000
+94546051416064
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37d15000
+94546051551232
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37d36000
+94546051686400
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37d57000
+94546051821568
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37d7f000
+94546051985408
+SYSCALL
+analyzed_bin
+brk
+108
+0x55fd37d77000
+94546051952640
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/wallet.dat", 0x7ffc07ea1500
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET6, SOCK_STREAM, IPPROTO_TCP
+6
+SYSCALL
+analyzed_bin
+setsockopt
+108
+6, SOL_SOCKET, SO_REUSEADDR, 0x7ffc07ea1264, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+6, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+108
+6, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+6, SOL_IPV6, SO_ATTACH_FILTER, 0x7ffc07ea1264, 4
+0
+SYSCALL
+analyzed_bin
+bind
+108
+6, {AF_INET6, 0000:0000:0000:0000:0000:0000:0000:0000, 30001}, 28
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Bound to [::]:30001\n", 20
+20
+SYSCALL
+analyzed_bin
+listen
+108
+6, 128
+0
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM, IPPROTO_TCP
+7
+SYSCALL
+analyzed_bin
+setsockopt
+108
+7, SOL_SOCKET, SO_REUSEADDR, 0x7ffc07ea1264, 4
+0
+SYSCALL
+analyzed_bin
+fcntl
+108
+7, F_GETFL, 0x0
+2
+SYSCALL
+analyzed_bin
+fcntl
+108
+7, F_SETFL, 0x802
+0
+SYSCALL
+analyzed_bin
+bind
+108
+7, {AF_INET, 0.0.0.0, 30001}, 16
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Bound to 0.0.0.0:30001\n", 23
+23
+SYSCALL
+analyzed_bin
+listen
+108
+7, 128
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/blocks", 0x7ffc07ea1500
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/blocks", 0x7ffc07ea1460
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2", 0x7ffc07ea1460
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/blocks", 0777
+0
+SYSCALL
+analyzed_bin
+stat
+108
+"/root/.trittium2/blk0001.dat", 0x7ffc07ea1500
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "init message: Loading block index...\n", 37
+37
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fd37385868, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x55fd37385878, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/zerocoin", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opening LevelDB in /root/.trittium2/zerocoin\n", 45
+45
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/zerocoin", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/zerocoin/LOG", "/root/.trittium2/zerocoin/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/zerocoin/LOG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+8
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/zerocoin", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.trittium2/zerocoin/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/LOCK", O_RDWR|O_CREAT, 0644
+9
+SYSCALL
+analyzed_bin
+fcntl
+108
+9, F_SETLK, 0x7ffc07ea10e0
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.trittium2/zerocoin/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/zerocoin/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+10
+SYSCALL
+analyzed_bin
+fstat
+108
+10, 0x7ffc07ea0d90
+0
+SYSCALL
+analyzed_bin
+write
+108
+10, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+OPENFILE
+"/root/.trittium2/zerocoin/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+10
+SYSCALL
+analyzed_bin
+fstat
+108
+10, 0x7ffc07ea0c30
+0
+SYSCALL
+analyzed_bin
+write
+108
+10, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+10
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/zerocoin/000001.dbtmp", "/root/.trittium2/zerocoin/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/zerocoin/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/CURRENT", O_RDONLY
+10
+SYSCALL
+analyzed_bin
+fstat
+108
+10, 0x7ffc07ea0ab0
+0
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x55fd37d5b0d0, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x55fd37d5b0e0, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x55fd37d5b0d0, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+OPENFILE
+"/root/.trittium2/zerocoin/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/MANIFEST-000001", O_RDONLY
+10
+SYSCALL
+analyzed_bin
+fstat
+108
+10, 0x7ffc07ea0a50
+0
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x55fd37d5b250, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x55fd37d5b279, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+OPENFILE
+"/root/.trittium2/zerocoin"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+10
+SYSCALL
+analyzed_bin
+fstat
+108
+10, 0x7ffc07ea1010
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+10, 0x55fd37d5b370, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+108
+10, 0x55fd37d5b370, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+OPENFILE
+"/root/.trittium2/zerocoin/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+10
+OPENFILE
+"/root/.trittium2/zerocoin/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+11
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffc07ea0b70
+0
+SYSCALL
+analyzed_bin
+write
+108
+11, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+11, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.trittium2/zerocoin"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin", O_RDONLY
+12
+SYSCALL
+analyzed_bin
+fsync
+108
+12
+0
+SYSCALL
+analyzed_bin
+close
+108
+12
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+11
+0
+OPENFILE
+"/root/.trittium2/zerocoin/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+12
+SYSCALL
+analyzed_bin
+fstat
+108
+12, 0x7ffc07ea0c70
+0
+SYSCALL
+analyzed_bin
+write
+108
+12, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+12
+0
+SYSCALL
+analyzed_bin
+close
+108
+12
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/zerocoin/000002.dbtmp", "/root/.trittium2/zerocoin/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/zerocoin"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/zerocoin", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+12
+SYSCALL
+analyzed_bin
+fstat
+108
+12, 0x7ffc07ea1070
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+12, 0x55fd37d5bbe0, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+108
+12, 0x55fd37d5bbe0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+12
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+8, 0x7ffc07ea0c90
+0
+SYSCALL
+analyzed_bin
+write
+108
+8, "2022/07/14-07:45:09.521328 7f0ecacaf740 Delet"..., 57
+57
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.trittium2/zerocoin/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/sporks", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opening LevelDB in /root/.trittium2/sporks\n", 43
+43
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/sporks", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/sporks/LOG", "/root/.trittium2/sporks/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/sporks/LOG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+12
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/sporks", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.trittium2/sporks/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/LOCK", O_RDWR|O_CREAT, 0644
+13
+SYSCALL
+analyzed_bin
+fcntl
+108
+13, F_SETLK, 0x7ffc07ea10c0
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.trittium2/sporks/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/sporks/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffc07ea0d70
+0
+SYSCALL
+analyzed_bin
+write
+108
+14, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.trittium2/sporks/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffc07ea0c10
+0
+SYSCALL
+analyzed_bin
+write
+108
+14, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+14
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/sporks/000001.dbtmp", "/root/.trittium2/sporks/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/sporks/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/CURRENT", O_RDONLY
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffc07ea0a90
+0
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fd37d5f460, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fd37d5f470, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fd37d5f460, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.trittium2/sporks/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/MANIFEST-000001", O_RDONLY
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffc07ea0a30
+0
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fd37d5f5a0, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+14, 0x55fd37d5f5c9, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.trittium2/sporks"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+14
+SYSCALL
+analyzed_bin
+fstat
+108
+14, 0x7ffc07ea0ff0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+14, 0x55fd37d5f6c0, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+108
+14, 0x55fd37d5f6c0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+14
+0
+OPENFILE
+"/root/.trittium2/sporks/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+14
+OPENFILE
+"/root/.trittium2/sporks/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+15
+SYSCALL
+analyzed_bin
+fstat
+108
+15, 0x7ffc07ea0b50
+0
+SYSCALL
+analyzed_bin
+write
+108
+15, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+15, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.trittium2/sporks"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks", O_RDONLY
+16
+SYSCALL
+analyzed_bin
+fsync
+108
+16
+0
+SYSCALL
+analyzed_bin
+close
+108
+16
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+15
+0
+OPENFILE
+"/root/.trittium2/sporks/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+16
+SYSCALL
+analyzed_bin
+fstat
+108
+16, 0x7ffc07ea0c50
+0
+SYSCALL
+analyzed_bin
+write
+108
+16, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+16
+0
+SYSCALL
+analyzed_bin
+close
+108
+16
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/sporks/000002.dbtmp", "/root/.trittium2/sporks/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/sporks"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/sporks", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+16
+SYSCALL
+analyzed_bin
+fstat
+108
+16, 0x7ffc07ea1050
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+16, 0x55fd37d5ffc0, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+108
+16, 0x55fd37d5ffc0, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+16
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+12, 0x7ffc07ea0c70
+0
+SYSCALL
+analyzed_bin
+write
+108
+12, "2022/07/14-07:45:09.596330 7f0ecacaf740 Delet"..., 57
+57
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.trittium2/sporks/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/blocks/index", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opening LevelDB in /root/.trittium2/blocks/in"..., 49
+49
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/blocks/index", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/blocks/index/LOG", "/root/.trittium2/blocks/index/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/blocks/index/LOG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+16
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/blocks/index", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.trittium2/blocks/index/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/LOCK", O_RDWR|O_CREAT, 0644
+17
+SYSCALL
+analyzed_bin
+fcntl
+108
+17, F_SETLK, 0x7ffc07ea1090
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.trittium2/blocks/index/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+18
+SYSCALL
+analyzed_bin
+fstat
+108
+18, 0x7ffc07ea0d40
+0
+SYSCALL
+analyzed_bin
+write
+108
+18, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+18
+0
+OPENFILE
+"/root/.trittium2/blocks/index/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+18
+SYSCALL
+analyzed_bin
+fstat
+108
+18, 0x7ffc07ea0be0
+0
+SYSCALL
+analyzed_bin
+write
+108
+18, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+18
+0
+SYSCALL
+analyzed_bin
+close
+108
+18
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/blocks/index/000001.dbtmp", "/root/.trittium2/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/blocks/index/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/CURRENT", O_RDONLY
+18
+SYSCALL
+analyzed_bin
+fstat
+108
+18, 0x7ffc07ea0a60
+0
+SYSCALL
+analyzed_bin
+read
+108
+18, 0x55fd37d63a10, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+18, 0x55fd37d63a20, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+18, 0x55fd37d63a10, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+18
+0
+OPENFILE
+"/root/.trittium2/blocks/index/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/MANIFEST-000001", O_RDONLY
+18
+SYSCALL
+analyzed_bin
+fstat
+108
+18, 0x7ffc07ea0a00
+0
+SYSCALL
+analyzed_bin
+read
+108
+18, 0x55fd37d63b50, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+18, 0x55fd37d63b79, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+18
+0
+OPENFILE
+"/root/.trittium2/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+18
+SYSCALL
+analyzed_bin
+fstat
+108
+18, 0x7ffc07ea0fc0
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+18, 0x55fd37d63c70, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+108
+18, 0x55fd37d63c70, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+18
+0
+OPENFILE
+"/root/.trittium2/blocks/index/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+18
+OPENFILE
+"/root/.trittium2/blocks/index/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+19
+SYSCALL
+analyzed_bin
+fstat
+108
+19, 0x7ffc07ea0b20
+0
+SYSCALL
+analyzed_bin
+write
+108
+19, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+19, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.trittium2/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index", O_RDONLY
+20
+SYSCALL
+analyzed_bin
+fsync
+108
+20
+0
+SYSCALL
+analyzed_bin
+close
+108
+20
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+19
+0
+OPENFILE
+"/root/.trittium2/blocks/index/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+20
+SYSCALL
+analyzed_bin
+fstat
+108
+20, 0x7ffc07ea0c20
+0
+SYSCALL
+analyzed_bin
+write
+108
+20, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+20
+0
+SYSCALL
+analyzed_bin
+close
+108
+20
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/blocks/index/000002.dbtmp", "/root/.trittium2/blocks/index/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/blocks/index"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/blocks/index", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+20
+SYSCALL
+analyzed_bin
+fstat
+108
+20, 0x7ffc07ea1020
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+20, 0x55fd37d64510, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+108
+20, 0x55fd37d64510, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+20
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+16, 0x7ffc07ea0c40
+0
+SYSCALL
+analyzed_bin
+write
+108
+16, "2022/07/14-07:45:09.666422 7f0ecacaf740 Delet"..., 57
+57
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.trittium2/blocks/index/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/chainstate", 0777
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opening LevelDB in /root/.trittium2/chainstate\n", 47
+47
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/chainstate", 0755
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/chainstate/LOG", "/root/.trittium2/chainstate/LOG.old"
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/chainstate/LOG"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/LOG", O_WRONLY|O_CREAT|O_TRUNC, 0666
+20
+SYSCALL
+analyzed_bin
+mkdir
+108
+"/root/.trittium2/chainstate", 0755
+-17 (EEXIST)
+OPENFILE
+"/root/.trittium2/chainstate/LOCK"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/LOCK", O_RDWR|O_CREAT, 0644
+21
+SYSCALL
+analyzed_bin
+fcntl
+108
+21, F_SETLK, 0x7ffc07ea10e0
+0
+SYSCALL
+analyzed_bin
+access
+108
+"/root/.trittium2/chainstate/CURRENT", F_OK
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/MANIFEST-000001", O_WRONLY|O_CREAT|O_TRUNC, 0666
+22
+SYSCALL
+analyzed_bin
+fstat
+108
+22, 0x7ffc07ea0d90
+0
+SYSCALL
+analyzed_bin
+write
+108
+22, "\225|\271\305\"\0\001\001\032leveldb.Bytewise"..., 41
+41
+SYSCALL
+analyzed_bin
+close
+108
+22
+0
+OPENFILE
+"/root/.trittium2/chainstate/000001.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/000001.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+22
+SYSCALL
+analyzed_bin
+fstat
+108
+22, 0x7ffc07ea0c30
+0
+SYSCALL
+analyzed_bin
+write
+108
+22, "MANIFEST-000001\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+22
+0
+SYSCALL
+analyzed_bin
+close
+108
+22
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/chainstate/000001.dbtmp", "/root/.trittium2/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/chainstate/CURRENT"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/CURRENT", O_RDONLY
+22
+SYSCALL
+analyzed_bin
+fstat
+108
+22, 0x7ffc07ea0ab0
+0
+SYSCALL
+analyzed_bin
+read
+108
+22, 0x55fd37d67db0, 8192
+16
+SYSCALL
+analyzed_bin
+read
+108
+22, 0x55fd37d67dc0, 7168
+0
+SYSCALL
+analyzed_bin
+read
+108
+22, 0x55fd37d67db0, 8192
+0
+SYSCALL
+analyzed_bin
+close
+108
+22
+0
+OPENFILE
+"/root/.trittium2/chainstate/MANIFEST-000001"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/MANIFEST-000001", O_RDONLY
+22
+SYSCALL
+analyzed_bin
+fstat
+108
+22, 0x7ffc07ea0a50
+0
+SYSCALL
+analyzed_bin
+read
+108
+22, 0x55fd37d67ef0, 32768
+41
+SYSCALL
+analyzed_bin
+read
+108
+22, 0x55fd37d67f19, 31744
+0
+SYSCALL
+analyzed_bin
+close
+108
+22
+0
+OPENFILE
+"/root/.trittium2/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+22
+SYSCALL
+analyzed_bin
+fstat
+108
+22, 0x7ffc07ea1010
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+22, 0x55fd37d68010, 32768
+168
+SYSCALL
+analyzed_bin
+getdents
+108
+22, 0x55fd37d68010, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+22
+0
+OPENFILE
+"/root/.trittium2/chainstate/000003.log"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/000003.log", O_WRONLY|O_CREAT|O_TRUNC, 0666
+22
+OPENFILE
+"/root/.trittium2/chainstate/MANIFEST-000002"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/MANIFEST-000002", O_WRONLY|O_CREAT|O_TRUNC, 0666
+23
+SYSCALL
+analyzed_bin
+fstat
+108
+23, 0x7ffc07ea0b70
+0
+SYSCALL
+analyzed_bin
+write
+108
+23, "V\371\270\370\034\0\001\001\032leveldb.Bytewi"..., 35
+35
+SYSCALL
+analyzed_bin
+write
+108
+23, "\244\234\213\276\b\0\001\002\003\t\0\003\004\004", 15
+15
+OPENFILE
+"/root/.trittium2/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate", O_RDONLY
+24
+SYSCALL
+analyzed_bin
+fsync
+108
+24
+0
+SYSCALL
+analyzed_bin
+close
+108
+24
+0
+SYSCALL
+analyzed_bin
+fdatasync
+108
+23
+0
+OPENFILE
+"/root/.trittium2/chainstate/000002.dbtmp"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate/000002.dbtmp", O_WRONLY|O_CREAT|O_TRUNC, 0666
+24
+SYSCALL
+analyzed_bin
+fstat
+108
+24, 0x7ffc07ea0c70
+0
+SYSCALL
+analyzed_bin
+write
+108
+24, "MANIFEST-000002\n", 16
+16
+SYSCALL
+analyzed_bin
+fdatasync
+108
+24
+0
+SYSCALL
+analyzed_bin
+close
+108
+24
+0
+SYSCALL
+analyzed_bin
+rename
+108
+"/root/.trittium2/chainstate/000002.dbtmp", "/root/.trittium2/chainstate/CURRENT"
+0
+OPENFILE
+"/root/.trittium2/chainstate"
+SYSCALL
+analyzed_bin
+openat
+108
+AT_FDCWD, "/root/.trittium2/chainstate", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+24
+SYSCALL
+analyzed_bin
+fstat
+108
+24, 0x7ffc07ea1070
+0
+SYSCALL
+analyzed_bin
+getdents
+108
+24, 0x55fd37d68880, 32768
+240
+SYSCALL
+analyzed_bin
+getdents
+108
+24, 0x55fd37d68880, 32768
+0
+SYSCALL
+analyzed_bin
+close
+108
+24
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+20, 0x7ffc07ea0c90
+0
+SYSCALL
+analyzed_bin
+write
+108
+20, "2022/07/14-07:45:09.703836 7f0ecacaf740 Delet"..., 57
+57
+SYSCALL
+analyzed_bin
+unlink
+108
+"/root/.trittium2/chainstate/MANIFEST-000001"
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Opened LevelDB successfully\n", 28
+28
+SYSCALL
+analyzed_bin
+getpid
+108
+
+108
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "init message: Loading sporks...\n", 32
+32
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 75
+75
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 91
+91
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 77
+77
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 87
+87
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 98
+98
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 97
+97
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 97
+97
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 86
+86
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 87
+87
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 93
+93
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 95
+95
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadSporksFromDB : no previous value for SPOR"..., 94
+94
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "init message: Loading block index...\n", 37
+37
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadBlockIndexDB: last block file = 0\n", 38
+38
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadBlockIndexDB: last block file info: CBloc"..., 118
+118
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Checking all blk files are present...\n", 38
+38
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadBlockIndexDB: Last shutdown was prepared:"..., 51
+51
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "LoadBlockIndexDB(): transaction index enabled\n", 46
+46
+SYSCALL
+analyzed_bin
+fstat
+108
+18, 0x7ffc07ea0400
+0
+SYSCALL
+analyzed_bin
+write
+108
+18, "JAFz\032\0\001\001\0\0\0\0\0\0\0\001\0\0\0"..., 33
+33
+SYSCALL
+analyzed_bin
+write
+108
+18, "\330\b\311\366\031\0\001\002\0\0\0\0\0\0\0\001\0", 32
+32
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Initializing databases...\n", 26
+26
+SYSCALL
+analyzed_bin
+statfs
+108
+"/root/.trittium2", 0x7ffc07ea0e70
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "*** Disk space is low!\n", 23
+23
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+analyzed_bin
+write
+108
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "ERROR: LoadBlockIndex() : FindBlockPos failed\n", 46
+46
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, ": Error initializing block database.\n\nDo yo"..., 85
+85
+SYSCALL
+analyzed_bin
+write
+108
+2, ": Error initializing block database.\n\nDo yo"..., 85
+85
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "Aborted block database rebuild. Exiting.\n", 41
+41
+SYSCALL
+analyzed_bin
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+analyzed_bin
+write
+108
+4, "PrepareShutdown: In progress...\n", 32
+32
+SYSCALL
+trittium-shutof
+prctl
+108
+PR_SET_NAME, 0x55fd36e0f105
+0
+SYSCALL
+trittium-shutof
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+trittium-shutof
+write
+108
+4, "StopNode()\n", 11
+11
+OPENFILE
+"/root/.trittium2/mncache.dat"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/mncache.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+trittium-shutof
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+trittium-shutof
+write
+108
+4, "ERROR: Read : Failed to open file /root/.trit"..., 63
+63
+OPENFILE
+"/root/.trittium2/mncache.dat"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/mncache.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+24
+SYSCALL
+trittium-shutof
+fstat
+108
+24, 0x7ffc07ea1ca0
+0
+SYSCALL
+trittium-shutof
+write
+108
+24, "\017MasternodeCacherRXg\0\0\0\0\0\0\0\0\0\0\0\0", 66
+66
+SYSCALL
+trittium-shutof
+close
+108
+24
+0
+OPENFILE
+"/root/.trittium2/budget.dat"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/budget.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+trittium-shutof
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+trittium-shutof
+write
+108
+4, "ERROR: Read : Failed to open file /root/.trit"..., 62
+62
+OPENFILE
+"/root/.trittium2/budget.dat"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/budget.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+24
+SYSCALL
+trittium-shutof
+fstat
+108
+24, 0x7ffc07ea1b60
+0
+SYSCALL
+trittium-shutof
+write
+108
+24, "\020MasternodeBudgetrRXg\0\0\0\0\0\0\0\0\302!"..., 61
+61
+SYSCALL
+trittium-shutof
+close
+108
+24
+0
+OPENFILE
+"/root/.trittium2/mnpayments.dat"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/mnpayments.dat", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+trittium-shutof
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+trittium-shutof
+write
+108
+4, "ERROR: Read : Failed to open file /root/.trit"..., 66
+66
+OPENFILE
+"/root/.trittium2/mnpayments.dat"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/mnpayments.dat", O_WRONLY|O_CREAT|O_TRUNC, 0666
+24
+SYSCALL
+trittium-shutof
+fstat
+108
+24, 0x7ffc07ea1cc0
+0
+SYSCALL
+trittium-shutof
+write
+108
+24, "\022MasternodePaymentsrRXg\0\0\u023E\320_\267"..., 57
+57
+SYSCALL
+trittium-shutof
+close
+108
+24
+0
+SYSCALL
+trittium-shutof
+statfs
+108
+"/root/.trittium2", 0x7ffc07ea2390
+0
+SYSCALL
+trittium-shutof
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+trittium-shutof
+write
+108
+4, "*** Disk space is low!\n", 23
+23
+SYSCALL
+trittium-shutof
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+trittium-shutof
+write
+108
+4, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+trittium-shutof
+write
+108
+2, "Error: Error: Disk space is low!\n", 33
+33
+SYSCALL
+trittium-shutof
+write
+108
+18, "\367\356zd\032\0\001\003\0\0\0\0\0\0\0\001\0"..., 33
+33
+SYSCALL
+trittium-shutof
+fcntl
+108
+21, F_SETLK, 0x7ffc07ea2740
+0
+SYSCALL
+trittium-shutof
+close
+108
+21
+0
+SYSCALL
+trittium-shutof
+close
+108
+23
+0
+SYSCALL
+trittium-shutof
+close
+108
+22
+0
+SYSCALL
+trittium-shutof
+close
+108
+20
+0
+SYSCALL
+trittium-shutof
+fcntl
+108
+17, F_SETLK, 0x7ffc07ea2760
+0
+SYSCALL
+trittium-shutof
+close
+108
+17
+0
+SYSCALL
+trittium-shutof
+close
+108
+19
+0
+SYSCALL
+trittium-shutof
+close
+108
+18
+0
+SYSCALL
+trittium-shutof
+close
+108
+16
+0
+SYSCALL
+trittium-shutof
+fcntl
+108
+9, F_SETLK, 0x7ffc07ea2760
+0
+SYSCALL
+trittium-shutof
+close
+108
+9
+0
+SYSCALL
+trittium-shutof
+close
+108
+11
+0
+SYSCALL
+trittium-shutof
+close
+108
+10
+0
+SYSCALL
+trittium-shutof
+close
+108
+8
+0
+SYSCALL
+trittium-shutof
+fcntl
+108
+13, F_SETLK, 0x7ffc07ea2760
+0
+SYSCALL
+trittium-shutof
+close
+108
+13
+0
+SYSCALL
+trittium-shutof
+close
+108
+15
+0
+SYSCALL
+trittium-shutof
+close
+108
+14
+0
+SYSCALL
+trittium-shutof
+close
+108
+12
+0
+SYSCALL
+trittium-shutof
+lstat
+108
+"/root/.trittium2/trittiumd.pid", 0x7ffc07ea27a0
+0
+SYSCALL
+trittium-shutof
+unlink
+108
+"/root/.trittium2/trittiumd.pid"
+0
+SYSCALL
+trittium-shutof
+write
+108
+4, "2022-07-14 07:45:09 ", 20
+20
+SYSCALL
+trittium-shutof
+write
+108
+4, "Shutdown: done\n", 15
+15
+SYSCALL
+trittium-shutof
+close
+108
+3
+0
+OPENFILE
+"/root/.trittium2/database/log.0000000001"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/database/log.0000000001", O_RDWR|O_CREAT, 0600
+3
+SYSCALL
+trittium-shutof
+fcntl
+108
+3, F_GETFD, 0x42
+0
+SYSCALL
+trittium-shutof
+fcntl
+108
+3, F_SETFD, 0x1
+0
+SYSCALL
+trittium-shutof
+read
+108
+3, 0x55fd37d67630, 28
+0
+SYSCALL
+trittium-shutof
+lseek
+108
+3, 1040384, SEEK_SET
+1040384
+SYSCALL
+trittium-shutof
+write
+108
+3, "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0", 8192
+8192
+SYSCALL
+trittium-shutof
+pwrite
+108
+3, "\0\0\0\0\034\0\0\0\351AH[\210\t\004\0\020\0\0\0", 28, 0
+28
+SYSCALL
+trittium-shutof
+fdatasync
+108
+3
+0
+SYSCALL
+trittium-shutof
+close
+108
+3
+0
+SYSCALL
+trittium-shutof
+munmap
+108
+0x7f0ecabae000, 1052672
+0
+SYSCALL
+trittium-shutof
+munmap
+108
+0x7f0ec87ae000, 5771264
+0
+SYSCALL
+trittium-shutof
+munmap
+108
+0x7f0ec8d2f000, 6209536
+0
+SYSCALL
+trittium-shutof
+getpid
+108
+
+108
+OPENFILE
+"/root/.trittium2/DB_CONFIG"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/DB_CONFIG", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+trittium-shutof
+stat
+108
+"/var/tmp", 0x7ffc07ea2170
+0
+OPENFILE
+"/root/.trittium2/__db.001"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2/__db.001"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2/__db.001", O_RDWR
+-2 (ENOENT)
+OPENFILE
+"/root/.trittium2"
+SYSCALL
+trittium-shutof
+openat
+108
+AT_FDCWD, "/root/.trittium2", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC
+3
+SYSCALL
+trittium-shutof
+fstat
+108
+3, 0x7ffc07ea2410
+0
+SYSCALL
+trittium-shutof
+getdents
+108
+3, 0x55fd373eeb70, 32768
+520
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/blocks", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/.lock", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/budget.dat", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/sporks", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/masternode.conf", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/debug.log", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/..", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/db.log", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/mncache.dat", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/database", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/trittium2.conf", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/chainstate", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/backups", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/.", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/zerocoin", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+stat
+108
+"/root/.trittium2/mnpayments.dat", 0x7ffc07ea2510
+0
+SYSCALL
+trittium-shutof
+getdents
+108
+3, 0x55fd373eeb70, 32768
+0
+SYSCALL
+trittium-shutof
+close
+108
+3
+0
+SYSCALL
+trittium-shutof
+close
+108
+6
+0
+SYSCALL
+trittium-shutof
+close
+108
+7
+0
+SYSCALL
+trittium-shutof
+exit_group
+108
+1
+

@@ -1,0 +1,7 @@
+,0
+0,/proc/self/exe
+1,/dev/urandom
+2,/root/config.json
+3,/root/.xmrig.json
+4,/root/.config/xmrig.json
+5,/etc/localtime

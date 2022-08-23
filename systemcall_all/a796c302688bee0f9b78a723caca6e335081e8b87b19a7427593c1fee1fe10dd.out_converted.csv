@@ -1,0 +1,97 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,brk,108,0x0,14618624
+1,analyzed_bin,access,108,"""/etc/ld.so.preload"", R_OK",-2 (ENOENT)
+2,analyzed_bin,openat,108,"AT_FDCWD, ""/etc/ld.so.cache"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+3,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/x86_64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+4,analyzed_bin,stat,108,"""/lib64/tls/x86_64/x86_64"", 0x7fffee7412b0",-2 (ENOENT)
+5,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+6,analyzed_bin,stat,108,"""/lib64/tls/x86_64"", 0x7fffee7412b0",-2 (ENOENT)
+7,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+8,analyzed_bin,stat,108,"""/lib64/tls/x86_64"", 0x7fffee7412b0",-2 (ENOENT)
+9,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/libpthread.so.0"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+10,analyzed_bin,stat,108,"""/lib64/tls"", 0x7fffee7412b0",-2 (ENOENT)
+11,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/x86_64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+12,analyzed_bin,stat,108,"""/lib64/x86_64/x86_64"", 0x7fffee7412b0",-2 (ENOENT)
+13,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+14,analyzed_bin,stat,108,"""/lib64/x86_64"", 0x7fffee7412b0",-2 (ENOENT)
+15,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+16,analyzed_bin,stat,108,"""/lib64/x86_64"", 0x7fffee7412b0",-2 (ENOENT)
+17,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",3
+18,analyzed_bin,read,108,"3, 0x7fffee741418, 832",832
+19,analyzed_bin,fstat,108,"3, 0x7fffee7412b0",0
+20,analyzed_bin,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc4b360b000
+21,analyzed_bin,mmap2,108,"0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7fc4b31c8000
+22,analyzed_bin,mprotect,108,"0x7fc4b31e2000, 2093056, PROT_NONE",0
+23,analyzed_bin,mmap2,108,"0x7fc4b33e1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400",0x7fc4b33e1000
+24,analyzed_bin,mmap2,108,"0x7fc4b33e3000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7fc4b33e3000
+25,analyzed_bin,close,108,3,0
+26,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/librt.so.1"", O_RDONLY|O_CLOEXEC",3
+27,analyzed_bin,read,108,"3, 0x7fffee7413e8, 832",832
+28,analyzed_bin,fstat,108,"3, 0x7fffee741280",0
+29,analyzed_bin,mmap2,108,"0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7fc4b2fc0000
+30,analyzed_bin,mprotect,108,"0x7fc4b2fc7000, 2093056, PROT_NONE",0
+31,analyzed_bin,mmap2,108,"0x7fc4b31c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576",0x7fc4b31c6000
+32,analyzed_bin,close,108,3,0
+33,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libdl.so.2"", O_RDONLY|O_CLOEXEC",3
+34,analyzed_bin,read,108,"3, 0x7fffee7413b8, 832",832
+35,analyzed_bin,fstat,108,"3, 0x7fffee741250",0
+36,analyzed_bin,mmap2,108,"0x0, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7fc4b2dbc000
+37,analyzed_bin,mprotect,108,"0x7fc4b2dbf000, 2093056, PROT_NONE",0
+38,analyzed_bin,mmap2,108,"0x7fc4b2fbe000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 8192",0x7fc4b2fbe000
+39,analyzed_bin,close,108,3,0
+40,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libm.so.6"", O_RDONLY|O_CLOEXEC",3
+41,analyzed_bin,read,108,"3, 0x7fffee741388, 832",832
+42,analyzed_bin,fstat,108,"3, 0x7fffee741220",0
+43,analyzed_bin,mmap2,108,"0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7fc4b2a3f000
+44,analyzed_bin,mprotect,108,"0x7fc4b2bbb000, 2093056, PROT_NONE",0
+45,analyzed_bin,mmap2,108,"0x7fc4b2dba000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384",0x7fc4b2dba000
+46,analyzed_bin,close,108,3,0
+47,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libc.so.6"", O_RDONLY|O_CLOEXEC",3
+48,analyzed_bin,read,108,"3, 0x7fffee741358, 832",832
+49,analyzed_bin,fstat,108,"3, 0x7fffee7411f0",0
+50,analyzed_bin,mmap2,108,"0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7fc4b268a000
+51,analyzed_bin,mprotect,108,"0x7fc4b2836000, 2093056, PROT_NONE",0
+52,analyzed_bin,mmap2,108,"0x7fc4b2a35000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992",0x7fc4b2a35000
+53,analyzed_bin,mmap2,108,"0x7fc4b2a3b000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7fc4b2a3b000
+54,analyzed_bin,close,108,3,0
+55,analyzed_bin,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc4b3609000
+56,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 140482799772032",0
+57,analyzed_bin,mprotect,108,"0x7fc4b2a35000, 16384, PROT_READ",0
+58,analyzed_bin,mprotect,108,"0x7fc4b2dba000, 4096, PROT_READ",0
+59,analyzed_bin,mprotect,108,"0x7fc4b2fbe000, 4096, PROT_READ",0
+60,analyzed_bin,mprotect,108,"0x7fc4b33e1000, 4096, PROT_READ",0
+61,analyzed_bin,mprotect,108,"0x7fc4b31c6000, 4096, PROT_READ",0
+62,analyzed_bin,mprotect,108,"0xd11000, 212992, PROT_READ",0
+63,analyzed_bin,mprotect,108,"0x7fc4b360d000, 4096, PROT_READ",0
+64,analyzed_bin,set_tid_address,108,0x7fc4b360a450,108
+65,analyzed_bin,set_robust_list,108,"0x7fc4b360a460, 24",0
+66,analyzed_bin,rt_sigaction,108,"0x20, {0x7fc4b31ce2e0, SA_SIGINFO|SA_RESTORER, 0x7fc4b31d9fe0, [EMPTY]}, 0x0, 8",0
+67,analyzed_bin,rt_sigaction,108,"0x21, {0x7fc4b31ce380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7fc4b31d9fe0, [EMPTY]}, 0x0, 8",0
+68,analyzed_bin,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+69,analyzed_bin,prlimit64,108,"0, RLIMIT_STACK, NULL, 0x7fffee741fd0",0
+70,analyzed_bin,brk,108,0x0,14618624
+71,analyzed_bin,brk,108,0xe12000,14753792
+72,analyzed_bin,openat,108,"AT_FDCWD, 0xa0cc9c, O_RDONLY",3
+73,analyzed_bin,read,108,"3, 0x7fffee741fa4, 4",4
+74,analyzed_bin,mmap2,108,"0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc4b35f5000
+75,analyzed_bin,mprotect,108,"0x7fc4b35f5000, 81920, PROT_READ|PROT_EXEC",0
+76,analyzed_bin,futex,108,"0xdf040c, FUTEX_WAKE_PRIVATE, 2147483647",0
+77,analyzed_bin,futex,108,"0xdf0418, FUTEX_WAKE_PRIVATE, 2147483647",0
+78,analyzed_bin,readlink,108,"""/proc/self/exe"", 0xd52240, 519",18
+79,analyzed_bin,openat,108,"AT_FDCWD, ""/root/config.json"", O_RDONLY",-2 (ENOENT)
+80,analyzed_bin,openat,108,"AT_FDCWD, ""/etc/localtime"", O_RDONLY|O_CLOEXEC",4
+81,analyzed_bin,fstat,108,"4, 0x7fffee741ad0",0
+82,analyzed_bin,fstat,108,"4, 0x7fffee741910",0
+83,analyzed_bin,read,108,"4, 0xe09640, 1024",127
+84,analyzed_bin,lseek,108,"4, -71, SEEK_CUR",56
+85,analyzed_bin,read,108,"4, 0xe09640, 1024",71
+86,analyzed_bin,close,108,4,0
+87,analyzed_bin,fstat,108,"1, 0x7fffee741aa0",0
+88,analyzed_bin,write,108,"1, ""[2022-07-14 07:08:30.267] unable to open \""/r""..., 62",62
+89,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.xmrig.json"", O_RDONLY",-2 (ENOENT)
+90,analyzed_bin,write,108,"1, ""[2022-07-14 07:08:30.276] unable to open \""/r""..., 62",62
+91,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.config/xmrig.json"", O_RDONLY",-2 (ENOENT)
+92,analyzed_bin,write,108,"1, ""[2022-07-14 07:08:30.277] unable to open \""/r""..., 69",69
+93,analyzed_bin,write,108,"1, ""[2022-07-14 07:08:30.278] no valid configurat""..., 85",85
+94,analyzed_bin,close,108,3,0
+95,analyzed_bin,exit_group,108,2,

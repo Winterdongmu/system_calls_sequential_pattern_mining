@@ -1,0 +1,5 @@
+output,priority,rule,source,tags,time,output_fields
+00:24:26.297451914: Error Sensitive files that contain attributes of pod's CPU opened.,Error,Test open file,syscall,"['container', 'users']",2022-07-27T07:24:26.297451914Z,{'evt.time': 1658906666297451914}
+00:24:26.297659847: Error Sensitive files that contain attributes of pod's CPU opened.,Error,Test open file,syscall,"['container', 'users']",2022-07-27T07:24:26.297659847Z,{'evt.time': 1658906666297659847}
+00:24:26.297669577: Error Sensitive files that contain attributes of pod's CPU opened.,Error,Test open file,syscall,"['container', 'users']",2022-07-27T07:24:26.297669577Z,{'evt.time': 1658906666297669577}
+00:24:26.297678338: Error Sensitive files that contain attributes of pod's CPU opened.,Error,Test open file,syscall,"['container', 'users']",2022-07-27T07:24:26.297678338Z,{'evt.time': 1658906666297678338}

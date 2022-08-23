@@ -1,0 +1,5 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 139805043781448",0
+1,analyzed_bin,set_tid_address,108,0x7f26e5f8f2cc,108
+2,analyzed_bin,brk,108,0x0,139805043785728
+3,analyzed_bin,brk,108,0x7f26e5f92000,139805043793920

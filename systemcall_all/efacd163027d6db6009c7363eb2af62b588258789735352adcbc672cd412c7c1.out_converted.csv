@@ -1,0 +1,11 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 6645016",0
+1,analyzed_bin,set_tid_address,108,0x656650,108
+2,analyzed_bin,getpid,108,,108
+3,analyzed_bin,unlink,108,"""/root/analyzed_bin""",0
+4,postgres: logic,prctl,108,"PR_SET_NAME, 0x7ffdf5ae1369",0
+5,postgres: logic,close,108,0,0
+6,postgres: logic,close,108,1,0
+7,postgres: logic,close,108,2,0
+8,postgres: logic,open,108,"""/tmp/.X11-unix/22"", O_RDWR|O_CREAT|O_LARGEFILE, 0600",-2 (ENOENT)
+9,postgres: logic,exit_group,108,1,

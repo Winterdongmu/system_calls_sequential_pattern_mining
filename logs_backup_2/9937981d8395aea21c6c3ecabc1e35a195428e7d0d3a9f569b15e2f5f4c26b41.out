@@ -1,0 +1,131 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+OPENFILE
+"/proc/self/exe"
+SYSCALL
+analyzed_bin
+open
+108
+"/proc/self/exe", O_RDONLY
+3
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 33807, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fbbbfc57000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7fbbbfc57000, 33441, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0
+0x7fbbbfc57000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fbbbfc5e000, 5135, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0x7ffc3443ca30, 4095
+18
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x400000, 69632, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x400000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x400000, 544, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0
+0x400000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x400000, 544, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x401000, 40857, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 4096
+0x401000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x401000, 40857, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x40b000, 14652, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 45056
+0x40b000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x40b000, 14652, PROT_READ
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x40f000, 4360, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 57344
+0x40f000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x40f000, 4360, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ, MAP_PRIVATE, 3, 0
+0x7fbbbfc56000
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7fbbbfc57000, 33807
+0
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 4261976
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x410898
+108
+SYSCALL
+analyzed_bin
+exit_group
+108
+0
+

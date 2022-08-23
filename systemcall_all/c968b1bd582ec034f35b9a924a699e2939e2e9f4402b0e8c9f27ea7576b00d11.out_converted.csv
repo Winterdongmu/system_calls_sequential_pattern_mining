@@ -1,0 +1,144 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,open,108,"""/proc/self/exe"", O_RDONLY",3
+1,analyzed_bin,mmap2,108,"0x0, 30846, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc87cac5000
+2,analyzed_bin,mmap2,108,"0x7fc87cac5000, 30373, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0",0x7fc87cac5000
+3,analyzed_bin,mprotect,108,"0x7fc87cacb000, 6270, PROT_READ|PROT_EXEC",0
+4,analyzed_bin,readlink,108,"""/proc/self/exe"", 0x7fffb7087e20, 4095",18
+5,analyzed_bin,mmap2,108,"0x400000, 2170880, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x400000
+6,analyzed_bin,mmap2,108,"0x400000, 67344, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x400000
+7,analyzed_bin,mprotect,108,"0x400000, 67344, PROT_READ|PROT_EXEC",0
+8,analyzed_bin,mmap2,108,"0x610000, 4120, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 65536",0x610000
+9,analyzed_bin,mprotect,108,"0x610000, 4120, PROT_READ|PROT_WRITE",0
+10,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ, MAP_PRIVATE, 3, 0",0x7fc87cac4000
+11,analyzed_bin,close,108,3,0
+12,analyzed_bin,munmap,108,"0x7fc87cac5000, 30846",0
+13,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 6361624",0
+14,analyzed_bin,set_tid_address,108,0x611350,108
+15,analyzed_bin,close,108,0,0
+16,analyzed_bin,close,108,1,0
+17,analyzed_bin,close,108,2,0
+18,analyzed_bin,unlink,108,"""/root/analyzed_bin""",0
+19,eKHKGDnN,prctl,108,"PR_SET_NAME, 0x7fffb7088bb4",0
+20,eKHKGDnN,getpid,108,,108
+21,eKHKGDnN,rt_sigaction,108,"SIGINT, {SIG_IGN}, 0x7fffb70886b0, 8",0
+22,eKHKGDnN,rt_sigaction,108,"SIGQUIT, {SIG_IGN}, 0x7fffb70886b0, 8",0
+23,eKHKGDnN,rt_sigprocmask,108,"SIG_BLOCK, [SIGCHLD], 0x7fffb7088748, 8",0
+24,eKHKGDnN,rt_sigprocmask,108,"SIG_BLOCK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7fffb70870e8, 8",0
+25,eKHKGDnN,pipe2,108,"[67109888, 67109888], O_CLOEXEC",0
+26,eKHKGDnN,clone,108,"CLONE_VM|CLONE_VFORK|SIGCHLD, 0x7fffb70886d8, 0x0, 0x4000400",110
+27,eKHKGDnN,close,108,1,0
+28,eKHKGDnN,read,108,"0, 0x7fffb70870c4, 4",0
+29,eKHKGDnN,close,108,0,0
+30,eKHKGDnN,rt_sigprocmask,108,"SIG_SETMASK, [SIGCHLD], 0x0, 8",0
+31,sh,execve,110,,0
+32,sh,brk,110,0x0,6950912
+33,sh,access,110,"""/etc/ld.so.preload"", R_OK",-2 (ENOENT)
+34,sh,openat,110,"AT_FDCWD, ""/etc/ld.so.cache"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+35,sh,openat,110,"AT_FDCWD, ""/lib64/tls/x86_64/x86_64/libresolv.so.2"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+36,sh,stat,110,"""/lib64/tls/x86_64/x86_64"", 0x7ffd85c06470",-2 (ENOENT)
+37,sh,openat,110,"AT_FDCWD, ""/lib64/tls/x86_64/libresolv.so.2"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+38,sh,stat,110,"""/lib64/tls/x86_64"", 0x7ffd85c06470",-2 (ENOENT)
+39,sh,openat,110,"AT_FDCWD, ""/lib64/tls/x86_64/libresolv.so.2"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+40,sh,stat,110,"""/lib64/tls/x86_64"", 0x7ffd85c06470",-2 (ENOENT)
+41,sh,openat,110,"AT_FDCWD, ""/lib64/tls/libresolv.so.2"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+42,sh,stat,110,"""/lib64/tls"", 0x7ffd85c06470",-2 (ENOENT)
+43,sh,openat,110,"AT_FDCWD, ""/lib64/x86_64/x86_64/libresolv.so.2"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+44,sh,stat,110,"""/lib64/x86_64/x86_64"", 0x7ffd85c06470",-2 (ENOENT)
+45,sh,openat,110,"AT_FDCWD, ""/lib64/x86_64/libresolv.so.2"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+46,sh,stat,110,"""/lib64/x86_64"", 0x7ffd85c06470",-2 (ENOENT)
+47,sh,openat,110,"AT_FDCWD, ""/lib64/x86_64/libresolv.so.2"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+48,sh,stat,110,"""/lib64/x86_64"", 0x7ffd85c06470",-2 (ENOENT)
+49,sh,openat,110,"AT_FDCWD, ""/lib64/libresolv.so.2"", O_RDONLY|O_CLOEXEC",0
+50,sh,read,110,"0, 0x7ffd85c065d8, 832",832
+51,sh,fstat,110,"0, 0x7ffd85c06470",0
+52,sh,mmap2,110,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc4c414e000
+53,sh,mmap2,110,"0x0, 2185824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 0, 0",0x7fc4c3d14000
+54,sh,mprotect,110,"0x7fc4c3d27000, 2093056, PROT_NONE",0
+55,sh,mmap2,110,"0x7fc4c3f26000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 0, 73728",0x7fc4c3f26000
+56,sh,mmap2,110,"0x7fc4c3f28000, 6752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7fc4c3f28000
+57,sh,close,110,0,0
+58,sh,openat,110,"AT_FDCWD, ""/lib64/libc.so.6"", O_RDONLY|O_CLOEXEC",0
+59,sh,read,110,"0, 0x7ffd85c065a8, 832",832
+60,sh,fstat,110,"0, 0x7ffd85c06440",0
+61,sh,mmap2,110,"0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 0, 0",0x7fc4c395f000
+62,sh,mprotect,110,"0x7fc4c3b0b000, 2093056, PROT_NONE",0
+63,sh,mmap2,110,"0x7fc4c3d0a000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 0, 1748992",0x7fc4c3d0a000
+64,sh,mmap2,110,"0x7fc4c3d10000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7fc4c3d10000
+65,sh,close,110,0,0
+66,sh,mmap2,110,"0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7fc4c414b000
+67,sh,arch_prctl,110,"ARCH_SET_FS, 140483080009536",0
+68,sh,mprotect,110,"0x7fc4c3d0a000, 16384, PROT_READ",0
+69,sh,mprotect,110,"0x7fc4c3f26000, 4096, PROT_READ",0
+70,sh,mprotect,110,"0x69e000, 4096, PROT_READ",0
+71,sh,mprotect,110,"0x7fc4c4150000, 4096, PROT_READ",0
+72,sh,getuid,110,,0
+73,sh,brk,110,0x0,6950912
+74,sh,brk,110,0x6c2000,7086080
+75,sh,getpid,110,,110
+76,sh,rt_sigaction,110,"SIGCHLD, {0x42cf95, SA_RESTORER, 0x7fc4c3993b20, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+77,sh,rt_sigaction,110,"SIGHUP, {SIG_DFL}, 0x7ffd85c06c30, 8",0
+78,sh,getppid,110,,108
+79,sh,uname,110,0x7ffd85c06ec8,0
+80,sh,stat,110,"""/root"", 0x7ffd85c06e38",0
+81,sh,stat,110,"""."", 0x7ffd85c06ec8",0
+82,sh,rt_sigaction,110,"SIGINT, {NULL}, 0x7ffd85c06ee0, 8",0
+83,sh,rt_sigaction,110,"SIGQUIT, {NULL}, 0x7ffd85c06ee0, 8",0
+84,sh,rt_sigaction,110,"SIGTERM, {NULL}, 0x7ffd85c06ee0, 8",0
+85,sh,pipe,110,"[6964728, -1]",0
+86,sh,clone,110,"CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, 0x0, 0x0, 0x7fc4c414ba10",111
+87,sh,close,110,1,0
+88,sh,stat,110,"""/bin/base64"", 0x7ffd85c06dd0",-2 (ENOENT)
+89,sh,stat,110,"""/sbin/base64"", 0x7ffd85c06dd0",-2 (ENOENT)
+90,sh,stat,110,"""/usr/bin/base64"", 0x7ffd85c06dd0",-2 (ENOENT)
+91,sh,stat,110,"""/usr/sbin/base64"", 0x7ffd85c06dd0",-2 (ENOENT)
+92,sh,pipe,110,"[0, -1]",0
+93,sh,clone,110,"CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, 0x0, 0x0, 0x7fc4c414ba10",112
+94,sh,close,110,0,0
+95,sh,close,110,2,0
+96,sh,stat,110,"""/bin/bash"", 0x7ffd85c06dd0",-2 (ENOENT)
+97,sh,stat,110,"""/sbin/bash"", 0x7ffd85c06dd0",-2 (ENOENT)
+98,sh,stat,110,"""/usr/bin/bash"", 0x7ffd85c06dd0",-2 (ENOENT)
+99,sh,stat,110,"""/usr/sbin/bash"", 0x7ffd85c06dd0",-2 (ENOENT)
+100,sh,clone,110,"CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, 0x0, 0x0, 0x7fc4c414ba10",113
+101,sh,close,110,1,0
+102,sh,rt_sigaction,111,"SIGQUIT, {NULL}, 0x7ffd85c06ca0, 8",0
+103,sh,close,111,0,0
+104,sh,wait4,111,"-1, 0x7ffd85c06cec, WNOHANG, 0x0",-10 (ECHILD)
+105,sh,write,111,"1, ""OHhjVm1URDZnVGQ5VzZCcVJHRlRGUnpYdU1Vc2QxVHZSY""..., 285",285
+106,sh,exit_group,111,0,
+107,sh,wait4,110,"-1, 0x7ffd85c06ddc, 0x0, 0x0",111
+108,sh,rt_sigaction,113,"SIGQUIT, {NULL}, 0x7ffd85c06ca0, 8",0
+109,sh,dup2,113,"1, 0",0
+110,sh,close,113,1,0
+111,sh,stat,113,"""/bin/bash"", 0x7ffd85c06cc0",-2 (ENOENT)
+112,sh,stat,113,"""/sbin/bash"", 0x7ffd85c06cc0",-2 (ENOENT)
+113,sh,stat,113,"""/usr/bin/bash"", 0x7ffd85c06cc0",-2 (ENOENT)
+114,sh,stat,113,"""/usr/sbin/bash"", 0x7ffd85c06cc0",-2 (ENOENT)
+115,sh,write,113,"2, ""sh: "", 4",-9 (EBADF)
+116,sh,write,113,"2, ""bash: not found"", 15",-9 (EBADF)
+117,sh,write,113,"2, ""\n"", 1",-9 (EBADF)
+118,sh,rt_sigaction,112,"SIGQUIT, {NULL}, 0x7ffd85c06ca0, 8",0
+119,sh,close,112,1,0
+120,sh,dup2,112,"2, 1",1
+121,sh,close,112,2,0
+122,sh,stat,112,"""/bin/base64"", 0x7ffd85c06cc0",-2 (ENOENT)
+123,sh,stat,112,"""/sbin/base64"", 0x7ffd85c06cc0",-2 (ENOENT)
+124,sh,stat,112,"""/usr/bin/base64"", 0x7ffd85c06cc0",-2 (ENOENT)
+125,sh,stat,112,"""/usr/sbin/base64"", 0x7ffd85c06cc0",-2 (ENOENT)
+126,sh,write,112,"2, ""sh: "", 4",-9 (EBADF)
+127,sh,write,112,"2, ""base64: not found"", 17",-9 (EBADF)
+128,sh,write,112,"2, ""\n"", 1",-9 (EBADF)
+129,sh,rt_sigreturn,110,,111
+130,sh,exit_group,112,127,
+131,sh,wait4,110,"-1, 0x7ffd85c06ddc, 0x0, 0x0",112
+132,sh,rt_sigreturn,110,,112
+133,sh,exit_group,113,127,
+134,sh,wait4,110,"-1, 0x7ffd85c06ddc, 0x0, 0x0",113
+135,sh,rt_sigreturn,110,,113
+136,sh,exit_group,110,127,
+137,eKHKGDnN,wait4,108,"110, 0x7fffb7088724, 0x0, 0x0",110
+138,eKHKGDnN,rt_sigaction,108,"SIGINT, {SIG_IGN}, 0x0, 8",0
+139,eKHKGDnN,rt_sigaction,108,"SIGQUIT, {SIG_IGN}, 0x0, 8",0
+140,eKHKGDnN,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+141,eKHKGDnN,open,108,"""/tmp/.X11-unix/01"", O_WRONLY|O_CREAT|O_LARGEFILE, 0600",-2 (ENOENT)
+142,eKHKGDnN,exit_group,108,0,

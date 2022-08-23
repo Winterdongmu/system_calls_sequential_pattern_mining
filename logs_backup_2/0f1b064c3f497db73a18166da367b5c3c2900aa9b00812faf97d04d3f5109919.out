@@ -1,0 +1,9 @@
+LISA
+PROCESS
+101:98
+SYSCALL
+analyzed_bin
+execve
+101
+
+-14 (EFAULT)

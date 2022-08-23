@@ -1,0 +1,199 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 140061889000352
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x7f62b323f70c
+108
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+140061889003520
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f62b3245000
+140061889024000
+OPENFILE
+"/dev/urandom"
+SYSCALL
+analyzed_bin
+open
+108
+"/dev/urandom", O_RDONLY
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffce9dd5814, 4
+4
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f62b3246000
+140061889028096
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f62b2e99000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f62b2e99000, 81920, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x7f62b3258000
+140061889101824
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffce9dd5748
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0x7f62b31b0e20, 519
+18
+OPENFILE
+"/root/config.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/config.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffce9dd53d8
+0
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/localtime", O_RDONLY|O_NONBLOCK|O_CLOEXEC
+4
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7ffce9dd5160
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 127, PROT_READ, MAP_SHARED, 4, 0
+0x7f62b2e98000
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+SYSCALL
+analyzed_bin
+ioctl
+108
+1, 21523, 0x7ffce9dd5348
+-25 (ENOTTY)
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffce9dd52e0, 2
+62
+OPENFILE
+"/root/.xmrig.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/.xmrig.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffce9dd53d8
+0
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffce9dd5380, 2
+62
+OPENFILE
+"/root/.config/xmrig.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/.config/xmrig.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffce9dd53d8
+0
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffce9dd5380, 2
+69
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffce9dd55b8
+0
+SYSCALL
+analyzed_bin
+writev
+108
+1, 0x7ffce9dd5560, 2
+85
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+exit_group
+108
+2
+

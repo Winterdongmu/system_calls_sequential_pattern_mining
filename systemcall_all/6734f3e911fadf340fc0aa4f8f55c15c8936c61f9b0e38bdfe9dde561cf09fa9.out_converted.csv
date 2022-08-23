@@ -1,0 +1,727 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,brk,108,0x0,94546041561088
+1,analyzed_bin,access,108,"""/etc/ld.so.preload"", R_OK",-2 (ENOENT)
+2,analyzed_bin,openat,108,"AT_FDCWD, ""/etc/ld.so.cache"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+3,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+4,analyzed_bin,stat,108,"""/lib64/tls/x86_64/x86_64"", 0x7ffc07ea20b0",-2 (ENOENT)
+5,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+6,analyzed_bin,stat,108,"""/lib64/tls/x86_64"", 0x7ffc07ea20b0",-2 (ENOENT)
+7,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+8,analyzed_bin,stat,108,"""/lib64/tls/x86_64"", 0x7ffc07ea20b0",-2 (ENOENT)
+9,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/tls/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+10,analyzed_bin,stat,108,"""/lib64/tls"", 0x7ffc07ea20b0",-2 (ENOENT)
+11,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+12,analyzed_bin,stat,108,"""/lib64/x86_64/x86_64"", 0x7ffc07ea20b0",-2 (ENOENT)
+13,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+14,analyzed_bin,stat,108,"""/lib64/x86_64"", 0x7ffc07ea20b0",-2 (ENOENT)
+15,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/x86_64/librt.so.1"", O_RDONLY|O_CLOEXEC",-2 (ENOENT)
+16,analyzed_bin,stat,108,"""/lib64/x86_64"", 0x7ffc07ea20b0",-2 (ENOENT)
+17,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/librt.so.1"", O_RDONLY|O_CLOEXEC",3
+18,analyzed_bin,read,108,"3, 0x7ffc07ea2218, 832",832
+19,analyzed_bin,fstat,108,"3, 0x7ffc07ea20b0",0
+20,analyzed_bin,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f0ecacb4000
+21,analyzed_bin,mmap2,108,"0x0, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f0eca888000
+22,analyzed_bin,mprotect,108,"0x7f0eca88f000, 2093056, PROT_NONE",0
+23,analyzed_bin,mmap2,108,"0x7f0ecaa8e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 24576",0x7f0ecaa8e000
+24,analyzed_bin,close,108,3,0
+25,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libpthread.so.0"", O_RDONLY|O_CLOEXEC",3
+26,analyzed_bin,read,108,"3, 0x7ffc07ea21e8, 832",832
+27,analyzed_bin,fstat,108,"3, 0x7ffc07ea2080",0
+28,analyzed_bin,mmap2,108,"0x0, 2221216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f0eca669000
+29,analyzed_bin,mprotect,108,"0x7f0eca683000, 2093056, PROT_NONE",0
+30,analyzed_bin,mmap2,108,"0x7f0eca882000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 102400",0x7f0eca882000
+31,analyzed_bin,mmap2,108,"0x7f0eca884000, 13472, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7f0eca884000
+32,analyzed_bin,close,108,3,0
+33,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libanl.so.1"", O_RDONLY|O_CLOEXEC",3
+34,analyzed_bin,read,108,"3, 0x7ffc07ea21b8, 832",832
+35,analyzed_bin,fstat,108,"3, 0x7ffc07ea2050",0
+36,analyzed_bin,mmap2,108,"0x0, 2109928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f0eca465000
+37,analyzed_bin,mprotect,108,"0x7f0eca468000, 2093056, PROT_NONE",0
+38,analyzed_bin,mmap2,108,"0x7f0eca667000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 8192",0x7f0eca667000
+39,analyzed_bin,close,108,3,0
+40,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libm.so.6"", O_RDONLY|O_CLOEXEC",3
+41,analyzed_bin,read,108,"3, 0x7ffc07ea2188, 832",832
+42,analyzed_bin,fstat,108,"3, 0x7ffc07ea2020",0
+43,analyzed_bin,mmap2,108,"0x0, 3653968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f0eca0e8000
+44,analyzed_bin,mprotect,108,"0x7f0eca264000, 2093056, PROT_NONE",0
+45,analyzed_bin,mmap2,108,"0x7f0eca463000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1552384",0x7f0eca463000
+46,analyzed_bin,close,108,3,0
+47,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libgcc_s.so.1"", O_RDONLY|O_CLOEXEC",3
+48,analyzed_bin,read,108,"3, 0x7ffc07ea2158, 832",832
+49,analyzed_bin,fstat,108,"3, 0x7ffc07ea1ff0",0
+50,analyzed_bin,mmap2,108,"0x0, 2188296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f0ec9ed1000
+51,analyzed_bin,mprotect,108,"0x7f0ec9ee7000, 2093056, PROT_NONE",0
+52,analyzed_bin,mmap2,108,"0x7f0eca0e6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 86016",0x7f0eca0e6000
+53,analyzed_bin,close,108,3,0
+54,analyzed_bin,openat,108,"AT_FDCWD, ""/lib64/libc.so.6"", O_RDONLY|O_CLOEXEC",3
+55,analyzed_bin,read,108,"3, 0x7ffc07ea2128, 832",832
+56,analyzed_bin,fstat,108,"3, 0x7ffc07ea1fc0",0
+57,analyzed_bin,mmap2,108,"0x0, 3885056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0",0x7f0ec9b1c000
+58,analyzed_bin,mprotect,108,"0x7f0ec9cc8000, 2093056, PROT_NONE",0
+59,analyzed_bin,mmap2,108,"0x7f0ec9ec7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 1748992",0x7f0ec9ec7000
+60,analyzed_bin,mmap2,108,"0x7f0ec9ecd000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x7f0ec9ecd000
+61,analyzed_bin,close,108,3,0
+62,analyzed_bin,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f0ecacb2000
+63,analyzed_bin,mmap2,108,"0x0, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f0ecacaf000
+64,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 139701508568896",0
+65,analyzed_bin,mprotect,108,"0x7f0ec9ec7000, 16384, PROT_READ",0
+66,analyzed_bin,mprotect,108,"0x7f0eca0e6000, 4096, PROT_READ",0
+67,analyzed_bin,mprotect,108,"0x7f0eca463000, 4096, PROT_READ",0
+68,analyzed_bin,mprotect,108,"0x7f0eca882000, 4096, PROT_READ",0
+69,analyzed_bin,mprotect,108,"0x7f0eca667000, 4096, PROT_READ",0
+70,analyzed_bin,mprotect,108,"0x7f0ecaa8e000, 4096, PROT_READ",0
+71,analyzed_bin,mprotect,108,"0x55fd372ec000, 208896, PROT_READ",0
+72,analyzed_bin,mprotect,108,"0x7f0ecacb6000, 4096, PROT_READ",0
+73,analyzed_bin,set_tid_address,108,0x7f0ecacafa10,108
+74,analyzed_bin,set_robust_list,108,"0x7f0ecacafa20, 24",0
+75,analyzed_bin,rt_sigaction,108,"0x20, {0x7f0eca66f2e0, SA_SIGINFO|SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8",0
+76,analyzed_bin,rt_sigaction,108,"0x21, {0x7f0eca66f380, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8",0
+77,analyzed_bin,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+78,analyzed_bin,prlimit64,108,"0, RLIMIT_STACK, NULL, 0x7ffc07ea2dd0",0
+79,analyzed_bin,brk,108,0x0,94546041561088
+80,analyzed_bin,brk,108,0x55fd373af000,94546041696256
+81,analyzed_bin,futex,108,"0x55fd3738b0c4, FUTEX_WAKE_PRIVATE, 2147483647",0
+82,analyzed_bin,futex,108,"0x55fd3738b0d0, FUTEX_WAKE_PRIVATE, 2147483647",0
+83,analyzed_bin,openat,108,"AT_FDCWD, ""/sys/devices/system/cpu/online"", O_RDONLY|O_CLOEXEC",3
+84,analyzed_bin,read,108,"3, 0x7ffc07ea0d00, 8192",2
+85,analyzed_bin,close,108,3,0
+86,analyzed_bin,brk,108,0x55fd373d0000,94546041831424
+87,analyzed_bin,getpid,108,,108
+88,analyzed_bin,getpid,108,,108
+89,analyzed_bin,openat,108,"AT_FDCWD, ""/dev/urandom"", O_RDONLY|O_NOCTTY|O_NONBLOCK",3
+90,analyzed_bin,fstat,108,"3, 0x7ffc07ea2a30",0
+91,analyzed_bin,poll,108,"0x7ffc07ea2a28, 1, 10",1
+92,analyzed_bin,read,108,"3, 0x7ffc07ea2be0, 32",32
+93,analyzed_bin,close,108,3,0
+94,analyzed_bin,getuid,108,,0
+95,analyzed_bin,brk,108,0x55fd373f5000,94546041982976
+96,analyzed_bin,openat,108,"AT_FDCWD, ""/etc/localtime"", O_RDONLY|O_CLOEXEC",3
+97,analyzed_bin,fstat,108,"3, 0x7ffc07ea2b10",0
+98,analyzed_bin,fstat,108,"3, 0x7ffc07ea2950",0
+99,analyzed_bin,read,108,"3, 0x55fd37390b30, 1024",127
+100,analyzed_bin,lseek,108,"3, -71, SEEK_CUR",56
+101,analyzed_bin,read,108,"3, 0x55fd37390b30, 1024",71
+102,analyzed_bin,close,108,3,0
+103,analyzed_bin,getpid,108,,108
+104,analyzed_bin,getpid,108,,108
+105,analyzed_bin,openat,108,"AT_FDCWD, ""/sys/devices/system/cpu/online"", O_RDONLY|O_CLOEXEC",3
+106,analyzed_bin,read,108,"3, 0x7ffc07ea0b30, 8192",2
+107,analyzed_bin,close,108,3,0
+108,analyzed_bin,stat,108,"""/root/.trittium2"", 0x7ffc07ea28a0",-2 (ENOENT)
+109,analyzed_bin,stat,108,"""/root"", 0x7ffc07ea28a0",0
+110,analyzed_bin,mkdir,108,"""/root/.trittium2"", 0777",0
+111,analyzed_bin,stat,108,"""/root/.trittium2"", 0x7ffc07ea2a40",0
+112,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/trittium2.conf"", O_RDONLY",-2 (ENOENT)
+113,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/trittium2.conf"", O_WRONLY|O_CREAT|O_APPEND, 0666",3
+114,analyzed_bin,lseek,108,"3, 0, SEEK_END",0
+115,analyzed_bin,close,108,3,0
+116,analyzed_bin,stat,108,"""/root/.trittium2"", 0x7ffc07ea2100",0
+117,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/masternode.conf"", O_RDONLY",-2 (ENOENT)
+118,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/masternode.conf"", O_WRONLY|O_CREAT|O_APPEND, 0666",3
+119,analyzed_bin,lseek,108,"3, 0, SEEK_END",0
+120,analyzed_bin,fstat,108,"3, 0x7ffc07ea22a0",0
+121,analyzed_bin,write,108,"3, ""# Masternode config file\n# Format: alias IP:""..., 264",264
+122,analyzed_bin,close,108,3,0
+123,analyzed_bin,mmap2,108,"0x0, 8392704, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0",0x7f0ec931b000
+124,analyzed_bin,mprotect,108,"0x7f0ec931c000, 8388608, PROT_READ|PROT_WRITE",0
+125,analyzed_bin,clone,108,"CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f0ec9b1afb0, 0x7f0ec9b1b9d0, 0x7f0ec9b1b9d0",110
+126,analyzed_bin,umask,108,077,022
+127,analyzed_bin,rt_sigaction,108,"SIGTERM, {0x55fd3662af20, SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8",0
+128,analyzed_bin,rt_sigaction,108,"SIGINT, {0x55fd3662af20, SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8",0
+129,analyzed_bin,rt_sigaction,108,"SIGHUP, {0x55fd3662af60, SA_RESTORER, 0x7f0eca67afe0, [EMPTY]}, 0x0, 8",0
+130,analyzed_bin,prlimit64,108,"0, RLIMIT_NOFILE, NULL, 0x7ffc07ea1590",0
+131,analyzed_bin,set_robust_list,108,"0x7f0ec9b1b9e0, 24",0
+132,analyzed_bin,mlock,108,"0x7ffc07ea1000, 4096",0
+133,analyzed_bin,getpid,108,,108
+134,analyzed_bin,getpid,108,,108
+135,analyzed_bin,munlock,108,"0x7ffc07ea1000, 4096",0
+136,analyzed_bin,futex,108,"0x7f0eca0e71a0, FUTEX_WAKE_PRIVATE, 2147483647",0
+137,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/.lock"", O_WRONLY|O_CREAT|O_APPEND, 0666",3
+138,analyzed_bin,lseek,108,"3, 0, SEEK_END",0
+139,analyzed_bin,close,108,3,0
+140,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/.lock"", O_RDWR",3
+141,analyzed_bin,fcntl,108,"3, F_SETLK, 0x7ffc07ea14e0",0
+142,analyzed_bin,getpid,108,,108
+143,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/trittiumd.pid"", O_WRONLY|O_CREAT|O_TRUNC, 0666",4
+144,analyzed_bin,fstat,108,"4, 0x7ffc07ea0e10",0
+145,analyzed_bin,write,108,"4, ""108\n"", 4",4
+146,analyzed_bin,close,108,4,0
+147,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/debug.log"", O_RDONLY",-2 (ENOENT)
+148,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/debug.log"", O_WRONLY|O_CREAT|O_APPEND, 0666",4
+149,analyzed_bin,lseek,108,"4, 0, SEEK_END",0
+150,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+151,analyzed_bin,write,108,"4, ""\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"", 20",20
+152,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+153,analyzed_bin,write,108,"4, ""Trittium version v3.0.1.0-7db8f23 (2021-01-12""..., 62",62
+154,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+155,analyzed_bin,write,108,"4, ""Using OpenSSL version OpenSSL 1.0.1k 8 Jan 2015"", 48",48
+156,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+157,analyzed_bin,write,108,"4, ""Using BerkeleyDB version Berkeley DB 4.8.30: ""..., 62",62
+158,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+159,analyzed_bin,write,108,"4, ""Default data directory /root/.trittium2\n"", 40",40
+160,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+161,analyzed_bin,write,108,"4, ""Using data directory /root/.trittium2\n"", 38",38
+162,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+163,analyzed_bin,write,108,"4, ""Using config file /root/.trittium2/trittium2.""..., 50",50
+164,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+165,analyzed_bin,write,108,"4, ""Using at most 125 connections (1024 file desc""..., 64",64
+166,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+167,analyzed_bin,write,108,"4, ""Using 0 threads for script verification\n"", 40",40
+168,analyzed_bin,getpid,108,,108
+169,analyzed_bin,write,108,"2, ""Error: To use trittiumd, or the -server optio""..., 607",607
+170,analyzed_bin,stat,108,"""/root/.trittium2/backups"", 0x7ffc07ea1500",-2 (ENOENT)
+171,analyzed_bin,stat,108,"""/root/.trittium2/backups"", 0x7ffc07ea1460",-2 (ENOENT)
+172,analyzed_bin,stat,108,"""/root/.trittium2"", 0x7ffc07ea1460",0
+173,analyzed_bin,mkdir,108,"""/root/.trittium2/backups"", 0777",0
+174,analyzed_bin,stat,108,"""/root/.trittium2/backups"", 0x7ffc07ea1500",0
+175,analyzed_bin,stat,108,"""/root/.trittium2/wallet.dat"", 0x7ffc07ea1500",-2 (ENOENT)
+176,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/backups"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",5
+177,analyzed_bin,fstat,108,"5, 0x7ffc07ea13d0",0
+178,analyzed_bin,brk,108,0x55fd37417000,94546042122240
+179,analyzed_bin,getdents,108,"5, 0x55fd373ee7a0, 32768",48
+180,analyzed_bin,getdents,108,"5, 0x55fd373ee7a0, 32768",0
+181,analyzed_bin,brk,108,0x55fd3740f000,94546042089472
+182,analyzed_bin,close,108,5,0
+183,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+184,analyzed_bin,write,108,"4, ""Using wallet wallet.dat\n"", 24",24
+185,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+186,analyzed_bin,write,108,"4, ""init message: Verifying wallet...\n"", 34",34
+187,analyzed_bin,mkdir,108,"""/root/.trittium2/database"", 0777",0
+188,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+189,analyzed_bin,write,108,"4, ""CDBEnv::Open: LogDir=/root/.trittium2/databas""..., 81",81
+190,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/db.log"", O_WRONLY|O_CREAT|O_APPEND, 0666",5
+191,analyzed_bin,lseek,108,"5, 0, SEEK_END",0
+192,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/DB_CONFIG"", O_RDONLY",-2 (ENOENT)
+193,analyzed_bin,stat,108,"""/var/tmp"", 0x7ffc07ea0740",0
+194,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/__db.001"", O_RDWR",-2 (ENOENT)
+195,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",6
+196,analyzed_bin,fstat,108,"6, 0x7ffc07ea09e0",0
+197,analyzed_bin,getdents,108,"6, 0x55fd373ee7a0, 32768",328
+198,analyzed_bin,stat,108,"""/root/.trittium2/.lock"", 0x7ffc07ea0ae0",0
+199,analyzed_bin,stat,108,"""/root/.trittium2/masternode.conf"", 0x7ffc07ea0ae0",0
+200,analyzed_bin,stat,108,"""/root/.trittium2/debug.log"", 0x7ffc07ea0ae0",0
+201,analyzed_bin,stat,108,"""/root/.trittium2/.."", 0x7ffc07ea0ae0",0
+202,analyzed_bin,stat,108,"""/root/.trittium2/db.log"", 0x7ffc07ea0ae0",0
+203,analyzed_bin,stat,108,"""/root/.trittium2/database"", 0x7ffc07ea0ae0",0
+204,analyzed_bin,stat,108,"""/root/.trittium2/trittium2.conf"", 0x7ffc07ea0ae0",0
+205,analyzed_bin,stat,108,"""/root/.trittium2/trittiumd.pid"", 0x7ffc07ea0ae0",0
+206,analyzed_bin,stat,108,"""/root/.trittium2/backups"", 0x7ffc07ea0ae0",0
+207,analyzed_bin,stat,108,"""/root/.trittium2/."", 0x7ffc07ea0ae0",0
+208,analyzed_bin,getdents,108,"6, 0x55fd373ee7a0, 32768",0
+209,analyzed_bin,close,108,6,0
+210,analyzed_bin,mmap2,108,"0x0, 6209536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f0ec8d2f000
+211,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/database"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",6
+212,analyzed_bin,fstat,108,"6, 0x7ffc07ea0910",0
+213,analyzed_bin,getdents,108,"6, 0x55fd37400840, 32768",48
+214,analyzed_bin,stat,108,"""/root/.trittium2/database/.."", 0x7ffc07ea0a10",0
+215,analyzed_bin,stat,108,"""/root/.trittium2/database/."", 0x7ffc07ea0a10",0
+216,analyzed_bin,getdents,108,"6, 0x55fd37400840, 32768",0
+217,analyzed_bin,close,108,6,0
+218,analyzed_bin,mmap2,108,"0x0, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f0ecabae000
+219,analyzed_bin,mmap2,108,"0x0, 5771264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f0ec87ae000
+220,analyzed_bin,brk,108,0x55fd37430000,94546042224640
+221,analyzed_bin,brk,108,0x55fd37451000,94546042359808
+222,analyzed_bin,brk,108,0x55fd37472000,94546042494976
+223,analyzed_bin,brk,108,0x55fd37493000,94546042630144
+224,analyzed_bin,brk,108,0x55fd374b4000,94546042765312
+225,analyzed_bin,brk,108,0x55fd374d5000,94546042900480
+226,analyzed_bin,brk,108,0x55fd374f6000,94546043035648
+227,analyzed_bin,brk,108,0x55fd37517000,94546043170816
+228,analyzed_bin,brk,108,0x55fd37538000,94546043305984
+229,analyzed_bin,brk,108,0x55fd37559000,94546043441152
+230,analyzed_bin,brk,108,0x55fd3757a000,94546043576320
+231,analyzed_bin,brk,108,0x55fd3759b000,94546043711488
+232,analyzed_bin,brk,108,0x55fd375bc000,94546043846656
+233,analyzed_bin,brk,108,0x55fd375dd000,94546043981824
+234,analyzed_bin,brk,108,0x55fd375fe000,94546044116992
+235,analyzed_bin,brk,108,0x55fd3761f000,94546044252160
+236,analyzed_bin,brk,108,0x55fd37640000,94546044387328
+237,analyzed_bin,brk,108,0x55fd37661000,94546044522496
+238,analyzed_bin,brk,108,0x55fd37682000,94546044657664
+239,analyzed_bin,brk,108,0x55fd376a3000,94546044792832
+240,analyzed_bin,brk,108,0x55fd376c4000,94546044928000
+241,analyzed_bin,brk,108,0x55fd376e5000,94546045063168
+242,analyzed_bin,brk,108,0x55fd37706000,94546045198336
+243,analyzed_bin,brk,108,0x55fd37727000,94546045333504
+244,analyzed_bin,brk,108,0x55fd37748000,94546045468672
+245,analyzed_bin,brk,108,0x55fd37769000,94546045603840
+246,analyzed_bin,brk,108,0x55fd3778a000,94546045739008
+247,analyzed_bin,brk,108,0x55fd377ab000,94546045874176
+248,analyzed_bin,brk,108,0x55fd377cc000,94546046009344
+249,analyzed_bin,brk,108,0x55fd377ed000,94546046144512
+250,analyzed_bin,brk,108,0x55fd3780e000,94546046279680
+251,analyzed_bin,brk,108,0x55fd3782f000,94546046414848
+252,analyzed_bin,brk,108,0x55fd37850000,94546046550016
+253,analyzed_bin,brk,108,0x55fd37871000,94546046685184
+254,analyzed_bin,brk,108,0x55fd37892000,94546046820352
+255,analyzed_bin,brk,108,0x55fd378b3000,94546046955520
+256,analyzed_bin,brk,108,0x55fd378d4000,94546047090688
+257,analyzed_bin,brk,108,0x55fd378f5000,94546047225856
+258,analyzed_bin,brk,108,0x55fd37916000,94546047361024
+259,analyzed_bin,brk,108,0x55fd37937000,94546047496192
+260,analyzed_bin,brk,108,0x55fd37958000,94546047631360
+261,analyzed_bin,brk,108,0x55fd37979000,94546047766528
+262,analyzed_bin,brk,108,0x55fd3799a000,94546047901696
+263,analyzed_bin,brk,108,0x55fd379bb000,94546048036864
+264,analyzed_bin,brk,108,0x55fd379dc000,94546048172032
+265,analyzed_bin,brk,108,0x55fd379fd000,94546048307200
+266,analyzed_bin,brk,108,0x55fd37a1e000,94546048442368
+267,analyzed_bin,brk,108,0x55fd37a3f000,94546048577536
+268,analyzed_bin,brk,108,0x55fd37a60000,94546048712704
+269,analyzed_bin,brk,108,0x55fd37a81000,94546048847872
+270,analyzed_bin,brk,108,0x55fd37aa2000,94546048983040
+271,analyzed_bin,brk,108,0x55fd37ac3000,94546049118208
+272,analyzed_bin,brk,108,0x55fd37ae4000,94546049253376
+273,analyzed_bin,brk,108,0x55fd37b05000,94546049388544
+274,analyzed_bin,brk,108,0x55fd37b26000,94546049523712
+275,analyzed_bin,brk,108,0x55fd37b47000,94546049658880
+276,analyzed_bin,futex,108,"0x55fd373eac48, 0x189, 0",-110 (ETIMEDOUT)
+277,analyzed_bin,futex,108,"0x55fd373eabf8, FUTEX_WAKE_PRIVATE, 1",0
+278,analyzed_bin,madvise,108,"0x7f0ec931b000, 8368128, MADV_DONTNEED",0
+279,analyzed_bin,exit,108,0,
+280,analyzed_bin,futex,108,"0x7f0ec9b1b9d0, FUTEX_WAKE, 1",0
+281,analyzed_bin,brk,108,0x55fd37b68000,94546049794048
+282,analyzed_bin,brk,108,0x55fd37b89000,94546049929216
+283,analyzed_bin,brk,108,0x55fd37baa000,94546050064384
+284,analyzed_bin,brk,108,0x55fd37bcb000,94546050199552
+285,analyzed_bin,brk,108,0x55fd37bec000,94546050334720
+286,analyzed_bin,brk,108,0x55fd37c0d000,94546050469888
+287,analyzed_bin,brk,108,0x55fd37c2e000,94546050605056
+288,analyzed_bin,brk,108,0x55fd37c4f000,94546050740224
+289,analyzed_bin,brk,108,0x55fd37c70000,94546050875392
+290,analyzed_bin,brk,108,0x55fd37c91000,94546051010560
+291,analyzed_bin,brk,108,0x55fd37cb2000,94546051145728
+292,analyzed_bin,brk,108,0x55fd37cd3000,94546051280896
+293,analyzed_bin,brk,108,0x55fd37cf4000,94546051416064
+294,analyzed_bin,brk,108,0x55fd37d15000,94546051551232
+295,analyzed_bin,brk,108,0x55fd37d36000,94546051686400
+296,analyzed_bin,brk,108,0x55fd37d57000,94546051821568
+297,analyzed_bin,brk,108,0x55fd37d7f000,94546051985408
+298,analyzed_bin,brk,108,0x55fd37d77000,94546051952640
+299,analyzed_bin,stat,108,"""/root/.trittium2/wallet.dat"", 0x7ffc07ea1500",-2 (ENOENT)
+300,analyzed_bin,socket,108,"PF_INET6, SOCK_STREAM, IPPROTO_TCP",6
+301,analyzed_bin,setsockopt,108,"6, SOL_SOCKET, SO_REUSEADDR, 0x7ffc07ea1264, 4",0
+302,analyzed_bin,fcntl,108,"6, F_GETFL, 0x0",2
+303,analyzed_bin,fcntl,108,"6, F_SETFL, 0x802",0
+304,analyzed_bin,setsockopt,108,"6, SOL_IPV6, SO_ATTACH_FILTER, 0x7ffc07ea1264, 4",0
+305,analyzed_bin,bind,108,"6, {AF_INET6, 0000:0000:0000:0000:0000:0000:0000:0000, 30001}, 28",0
+306,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+307,analyzed_bin,write,108,"4, ""Bound to [::]:30001\n"", 20",20
+308,analyzed_bin,listen,108,"6, 128",0
+309,analyzed_bin,socket,108,"PF_INET, SOCK_STREAM, IPPROTO_TCP",7
+310,analyzed_bin,setsockopt,108,"7, SOL_SOCKET, SO_REUSEADDR, 0x7ffc07ea1264, 4",0
+311,analyzed_bin,fcntl,108,"7, F_GETFL, 0x0",2
+312,analyzed_bin,fcntl,108,"7, F_SETFL, 0x802",0
+313,analyzed_bin,bind,108,"7, {AF_INET, 0.0.0.0, 30001}, 16",0
+314,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+315,analyzed_bin,write,108,"4, ""Bound to 0.0.0.0:30001\n"", 23",23
+316,analyzed_bin,listen,108,"7, 128",0
+317,analyzed_bin,stat,108,"""/root/.trittium2/blocks"", 0x7ffc07ea1500",-2 (ENOENT)
+318,analyzed_bin,stat,108,"""/root/.trittium2/blocks"", 0x7ffc07ea1460",-2 (ENOENT)
+319,analyzed_bin,stat,108,"""/root/.trittium2"", 0x7ffc07ea1460",0
+320,analyzed_bin,mkdir,108,"""/root/.trittium2/blocks"", 0777",0
+321,analyzed_bin,stat,108,"""/root/.trittium2/blk0001.dat"", 0x7ffc07ea1500",-2 (ENOENT)
+322,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+323,analyzed_bin,write,108,"4, ""init message: Loading block index...\n"", 37",37
+324,analyzed_bin,futex,108,"0x55fd37385868, FUTEX_WAKE_PRIVATE, 2147483647",0
+325,analyzed_bin,futex,108,"0x55fd37385878, FUTEX_WAKE_PRIVATE, 2147483647",0
+326,analyzed_bin,mkdir,108,"""/root/.trittium2/zerocoin"", 0777",0
+327,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+328,analyzed_bin,write,108,"4, ""Opening LevelDB in /root/.trittium2/zerocoin\n"", 45",45
+329,analyzed_bin,mkdir,108,"""/root/.trittium2/zerocoin"", 0755",-17 (EEXIST)
+330,analyzed_bin,rename,108,"""/root/.trittium2/zerocoin/LOG"", ""/root/.trittium2/zerocoin/LOG.old""",-2 (ENOENT)
+331,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/LOG"", O_WRONLY|O_CREAT|O_TRUNC, 0666",8
+332,analyzed_bin,mkdir,108,"""/root/.trittium2/zerocoin"", 0755",-17 (EEXIST)
+333,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/LOCK"", O_RDWR|O_CREAT, 0644",9
+334,analyzed_bin,fcntl,108,"9, F_SETLK, 0x7ffc07ea10e0",0
+335,analyzed_bin,access,108,"""/root/.trittium2/zerocoin/CURRENT"", F_OK",-2 (ENOENT)
+336,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/MANIFEST-000001"", O_WRONLY|O_CREAT|O_TRUNC, 0666",10
+337,analyzed_bin,fstat,108,"10, 0x7ffc07ea0d90",0
+338,analyzed_bin,write,108,"10, ""\225|\271\305\""\0\001\001\032leveldb.Bytewise""..., 41",41
+339,analyzed_bin,close,108,10,0
+340,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/000001.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",10
+341,analyzed_bin,fstat,108,"10, 0x7ffc07ea0c30",0
+342,analyzed_bin,write,108,"10, ""MANIFEST-000001\n"", 16",16
+343,analyzed_bin,fdatasync,108,10,0
+344,analyzed_bin,close,108,10,0
+345,analyzed_bin,rename,108,"""/root/.trittium2/zerocoin/000001.dbtmp"", ""/root/.trittium2/zerocoin/CURRENT""",0
+346,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/CURRENT"", O_RDONLY",10
+347,analyzed_bin,fstat,108,"10, 0x7ffc07ea0ab0",0
+348,analyzed_bin,read,108,"10, 0x55fd37d5b0d0, 8192",16
+349,analyzed_bin,read,108,"10, 0x55fd37d5b0e0, 7168",0
+350,analyzed_bin,read,108,"10, 0x55fd37d5b0d0, 8192",0
+351,analyzed_bin,close,108,10,0
+352,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/MANIFEST-000001"", O_RDONLY",10
+353,analyzed_bin,fstat,108,"10, 0x7ffc07ea0a50",0
+354,analyzed_bin,read,108,"10, 0x55fd37d5b250, 32768",41
+355,analyzed_bin,read,108,"10, 0x55fd37d5b279, 31744",0
+356,analyzed_bin,close,108,10,0
+357,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",10
+358,analyzed_bin,fstat,108,"10, 0x7ffc07ea1010",0
+359,analyzed_bin,getdents,108,"10, 0x55fd37d5b370, 32768",168
+360,analyzed_bin,getdents,108,"10, 0x55fd37d5b370, 32768",0
+361,analyzed_bin,close,108,10,0
+362,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/000003.log"", O_WRONLY|O_CREAT|O_TRUNC, 0666",10
+363,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/MANIFEST-000002"", O_WRONLY|O_CREAT|O_TRUNC, 0666",11
+364,analyzed_bin,fstat,108,"11, 0x7ffc07ea0b70",0
+365,analyzed_bin,write,108,"11, ""V\371\270\370\034\0\001\001\032leveldb.Bytewi""..., 35",35
+366,analyzed_bin,write,108,"11, ""\244\234\213\276\b\0\001\002\003\t\0\003\004\004"", 15",15
+367,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin"", O_RDONLY",12
+368,analyzed_bin,fsync,108,12,0
+369,analyzed_bin,close,108,12,0
+370,analyzed_bin,fdatasync,108,11,0
+371,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin/000002.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",12
+372,analyzed_bin,fstat,108,"12, 0x7ffc07ea0c70",0
+373,analyzed_bin,write,108,"12, ""MANIFEST-000002\n"", 16",16
+374,analyzed_bin,fdatasync,108,12,0
+375,analyzed_bin,close,108,12,0
+376,analyzed_bin,rename,108,"""/root/.trittium2/zerocoin/000002.dbtmp"", ""/root/.trittium2/zerocoin/CURRENT""",0
+377,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/zerocoin"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",12
+378,analyzed_bin,fstat,108,"12, 0x7ffc07ea1070",0
+379,analyzed_bin,getdents,108,"12, 0x55fd37d5bbe0, 32768",240
+380,analyzed_bin,getdents,108,"12, 0x55fd37d5bbe0, 32768",0
+381,analyzed_bin,close,108,12,0
+382,analyzed_bin,fstat,108,"8, 0x7ffc07ea0c90",0
+383,analyzed_bin,write,108,"8, ""2022/07/14-07:45:09.521328 7f0ecacaf740 Delet""..., 57",57
+384,analyzed_bin,unlink,108,"""/root/.trittium2/zerocoin/MANIFEST-000001""",0
+385,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+386,analyzed_bin,write,108,"4, ""Opened LevelDB successfully\n"", 28",28
+387,analyzed_bin,mkdir,108,"""/root/.trittium2/sporks"", 0777",0
+388,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+389,analyzed_bin,write,108,"4, ""Opening LevelDB in /root/.trittium2/sporks\n"", 43",43
+390,analyzed_bin,mkdir,108,"""/root/.trittium2/sporks"", 0755",-17 (EEXIST)
+391,analyzed_bin,rename,108,"""/root/.trittium2/sporks/LOG"", ""/root/.trittium2/sporks/LOG.old""",-2 (ENOENT)
+392,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/LOG"", O_WRONLY|O_CREAT|O_TRUNC, 0666",12
+393,analyzed_bin,mkdir,108,"""/root/.trittium2/sporks"", 0755",-17 (EEXIST)
+394,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/LOCK"", O_RDWR|O_CREAT, 0644",13
+395,analyzed_bin,fcntl,108,"13, F_SETLK, 0x7ffc07ea10c0",0
+396,analyzed_bin,access,108,"""/root/.trittium2/sporks/CURRENT"", F_OK",-2 (ENOENT)
+397,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/MANIFEST-000001"", O_WRONLY|O_CREAT|O_TRUNC, 0666",14
+398,analyzed_bin,fstat,108,"14, 0x7ffc07ea0d70",0
+399,analyzed_bin,write,108,"14, ""\225|\271\305\""\0\001\001\032leveldb.Bytewise""..., 41",41
+400,analyzed_bin,close,108,14,0
+401,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/000001.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",14
+402,analyzed_bin,fstat,108,"14, 0x7ffc07ea0c10",0
+403,analyzed_bin,write,108,"14, ""MANIFEST-000001\n"", 16",16
+404,analyzed_bin,fdatasync,108,14,0
+405,analyzed_bin,close,108,14,0
+406,analyzed_bin,rename,108,"""/root/.trittium2/sporks/000001.dbtmp"", ""/root/.trittium2/sporks/CURRENT""",0
+407,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/CURRENT"", O_RDONLY",14
+408,analyzed_bin,fstat,108,"14, 0x7ffc07ea0a90",0
+409,analyzed_bin,read,108,"14, 0x55fd37d5f460, 8192",16
+410,analyzed_bin,read,108,"14, 0x55fd37d5f470, 7168",0
+411,analyzed_bin,read,108,"14, 0x55fd37d5f460, 8192",0
+412,analyzed_bin,close,108,14,0
+413,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/MANIFEST-000001"", O_RDONLY",14
+414,analyzed_bin,fstat,108,"14, 0x7ffc07ea0a30",0
+415,analyzed_bin,read,108,"14, 0x55fd37d5f5a0, 32768",41
+416,analyzed_bin,read,108,"14, 0x55fd37d5f5c9, 31744",0
+417,analyzed_bin,close,108,14,0
+418,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",14
+419,analyzed_bin,fstat,108,"14, 0x7ffc07ea0ff0",0
+420,analyzed_bin,getdents,108,"14, 0x55fd37d5f6c0, 32768",168
+421,analyzed_bin,getdents,108,"14, 0x55fd37d5f6c0, 32768",0
+422,analyzed_bin,close,108,14,0
+423,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/000003.log"", O_WRONLY|O_CREAT|O_TRUNC, 0666",14
+424,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/MANIFEST-000002"", O_WRONLY|O_CREAT|O_TRUNC, 0666",15
+425,analyzed_bin,fstat,108,"15, 0x7ffc07ea0b50",0
+426,analyzed_bin,write,108,"15, ""V\371\270\370\034\0\001\001\032leveldb.Bytewi""..., 35",35
+427,analyzed_bin,write,108,"15, ""\244\234\213\276\b\0\001\002\003\t\0\003\004\004"", 15",15
+428,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks"", O_RDONLY",16
+429,analyzed_bin,fsync,108,16,0
+430,analyzed_bin,close,108,16,0
+431,analyzed_bin,fdatasync,108,15,0
+432,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks/000002.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",16
+433,analyzed_bin,fstat,108,"16, 0x7ffc07ea0c50",0
+434,analyzed_bin,write,108,"16, ""MANIFEST-000002\n"", 16",16
+435,analyzed_bin,fdatasync,108,16,0
+436,analyzed_bin,close,108,16,0
+437,analyzed_bin,rename,108,"""/root/.trittium2/sporks/000002.dbtmp"", ""/root/.trittium2/sporks/CURRENT""",0
+438,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/sporks"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",16
+439,analyzed_bin,fstat,108,"16, 0x7ffc07ea1050",0
+440,analyzed_bin,getdents,108,"16, 0x55fd37d5ffc0, 32768",240
+441,analyzed_bin,getdents,108,"16, 0x55fd37d5ffc0, 32768",0
+442,analyzed_bin,close,108,16,0
+443,analyzed_bin,fstat,108,"12, 0x7ffc07ea0c70",0
+444,analyzed_bin,write,108,"12, ""2022/07/14-07:45:09.596330 7f0ecacaf740 Delet""..., 57",57
+445,analyzed_bin,unlink,108,"""/root/.trittium2/sporks/MANIFEST-000001""",0
+446,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+447,analyzed_bin,write,108,"4, ""Opened LevelDB successfully\n"", 28",28
+448,analyzed_bin,mkdir,108,"""/root/.trittium2/blocks/index"", 0777",0
+449,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+450,analyzed_bin,write,108,"4, ""Opening LevelDB in /root/.trittium2/blocks/in""..., 49",49
+451,analyzed_bin,mkdir,108,"""/root/.trittium2/blocks/index"", 0755",-17 (EEXIST)
+452,analyzed_bin,rename,108,"""/root/.trittium2/blocks/index/LOG"", ""/root/.trittium2/blocks/index/LOG.old""",-2 (ENOENT)
+453,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/LOG"", O_WRONLY|O_CREAT|O_TRUNC, 0666",16
+454,analyzed_bin,mkdir,108,"""/root/.trittium2/blocks/index"", 0755",-17 (EEXIST)
+455,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/LOCK"", O_RDWR|O_CREAT, 0644",17
+456,analyzed_bin,fcntl,108,"17, F_SETLK, 0x7ffc07ea1090",0
+457,analyzed_bin,access,108,"""/root/.trittium2/blocks/index/CURRENT"", F_OK",-2 (ENOENT)
+458,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/MANIFEST-000001"", O_WRONLY|O_CREAT|O_TRUNC, 0666",18
+459,analyzed_bin,fstat,108,"18, 0x7ffc07ea0d40",0
+460,analyzed_bin,write,108,"18, ""\225|\271\305\""\0\001\001\032leveldb.Bytewise""..., 41",41
+461,analyzed_bin,close,108,18,0
+462,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/000001.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",18
+463,analyzed_bin,fstat,108,"18, 0x7ffc07ea0be0",0
+464,analyzed_bin,write,108,"18, ""MANIFEST-000001\n"", 16",16
+465,analyzed_bin,fdatasync,108,18,0
+466,analyzed_bin,close,108,18,0
+467,analyzed_bin,rename,108,"""/root/.trittium2/blocks/index/000001.dbtmp"", ""/root/.trittium2/blocks/index/CURRENT""",0
+468,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/CURRENT"", O_RDONLY",18
+469,analyzed_bin,fstat,108,"18, 0x7ffc07ea0a60",0
+470,analyzed_bin,read,108,"18, 0x55fd37d63a10, 8192",16
+471,analyzed_bin,read,108,"18, 0x55fd37d63a20, 7168",0
+472,analyzed_bin,read,108,"18, 0x55fd37d63a10, 8192",0
+473,analyzed_bin,close,108,18,0
+474,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/MANIFEST-000001"", O_RDONLY",18
+475,analyzed_bin,fstat,108,"18, 0x7ffc07ea0a00",0
+476,analyzed_bin,read,108,"18, 0x55fd37d63b50, 32768",41
+477,analyzed_bin,read,108,"18, 0x55fd37d63b79, 31744",0
+478,analyzed_bin,close,108,18,0
+479,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",18
+480,analyzed_bin,fstat,108,"18, 0x7ffc07ea0fc0",0
+481,analyzed_bin,getdents,108,"18, 0x55fd37d63c70, 32768",168
+482,analyzed_bin,getdents,108,"18, 0x55fd37d63c70, 32768",0
+483,analyzed_bin,close,108,18,0
+484,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/000003.log"", O_WRONLY|O_CREAT|O_TRUNC, 0666",18
+485,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/MANIFEST-000002"", O_WRONLY|O_CREAT|O_TRUNC, 0666",19
+486,analyzed_bin,fstat,108,"19, 0x7ffc07ea0b20",0
+487,analyzed_bin,write,108,"19, ""V\371\270\370\034\0\001\001\032leveldb.Bytewi""..., 35",35
+488,analyzed_bin,write,108,"19, ""\244\234\213\276\b\0\001\002\003\t\0\003\004\004"", 15",15
+489,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index"", O_RDONLY",20
+490,analyzed_bin,fsync,108,20,0
+491,analyzed_bin,close,108,20,0
+492,analyzed_bin,fdatasync,108,19,0
+493,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index/000002.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",20
+494,analyzed_bin,fstat,108,"20, 0x7ffc07ea0c20",0
+495,analyzed_bin,write,108,"20, ""MANIFEST-000002\n"", 16",16
+496,analyzed_bin,fdatasync,108,20,0
+497,analyzed_bin,close,108,20,0
+498,analyzed_bin,rename,108,"""/root/.trittium2/blocks/index/000002.dbtmp"", ""/root/.trittium2/blocks/index/CURRENT""",0
+499,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/blocks/index"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",20
+500,analyzed_bin,fstat,108,"20, 0x7ffc07ea1020",0
+501,analyzed_bin,getdents,108,"20, 0x55fd37d64510, 32768",240
+502,analyzed_bin,getdents,108,"20, 0x55fd37d64510, 32768",0
+503,analyzed_bin,close,108,20,0
+504,analyzed_bin,fstat,108,"16, 0x7ffc07ea0c40",0
+505,analyzed_bin,write,108,"16, ""2022/07/14-07:45:09.666422 7f0ecacaf740 Delet""..., 57",57
+506,analyzed_bin,unlink,108,"""/root/.trittium2/blocks/index/MANIFEST-000001""",0
+507,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+508,analyzed_bin,write,108,"4, ""Opened LevelDB successfully\n"", 28",28
+509,analyzed_bin,mkdir,108,"""/root/.trittium2/chainstate"", 0777",0
+510,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+511,analyzed_bin,write,108,"4, ""Opening LevelDB in /root/.trittium2/chainstate\n"", 47",47
+512,analyzed_bin,mkdir,108,"""/root/.trittium2/chainstate"", 0755",-17 (EEXIST)
+513,analyzed_bin,rename,108,"""/root/.trittium2/chainstate/LOG"", ""/root/.trittium2/chainstate/LOG.old""",-2 (ENOENT)
+514,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/LOG"", O_WRONLY|O_CREAT|O_TRUNC, 0666",20
+515,analyzed_bin,mkdir,108,"""/root/.trittium2/chainstate"", 0755",-17 (EEXIST)
+516,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/LOCK"", O_RDWR|O_CREAT, 0644",21
+517,analyzed_bin,fcntl,108,"21, F_SETLK, 0x7ffc07ea10e0",0
+518,analyzed_bin,access,108,"""/root/.trittium2/chainstate/CURRENT"", F_OK",-2 (ENOENT)
+519,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/MANIFEST-000001"", O_WRONLY|O_CREAT|O_TRUNC, 0666",22
+520,analyzed_bin,fstat,108,"22, 0x7ffc07ea0d90",0
+521,analyzed_bin,write,108,"22, ""\225|\271\305\""\0\001\001\032leveldb.Bytewise""..., 41",41
+522,analyzed_bin,close,108,22,0
+523,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/000001.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",22
+524,analyzed_bin,fstat,108,"22, 0x7ffc07ea0c30",0
+525,analyzed_bin,write,108,"22, ""MANIFEST-000001\n"", 16",16
+526,analyzed_bin,fdatasync,108,22,0
+527,analyzed_bin,close,108,22,0
+528,analyzed_bin,rename,108,"""/root/.trittium2/chainstate/000001.dbtmp"", ""/root/.trittium2/chainstate/CURRENT""",0
+529,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/CURRENT"", O_RDONLY",22
+530,analyzed_bin,fstat,108,"22, 0x7ffc07ea0ab0",0
+531,analyzed_bin,read,108,"22, 0x55fd37d67db0, 8192",16
+532,analyzed_bin,read,108,"22, 0x55fd37d67dc0, 7168",0
+533,analyzed_bin,read,108,"22, 0x55fd37d67db0, 8192",0
+534,analyzed_bin,close,108,22,0
+535,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/MANIFEST-000001"", O_RDONLY",22
+536,analyzed_bin,fstat,108,"22, 0x7ffc07ea0a50",0
+537,analyzed_bin,read,108,"22, 0x55fd37d67ef0, 32768",41
+538,analyzed_bin,read,108,"22, 0x55fd37d67f19, 31744",0
+539,analyzed_bin,close,108,22,0
+540,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",22
+541,analyzed_bin,fstat,108,"22, 0x7ffc07ea1010",0
+542,analyzed_bin,getdents,108,"22, 0x55fd37d68010, 32768",168
+543,analyzed_bin,getdents,108,"22, 0x55fd37d68010, 32768",0
+544,analyzed_bin,close,108,22,0
+545,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/000003.log"", O_WRONLY|O_CREAT|O_TRUNC, 0666",22
+546,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/MANIFEST-000002"", O_WRONLY|O_CREAT|O_TRUNC, 0666",23
+547,analyzed_bin,fstat,108,"23, 0x7ffc07ea0b70",0
+548,analyzed_bin,write,108,"23, ""V\371\270\370\034\0\001\001\032leveldb.Bytewi""..., 35",35
+549,analyzed_bin,write,108,"23, ""\244\234\213\276\b\0\001\002\003\t\0\003\004\004"", 15",15
+550,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate"", O_RDONLY",24
+551,analyzed_bin,fsync,108,24,0
+552,analyzed_bin,close,108,24,0
+553,analyzed_bin,fdatasync,108,23,0
+554,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate/000002.dbtmp"", O_WRONLY|O_CREAT|O_TRUNC, 0666",24
+555,analyzed_bin,fstat,108,"24, 0x7ffc07ea0c70",0
+556,analyzed_bin,write,108,"24, ""MANIFEST-000002\n"", 16",16
+557,analyzed_bin,fdatasync,108,24,0
+558,analyzed_bin,close,108,24,0
+559,analyzed_bin,rename,108,"""/root/.trittium2/chainstate/000002.dbtmp"", ""/root/.trittium2/chainstate/CURRENT""",0
+560,analyzed_bin,openat,108,"AT_FDCWD, ""/root/.trittium2/chainstate"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",24
+561,analyzed_bin,fstat,108,"24, 0x7ffc07ea1070",0
+562,analyzed_bin,getdents,108,"24, 0x55fd37d68880, 32768",240
+563,analyzed_bin,getdents,108,"24, 0x55fd37d68880, 32768",0
+564,analyzed_bin,close,108,24,0
+565,analyzed_bin,fstat,108,"20, 0x7ffc07ea0c90",0
+566,analyzed_bin,write,108,"20, ""2022/07/14-07:45:09.703836 7f0ecacaf740 Delet""..., 57",57
+567,analyzed_bin,unlink,108,"""/root/.trittium2/chainstate/MANIFEST-000001""",0
+568,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+569,analyzed_bin,write,108,"4, ""Opened LevelDB successfully\n"", 28",28
+570,analyzed_bin,getpid,108,,108
+571,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+572,analyzed_bin,write,108,"4, ""init message: Loading sporks...\n"", 32",32
+573,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+574,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 75",75
+575,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+576,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 91",91
+577,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+578,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 77",77
+579,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+580,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 87",87
+581,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+582,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 98",98
+583,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+584,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 97",97
+585,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+586,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 97",97
+587,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+588,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 86",86
+589,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+590,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 87",87
+591,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+592,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 93",93
+593,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+594,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 95",95
+595,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+596,analyzed_bin,write,108,"4, ""LoadSporksFromDB : no previous value for SPOR""..., 94",94
+597,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+598,analyzed_bin,write,108,"4, ""init message: Loading block index...\n"", 37",37
+599,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+600,analyzed_bin,write,108,"4, ""LoadBlockIndexDB: last block file = 0\n"", 38",38
+601,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+602,analyzed_bin,write,108,"4, ""LoadBlockIndexDB: last block file info: CBloc""..., 118",118
+603,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+604,analyzed_bin,write,108,"4, ""Checking all blk files are present...\n"", 38",38
+605,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+606,analyzed_bin,write,108,"4, ""LoadBlockIndexDB: Last shutdown was prepared:""..., 51",51
+607,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+608,analyzed_bin,write,108,"4, ""LoadBlockIndexDB(): transaction index enabled\n"", 46",46
+609,analyzed_bin,fstat,108,"18, 0x7ffc07ea0400",0
+610,analyzed_bin,write,108,"18, ""JAFz\032\0\001\001\0\0\0\0\0\0\0\001\0\0\0""..., 33",33
+611,analyzed_bin,write,108,"18, ""\330\b\311\366\031\0\001\002\0\0\0\0\0\0\0\001\0"", 32",32
+612,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+613,analyzed_bin,write,108,"4, ""Initializing databases...\n"", 26",26
+614,analyzed_bin,statfs,108,"""/root/.trittium2"", 0x7ffc07ea0e70",0
+615,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+616,analyzed_bin,write,108,"4, ""*** Disk space is low!\n"", 23",23
+617,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+618,analyzed_bin,write,108,"4, ""Error: Error: Disk space is low!\n"", 33",33
+619,analyzed_bin,write,108,"2, ""Error: Error: Disk space is low!\n"", 33",33
+620,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+621,analyzed_bin,write,108,"4, ""ERROR: LoadBlockIndex() : FindBlockPos failed\n"", 46",46
+622,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+623,analyzed_bin,write,108,"4, "": Error initializing block database.\n\nDo yo""..., 85",85
+624,analyzed_bin,write,108,"2, "": Error initializing block database.\n\nDo yo""..., 85",85
+625,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+626,analyzed_bin,write,108,"4, ""Aborted block database rebuild. Exiting.\n"", 41",41
+627,analyzed_bin,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+628,analyzed_bin,write,108,"4, ""PrepareShutdown: In progress...\n"", 32",32
+629,trittium-shutof,prctl,108,"PR_SET_NAME, 0x55fd36e0f105",0
+630,trittium-shutof,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+631,trittium-shutof,write,108,"4, ""StopNode()\n"", 11",11
+632,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/mncache.dat"", O_RDONLY",-2 (ENOENT)
+633,trittium-shutof,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+634,trittium-shutof,write,108,"4, ""ERROR: Read : Failed to open file /root/.trit""..., 63",63
+635,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/mncache.dat"", O_WRONLY|O_CREAT|O_TRUNC, 0666",24
+636,trittium-shutof,fstat,108,"24, 0x7ffc07ea1ca0",0
+637,trittium-shutof,write,108,"24, ""\017MasternodeCacherRXg\0\0\0\0\0\0\0\0\0\0\0\0"", 66",66
+638,trittium-shutof,close,108,24,0
+639,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/budget.dat"", O_RDONLY",-2 (ENOENT)
+640,trittium-shutof,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+641,trittium-shutof,write,108,"4, ""ERROR: Read : Failed to open file /root/.trit""..., 62",62
+642,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/budget.dat"", O_WRONLY|O_CREAT|O_TRUNC, 0666",24
+643,trittium-shutof,fstat,108,"24, 0x7ffc07ea1b60",0
+644,trittium-shutof,write,108,"24, ""\020MasternodeBudgetrRXg\0\0\0\0\0\0\0\0\302!""..., 61",61
+645,trittium-shutof,close,108,24,0
+646,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/mnpayments.dat"", O_RDONLY",-2 (ENOENT)
+647,trittium-shutof,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+648,trittium-shutof,write,108,"4, ""ERROR: Read : Failed to open file /root/.trit""..., 66",66
+649,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/mnpayments.dat"", O_WRONLY|O_CREAT|O_TRUNC, 0666",24
+650,trittium-shutof,fstat,108,"24, 0x7ffc07ea1cc0",0
+651,trittium-shutof,write,108,"24, ""\022MasternodePaymentsrRXg\0\0\u023E\320_\267""..., 57",57
+652,trittium-shutof,close,108,24,0
+653,trittium-shutof,statfs,108,"""/root/.trittium2"", 0x7ffc07ea2390",0
+654,trittium-shutof,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+655,trittium-shutof,write,108,"4, ""*** Disk space is low!\n"", 23",23
+656,trittium-shutof,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+657,trittium-shutof,write,108,"4, ""Error: Error: Disk space is low!\n"", 33",33
+658,trittium-shutof,write,108,"2, ""Error: Error: Disk space is low!\n"", 33",33
+659,trittium-shutof,write,108,"18, ""\367\356zd\032\0\001\003\0\0\0\0\0\0\0\001\0""..., 33",33
+660,trittium-shutof,fcntl,108,"21, F_SETLK, 0x7ffc07ea2740",0
+661,trittium-shutof,close,108,21,0
+662,trittium-shutof,close,108,23,0
+663,trittium-shutof,close,108,22,0
+664,trittium-shutof,close,108,20,0
+665,trittium-shutof,fcntl,108,"17, F_SETLK, 0x7ffc07ea2760",0
+666,trittium-shutof,close,108,17,0
+667,trittium-shutof,close,108,19,0
+668,trittium-shutof,close,108,18,0
+669,trittium-shutof,close,108,16,0
+670,trittium-shutof,fcntl,108,"9, F_SETLK, 0x7ffc07ea2760",0
+671,trittium-shutof,close,108,9,0
+672,trittium-shutof,close,108,11,0
+673,trittium-shutof,close,108,10,0
+674,trittium-shutof,close,108,8,0
+675,trittium-shutof,fcntl,108,"13, F_SETLK, 0x7ffc07ea2760",0
+676,trittium-shutof,close,108,13,0
+677,trittium-shutof,close,108,15,0
+678,trittium-shutof,close,108,14,0
+679,trittium-shutof,close,108,12,0
+680,trittium-shutof,lstat,108,"""/root/.trittium2/trittiumd.pid"", 0x7ffc07ea27a0",0
+681,trittium-shutof,unlink,108,"""/root/.trittium2/trittiumd.pid""",0
+682,trittium-shutof,write,108,"4, ""2022-07-14 07:45:09 "", 20",20
+683,trittium-shutof,write,108,"4, ""Shutdown: done\n"", 15",15
+684,trittium-shutof,close,108,3,0
+685,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/database/log.0000000001"", O_RDWR|O_CREAT, 0600",3
+686,trittium-shutof,fcntl,108,"3, F_GETFD, 0x42",0
+687,trittium-shutof,fcntl,108,"3, F_SETFD, 0x1",0
+688,trittium-shutof,read,108,"3, 0x55fd37d67630, 28",0
+689,trittium-shutof,lseek,108,"3, 1040384, SEEK_SET",1040384
+690,trittium-shutof,write,108,"3, ""\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"", 8192",8192
+691,trittium-shutof,pwrite,108,"3, ""\0\0\0\0\034\0\0\0\351AH[\210\t\004\0\020\0\0\0"", 28, 0",28
+692,trittium-shutof,fdatasync,108,3,0
+693,trittium-shutof,close,108,3,0
+694,trittium-shutof,munmap,108,"0x7f0ecabae000, 1052672",0
+695,trittium-shutof,munmap,108,"0x7f0ec87ae000, 5771264",0
+696,trittium-shutof,munmap,108,"0x7f0ec8d2f000, 6209536",0
+697,trittium-shutof,getpid,108,,108
+698,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/DB_CONFIG"", O_RDONLY",-2 (ENOENT)
+699,trittium-shutof,stat,108,"""/var/tmp"", 0x7ffc07ea2170",0
+700,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/__db.001"", O_RDWR",-2 (ENOENT)
+701,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2/__db.001"", O_RDWR",-2 (ENOENT)
+702,trittium-shutof,openat,108,"AT_FDCWD, ""/root/.trittium2"", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC",3
+703,trittium-shutof,fstat,108,"3, 0x7ffc07ea2410",0
+704,trittium-shutof,getdents,108,"3, 0x55fd373eeb70, 32768",520
+705,trittium-shutof,stat,108,"""/root/.trittium2/blocks"", 0x7ffc07ea2510",0
+706,trittium-shutof,stat,108,"""/root/.trittium2/.lock"", 0x7ffc07ea2510",0
+707,trittium-shutof,stat,108,"""/root/.trittium2/budget.dat"", 0x7ffc07ea2510",0
+708,trittium-shutof,stat,108,"""/root/.trittium2/sporks"", 0x7ffc07ea2510",0
+709,trittium-shutof,stat,108,"""/root/.trittium2/masternode.conf"", 0x7ffc07ea2510",0
+710,trittium-shutof,stat,108,"""/root/.trittium2/debug.log"", 0x7ffc07ea2510",0
+711,trittium-shutof,stat,108,"""/root/.trittium2/.."", 0x7ffc07ea2510",0
+712,trittium-shutof,stat,108,"""/root/.trittium2/db.log"", 0x7ffc07ea2510",0
+713,trittium-shutof,stat,108,"""/root/.trittium2/mncache.dat"", 0x7ffc07ea2510",0
+714,trittium-shutof,stat,108,"""/root/.trittium2/database"", 0x7ffc07ea2510",0
+715,trittium-shutof,stat,108,"""/root/.trittium2/trittium2.conf"", 0x7ffc07ea2510",0
+716,trittium-shutof,stat,108,"""/root/.trittium2/chainstate"", 0x7ffc07ea2510",0
+717,trittium-shutof,stat,108,"""/root/.trittium2/backups"", 0x7ffc07ea2510",0
+718,trittium-shutof,stat,108,"""/root/.trittium2/."", 0x7ffc07ea2510",0
+719,trittium-shutof,stat,108,"""/root/.trittium2/zerocoin"", 0x7ffc07ea2510",0
+720,trittium-shutof,stat,108,"""/root/.trittium2/mnpayments.dat"", 0x7ffc07ea2510",0
+721,trittium-shutof,getdents,108,"3, 0x55fd373eeb70, 32768",0
+722,trittium-shutof,close,108,3,0
+723,trittium-shutof,close,108,6,0
+724,trittium-shutof,close,108,7,0
+725,trittium-shutof,exit_group,108,1,

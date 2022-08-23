@@ -1,0 +1,279 @@
+,execname,name,pid,arguments,return
+0,analyzed_bin,open,108,"""/proc/self/exe"", O_RDONLY",3
+1,analyzed_bin,mmap2,108,"0x0, 810974, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826b2b000
+2,analyzed_bin,mmap2,108,"0x7f8826b2b000, 810554, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0",0x7f8826b2b000
+3,analyzed_bin,mprotect,108,"0x7f8826bef000, 8158, PROT_READ|PROT_EXEC",0
+4,analyzed_bin,readlink,108,"""/proc/self/exe"", 0x7ffc02135a40, 4095",18
+5,analyzed_bin,mmap2,108,"0x400000, 5439488, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x400000
+6,analyzed_bin,mmap2,108,"0x400000, 2702665, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x400000
+7,analyzed_bin,mprotect,108,"0x400000, 2702665, PROT_READ|PROT_EXEC",0
+8,analyzed_bin,mmap2,108,"0x894000, 51920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 2703360",0x894000
+9,analyzed_bin,mprotect,108,"0x894000, 51920, PROT_READ|PROT_WRITE",0
+10,analyzed_bin,mmap2,108,"0x8a1000, 582640, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x8a1000
+11,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ, MAP_PRIVATE, 3, 0",0x7f8826b2a000
+12,analyzed_bin,close,108,3,0
+13,analyzed_bin,munmap,108,"0x7f8826b2b000, 810974",0
+14,analyzed_bin,arch_prctl,108,"ARCH_SET_FS, 9629856",0
+15,analyzed_bin,set_tid_address,108,0x92f3ec,108
+16,analyzed_bin,brk,108,0x0,9633792
+17,analyzed_bin,brk,108,0x932000,9641984
+18,analyzed_bin,mmap2,108,"0x930000, 4096, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0",0x930000
+19,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bf0000
+20,analyzed_bin,open,108,"""/dev/urandom"", O_RDONLY",3
+21,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bef000
+22,analyzed_bin,read,108,"3, 0x7ffc021367dc, 4",4
+23,analyzed_bin,mmap2,108,"0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bdb000
+24,analyzed_bin,mprotect,108,"0x7f8826bdb000, 81920, PROT_READ|PROT_EXEC",0
+25,analyzed_bin,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bda000
+26,analyzed_bin,mmap2,108,"0x0, 73728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bc8000
+27,analyzed_bin,unlink,108,"""/root/analyzed_bin""",0
+28,4LYGuzmP,prctl,108,"PR_SET_NAME, 0x7ffc02136788",0
+29,4LYGuzmP,readlink,108,"""/proc/self/exe"", 0x8a0e60, 519",28
+30,4LYGuzmP,open,108,"""/root/config.json"", O_RDONLY",-2 (ENOENT)
+31,4LYGuzmP,open,108,"""/root/.xmrig.json"", O_RDONLY",-2 (ENOENT)
+32,4LYGuzmP,open,108,"""/root/.config/xmrig.json"", O_RDONLY",-2 (ENOENT)
+33,4LYGuzmP,mmap2,108,"0x0, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb7000
+34,4LYGuzmP,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb6000
+35,4LYGuzmP,sched_getaffinity,108,"0, 128, 0x7ffc021362c0",8
+36,4LYGuzmP,faccessat,108,"-1, ""/sys/bus/cpu/devices"", R_OK|X_OK",0
+37,4LYGuzmP,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/package_cpus"", R_OK",-2 (ENOENT)
+38,4LYGuzmP,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_cpus"", R_OK",-2 (ENOENT)
+39,4LYGuzmP,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_siblings"", R_OK",0
+40,4LYGuzmP,faccessat,108,"-1, ""/sys/bus/node/devices"", R_OK|X_OK",-2 (ENOENT)
+41,4LYGuzmP,faccessat,108,"-1, ""/sys/devices/system/node"", R_OK|X_OK",-2 (ENOENT)
+42,4LYGuzmP,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb5000
+43,4LYGuzmP,uname,108,0x7f8826bb6474,0
+44,4LYGuzmP,sched_getaffinity,108,"0, 128, 0x7ffc02135f90",8
+45,4LYGuzmP,openat,108,"-1, ""/proc/cpuinfo"", O_RDONLY",4
+46,4LYGuzmP,read,108,"4, 0x7f8826befba0, 1024",720
+47,4LYGuzmP,read,108,"4, 0x7f8826befba0, 1024",0
+48,4LYGuzmP,close,108,4,0
+49,4LYGuzmP,open,108,"""/proc/mounts"", O_RDONLY",4
+50,4LYGuzmP,mmap2,108,"0x0, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb0000
+51,4LYGuzmP,read,108,"4, 0x7f8826bef640, 1024",459
+52,4LYGuzmP,read,108,"4, 0x7f8826bef640, 1024",0
+53,4LYGuzmP,close,108,4,0
+54,4LYGuzmP,munmap,108,"0x7f8826bb0000, 20480",0
+55,4LYGuzmP,openat,108,"-1, ""/sys/devices/system/cpu/online"", O_RDONLY",4
+56,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb1000
+57,4LYGuzmP,read,108,"4, 0x7f8826bb10a0, 4097",2
+58,4LYGuzmP,munmap,108,"0x7f8826bb1000, 16384",0
+59,4LYGuzmP,close,108,4,0
+60,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices"", O_RDONLY|O_DIRECTORY",4
+61,4LYGuzmP,fstat,108,"4, 0x7ffc02135fc0",0
+62,4LYGuzmP,fcntl,108,"4, F_GETFL, 0x7ffc02136070",98304
+63,4LYGuzmP,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb3000
+64,4LYGuzmP,fcntl,108,"4, F_SETFD, 0x1",0
+65,4LYGuzmP,getdents,108,"4, 0x7f8826bb30c8, 2048",72
+66,4LYGuzmP,faccessat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology"", X_OK",0
+67,4LYGuzmP,getdents,108,"4, 0x7f8826bb30c8, 2048",0
+68,4LYGuzmP,close,108,4,0
+69,4LYGuzmP,munmap,108,"0x7f8826bb3000, 8192",0
+70,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/thread_siblings"", O_RDONLY",4
+71,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb1000
+72,4LYGuzmP,read,108,"4, 0x7f8826bb10c0, 4097",2
+73,4LYGuzmP,munmap,108,"0x7f8826bb1000, 16384",0
+74,4LYGuzmP,close,108,4,0
+75,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_id"", O_RDONLY",4
+76,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+77,4LYGuzmP,close,108,4,0
+78,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/die_cpus"", O_RDONLY",-2 (ENOENT)
+79,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/core_siblings"", O_RDONLY",4
+80,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb1000
+81,4LYGuzmP,read,108,"4, 0x7f8826bb10d0, 4097",2
+82,4LYGuzmP,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb0000
+83,4LYGuzmP,munmap,108,"0x7f8826bb1000, 16384",0
+84,4LYGuzmP,munmap,108,"0x7f8826bb0000, 4096",0
+85,4LYGuzmP,close,108,4,0
+86,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/topology/physical_package_id"", O_RDONLY",4
+87,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+88,4LYGuzmP,close,108,4,0
+89,4LYGuzmP,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb4000
+90,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/shared_cpu_map"", O_RDONLY",4
+91,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb0000
+92,4LYGuzmP,read,108,"4, 0x7f8826bb0100, 4097",2
+93,4LYGuzmP,munmap,108,"0x7f8826bb0000, 16384",0
+94,4LYGuzmP,close,108,4,0
+95,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/level"", O_RDONLY",4
+96,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+97,4LYGuzmP,close,108,4,0
+98,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/type"", O_RDONLY",4
+99,4LYGuzmP,read,108,"4, 0x7ffc02136218, 19",5
+100,4LYGuzmP,close,108,4,0
+101,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/size"", O_RDONLY",4
+102,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",4
+103,4LYGuzmP,close,108,4,0
+104,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/coherency_line_size"", O_RDONLY",4
+105,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",3
+106,4LYGuzmP,close,108,4,0
+107,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/number_of_sets"", O_RDONLY",4
+108,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",4
+109,4LYGuzmP,close,108,4,0
+110,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index0/physical_line_partition"", O_RDONLY",4
+111,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+112,4LYGuzmP,close,108,4,0
+113,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index1/shared_cpu_map"", O_RDONLY",4
+114,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb0000
+115,4LYGuzmP,read,108,"4, 0x7f8826bb0110, 4097",2
+116,4LYGuzmP,munmap,108,"0x7f8826bb0000, 16384",0
+117,4LYGuzmP,close,108,4,0
+118,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index1/level"", O_RDONLY",4
+119,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+120,4LYGuzmP,close,108,4,0
+121,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index1/type"", O_RDONLY",4
+122,4LYGuzmP,read,108,"4, 0x7ffc02136218, 19",12
+123,4LYGuzmP,close,108,4,0
+124,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/shared_cpu_map"", O_RDONLY",4
+125,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb0000
+126,4LYGuzmP,read,108,"4, 0x7f8826bb0120, 4097",2
+127,4LYGuzmP,munmap,108,"0x7f8826bb0000, 16384",0
+128,4LYGuzmP,close,108,4,0
+129,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/level"", O_RDONLY",4
+130,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+131,4LYGuzmP,close,108,4,0
+132,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/type"", O_RDONLY",4
+133,4LYGuzmP,read,108,"4, 0x7ffc02136218, 19",8
+134,4LYGuzmP,close,108,4,0
+135,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/size"", O_RDONLY",4
+136,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",5
+137,4LYGuzmP,close,108,4,0
+138,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/coherency_line_size"", O_RDONLY",4
+139,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",3
+140,4LYGuzmP,close,108,4,0
+141,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/number_of_sets"", O_RDONLY",4
+142,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",4
+143,4LYGuzmP,close,108,4,0
+144,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index2/physical_line_partition"", O_RDONLY",4
+145,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+146,4LYGuzmP,close,108,4,0
+147,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/shared_cpu_map"", O_RDONLY",4
+148,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb0000
+149,4LYGuzmP,read,108,"4, 0x7f8826bb0130, 4097",2
+150,4LYGuzmP,munmap,108,"0x7f8826bb0000, 16384",0
+151,4LYGuzmP,close,108,4,0
+152,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/level"", O_RDONLY",4
+153,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+154,4LYGuzmP,close,108,4,0
+155,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/type"", O_RDONLY",4
+156,4LYGuzmP,read,108,"4, 0x7ffc02136218, 19",8
+157,4LYGuzmP,close,108,4,0
+158,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/size"", O_RDONLY",4
+159,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",7
+160,4LYGuzmP,close,108,4,0
+161,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/coherency_line_size"", O_RDONLY",4
+162,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",3
+163,4LYGuzmP,close,108,4,0
+164,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/number_of_sets"", O_RDONLY",4
+165,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",6
+166,4LYGuzmP,close,108,4,0
+167,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index3/physical_line_partition"", O_RDONLY",4
+168,4LYGuzmP,read,108,"4, 0x7ffc021360f5, 10",2
+169,4LYGuzmP,close,108,4,0
+170,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index4/shared_cpu_map"", O_RDONLY",-2 (ENOENT)
+171,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index5/shared_cpu_map"", O_RDONLY",-2 (ENOENT)
+172,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index6/shared_cpu_map"", O_RDONLY",-2 (ENOENT)
+173,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index7/shared_cpu_map"", O_RDONLY",-2 (ENOENT)
+174,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index8/shared_cpu_map"", O_RDONLY",-2 (ENOENT)
+175,4LYGuzmP,openat,108,"-1, ""/sys/bus/cpu/devices/cpu0/cache/index9/shared_cpu_map"", O_RDONLY",-2 (ENOENT)
+176,4LYGuzmP,stat,108,"""/sys/kernel/mm/hugepages"", 0x7ffc02136070",-2 (ENOENT)
+177,4LYGuzmP,openat,108,"-1, ""/proc/meminfo"", O_RDONLY",4
+178,4LYGuzmP,read,108,"4, 0x7ffc02135100, 4095",1011
+179,4LYGuzmP,close,108,4,0
+180,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id"", O_RDONLY|O_DIRECTORY",4
+181,4LYGuzmP,fstat,108,"4, 0x7ffc02135fc0",0
+182,4LYGuzmP,fcntl,108,"4, F_GETFL, 0x7ffc02136070",98304
+183,4LYGuzmP,mmap2,108,"0x0, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb2000
+184,4LYGuzmP,fcntl,108,"4, F_SETFD, 0x1",0
+185,4LYGuzmP,close,108,4,0
+186,4LYGuzmP,munmap,108,"0x7f8826bb2000, 8192",0
+187,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_name"", O_RDONLY",4
+188,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",34
+189,4LYGuzmP,close,108,4,0
+190,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_version"", O_RDONLY",4
+191,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",14
+192,4LYGuzmP,close,108,4,0
+193,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_serial"", O_RDONLY",4
+194,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",1
+195,4LYGuzmP,close,108,4,0
+196,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/product_uuid"", O_RDONLY",-2 (ENOENT)
+197,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_vendor"", O_RDONLY",-2 (ENOENT)
+198,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_name"", O_RDONLY",-2 (ENOENT)
+199,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_version"", O_RDONLY",-2 (ENOENT)
+200,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_serial"", O_RDONLY",-2 (ENOENT)
+201,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/board_asset_tag"", O_RDONLY",-2 (ENOENT)
+202,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_vendor"", O_RDONLY",4
+203,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",5
+204,4LYGuzmP,close,108,4,0
+205,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_type"", O_RDONLY",4
+206,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",2
+207,4LYGuzmP,close,108,4,0
+208,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_version"", O_RDONLY",4
+209,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",14
+210,4LYGuzmP,close,108,4,0
+211,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_serial"", O_RDONLY",4
+212,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",1
+213,4LYGuzmP,close,108,4,0
+214,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/chassis_asset_tag"", O_RDONLY",4
+215,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",1
+216,4LYGuzmP,close,108,4,0
+217,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/bios_vendor"", O_RDONLY",4
+218,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",8
+219,4LYGuzmP,close,108,4,0
+220,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/bios_version"", O_RDONLY",4
+221,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",9
+222,4LYGuzmP,close,108,4,0
+223,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/bios_date"", O_RDONLY",4
+224,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",11
+225,4LYGuzmP,close,108,4,0
+226,4LYGuzmP,openat,108,"-1, ""/sys/devices/virtual/dmi/id/sys_vendor"", O_RDONLY",4
+227,4LYGuzmP,read,108,"4, 0x7ffc021360b0, 63",5
+228,4LYGuzmP,close,108,4,0
+229,4LYGuzmP,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb3000
+230,4LYGuzmP,sched_getaffinity,108,"0, 128, 0x7ffc021362b0",8
+231,4LYGuzmP,open,108,"""/sys/devices/system/cpu/possible"", O_RDONLY",4
+232,4LYGuzmP,mmap2,108,"0x0, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826baf000
+233,4LYGuzmP,read,108,"4, 0x7f8826baf160, 4097",2
+234,4LYGuzmP,munmap,108,"0x7f8826baf000, 16384",0
+235,4LYGuzmP,close,108,4,0
+236,4LYGuzmP,sched_getaffinity,108,"0, 8, 0x7f8826bb5600",8
+237,4LYGuzmP,sched_getaffinity,108,"0, 8, 0x7f8826bb5600",8
+238,4LYGuzmP,sched_setaffinity,108,"0, 8, 0x7f8826bb5600",0
+239,4LYGuzmP,sched_setaffinity,108,"0, 8, 0x7f8826bb5600",0
+240,4LYGuzmP,mmap2,108,"0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bb2000
+241,4LYGuzmP,munmap,108,"0x7f8826bb7000, 69632",0
+242,4LYGuzmP,mmap2,108,"0x0, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0",0x7f8826bc3000
+243,4LYGuzmP,rt_sigaction,108,"SIGPIPE, {SIG_IGN}, 0x7ffc02136580, 8",0
+244,4LYGuzmP,clock_getres,108,"CLOCK_MONOTONIC_COARSE, 0x7ffc021366a0",0
+245,4LYGuzmP,epoll_create1,108,EPOLL_CLOEXEC,4
+246,4LYGuzmP,pipe2,108,"[-1, -1], O_CLOEXEC",0
+247,4LYGuzmP,write,108,"6, ""*"", 1",1
+248,4LYGuzmP,pipe2,108,"[-1, -1], O_NONBLOCK|O_CLOEXEC",0
+249,4LYGuzmP,eventfd2,108,"0, EFD_NONBLOCK|EFD_CLOEXEC",9
+250,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc02136660, 8",0
+251,4LYGuzmP,read,108,"5, 0x7ffc0213659f, 1",1
+252,4LYGuzmP,rt_sigprocmask,108,"SIG_UNBLOCK, [EMPTY], 0x0, 8",0
+253,4LYGuzmP,rt_sigaction,108,"SIGHUP, {0x528d31, SA_RESTART|SA_RESTORER, 0x60e059, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+254,4LYGuzmP,write,108,"6, ""*"", 1",1
+255,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+256,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc02136660, 8",0
+257,4LYGuzmP,read,108,"5, 0x7ffc0213659f, 1",1
+258,4LYGuzmP,rt_sigaction,108,"SIGINT, {0x528d31, SA_RESTART|SA_RESTORER, 0x60e059, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+259,4LYGuzmP,write,108,"6, ""*"", 1",1
+260,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+261,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc02136660, 8",0
+262,4LYGuzmP,read,108,"5, 0x7ffc0213659f, 1",1
+263,4LYGuzmP,rt_sigaction,108,"SIGTERM, {0x528d31, SA_RESTART|SA_RESTORER, 0x60e059, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+264,4LYGuzmP,write,108,"6, ""*"", 1",1
+265,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+266,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffc02136660, 8",0
+267,4LYGuzmP,read,108,"5, 0x7ffc0213659f, 1",1
+268,4LYGuzmP,rt_sigaction,108,"SIGUSR1, {0x528d31, SA_RESTART|SA_RESTORER, 0x60e059, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8",0
+269,4LYGuzmP,write,108,"6, ""*"", 1",1
+270,4LYGuzmP,rt_sigprocmask,108,"SIG_SETMASK, [EMPTY], 0x0, 8",0
+271,4LYGuzmP,rt_sigaction,108,"SIGPIPE, {SIG_IGN}, 0x7ffc02136580, 8",0
+272,4LYGuzmP,open,108,"""/tmp/.X11-unix/11"", O_WRONLY|O_CREAT, 0600",-2 (ENOENT)
+273,4LYGuzmP,close,108,3,0
+274,4LYGuzmP,munmap,108,"0x7f8826bef000, 4096",0
+275,4LYGuzmP,close,108,5,0
+276,4LYGuzmP,close,108,6,0
+277,4LYGuzmP,exit_group,108,0,

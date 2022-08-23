@@ -1,0 +1,313 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+uname
+108
+0x7fffd6829d00
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+13471744
+SYSCALL
+analyzed_bin
+brk
+108
+0xcda200
+13476352
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 13473984
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0xcd9b90
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0xcd9ba0, 24
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x7fffd6829edc, 0x189, 1
+-11 (EAGAIN)
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x743e30, SA_SIGINFO|SA_RESTORER, 0x743460, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x743ec0, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x743460, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+getrlimit
+108
+RLIMIT_STACK, 0x7fffd6829ec0
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0xcfb200
+13611520
+SYSCALL
+analyzed_bin
+brk
+108
+0xcfc000
+13615104
+OPENFILE
+"/dev/urandom"
+SYSCALL
+analyzed_bin
+open
+108
+"/dev/urandom", O_RDONLY
+3
+SYSCALL
+analyzed_bin
+fstat
+108
+3, 0x7fffd6829d40
+0
+SYSCALL
+analyzed_bin
+ioctl
+108
+3, 21505, 0x7fffd6829cb8
+-22 (EINVAL)
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fe67eecc000
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7fe67eecc000, 4096
+4096
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 81920, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fe67eeb8000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7fe67eeb8000, 81920, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0xcd3c4c, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0xcd3c58, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7fffd6829e10
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0xc21320, 519
+18
+OPENFILE
+"/root/config.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/config.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7fffd6829ab0
+0
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/localtime", O_RDONLY|O_CLOEXEC
+4
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7fffd6829950
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+4, 0x7fffd68297e0
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fe67eeb7000
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7fe67eeb7000, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+108
+4, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+108
+4, 0x7fe67eeb7000, 1024
+71
+SYSCALL
+analyzed_bin
+close
+108
+4
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7fe67eeb7000, 4096
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+1, 0x7fffd6829990
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7fe67eeb7000
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 06:30:33.379] unable to open \"/r"..., 62
+62
+OPENFILE
+"/root/.xmrig.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/.xmrig.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7fffd6829ab0
+0
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 06:30:33.390] unable to open \"/r"..., 62
+62
+OPENFILE
+"/root/.config/xmrig.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/.config/xmrig.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7fffd6829ab0
+0
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 06:30:33.391] unable to open \"/r"..., 69
+69
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7fffd6829c90
+0
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 06:30:33.392] no valid configurat"..., 85
+85
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7fe67eecc000, 4096
+0
+SYSCALL
+analyzed_bin
+exit_group
+108
+2
+

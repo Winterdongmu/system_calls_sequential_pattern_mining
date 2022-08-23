@@ -1,0 +1,2931 @@
+LISA
+PROCESS
+108:105
+SYSCALL
+analyzed_bin
+execve
+108
+
+0
+SYSCALL
+analyzed_bin
+uname
+108
+0x7ffca1d5cca0
+0
+SYSCALL
+analyzed_bin
+brk
+108
+0x0
+9265152
+SYSCALL
+analyzed_bin
+brk
+108
+0x8d7200
+9269760
+SYSCALL
+analyzed_bin
+arch_prctl
+108
+ARCH_SET_FS, 9267392
+0
+SYSCALL
+analyzed_bin
+set_tid_address
+108
+0x8d6b90
+108
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x8d6ba0, 24
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x20, {0x4dc460, SA_SIGINFO|SA_RESTORER, 0x4dbb30, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+0x21, {0x4dc4f0, SA_RESTART|SA_SIGINFO|SA_RESTORER, 0x4dbb30, [EMPTY]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_UNBLOCK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+getrlimit
+108
+RLIMIT_STACK, 0x7ffca1d5cd90
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+0x654296, 0x7ffca1d5bdd0, 4096
+18
+SYSCALL
+analyzed_bin
+brk
+108
+0x8f8200
+9404928
+SYSCALL
+analyzed_bin
+brk
+108
+0x8f9000
+9408512
+SYSCALL
+analyzed_bin
+access
+108
+0x67881e, F_OK
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657785990
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657785990
+OPENFILE
+"/sys/devices/system/cpu/online"
+SYSCALL
+analyzed_bin
+open
+108
+"/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC
+3
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffca1d5ac80, 8192
+2
+SYSCALL
+analyzed_bin
+close
+108
+3
+0
+SYSCALL
+analyzed_bin
+readlink
+108
+"/proc/self/exe", 0x8e9740, 519
+18
+SYSCALL
+analyzed_bin
+futex
+108
+0x8d0fac, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8d0fb8, FUTEX_WAKE_PRIVATE, 2147483647
+0
+OPENFILE
+"/root/config.json"
+SYSCALL
+analyzed_bin
+open
+108
+"/root/config.json", O_RDONLY
+-2 (ENOENT)
+SYSCALL
+analyzed_bin
+write
+108
+2, "unable to open \"/root/config.json\".\n", 36
+36
+SYSCALL
+analyzed_bin
+brk
+108
+0x91a000
+9543680
+SYSCALL
+analyzed_bin
+pipe2
+108
+[0, 0], O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8ccd70, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+clock_getres
+108
+CLOCK_MONOTONIC_COARSE, 0x7ffca1d5cce0
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cce0
+0
+SYSCALL
+analyzed_bin
+epoll_create1
+108
+EPOLL_CLOEXEC
+5
+SYSCALL
+analyzed_bin
+pipe2
+108
+[-1, -1], O_NONBLOCK|O_CLOEXEC
+0
+SYSCALL
+analyzed_bin
+eventfd2
+108
+0, EFD_NONBLOCK|EFD_CLOEXEC
+8
+SYSCALL
+analyzed_bin
+ioctl
+108
+1, 21505, 0x7ffca1d5cbb0
+-25 (ENOTTY)
+SYSCALL
+analyzed_bin
+fstat
+108
+1, 0x7ffca1d5cc60
+0
+SYSCALL
+analyzed_bin
+ioctl
+108
+0, 21505, 0x7ffca1d5cc00
+-25 (ENOTTY)
+SYSCALL
+analyzed_bin
+fstat
+108
+0, 0x7ffca1d5ccb0
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca1d5cc40, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffca1d5cb77, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGHUP, {0x4cb9b0, SA_RESTORER, 0x4dbb30, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca1d5cc40, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffca1d5cb77, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGINT, {0x4cb9b0, SA_RESTORER, 0x4dbb30, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS], 0x7ffca1d5cc40, 8
+0
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffca1d5cb77, 1
+1
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGTERM, {0x4cb9b0, SA_RESTORER, 0x4dbb30, [SIGHUP|SIGINT|SIGQUIT|SIGILL|SIGTRAP|SIGABRT|SIGBUS|SIGFPE|SIGKILL|SIGUSR1|SIGSEGV|SIGPIPE|SIGUSR2|SIGALRM|SIGTERM|SIGCHLD|SIGCONT|SIGSTOP|SIGTSTP|SIGTTIN|SIGTTOU|SIGURG|SIGXCPU|SIGXFSZ|SIGVTALRM|SIGPROF|SIGWINCH|SIGIO/SIGPOLL|SIGPWR|SIGSYS]}, 0x0, 8
+0
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigprocmask
+108
+SIG_SETMASK, [EMPTY], 0x0, 8
+0
+SYSCALL
+analyzed_bin
+rt_sigaction
+108
+SIGPIPE, {SIG_IGN}, 0x7ffca1d5cb90, 8
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+1, 0x7ffca1d5c950
+0
+SYSCALL
+analyzed_bin
+write
+108
+1, " * ABOUT        XMRig/2.14.1 gcc/5.4.0\n", 39
+39
+SYSCALL
+analyzed_bin
+write
+108
+1, " * LIBS         libuv/1.8.0 \n", 29
+29
+SYSCALL
+analyzed_bin
+write
+108
+1, " * CPU          QEMU Virtual CPU version 2.5+"..., 65
+65
+SYSCALL
+analyzed_bin
+write
+108
+1, " * THREADS      1, cryptonight, av=0, donate=0%", 48
+48
+SYSCALL
+analyzed_bin
+write
+108
+1, " * ASSEMBLY     auto:none\n", 26
+26
+SYSCALL
+analyzed_bin
+write
+108
+1, " * POOL #1      104.238.133.105:80 variant=au"..., 49
+49
+SYSCALL
+analyzed_bin
+write
+108
+1, " * POOL #2      93.188.163.193:80 variant=auto ", 48
+48
+SYSCALL
+analyzed_bin
+write
+108
+1, " * POOL #3      pool.supportxmr.com:3333 vari"..., 55
+55
+SYSCALL
+analyzed_bin
+write
+108
+1, " * POOL #4      pool.supportxmr.com:80 varian"..., 53
+53
+SYSCALL
+analyzed_bin
+write
+108
+1, " * COMMANDS     'h' hashrate, 'p' pause, 'r' "..., 52
+52
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 65536, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f7717a1e000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f7717a1e000, 65536, PROT_READ|PROT_EXEC
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f771721d000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f771721d000, 4096, PROT_NONE
+0
+PROCESS
+110:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f7717a1ce30, 0x7f7717a1d9d0, 0x7f7717a1d9d0
+110
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f7716a1c000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f7716a1c000, 4096, PROT_NONE
+0
+PROCESS
+111:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f771721be30, 0x7f771721c9d0, 0x7f771721c9d0
+111
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f771621b000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f771621b000, 4096, PROT_NONE
+0
+PROCESS
+112:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f7716a1ae30, 0x7f7716a1b9d0, 0x7f7716a1b9d0
+112
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f7715a1a000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f7715a1a000, 4096, PROT_NONE
+0
+PROCESS
+113:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f7716219e30, 0x7f771621a9d0, 0x7f771621a9d0
+113
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 8392704, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0
+0x7f7715219000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f7715219000, 4096, PROT_NONE
+0
+PROCESS
+114:108
+SYSCALL
+analyzed_bin
+clone
+108
+CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, 0x7f7715a18e30, 0x7f7715a199d0, 0x7f7715a199d0
+114
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc9b0, FUTEX_WAKE_PRIVATE, 2147483647
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f7717a1d9e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f770d219000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f770d219000, 48132096
+0
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f7714000000, 18976768
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f7710000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_POPULATE|MAP_HUGETLB, 0, 0
+-22 (EINVAL)
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 2105344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f7715017000
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 16384, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0
+0x7f7715013000
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f771721c9e0, 24
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f7708000000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f770c000000, 67108864
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f7708000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+write
+108
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f7716a1b9e0, 24
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f7715a199e0, 24
+0
+SYSCALL
+analyzed_bin
+set_robust_list
+108
+0x7f771621a9e0, 24
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 6, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 8, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 477
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+8, 0x7ffca1d59810, 1024
+8
+OPENFILE
+"/dev/null"
+SYSCALL
+analyzed_bin
+open
+108
+"/dev/null", O_RDONLY|O_CLOEXEC
+9
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+10
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_DEBUG, 0x7ffca1d5967c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_SOCKET, SO_KEEPALIVE, 0x7ffca1d5966c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_ERROR, 0x7ffca1d59668, 4
+0
+SYSCALL
+analyzed_bin
+connect
+108
+10, {AF_INET, 104.238.133.105, 80}, 16
+-115 (EINPROGRESS)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 444
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+getsockopt
+108
+10, SOL_SOCKET, SO_ERROR, 0x7ffca1d59bfc, 0x7ffca1d59c00
+0
+SYSCALL
+analyzed_bin
+write
+108
+10, "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"lo"..., 360
+360
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_MOD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 404
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x8ea593, 2048
+0
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657785990
+OPENFILE
+"/etc/localtime"
+SYSCALL
+analyzed_bin
+open
+108
+"/etc/localtime", O_RDONLY|O_CLOEXEC
+11
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffca1d59600
+0
+SYSCALL
+analyzed_bin
+fstat
+108
+11, 0x7ffca1d59460
+0
+SYSCALL
+analyzed_bin
+read
+108
+11, 0x8f8ed0, 1024
+127
+SYSCALL
+analyzed_bin
+lseek
+108
+11, -71, SEEK_CUR
+56
+SYSCALL
+analyzed_bin
+read
+108
+11, 0x8f8ed0, 1024
+71
+SYSCALL
+analyzed_bin
+close
+108
+11
+0
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:06:30] [104.238.133.105:80] re"..., 69
+69
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 10, 0x7ffca1d59850
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 365
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffca1d5cc90
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 493
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 1
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 494
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 1
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 493
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 6
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 489
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 9
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 485
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 13
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 482
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc984, FUTEX_WAKE_OP_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc984, FUTEX_WAIT_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+write
+108
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 13
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+8, 0x7ffca1d59810, 1024
+8
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+10
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_DEBUG, 0x7ffca1d5967c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_SOCKET, SO_KEEPALIVE, 0x7ffca1d5966c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_ERROR, 0x7ffca1d59668, 4
+0
+SYSCALL
+analyzed_bin
+connect
+108
+10, {AF_INET, 104.238.133.105, 80}, 16
+-115 (EINPROGRESS)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 8
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+getsockopt
+108
+10, SOL_SOCKET, SO_ERROR, 0x7ffca1d59bfc, 0x7ffca1d59c00
+0
+SYSCALL
+analyzed_bin
+write
+108
+10, "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"lo"..., 360
+360
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_MOD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 479
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x8ea593, 2048
+0
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657785996
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:06:36] [104.238.133.105:80] re"..., 69
+69
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 10, 0x7ffca1d59850
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 451
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 482
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 12
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 481
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 18
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffca1d5cc90
+0
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657785999
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:06:39] READY (CPU) threads 1(1"..., 80
+80
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 477
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 12
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 479
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 17
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 476
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 22
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 473
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc984, FUTEX_WAKE_OP_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc984, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x7f770c000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f770c000000
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f770c000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+write
+108
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 22
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+8, 0x7ffca1d59810, 1024
+8
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+10
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_DEBUG, 0x7ffca1d5967c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_SOCKET, SO_KEEPALIVE, 0x7ffca1d5966c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_ERROR, 0x7ffca1d59668, 4
+0
+SYSCALL
+analyzed_bin
+connect
+108
+10, {AF_INET, 104.238.133.105, 80}, 16
+-115 (EINPROGRESS)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 17
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+getsockopt
+108
+10, SOL_SOCKET, SO_ERROR, 0x7ffca1d59bfc, 0x7ffca1d59c00
+0
+SYSCALL
+analyzed_bin
+write
+108
+10, "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"lo"..., 360
+360
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_MOD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 489
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x8ea593, 2048
+0
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657786002
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:06:42] [104.238.133.105:80] re"..., 69
+69
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 10, 0x7ffca1d59850
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 453
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 473
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 25
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 469
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 29
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 466
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 29
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 466
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 29
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_REALTIME, 0x7ffca1d5cc90
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 464
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 33
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 462
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc984, FUTEX_WAKE_OP_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc984, FUTEX_WAIT_PRIVATE, 3
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAKE_PRIVATE, 1
+1
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAIT_PRIVATE, 2
+0
+SYSCALL
+analyzed_bin
+futex
+108
+0x8cc940, FUTEX_WAKE_PRIVATE, 1
+0
+SYSCALL
+analyzed_bin
+mmap2
+108
+0x0, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0
+0x7f7700000000
+SYSCALL
+analyzed_bin
+munmap
+108
+0x7f7704000000, 67108864
+0
+SYSCALL
+analyzed_bin
+mprotect
+108
+0x7f7700000000, 135168, PROT_READ|PROT_WRITE
+0
+SYSCALL
+analyzed_bin
+write
+108
+8, "\001\0\0\0\0\0\0\0", 8
+8
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 33
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+8, 0x7ffca1d59810, 1024
+8
+SYSCALL
+analyzed_bin
+socket
+108
+PF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP
+10
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_DEBUG, 0x7ffca1d5967c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_SOCKET, SO_KEEPALIVE, 0x7ffca1d5966c, 4
+0
+SYSCALL
+analyzed_bin
+setsockopt
+108
+10, SOL_TCP, SO_ERROR, 0x7ffca1d59668, 4
+0
+SYSCALL
+analyzed_bin
+connect
+108
+10, {AF_INET, 104.238.133.105, 80}, 16
+-115 (EINPROGRESS)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 28
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+getsockopt
+108
+10, SOL_SOCKET, SO_ERROR, 0x7ffca1d59bfc, 0x7ffca1d59c00
+0
+SYSCALL
+analyzed_bin
+write
+108
+10, "{\"id\":1,\"jsonrpc\":\"2.0\",\"method\":\"lo"..., 360
+360
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_ADD, 10, 0x7ffca1d59c60
+-17 (EEXIST)
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_MOD, 10, 0x7ffca1d59c60
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+10, 0x8ea593, 2048
+0
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657786008
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:06:48] [104.238.133.105:80] re"..., 69
+69
+SYSCALL
+analyzed_bin
+epoll_ctl
+108
+5, EPOLL_CTL_DEL, 10, 0x7ffca1d59850
+0
+SYSCALL
+analyzed_bin
+close
+108
+10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 471
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 462
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 33
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 459
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 38
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d5cd10
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+nanosleep
+108
+[0.200000000], 0x0
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 500
+-4 (EINTR)
+SYSCALL
+analyzed_bin
+read
+108
+3, 0x7ffca1d59757, 1
+1
+SYSCALL
+analyzed_bin
+write
+108
+7, "0\376\216\0\0\0\0\0\017\0\0\0\0\0\0\0", 16
+16
+SYSCALL
+analyzed_bin
+write
+108
+4, "*", 1
+1
+SYSCALL
+analyzed_bin
+rt_sigreturn
+108
+
+-4 (EINTR)
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+epoll_wait
+108
+5, 0x7ffca1d59cf0, 1024, 7
+1
+SYSCALL
+analyzed_bin
+clock_gettime
+108
+CLOCK_MONOTONIC, 0x7ffca1d59c10
+0
+SYSCALL
+analyzed_bin
+read
+108
+6, 0x7ffca1d599f0, 512
+16
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657786010
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:06:50] SIGTERM received, exiting", 48
+48
+SYSCALL
+analyzed_bin
+time
+108
+0x0
+1657786010
+SYSCALL
+analyzed_bin
+write
+108
+1, "[2022-07-14 08:06:50] no active pools, stop m"..., 51
+51
