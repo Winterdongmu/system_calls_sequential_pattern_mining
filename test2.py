@@ -45,3 +45,4 @@ if list5 == list6:
 #             pattern.append(i)
 #         print(pattern)
 # # print(pattern)
+

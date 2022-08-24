@@ -18,14 +18,7 @@ falco_list_NO = [
     "io_uring_register","mlock","munlock","mlockall","munlockall"
 ]
 
-# print(len(falco_list_YES)+len(falco_list_NO))
-# print(len(falco_list_YES))
-# print(len(set(falco_list_YES)))
 
-# for i in range(len(falco_list_YES)):
-#     for j in range(i+1,len(falco_list_YES)):
-#         if falco_list_YES[j] == falco_list_YES[i]:
-#             print(falco_list_YES[j])
 falco_list = list(set(falco_list_NO + falco_list_YES))
 # falco_list = falco_list_NO + falco_list_YES
 # print(len(falco_list))
@@ -41,7 +34,7 @@ new_sequence_list = []
 for i in sequence_list:
     new_sequence_list.append(ast.literal_eval(i))
 # print(new_sequence_list)
-
+print(len(new_sequence_list))
 good_list = []
 for eachone in new_sequence_list:
     bad_mark = True
@@ -53,4 +46,5 @@ for eachone in new_sequence_list:
     if bad_mark == True:
         good_list.append(eachone)
 df1 = pd.DataFrame(good_list)
-df1.to_csv("pattern_list_filtered.csv")
+# df1.to_csv("pattern_list_filtered.csv")
+print(len(good_list))
