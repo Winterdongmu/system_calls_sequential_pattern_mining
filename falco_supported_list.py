@@ -35,6 +35,7 @@ for i in sequence_list:
     new_sequence_list.append(ast.literal_eval(i))
 # print(new_sequence_list)
 print(len(new_sequence_list))
+
 good_list = []
 for eachone in new_sequence_list:
     bad_mark = True

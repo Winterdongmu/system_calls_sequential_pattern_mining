@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import ast
 from sequential.seq2pat import Seq2Pat, Attribute
-df = pd.read_csv("G:\project\lisa_data\pattern_dict_list.csv", index_col=0)
+df = pd.read_csv("G:\project\lisa_data\Simplified_pattern_dictionary.csv", index_col=0)
 df2 = pd.read_csv("G:\project\lisa_data\Lin_code\\frequent_itemsets_apriori_filtered.csv", index_col=0)
 sequence_list = df['sequence']
 file_list = df['file']
@@ -18,7 +18,7 @@ for i in itemset:
     while np.nan in i:
         i.remove(np.nan)
 
-filter_number = 7
+filter_number = 6
 filter_list = []
 for i in itemset:
     if len(i) >= filter_number:
@@ -55,7 +55,7 @@ for i in filter_list:
 
 df3 = pd.DataFrame(signature_dict_list)
 df3.to_csv("signature.csv")
-
+print(tmp_sequence_list)
 index_list_tmp = []
 signature_info_filter_list = []
 for i in range(len(tmp_sequence_list)):
