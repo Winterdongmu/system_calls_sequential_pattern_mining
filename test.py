@@ -9,19 +9,21 @@ dict1 = {"a":1,"b":2,"c":3}
 test_list_1 = ['getppid', 'uname', 'stat', 'stat', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction']
 test_list_2 = ['stat', 'rt_sigaction']
 test_list_3 = ['rt_sigaction', 'stat']
+test_list_4 = [['stat', 'rt_sigaction'],['rt_sigaction', 'stat'],['getppid', 'uname', 'stat', 'stat', 'rt_sigaction', 'rt_sigaction', 'rt_sigaction']]
+test_list_5 = ['stat', 'rt_sigaction']
 
-
+print(set(test_list_2).issubset(set(test_list_5)))
 # if "a" in dict1:
 #     dict1["a"] += 1
 # print(dict1["a"])
-set(test_list_3).issubset(set(test_list_1))
-tmp_length = len(test_list_2)
-pos_list = [i for i, x in enumerate(test_list_1) if x == test_list_2[0]]
-# print(test_list_1[pos_list[1]:pos_list[1]+tmp_length])
-
-
-print(set(test_list_1))
-print(test_list_1)
+# set(test_list_3).issubset(set(test_list_1))
+# tmp_length = len(test_list_2)
+# pos_list = [i for i, x in enumerate(test_list_1) if x == test_list_2[0]]
+# # print(test_list_1[pos_list[1]:pos_list[1]+tmp_length])
+#
+#
+# print(set(test_list_1))
+# print(test_list_1)
 #
 # if test_list_2 in test_list_1:
 #     print(1)
