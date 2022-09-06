@@ -14,6 +14,7 @@ new_file_list = []
 for i in file_list:
     new_file_list.append(list(set(ast.literal_eval(i))))
 
+print(len(new_file_list))
 tr = TransactionEncoder()
 tr_arr = tr.fit(new_file_list).transform(new_file_list)
 df = pd.DataFrame(tr_arr, columns=tr.columns_)
@@ -25,7 +26,8 @@ for item in frequent_itemsets["itemsets"]:
     original_list.append(list(item))
 for item in frequent_itemsets["support"]:
     support_list.append(item)
-
+print(len(support_list))
+print(len(original_list))
 pattern = []
 for i in original_list:
     for j in range(len(i)):
@@ -44,6 +46,8 @@ for i in original_list:
         elif i not in pattern:
             # print(i)
             pattern.append(i)
-print(pattern)
+# print(pattern)
+print(len(pattern))
+
 df2 = pd.DataFrame(pattern)
 df2.to_csv("frequent_itemsets_apriori_filtered_seq2pat.csv")

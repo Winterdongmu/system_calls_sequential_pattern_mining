@@ -1,3 +1,5 @@
+import copy
+
 import pandas as pd
 import numpy as np
 import ast
@@ -38,7 +40,7 @@ itemset = df2.values.tolist()
 for i in itemset:
     while np.nan in i:
         i.remove(np.nan)
-        i.pop()
+        # i.pop()
 
 good_list = []
 print(len(itemset))
@@ -73,7 +75,34 @@ for i in good_list:
     }
     signature_dict_list.append(signature_info)
 
-df3 = pd.DataFrame(signature_dict_list)
+df4 = pd.DataFrame(signature_dict_list)
+df4.to_csv("signature_based_on_seq2pat_test.csv")
+
+for i in range(len(signature_dict_list)):
+    for j in range(i+1,len(signature_dict_list)):
+        if set(signature_dict_list[i]['sequence']).issubset(set(signature_dict_list[j]['sequence'])):
+            tmp_length = len(signature_dict_list[i]['sequence'])
+            pos_list = [k for k, x in enumerate(signature_dict_list[j]['sequence']) if x == signature_dict_list[i]['sequence'][0]]
+            for index in pos_list:
+                if signature_dict_list[j]['sequence'][index:index + tmp_length] == signature_dict_list[i]['sequence'] and (index + tmp_length) <= len(signature_dict_list[j]['sequence']):
+                    intersection_list = []
+                    intersection_list = list(set(signature_dict_list[i]['file']).intersection(signature_dict_list[j]['file']))
+                    for value in intersection_list:
+                        signature_dict_list[i]['file'].remove(value)
+                    break
+
+
+signature_dict_list_back_up = copy.deepcopy(signature_dict_list)
+for i in range(len(signature_dict_list)):
+    if not signature_dict_list[i]['file']:
+        for k in range(len(signature_dict_list_back_up)):
+            if signature_dict_list[i]['sequence'] == signature_dict_list_back_up[k]['sequence']:
+                signature_dict_list_back_up.pop(k)
+                break
+
+
+
+df3 = pd.DataFrame(signature_dict_list_back_up)
 df3.to_csv("signature_based_on_seq2pat.csv")
 print(signature_dict_list)
 
