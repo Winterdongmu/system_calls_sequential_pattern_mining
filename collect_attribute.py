@@ -1,4 +1,4 @@
 
 
 
-attribute_list_A = ["open"]
+attribute_list_file = ["fcntl","getdents"]
