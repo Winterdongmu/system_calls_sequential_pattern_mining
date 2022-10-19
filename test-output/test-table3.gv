@@ -1,0 +1,17 @@
+// the test
+digraph MyPicture {
+	a [label=Ming color=green shape=box]
+	b [label=Hong color=yellow]
+	c [label=Dong]
+	d [label=Ling]
+	e [label=zheng]
+	e [label=zheng]
+	e [label=zheng5555]
+	e [label=zheng]
+	e [label=zheng]
+	a -> b [label="ab
+a-b" color=red]
+	c -> b
+	a -> c
+	d -> e
+}

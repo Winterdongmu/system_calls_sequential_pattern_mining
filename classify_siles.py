@@ -16,17 +16,12 @@ colume_name = df_target.columns.values
 for i in row_number2:
        file_count = 0
        first_list = []
-
        share_file_store = []
-
        share_file_store_index = 0
-
        first_target = df_target.iloc[[i]]
-
        for colume_index in colume_name:
               if first_target[colume_index].iloc[0] == 1:
                      file_count += 1
-
        row_number.pop(0)
        for ii in row_number:
               share_count = 0
@@ -36,27 +31,18 @@ for i in row_number2:
               for colume_index in colume_name:
                      if second_target[colume_index].iloc[0] == 1:
                             second_file_count += 1
-
               for colume_index in colume_name:
                      if first_target[colume_index].iloc[0] == 1 and first_target[colume_index].iloc[0] == second_target[colume_index].iloc[0]:
                             share_count += 1
                             share_file_store_tmp.append(colume_index)
-
               if share_count/file_count >= 0.7 and second_file_count/file_count < 2:
                      first_list.append(second_target._stat_axis.values.tolist()[0])
                      df_target.drop(df_target.index[ii], inplace=True)
                      share_file_store.append([])
                      share_file_store[share_file_store_index] = share_file_store_tmp
-                     # print(share_file_store)
-                     # print('\n')
                      share_file_store_index += 1
-
-
                      row_number.pop()
                      row_number2.pop()
-                     # print(df_target.index[ii])
-                     # print(row_number)
-                     # print('\n')
        share = []
        if len(share_file_store) != 0:
               share = share_file_store[0]

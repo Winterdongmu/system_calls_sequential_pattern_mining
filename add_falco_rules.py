@@ -19,6 +19,10 @@ falco_list_NO = [
 
 falco_list = list(set(falco_list_NO + falco_list_YES))
 
-for i in falco_list:
+# for i in falco_list:
+#     text ="- rule: "+i+"\n"+"  desc: "+i+"\n"+"  condition: container.id in (target_container) and evt.type = "+i+"\n"+"  output: "+ "\""+"Systemcall: "+i+"(user=%user.name %container.info parent=%proc.pname cmdline=%proc.cmdline)"+"\""+"\n"+"  priority: ERROR" + "\n" +"  tags: [users, container]" + "\n"
+#     print(text)
+#
+for i in falco_list_YES:
     text ="- rule: "+i+"\n"+"  desc: "+i+"\n"+"  condition: container.id in (target_container) and evt.type = "+i+"\n"+"  output: "+ "\""+"Systemcall: "+i+"(user=%user.name %container.info parent=%proc.pname cmdline=%proc.cmdline)"+"\""+"\n"+"  priority: ERROR" + "\n" +"  tags: [users, container]" + "\n"
     print(text)
