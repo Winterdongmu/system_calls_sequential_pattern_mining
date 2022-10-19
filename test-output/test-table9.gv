@@ -1,0 +1,571 @@
+// test
+digraph "System Call Flow" {
+	1 [label=mmap2 shape=box]
+	2 [label=mmap2 shape=box]
+	11 [label=mmap2 shape=box]
+	13 [label=munmap shape=box]
+	3 [label=mprotect shape=box]
+	19 [label=mmap2 shape=box]
+	21 [label=mmap2 shape=box]
+	46 [label=read shape=box]
+	47 [label=read shape=box]
+	51 [label=read shape=box]
+	52 [label=read shape=box]
+	274 [label=munmap shape=box]
+	4 [label=readlink shape=box]
+	22 [label=read shape=box]
+	28 [label=prctl shape=box]
+	35 [label=sched_getaffinity shape=box]
+	44 [label=sched_getaffinity shape=box]
+	61 [label=fstat shape=box]
+	62 [label=fcntl shape=box]
+	76 [label=read shape=box]
+	87 [label=read shape=box]
+	96 [label=read shape=box]
+	99 [label=read shape=box]
+	102 [label=read shape=box]
+	105 [label=read shape=box]
+	108 [label=read shape=box]
+	111 [label=read shape=box]
+	119 [label=read shape=box]
+	122 [label=read shape=box]
+	130 [label=read shape=box]
+	133 [label=read shape=box]
+	136 [label=read shape=box]
+	139 [label=read shape=box]
+	142 [label=read shape=box]
+	145 [label=read shape=box]
+	153 [label=read shape=box]
+	156 [label=read shape=box]
+	159 [label=read shape=box]
+	162 [label=read shape=box]
+	165 [label=read shape=box]
+	168 [label=read shape=box]
+	176 [label=stat shape=box]
+	178 [label=read shape=box]
+	181 [label=fstat shape=box]
+	182 [label=fcntl shape=box]
+	188 [label=read shape=box]
+	191 [label=read shape=box]
+	194 [label=read shape=box]
+	203 [label=read shape=box]
+	206 [label=read shape=box]
+	209 [label=read shape=box]
+	212 [label=read shape=box]
+	215 [label=read shape=box]
+	218 [label=read shape=box]
+	221 [label=read shape=box]
+	224 [label=read shape=box]
+	227 [label=read shape=box]
+	230 [label=sched_getaffinity shape=box]
+	243 [label=rt_sigaction shape=box]
+	244 [label=clock_getres shape=box]
+	250 [label=rt_sigprocmask shape=box]
+	251 [label=read shape=box]
+	256 [label=rt_sigprocmask shape=box]
+	257 [label=read shape=box]
+	261 [label=rt_sigprocmask shape=box]
+	262 [label=read shape=box]
+	266 [label=rt_sigprocmask shape=box]
+	267 [label=read shape=box]
+	271 [label=rt_sigaction shape=box]
+	5 [label=mmap2 shape=box]
+	6 [label=mmap2 shape=box]
+	7 [label=mprotect shape=box]
+	8 [label=mmap2 shape=box]
+	9 [label=mprotect shape=box]
+	10 [label=mmap2 shape=box]
+	29 [label=readlink shape=box]
+	15 [label=set_tid_address shape=box]
+	17 [label=brk shape=box]
+	18 [label=mmap2 shape=box]
+	23 [label=mmap2 shape=box]
+	24 [label=mprotect shape=box]
+	25 [label=mmap2 shape=box]
+	26 [label=mmap2 shape=box]
+	33 [label=mmap2 shape=box]
+	34 [label=mmap2 shape=box]
+	42 [label=mmap2 shape=box]
+	43 [label=uname shape=box]
+	50 [label=mmap2 shape=box]
+	54 [label=munmap shape=box]
+	56 [label=mmap2 shape=box]
+	57 [label=read shape=box]
+	58 [label=munmap shape=box]
+	63 [label=mmap2 shape=box]
+	65 [label=getdents shape=box]
+	67 [label=getdents shape=box]
+	69 [label=munmap shape=box]
+	71 [label=mmap2 shape=box]
+	72 [label=read shape=box]
+	73 [label=munmap shape=box]
+	80 [label=mmap2 shape=box]
+	81 [label=read shape=box]
+	82 [label=mmap2 shape=box]
+	83 [label=munmap shape=box]
+	84 [label=munmap shape=box]
+	89 [label=mmap2 shape=box]
+	91 [label=mmap2 shape=box]
+	92 [label=read shape=box]
+	93 [label=munmap shape=box]
+	114 [label=mmap2 shape=box]
+	115 [label=read shape=box]
+	116 [label=munmap shape=box]
+	125 [label=mmap2 shape=box]
+	126 [label=read shape=box]
+	127 [label=munmap shape=box]
+	148 [label=mmap2 shape=box]
+	149 [label=read shape=box]
+	150 [label=munmap shape=box]
+	183 [label=mmap2 shape=box]
+	186 [label=munmap shape=box]
+	229 [label=mmap2 shape=box]
+	232 [label=mmap2 shape=box]
+	233 [label=read shape=box]
+	234 [label=munmap shape=box]
+	236 [label=sched_getaffinity shape=box]
+	237 [label=sched_getaffinity shape=box]
+	238 [label=sched_setaffinity shape=box]
+	239 [label=sched_setaffinity shape=box]
+	240 [label=mmap2 shape=box]
+	241 [label=munmap shape=box]
+	242 [label=mmap2 shape=box]
+	253 [label=rt_sigaction shape=box]
+	258 [label=rt_sigaction shape=box]
+	263 [label=rt_sigaction shape=box]
+	268 [label=rt_sigaction shape=box]
+	1 -> 2 [label=0]
+	2 -> 11 [label=4096]
+	11 -> 13 [label=-4096]
+	3 -> 19 [label=-4096]
+	19 -> 21 [label=4096]
+	21 -> 46 [label=-2976]
+	46 -> 47 [label=0]
+	47 -> 51 [label=1376]
+	51 -> 52 [label=0]
+	52 -> 274 [label=1600]
+	4 -> 22 [label=-3484]
+	22 -> 28 [label=84]
+	28 -> 35 [label=1224]
+	35 -> 44 [label=816]
+	44 -> 61 [label=-48]
+	61 -> 62 [label=-176]
+	62 -> 76 [label=-133]
+	76 -> 87 [label=0]
+	87 -> 96 [label=0]
+	96 -> 99 [label=-291]
+	99 -> 102 [label=291]
+	102 -> 105 [label=0]
+	105 -> 108 [label=0]
+	108 -> 111 [label=0]
+	111 -> 119 [label=0]
+	119 -> 122 [label=-291]
+	122 -> 130 [label=291]
+	130 -> 133 [label=-291]
+	133 -> 136 [label=291]
+	136 -> 139 [label=0]
+	139 -> 142 [label=0]
+	142 -> 145 [label=0]
+	145 -> 153 [label=0]
+	153 -> 156 [label=-291]
+	156 -> 159 [label=291]
+	159 -> 162 [label=0]
+	162 -> 165 [label=0]
+	165 -> 168 [label=0]
+	168 -> 176 [label=133]
+	176 -> 178 [label=3952]
+	178 -> 181 [label=-3776]
+	181 -> 182 [label=-176]
+	182 -> 188 [label=-64]
+	188 -> 191 [label=0]
+	191 -> 194 [label=0]
+	194 -> 203 [label=0]
+	203 -> 206 [label=0]
+	206 -> 209 [label=0]
+	209 -> 212 [label=0]
+	212 -> 215 [label=0]
+	215 -> 218 [label=0]
+	218 -> 221 [label=0]
+	221 -> 224 [label=0]
+	224 -> 227 [label=0]
+	227 -> 230 [label=-512]
+	230 -> 243 [label=-720]
+	243 -> 244 [label=-288]
+	244 -> 250 [label=64]
+	250 -> 251 [label=193]
+	251 -> 256 [label=-193]
+	256 -> 257 [label=193]
+	257 -> 261 [label=-193]
+	261 -> 262 [label=193]
+	262 -> 266 [label=-193]
+	266 -> 267 [label=193]
+	267 -> 271 [label=31]
+	5 -> 6 [label=0]
+	6 -> 7 [label=0]
+	8 -> 9 [label=0]
+	9 -> 10 [label=-53248]
+	10 -> 29 [label=416]
+	15 -> 17 [label=-11284]
+	17 -> 18 [label=8192]
+	23 -> 24 [label=0]
+	24 -> 25 [label=4096]
+	25 -> 26 [label=73728]
+	26 -> 33 [label=69632]
+	33 -> 34 [label=4096]
+	34 -> 42 [label=4096]
+	42 -> 43 [label=-5236]
+	43 -> 50 [label=25716]
+	50 -> 54 [label=0]
+	54 -> 56 [label=-4096]
+	56 -> 57 [label=-160]
+	57 -> 58 [label=160]
+	58 -> 63 [label=-8192]
+	63 -> 65 [label=-200]
+	65 -> 67 [label=0]
+	67 -> 69 [label=200]
+	69 -> 71 [label=8192]
+	71 -> 72 [label=-192]
+	72 -> 73 [label=192]
+	73 -> 80 [label=0]
+	80 -> 81 [label=-208]
+	81 -> 82 [label=4304]
+	82 -> 83 [label=-4096]
+	83 -> 84 [label=4096]
+	84 -> 89 [label=-16384]
+	89 -> 91 [label=16384]
+	91 -> 92 [label=-256]
+	92 -> 93 [label=256]
+	93 -> 114 [label=0]
+	114 -> 115 [label=-272]
+	115 -> 116 [label=272]
+	116 -> 125 [label=0]
+	125 -> 126 [label=-288]
+	126 -> 127 [label=288]
+	127 -> 148 [label=0]
+	148 -> 149 [label=-304]
+	149 -> 150 [label=304]
+	150 -> 183 [label=-8192]
+	183 -> 186 [label=0]
+	186 -> 229 [label=-4096]
+	229 -> 232 [label=16384]
+	232 -> 233 [label=-352]
+	233 -> 234 [label=352]
+	234 -> 236 [label=-26112]
+	236 -> 237 [label=0]
+	237 -> 238 [label=0]
+	238 -> 239 [label=0]
+	239 -> 240 [label=13824]
+	240 -> 241 [label=-20480]
+	241 -> 242 [label=-49152]
+	253 -> 258 [label=0]
+	258 -> 263 [label=0]
+	263 -> 268 [label=0]
+	0 [label="open
+\"/proc/self/exe\"" shape=box]
+	12 [label=close shape=box]
+	20 [label="open
+\"/dev/urandom\"" shape=box]
+	22 [label=read shape=box]
+	273 [label=close shape=box]
+	45 [label="openat
+ \"/proc/cpuinfo\"" shape=box]
+	46 [label=read shape=box]
+	47 [label=read shape=box]
+	48 [label=close shape=box]
+	49 [label="open
+\"/proc/mounts\"" shape=box]
+	51 [label=read shape=box]
+	52 [label=read shape=box]
+	53 [label=close shape=box]
+	55 [label="openat
+ \"/sys/devices/system/cpu/online\"" shape=box]
+	57 [label=read shape=box]
+	59 [label=close shape=box]
+	60 [label="openat
+ \"/sys/bus/cpu/devices\"" shape=box]
+	61 [label=fstat shape=box]
+	62 [label=fcntl shape=box]
+	64 [label=fcntl shape=box]
+	65 [label=getdents shape=box]
+	67 [label=getdents shape=box]
+	68 [label=close shape=box]
+	70 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/topology/thread_siblings\"" shape=box]
+	72 [label=read shape=box]
+	74 [label=close shape=box]
+	75 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/topology/core_id\"" shape=box]
+	76 [label=read shape=box]
+	77 [label=close shape=box]
+	79 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/topology/core_siblings\"" shape=box]
+	81 [label=read shape=box]
+	85 [label=close shape=box]
+	86 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/topology/physical_package_id\"" shape=box]
+	87 [label=read shape=box]
+	88 [label=close shape=box]
+	90 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index0/shared_cpu_map\"" shape=box]
+	92 [label=read shape=box]
+	94 [label=close shape=box]
+	95 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index0/level\"" shape=box]
+	96 [label=read shape=box]
+	97 [label=close shape=box]
+	98 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index0/type\"" shape=box]
+	99 [label=read shape=box]
+	100 [label=close shape=box]
+	101 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index0/size\"" shape=box]
+	102 [label=read shape=box]
+	103 [label=close shape=box]
+	104 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index0/coherency_line_size\"" shape=box]
+	105 [label=read shape=box]
+	106 [label=close shape=box]
+	107 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index0/number_of_sets\"" shape=box]
+	108 [label=read shape=box]
+	109 [label=close shape=box]
+	110 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index0/physical_line_partition\"" shape=box]
+	111 [label=read shape=box]
+	112 [label=close shape=box]
+	113 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index1/shared_cpu_map\"" shape=box]
+	115 [label=read shape=box]
+	117 [label=close shape=box]
+	118 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index1/level\"" shape=box]
+	119 [label=read shape=box]
+	120 [label=close shape=box]
+	121 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index1/type\"" shape=box]
+	122 [label=read shape=box]
+	123 [label=close shape=box]
+	124 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index2/shared_cpu_map\"" shape=box]
+	126 [label=read shape=box]
+	128 [label=close shape=box]
+	129 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index2/level\"" shape=box]
+	130 [label=read shape=box]
+	131 [label=close shape=box]
+	132 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index2/type\"" shape=box]
+	133 [label=read shape=box]
+	134 [label=close shape=box]
+	135 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index2/size\"" shape=box]
+	136 [label=read shape=box]
+	137 [label=close shape=box]
+	138 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index2/coherency_line_size\"" shape=box]
+	139 [label=read shape=box]
+	140 [label=close shape=box]
+	141 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index2/number_of_sets\"" shape=box]
+	142 [label=read shape=box]
+	143 [label=close shape=box]
+	144 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index2/physical_line_partition\"" shape=box]
+	145 [label=read shape=box]
+	146 [label=close shape=box]
+	147 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index3/shared_cpu_map\"" shape=box]
+	149 [label=read shape=box]
+	151 [label=close shape=box]
+	152 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index3/level\"" shape=box]
+	153 [label=read shape=box]
+	154 [label=close shape=box]
+	155 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index3/type\"" shape=box]
+	156 [label=read shape=box]
+	157 [label=close shape=box]
+	158 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index3/size\"" shape=box]
+	159 [label=read shape=box]
+	160 [label=close shape=box]
+	161 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index3/coherency_line_size\"" shape=box]
+	162 [label=read shape=box]
+	163 [label=close shape=box]
+	164 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index3/number_of_sets\"" shape=box]
+	165 [label=read shape=box]
+	166 [label=close shape=box]
+	167 [label="openat
+ \"/sys/bus/cpu/devices/cpu0/cache/index3/physical_line_partition\"" shape=box]
+	168 [label=read shape=box]
+	169 [label=close shape=box]
+	177 [label="openat
+ \"/proc/meminfo\"" shape=box]
+	178 [label=read shape=box]
+	179 [label=close shape=box]
+	180 [label="openat
+ \"/sys/devices/virtual/dmi/id\"" shape=box]
+	181 [label=fstat shape=box]
+	182 [label=fcntl shape=box]
+	184 [label=fcntl shape=box]
+	185 [label=close shape=box]
+	187 [label="openat
+ \"/sys/devices/virtual/dmi/id/product_name\"" shape=box]
+	188 [label=read shape=box]
+	189 [label=close shape=box]
+	190 [label="openat
+ \"/sys/devices/virtual/dmi/id/product_version\"" shape=box]
+	191 [label=read shape=box]
+	192 [label=close shape=box]
+	193 [label="openat
+ \"/sys/devices/virtual/dmi/id/product_serial\"" shape=box]
+	194 [label=read shape=box]
+	195 [label=close shape=box]
+	202 [label="openat
+ \"/sys/devices/virtual/dmi/id/chassis_vendor\"" shape=box]
+	203 [label=read shape=box]
+	204 [label=close shape=box]
+	205 [label="openat
+ \"/sys/devices/virtual/dmi/id/chassis_type\"" shape=box]
+	206 [label=read shape=box]
+	207 [label=close shape=box]
+	208 [label="openat
+ \"/sys/devices/virtual/dmi/id/chassis_version\"" shape=box]
+	209 [label=read shape=box]
+	210 [label=close shape=box]
+	211 [label="openat
+ \"/sys/devices/virtual/dmi/id/chassis_serial\"" shape=box]
+	212 [label=read shape=box]
+	213 [label=close shape=box]
+	214 [label="openat
+ \"/sys/devices/virtual/dmi/id/chassis_asset_tag\"" shape=box]
+	215 [label=read shape=box]
+	216 [label=close shape=box]
+	217 [label="openat
+ \"/sys/devices/virtual/dmi/id/bios_vendor\"" shape=box]
+	218 [label=read shape=box]
+	219 [label=close shape=box]
+	220 [label="openat
+ \"/sys/devices/virtual/dmi/id/bios_version\"" shape=box]
+	221 [label=read shape=box]
+	222 [label=close shape=box]
+	223 [label="openat
+ \"/sys/devices/virtual/dmi/id/bios_date\"" shape=box]
+	224 [label=read shape=box]
+	225 [label=close shape=box]
+	226 [label="openat
+ \"/sys/devices/virtual/dmi/id/sys_vendor\"" shape=box]
+	227 [label=read shape=box]
+	228 [label=close shape=box]
+	231 [label="open
+\"/sys/devices/system/cpu/possible\"" shape=box]
+	233 [label=read shape=box]
+	235 [label=close shape=box]
+	0 -> 12
+	20 -> 22
+	22 -> 273
+	45 -> 46
+	46 -> 47
+	47 -> 48
+	49 -> 51
+	51 -> 52
+	52 -> 53
+	55 -> 57
+	57 -> 59
+	60 -> 61
+	61 -> 62
+	62 -> 64
+	64 -> 65
+	65 -> 67
+	67 -> 68
+	70 -> 72
+	72 -> 74
+	75 -> 76
+	76 -> 77
+	79 -> 81
+	81 -> 85
+	86 -> 87
+	87 -> 88
+	90 -> 92
+	92 -> 94
+	95 -> 96
+	96 -> 97
+	98 -> 99
+	99 -> 100
+	101 -> 102
+	102 -> 103
+	104 -> 105
+	105 -> 106
+	107 -> 108
+	108 -> 109
+	110 -> 111
+	111 -> 112
+	113 -> 115
+	115 -> 117
+	118 -> 119
+	119 -> 120
+	121 -> 122
+	122 -> 123
+	124 -> 126
+	126 -> 128
+	129 -> 130
+	130 -> 131
+	132 -> 133
+	133 -> 134
+	135 -> 136
+	136 -> 137
+	138 -> 139
+	139 -> 140
+	141 -> 142
+	142 -> 143
+	144 -> 145
+	145 -> 146
+	147 -> 149
+	149 -> 151
+	152 -> 153
+	153 -> 154
+	155 -> 156
+	156 -> 157
+	158 -> 159
+	159 -> 160
+	161 -> 162
+	162 -> 163
+	164 -> 165
+	165 -> 166
+	167 -> 168
+	168 -> 169
+	177 -> 178
+	178 -> 179
+	180 -> 181
+	181 -> 182
+	182 -> 184
+	184 -> 185
+	187 -> 188
+	188 -> 189
+	190 -> 191
+	191 -> 192
+	193 -> 194
+	194 -> 195
+	202 -> 203
+	203 -> 204
+	205 -> 206
+	206 -> 207
+	208 -> 209
+	209 -> 210
+	211 -> 212
+	212 -> 213
+	214 -> 215
+	215 -> 216
+	217 -> 218
+	218 -> 219
+	220 -> 221
+	221 -> 222
+	223 -> 224
+	224 -> 225
+	226 -> 227
+	227 -> 228
+	231 -> 233
+	233 -> 235
+}
